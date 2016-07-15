@@ -1,0 +1,3133 @@
+=================================
+Peter's Penultimate Chaos List II
+=================================
+
+
+---------------
+ACKNOWLEDGEMENT
+---------------
+
+This list is a rewrite of a Chaos List found circulating on the internet in the
+1990's. The creators used to have a web site at
+http://www.planeswalker.com/chaosmagic/, but it appears to be down now. I can
+be reached myself at pdeal@nl.rogers.com. I'd so wish to thank Rahul Chandra
+for his assistance with this list, and also the countless players who played
+Chaos and provided helpful advice. Furthermore, I would like to cast aspersions
+upon those who ridiculed me (and continue to do so) for making this list.
+
+-----
+RULES
+-----
+
+/*The player going first rolls on {EnchantGame}*/. An EnchantGame is a
+colourless, costless enchantment token that resides in play under no one's
+control. If there is no EnchantGame in play at the beginning of a player's
+upkeep, that player rolls on {EnchantGame}.
+
+There is a new step now between your Upkeep and Draw steps called the Chaos
+Step. At the beginning of this step, roll on the last Chaos List rolled on.
+There are 6 Chaos Lists lettered A through F. The first roll is made on list C.
+The roll goes on the stack, so players can respond to it like any other effect.
+If an effect asks you to roll dice, do so before choosing targets.
+
+There is a new zone, called the Middle World. Cards in the Middle World are
+placed face up in the centre of the play area. Once per turn, a player can play
+a card in the Middle World.
+
+When the title of a roll is in brackets, treat it as if you had just cast that
+spell, choosing any targets and modes, but ignoring any costs. [Title] x n
+means you repeat the roll n times. When the title appears in braces (e.g.
+{EnchantGame}), find the appropriate list below and roll.
+
+The first time you would lose the game, you may accuse another player of being
+your murderer and roll on {Spite}.
+
+During the game playing will aquire chips. Any time you can play a sorcery, you
+may try your luck at the {Slot Machine}, or redeem your chips at {Prizes}.
+
+If the game breaks up or becomes tedious, go to {Resolution}.
+
+Some terms are enclosed in angle brackets (e.g. <ante>). These refer to
+optional gameplay mechanics. If a roll refers to a mechanic you're not using,
+roll again.
+
+Chaos Magic is more fun if playing with <Vanguard> Avatars.  If a roll
+instructs you to gain an ability, add it to your Avatar.  If you aren't playing
+with <Vanguard>, just assume each player is starting with a blank Avatar card
+that abilities can be added to.
+
+Occasionally a card will become banned due to a Chaos roll (or an
+announcement from Wizards of the Coast). When this happens all such cards in
+play must be immediately removed from the game. If a banned card ends up in a
+player's hand, he removes it from the game and places the top card of his
+library into hand. Consider these state based effects.
+
+Some rolls cause a player to be temporarily removed from the game. If you are
+the sole player and you would deck out, instead you win the game.
+
+(Optional Rule) If someone forgets to roll on Chaos during their Chaos step
+(e.g. someone else reminds them after the Chaos step), then they must roll on
+{NegativeFeedback} and suffer the consequences.
+
+There are some more technical rules at the end of the list that should be
+useful for sorting out unusual situations (of course in Chaos there's nothing
+unusual about an unusual situation).
+
+------
+Tokens
+------
+
+These tokens are colourless, costless enchantments. The Tokens in braces can be
+expended to have various effects anytime you have priority.
+
+|Amulet|
+When this token comes into play, roll on Creature Summoning III. During
+your upkeep, if there is no creature in play created by this token, roll on
+Creature Summoning III.
+
+|Avatar|
+At the beginning of any Upkeep Step, active player gains control of Avatar.
+X: Choose one: Avatar deals X damage to target player; or target player gains
+X life.
+
+|Box|
+When this token comes into play, roll on Creature Summoning I. During your
+upkeep, if there is no creature in play created by this token, roll on Creature
+Summoning I.
+
+|CounterRoll|
+Counter a Chaos List Roll.
+
+|Death|
+Reduce target player to 0 life.
+
+|Dwelling|
+None of you, your hand, graveyard, or library may be targeted by another
+player.
+
+|Factory|
+When this token comes into play, roll on Creature Summoning V. During your
+upkeep, if there is no creature in play created by this token, roll on
+Creature Summoning V.
+
+|ForkRoll|
+Duplicate a Chaos List Roll. You choose any new targets.
+
+|Joker|
+Sacrifice this to roll on the NegativeFeedback Table, or to give control of one
+of your permanents to target player.
+
+|Leave Me Alone|
+Your spells and permanents can not be targeted by other players.
+
+|Lich|
+Go to 0 life. You don't die as a result of being at less than 1 life as long as
+this token is in play. Instead of gaining life, draw a card for each point of
+life gained. Instead of losing life, sacrifice a permanent in play for each
+point of life lost.
+
+|Life|
+Return any opponent to starting life if their life total is less.
+
+|Luck of the Irish|
+This token allows you to laugh in the face of death. If you would lose the game,
+you may instead sacrifice this to have an effect based on your manner of demise:
+You have 0 or less life: Return to starting life.
+You were forced to draw and had no cards in your library: Shuffle your graveyard
+and removed from game piles into your library and draw a card.
+You accumulated 10 or more poison counters: Remove the poison counters. All
+opponents get 2 poison counters.
+The resolution of some lame spell or effect made you lose: You don't lose.
+Remove from the game any permanent that generated the effect.
+A judge's ruling grants you a game loss: It is overruled. The judge loses a
+judging level.
+Other unforseen circumstances: You don't lose.
+
+|Maelstrom|
+At the end of controller's turn, he passes it to the left or right, randomly
+determined. During a player's upkeep, if he controls the Maelstrom Token, he
+must either lose 5 life or sacrifice 3 permanents other than this token.
+
+|Mastery|
+Sacrifice this to destroy all attacking creatures. Remember, we study the art
+so we may never have to use it.
+
+|Nuclear|
+Skip all Chaos steps while this is in play. Any permanents that would come into
+play go to the graveyard instead. During a player's upkeep he must sacrifice 2
+permanents and discard a card of choice from his hand. This token cannot be
+sacrificed in this way. When no player controls a permanent other than this,
+remove this token from game.
+
+|Object|
+When this token comes into play, roll on Creature Summoning II.
+During your upkeep, if there is no creature in play created by this token, roll
+on Creature Summoning II.
+
+|Phoenix|
+Do one of the following:
+a) Return to starting life.
+b) Lose all poison counters.
+c) Shuffle your removed from game pile and your graveyard back into your
+library.
+d) The next time you would lose, you do not lose.
+
+|Sphere|
+When this token comes into play, roll on Creature Summoning IV.
+During your upkeep, if there is no creature in play created by this token, roll
+on Creature Summoning IV.
+
+|Tyrant|
+You may sacrifice a Tyrant token during your upkeep to roll d6, and then
+destroy that many permanents. Whenever a tyrant token is destroyed by another
+player, he takes 10 damage.
+
+|You Only Live Twice|
+Sacrifice this to put a Lich token into play.
+
+
+-----------
+Chaos Lists
+-----------
+
+__Chaos List A__
+
+Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
+
+A10 [Library of Lat-Nam]
+(Target opponent chooses one: You draw three cards or search your deck for any
+one card and put it into your hand.)
+
+A11 Ma'rûf's Cane
+All your removed from game cards get shuffled back into your deck.
+
+A12 [Divine Offering] x 2
+(Destroy an artifact and gain life equal to its casting
+cost.)
+
+A13 Sloth
+Gain the ability "In your untap phase, one of your tapped permanents stays
+tapped, as you are too lazy to untap it".
+
+A14 Roulette
+Assign all permanents a number. Roll d(number). Target is buried.
+
+A15 {Creature Summoning I}
+
+A16 Suction
+All artifacts, creatures, and land tap. Ha ha.
+
+A17 Oops, I forgot to draw
+Too bad, skip your next draw step.
+
+A18 Soldevi Company
+Put your graveyard on the bottom of your library.
+
+A19 The Chaos Thins
+The next d4 Chaos List rolls are ineffectual.
+
+A20 Falling Card
+Spin a card in the air. Anything it touches when it lands is destroyed.
+
+A21 [Mana Clash]
+(Chooses a target player flip coins. If coin ends up tails, take
+1 damage. Repeat until both come up heads.)
+
+A22 Woodland Attack
+All players gain a 1/1 green Saproling token for each forest they have in play.
+
+A23 Mana Alteration
+Change any of the coloured mana symbols on any one target card in play. Oh,
+Force of Nature ...
+
+A24 Depermafication
+Give target permanent a cumulative upkeep of 1.
+
+A25 [Drafna's Restoration]
+(Take any number of artifacts from a players graveyard and put them in any
+order on top of that player's library.)
+
+A26 Mute
+Target player cannot cast spells until the end of his next turn.
+
+A27 [Stream of Life] X = d10.
+
+A28 Keen Defence
+Untap all permanents you do not control.
+
+A29 {Chaos List B}
+
+A30 U-Turn
+Reverse Turn Order
+
+A31 You grow an extra set of eyes.
+Gain the ability "All other players must play with their hands on the table".
+
+A32 Pity
+The player with the lowest life gains 5 life.
+
+A33 Crystal Ball
+Look at all players' hands.
+
+A34 {The Vortex}
+
+A35 Xenic Influence
+Target artifact becomes an artifact creature with power and toughness equal to
+its casting cost. It loses all other abilities.
+
+A36 {Acquisition}
+
+A37 Hobble
+Remove an ability from any target permanent.
+
+A38 Rejuvenation
+Shuffle your graveyard into your library.
+
+A39 {Chaos List B}
+
+A40 [Desert Twister]
+
+A41 Mugging
+Lose d6 life and a random card from your hand.
+
+A42 {The Vortex}
+
+A43 [Drain Life] X=d6.
+
+A44 U-Turn
+Reverse Turn Order
+
+A45 Nirvana
+Skip both your main phases and the combat phase. Gain 7 life.
+
+A46 [Stormseeker]
+
+A47 Chastise
+Sacrifice 2 permanents.
+
+A48 [Time Walk]
+
+A49 {Chaos List B}
+
+A50 Kickback
+Gain 1 life for every creature in play.
+
+A51 Juxtaposition
+Choose target permanent of opponent's. Opponent chooses a permanent of yours.
+Switch them.
+
+A52 Lightning Storm
+Bury all blue or islandwalking creatures.
+
+A53 Assassination
+Destroy up to d4 target tapped creatures.
+
+A54 [Desert Twister]
+
+A55 Faith Shield
+Damage done to you is reduced to 0 until the beginning of your next turn.
+
+A56 Ma'rûf's Cane
+All your removed from game cards get shuffled back into your
+deck.
+
+A57 [Tranquillity]
+
+A58 Friendly Gesture
+Choos a permanent in play and give it to target friend (i.e. opponent) that
+does not control that permanent.
+
+A59 {Chaos List C}
+
+A60 Petty Jab
+Do 5 red damage to target player.
+
+A61 Mana Aid
+Reveal cards from the top of your library until a card with a mana ability is
+revealed, and put it into your hand.  Shuffle the other cards back into your
+library.
+
+A62 [Time Stop]
+
+A63 Rejuvenation
+Shuffle your graveyard into your library.
+
+A64 Magical Aura
+Sleight and Hack any number of non-land cards as many times as you like.
+(Change colour words and land words. E.g. - blue, swamp, etc.)
+
+A65 Sekai no Owari
+Bury all foreign-language cards in play.
+
+A66 {The Vortex}
+
+A67 Mass Transmutation
+All creatures switch power and toughness. If this reduces a creature to 0
+toughness, it stays alive in a kind of ethereal state until it takes damage.
+
+A68 Slight Serendipity
+Get a Chip.
+
+A69 The Chaos Thins
+The next d4 Chaos List rolls are ineffectual.
+
+A70 Noesis
+Return all creatures to their owner's hands that have power greater than the
+number of cards in their controller's hand.
+
+A71 [Stronghold Gambit]
+(All players choose a creature from their hand, then
+reveal them. The creatures with the lowest converted mana cost goes directly
+into play)
+
+A72 Exhibition
+Choose a permanent type. All players may put a permanent of the
+chosen type directly into play from hand.
+
+A73 [Clear the Land]
+
+A74 [Sowing Salt]
+
+A75 [Scour]
+
+A76 [Lobotomy]
+
+A77 [Eradicate]
+
+A78 [Splinter]
+
+A79 Chaos Attenuation
+The next d4 + d8 Chaos Steps are skipped.
+
+A80 [Spontaneous Generation]
+
+A81 [Fireball] Y=d2, X=Y x d4
+
+A82 Coalesce
+You may remove two of your creatures from the game to roll on {Creature
+Summoning V}.
+
+Each opponent puts 3 white 2/2 Knight tokens into play until end of
+turn.
+
+A83 Tormod's Cycle
+All graveyards are removed from the game.
+
+A84 [Brand]
+
+A85 Parliament of Owls
+All players look at the top four cards of their libraries and may rearrange
+them.
+
+A86 [Intuition]
+
+A87 [Fugue]
+
+A88 [Unearth] x 2
+
+A89 Upward Motion
+Roll once on {Chaos List B}, then once on {Chaos List C}.
+
+A90 Memory Enhancement
+Your maximum hand size is increased by one.
+
+A91 Attack from the Crags
+All players gain a 1/1 red Goblin token for each mountain they have in play.
+
+A92 Ocean Attack
+All players gain a 1/1 blue Merfolk token for each island they have in play.
+
+A93 Charing across the plains
+All players gain a 1/1 white Soldier token for each plains they have in play.
+
+A94 Marshland Attack
+All players gain a 1/1 black Zombie token for each swamp they have in play.
+
+A95 Momoiro Massacre
+All players gain a 1/1 <pink> Otaku token for each anime tape they have in
+play.
+
+
+[=============================================================================]
+
+__Chaos List B__
+
+Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
+
+B10 Compliance
+Look at the top card of everyone else's library. Any creatures there come into
+play under your control.
+
+B11 Twilight Deluge
+Bury all non-blue, non-islandwalking creatures that fly.
+
+B12 Jester's Headgear
+Remove d6 cards from someone's library.
+
+B13 Share the Wealth
+Everyone chooses one of their permanents and passes it to the left.
+
+B14 [Time Walk]
+
+B15 {EnchantGame}
+
+B16 [Stream of Life] X=d10
+
+B17 [Truce]
+
+B18 Creature Dividends
+All player draw a card for every creature they control.
+
+B19 Chaos Spurt
+Switch to {Chaos List A} and roll three times.
+
+B20 [Stunted Growth]
+(Target player puts 3 cards from their hand on top of their
+library in any order.)
+
+B21 Blue Static
+Your next spell is countered.
+
+B22 Pact With the Dead
+Discard three cards of choice. Take two cards from your graveyard and put them
+in your hand.
+
+B23 Black Mass
+Everyone discards two cards at random.
+
+B24 Secret Route
+All your creature gain the same landwalking ability of your choice.
+
+B25 [Fiery Justice]
+(Deal 5 red/green/white damage distributed amongst any number
+of targets. Target opponent gains 5 life.)
+
+B26 Taint
+Lose d10 life or allow target opponent to gain that much life.
+
+B27 [Regrowth]
+
+B28 [Gaea's Blessing]
+
+B29 {Chaos List C}
+
+B30 [Truce]
+
+B31 Ma'rûf's Cane
+All your removed from game cards get shuffled back into your deck.
+
+B32 {The Vortex}
+
+B33 Explosion
+Destroy a target permanent of your choice. The owner of that permanent may pay
+1 life to destroy a target permanent of his choice, and so on.
+
+B34 Reflection
+You switch life with target player.
+
+B35 Rejuvenation
+Reshuffle your graveyard into your library.
+
+B36 Surprise Attack
+Until end of turn your lands are all 1/1 creatures that do not suffer from
+summoning sickness. You may play as many lands as you like but any beyond the
+first return to your hand at end of turn. These extra lands cannot be tapped
+for mana.
+
+B37 Summon Magic
+Go to Creature Summoning I or II. Your choice (Most believe it is safer
+to choose I).
+
+B38 [Tranquillity]
+
+B39 {Chaos List A}
+
+B40 [Demonic Tutor]
+
+B41 [Channel]
+
+B42 Poetic Justice
+All players lose 3 life for every direct damage spell in their graveyard. All
+players discard a card at random for every counter spell in their graveyard.
+Any player playing a lame one big turn deck must go off this turn or lose.
+
+B43 Unravel Soul
+All players remove X cards from the top of their library from
+the game, where X is equal to the total number of creatures in play.
+
+B44 [Time Stop]
+
+B45 Happy Tune
+Gain the ability "White and green creatures can no longer attack you. Red and
+black creatures do double damage to you".  Lose any Sad Tune abilities (B46).
+
+B46 Sad Tune
+Gain the ability "Red and black creatures can no longer attack you. White and
+green creatures do double damage to you".  Lose any Happy Tune abilities (B45).
+
+B47 {The Vortex}
+
+B48 Deja Vu
+The top card of every player's graveyard goes to the Middle World.
+The rest are shuffled and put on top of their owner's libraries.
+
+B49 {Chaos List C}
+
+B50 {Acquisition}
+
+B51 Drink Break
+Target player goes and gets himself a drink, and is considered out of the game
+until your next turn. He gains d4 life.
+
+B52 [Desert Twister]
+
+B53 Crush
+All creatures with toughness greater than 3 take d8 damage.
+
+B54 Verduran Effulgence
+Gain the ability "Whenever an enchantment is played, draw a card".
+
+B55 Leech
+Steal 2d8 life from target player.
+
+B56 Uprising
+Your creatures rebel against your control and head to the Middle
+World. You may spend 3 life per creature you wish to keep.
+
+B57 [Misinformation]
+(Put up to 3 target cards in opponent's graveyard on top of their library in
+any order.)
+
+B58 Scapegoat
+Choose target player. Everyone drains 2 life from this player.
+
+B59 {Chaos List A}
+
+B60 Solid Fog
+Until your next turn, no creatures deal or receive damage in
+combat.
+
+B61 {The Vortex}
+
+B62 Feoffment
+You may remove a land from game to roll on {Creature Summoning III}.
+
+B63 Tornado Seeker
+Everyone (except you) takes one damage for every card in
+their hand.
+
+B64 [Drain Power]
+You get the mana on your next main phase.
+
+B65 Unmake
+Remove up to 4 casting cost worth of target artifact cards from the
+game.
+
+B66 U-Turn
+Reverse Turn Order
+
+B67 Retaliation
+The last player to damage you takes d10 red damage. If you have
+not yet been damaged your rage internalizes. Lose d10 life.
+
+B68 Mezzo Serendipity
+Get two chips
+
+B69 Chaos Spurt Switch to {Chaos List C} and roll three times.
+
+B70 [Infest]
+
+B71 [Flame Rift]
+(All players take 4 red damage.)
+
+B72 [Show and Tell]
+
+B73 [Bribery]
+
+B74 [Blood Oath]
+
+B75 [Natural Affinity]
+(All lands become 2/2 creatures until end of turn.)
+
+B76 [Fireball] Y=d4, X=Y x d4
+
+B77 [Meltdown] X=d4
+
+B78 [Resurrection] x 2
+
+B79 Chaos Attenuation
+Roll once on {Chaos List A}, then the next d4 Chaos List rolls are ineffectual.
+
+B80 [Extinction]
+
+B81 [Meditate]
+
+B82 Troublesome Magic
+The next time a spell would resolve, it is instead removed
+from the game. In d6 turns, place it on the stack at the next upkeep step.
+
+B83 Banish
+Put target card on top of its owner's library.
+
+B84 [Might of Oaks] x 2
+
+B85 Contraction
+Choose one:
+[Shadowstorm]
+[Time and Tide]
+(All creatures with phasing phase out and all creatures with phasing fade in.)
+[Avalanche], X=d12
+(Destroy X snow-covered lands.)
+[Extinction], choose Djinns, Rebels, Mercenaries, or Legends.
+
+B86 [Ruination]
+(Destroy all non-basic lands.)
+
+B87 Camaflage Skin
+Gain the ability "You cannot be targeted".
+
+B88 Chance Explosion
+All permanents with converted mana cost d6 are destroyed.
+
+B89 Upward Motion
+Roll once on {Chaos List C}, then once on {Chaos List D}.
+
+B90 Hireling
+A legend offers their services to you. You may discard a card to roll on
+{Creature Summoning III}.
+
+B91 Contract
+You may remove an artifact from game to roll on {Creature Summoning IV}.
+
+
+[=============================================================================]
+
+__Chaos List C__
+
+Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
+
+C10 Mathematical Insight
+Add d10 to any number on any card.
+
+C11 {The Vortex}
+
+C12 Uneasy Truce
+Choose an opponent. For d4 turns you and this player cannot target each other's
+decks, hands, or cards in play with spells or effects, and you cannot attack
+each other.
+
+C13 [Eureka]
+
+C14 Sin of Choice
+Choose one, X=d6: [Hurricane] [Earthquake] [Pestilence] [Savage Twister]
+
+C15 Strip Factory
+You may destroy up to d4 target lands.
+
+C16 [Channel]
+
+C17 Prejudice
+Choose an expansion symbol. Bury all cards that have that symbol.
+
+C18 [Collective Unconscious]
+
+C19 Chaos Dance
+Roll d4 times on Chaos. Each of these rolls occurs on a random
+Chaos List between A and D. Return afterward to Chaos List C.
+
+C20 Greek Comedy
+Target opponent puts his hand on top of his library. Look at that player's
+library and choose as many cards as were in his hand. Put those cards into his
+hand and shuffle his library.
+
+C21 {The Vortex}
+
+C22 [Time Walk]
+
+C23 [Word of Command]
+(The player casts the card as if it were their main phase... so sorceries and
+permanents can be chosen.)
+
+C24 Joyous Occasion
+Gain 7 life and put all creatures from your hand directly into play.
+
+C25 Double-Edged Blade
+Until the end of this turn you may destroy creatures at a
+price of 6 life each.
+
+C26 Bath in the Styx
+Put as many cards as you like into your hand from the top of your library,
+but lose 1 life for each one.
+
+C27 Mutiny
+All your creatures attack you during your combat phase (even if tapped).
+
+C28 Offspring
+One of your creatures has children. Put d4 (token) copies of this
+creatures into play.
+
+C29 {Chaos List B}
+
+C30 {Acquisition II}
+
+C31 [Winds of Change]
+
+C32 [Regrowth]
+
+C33 {EnchantGame}
+
+C34 [The Vortex]
+
+C35 [Pox]
+(All players lose 1/3 of their life, discard 1/3 of the cards in their
+hand, sacrifice 1/3 of their creatures, and 1/3 of their land, rounding up.)
+
+C36 [Demonic Consultation]
+
+C37 Natural Disaster
+Chooses a basic land type at random.  All lands of the chosen type are destroyed.
+
+C38 Bad Karma
+All players lose 1 life for every land they have in play.
+
+C39 {Chaos List D}
+
+C40 [Tranquillity]
+
+C41 Smiling Totem
+Look at target opponent's hand. Choose a card from that hand and remove it from
+game. As long as it is removed from game, you may play it as though it were in
+your hand. At end of turn, return it to owner's hand if it was not played.
+
+C42 Tower of Babel
+Count the permanents in play. If there are more than 10 x (# of players) then
+go to {ExtremeChaos}.
+
+C43 Rummage Sale
+All players search through the library of the player to their right, choose a
+card, and place it in the Middle World.
+
+C44 Poisonous Breath
+Gain the ability "At end of combat, each player one of your creatures dealt
+damage to gets a poison counter".
+
+C45 [Truce]
+
+C46 Important Decision
+Go to The Vortex, EnchantGame, or discard your hand: ExtremeChaos.
+
+C47 {Creature Summoning III}
+
+C48 Relentless Battle
+You may declare d4 extra combat phases this turn (seperated by main phases).
+Tapped creatures that attacked earlier can be declared as attackers.
+
+C49 {Chaos List B}
+
+C50. Summon Magic
+Go to Creature Summoning I or II. Your choice (most choose I).
+
+C51 Questionable Alliance
+A creature rampages out of nowhere and joins your side. Roll on the Creature
+Summoning II chart.
+
+C52 [Desert Twister]
+
+C53 {EnchantGame}
+
+C54 Loan Shark
+Each player may place any number of his non-token permanents into
+the Middle World, then draw that many cards.
+
+C55 Global Life Reset
+All players return to starting life.
+
+C56 Purge
+All players lose d10 life.
+
+C57 Martial Art Mastery
+Get a |Mastery| token.
+
+C58 Box of Wonders
+Get a |Box| token.
+
+C59 {Chaos List D}
+
+C60 Re-zoning
+Choose any card in any zone. Move it to one of Library, Hand, Graveyard,
+Removed from Game, Phased Out, Stack, In Play, or Middle World, chosen at
+random.
+
+C61 U-Turn
+Reverse Turn Order
+
+C62 Failed Mass Suicide attempt
+Each of your creatures takes damage equal to its toughness minus one.
+
+C63 {Acquisition}
+
+C64 Paranoia
+If the total power of all creatures in play is greater than or
+equal to your life total, lose half your life (loss rounded down).
+
+C65 Desolation
+All creatures take d8 black damage.
+
+C66 [Time Stop].
+
+C67 Impossible Quest
+Remove target creature from play, or return to play a creature removed in this
+manner to give it +9/+6 and the inability to be further targeted by spells or
+abilities.
+
+C68 Desperate Times
+All players lose all their chips.
+
+C69 Rip in the Chaos
+A disinterested third party (someone who isn't playing) chooses the result to this
+roll from Chaos List C.
+
+C70 Aura Theft
+Gain control of all enchantments.
+
+C71 Mental Lapse
+All players choose and discard three cards.
+
+C72 Perspicuity
+Gain the ability "Your spells cost one less to cast."
+
+C73 [Game of Chaos]
+(Choose an opponent, flip a coin. The winner gains one life, the loser loses
+one. The winner chooses whether to continue the process... double the stakes
+each round.)
+
+C74 [Puppet's Verdict]
+(Flip a coin. If heads, bury all creatures with power greater than 2. Otherwise
+bury all creatures with power less than 3.)
+
+C75 [Volcanic Wind]
+
+C76 Entrance
+All players return all enchantments in their graveyards to play.
+
+C77 [Fireball] Y=d4, X=Y x d6
+
+C78 [Planar Birth]
+
+C79 Downward Motion
+Roll once on {Chaos List B}, then once on {Chaos List A}.
+
+C80 [Windfall]
+
+C81 [Reprocess]
+
+D82 Destructive Appetite
+You may sacrifice permanents to gain the casting cost in life, or 1 life in the
+case of lands or tokens/counters.
+
+C83 Hallowe'en
+Return all creatures in graveyards to play.
+
+C84 [Living Death]
+
+C85 [Overrun]
+
+C86 The Cheese is Standing Alone
+If you have no permanents and no cards in hand, you win the game.
+
+C87 Die of Fate
+Players roll to see who gets the next turn.
+
+C88 [Rebuild]
+(Return all artifacts to owners' hands.)
+
+C89 Upward Motion
+Roll once on {Chaos List D}, then once on {Chaos List E}.
+
+C90 {Creature Summoning IV}
+
+C91 {Creature Summoning V}
+
+[=============================================================================]
+
+__Chaos List D__
+
+Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
+
+D10 [Rolling Thunder] X=d8
+
+D11 Encroaching Darkness
+All players lose all their land. A player may keep a land for each permanent he
+sacrifices or card he removes from game from his hand. Lands in play cannot be
+sacrificed to save other lands.
+
+D12 {EnchantGame}
+
+D13 Massive Greed
+Return all cards in your graveyard to your hand. Lose 1 life for each. If this
+would kill you, go to 1 life.
+
+D14 Take a new <Vanguard> avatar.
+
+D15 Important Decision
+Go to The Vortex, EnchantGame, or discard your hand: ExtremeChaos.
+
+D16 [Wheel of Fortune]
+
+D17 [Time Stop]
+
+D18 Dauntless Courage
+Gain the ability "Your creatures must attack when able".
+
+D19 The Chaos Thickens
+Roll d6 times on Chaos.
+
+D20 [Mind Twist] X=d6
+
+D21 The Brute Squad
+4 3/3 red Brutes come under your control.
+
+D22 {The Vortex}
+
+D23 Irrigation
+Search your library for d6 lands and put them directly into play.
+
+D24 [Winds of Change]
+
+D25 {Acquisition II}
+
+D26 Object from Hell
+Get an [Object] token.
+
+D27 Poisonous Fog
+All players roll an eight sided die and gain that many poison counters.
+
+D28 [All Suns' Dawn]
+
+D29 {Chaos List B}
+
+D30 [Desert Twister]
+
+D31 Unnatural Disaster
+Chooses a basic land type.  All lands of the chosen type are destroyed.
+
+D32 {Acquisition II}
+
+D33 [Seeds of Innocence]
+(All artifacts are destroyed. An amount of life equal to the casting cost of
+the artifact is gained by the artifact's controller.)
+
+D34 Love Song
+Gain the ability "Whenever you are attacked you may choose any untapped,
+non-attacking creature in play to block for you".
+
+D35 [Eureka]
+
+D36 Veni, Vidi, Vici
+Take control of d4 lands of your choice.
+
+D37 Amazing Discovery
+You synthesize a new metal that cannot be hurt.  Gain the ability "Reduce all
+further damage dealt to you and your creatures by one".
+
+D38 [Ancestral Recall]
+
+D39 {Chaos List E}
+
+D40 {Creature Summoning III}
+
+D41 Amnesia Fumes
+Discard your hand. Keep the land.
+
+D42 Urza's Restoration
+All artifacts in all graveyards are put into play.
+
+D43 {EnchantGame}
+
+D44 Great Burden
+Your colleague sends you a troublesome creature. Roll on
+{Creature Summoning II}.
+
+D45 Stream of Mana
+Add 15 mana of any colour to your mana pool. Your mana pool does not empty
+until end of turn.
+
+D46 Death Spell
+You may bury up to 15 toughness worth of creatures.
+
+D47 Biobeast X = d6
+Chose X target creatures and X target artifacts and remove them from the game.
+They mesh together to create X rolls on {Creature Summoning V}. Each creature
+controlled by a player must be matched by an artifact controlled by the same
+player, and the creatures come under the control of the player who controlled
+the artifact/creature pair.
+
+D48 Pawnshop
+You may put X cards from your hand into the Middle World to gain X
+chips.
+
+D49 {Chaos List C}
+
+D50 Box of Wonders
+Get a |Box| token.
+
+D51 Doom Approacheth
+Roll a four sided die. If you roll a 1, go to {ExtremeChaos}.
+
+D52 nruT
+The next player's turn is performed in reverse order, from discard to
+untap.
+
+D53 Betrayal
+All your creatures come under the control of an opponent of your
+choice.
+
+D54 [Demonic Tutor]
+
+D55 {The Vortex}
+
+D56 Control Sorcery
+You may take control of a land, creature, enchantment, and
+artifact.
+
+D57 Astral Home
+Get a |Dwelling| token.
+
+D58 Replenishment
+Everyone gains d20 + 10 life
+
+D59 {Chaos List C}
+
+D60 Genocide
+You may ban a creature type.
+
+D61 {Creature Summoning IV}.
+
+D62 [Time Walk]
+
+D63 Hate Opera
+Gain the ability "Whenever you are attacked, the attacking player may choose a
+creature controlled by a third player to join the attack".
+
+D64 Alliances Abroad
+One of your basic lands becomes a non-basic land of your
+choice.
+
+D65 {The Vortex}
+
+D66 {Creature Summoning V}
+
+D67 Impromptu Showdown
+Add up each creature's power and toughness. Bury all but the creature with the
+highest total.
+
+D68 Mercy
+The player with the least life gets 4 chips.
+
+D69 Chaos Spurt
+Go to {Chaos List E} and roll three times.
+
+D70 [Wave of Reckoning]
+
+D71 [Donate] x 3
+(Choose different target permanents each time.)
+
+D72 Shared Resources
+All players put their hands in the Middle World.
+
+D73 [Fireball] Y=d4, X=Y x d8
+
+D74 [Windfall]
+
+D75 [Yawgmoth's Will]
+
+D76 [Wildfire]
+
+D77 Olympics
+All players put all creatures from their hands directly into play.
+
+D78 [Living Death]
+
+D79 Downward Motion
+Roll once on {Chaos List C}, then once on {Chaos List B}.
+
+D80 [Reins of Power]
+(You and target opponent each untap and gain control of all creatures the other
+controls. Those creatures are unaffected by summoning sickness this turn)
+
+D81 Blink
+Remove all permanents from game. Return all permanents removed from
+play in this way to play.
+
+D82 Thickening Tension
+Choose a Creature Summoning chart.  All players roll on that chart.
+
+D83 [Miraculous Recovery]
+(Put a creature from your graveyard directly into play.
+Put a +1/+1 counter on it.)
+
+D84 [Dregs of Sorrow] X=d4
+(Destroy X target non-black creatures. Draw X cards.)
+
+D85 Resonance
+Any non-land card physically touching another card is returned to
+owner's hand.
+
+D86 [Flux]
+
+D87 [Flowstone Surge] X=d4
+(All creatures get +X/-X until end of turn.)
+
+D88 [Illicit Auction]
+(Hold an auction to see who gains control of target creature, using life as
+currency)
+
+D89 Upward Motion
+Roll once on {Chaos List E}, then once on {Chaos List F}.
+
+[=============================================================================]
+
+__Chaos List E__
+
+Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
+
+E10 Great Wall of the Three Kingdoms
+Put d10 0/9 white wall tokens (with defender) into play on your side.
+
+E11 Age of the Farmer
+All creatures in play are removed from the game. The controller of a creature
+gains life equal to its power.
+
+E12 [Inferno]
+(Do 6 red damage to all players and creatures.)
+
+E13 [Sunder]
+(Return all lands to owners' hands.)
+
+E14 Day of Teferi
+All permanents phase out.
+
+E15 {The Vortex}
+
+E16 Divine Influence
+Put an |Avatar| token into play on your side.
+
+E17 Aid From Afar
+Go to {Creature Summoning III}.
+
+E18 Artistic Inspiration
+Choose a card from Magic: The Gathering. Create a proxy
+of it and put it in the Middle World.
+
+E19 Chaos Surge
+Go to a random Chaos List between A and D. Roll d10 times. Return to Chaos List
+E.
+
+E20 The Gods are Annoyed
+All players and creatures suffer d10 white damage. All players lose d4
+permanents.
+
+E21 [Balance]
+(Lands, then cards in hand, then creatures.)
+
+E22 Return to Power
+All lands in your graveyard and removed from the game are returned to play.
+
+E23 Longevity
+Get a |You Only Live Twice| token.
+
+E24 Object from Hell
+Get an |Object| token.
+
+E25 Mortal Foe
+Gain the ability "Until target player is dead, your spells and permanents do
+not damage any other player".
+
+E26 [Wrath of God]
+
+E27 Lobotomization
+Your hand size is permanently reduced by d4.
+
+E28 [Wheel of Fortune]
+
+E29 {Chaos List D}
+
+E30 {The Vortex}
+
+E31 Chaos Market
+All players may trade up to two permanents for rolls on a random chart.
+
+E32 Meteor Storm
+All players roll an eight sided die. If a player rolls more than 5 then he
+takes d20 damage. If a player rolls 1 then he may roll on the Acquisition
+chart.
+
+E33 All-consuming avarice
+Gain the ability "You cannot play a spell if you have less than four cards in
+hand".
+
+E34 [Braingeyser] X=d10.
+
+E35 Lab Catastrophe
+Go to {Creature Summoning II}. This creature cannot be targeted by your spells
+or effects.
+
+E36 Threaten to never play here again
+Gain a |Leave Me Alone| token.
+
+E37 Ancient Prophecy
+Flip a coin. If heads is flipped, go to ExtremeChaos.
+
+E38 Paperwork
+Go to a chart or table of target opponent's choice.
+
+E39 Chaos Threshold
+You may elect either to go to Chaos List F and roll again, or Chaos List A and
+roll again.
+
+E40 {Creature Summoning IV}
+
+E41 {EnchantGame}
+
+E42 Time Hike
+Take two free turns after the current one.
+
+E43 Atog Revolt
+All artifacts are buried. Each player takes 1 red damage plus 2 for every
+artifact of theirs buried in this way.
+
+E44 Mass Suicide
+Sacrifice all your creatures.
+
+E45 {The Vortex}
+
+E46 Great Leadership
+All creatures come under your control.
+
+E47 Handful of Dice
+For each of the numbers d4, d6, d8, d10, d12, and d20, choose target card. You
+may add it to or subtract it from one of the numbers on that card.
+
+E48 {Creature Summoning V}
+
+E49 {Chaos List D}
+
+E50 [Timetwister]
+
+E51 Prize Package
+Everyone rolls once on {Acquisition}.
+
+E52 DCI Bribery
+All banned cards become unbanned.
+
+E53 Shifting Loyalty
+Shuffle up all creatures in play and deal them around
+starting at you and going left.
+
+E54 Blackout
+No permanents may be played until the beginning of your next turn.
+
+E55 Energize
+All numbers on your permanents are increased by one. (Numerical and
+text)
+
+E56 Take a new <Vanguard> avatar.
+
+E57 [Doomsday]
+(Shuffle your graveyard into your library. Go through your library and remove
+from game all but 5 cards. Those 5 cards remain as your library. You choose the
+order)
+
+E58 Passive Turn Taking
+Active player skips further phases and steps of this turn, and skips his next
+turn.
+
+E59 Chaos Threshold
+You may elect either to go to Chaos List F and roll again, or Chaos List A and
+roll again.
+
+E60 Horrible Paralysing Fear
+Gain the ability "Your spells cost double".
+
+E61 Revenge of the Fool
+Give all other players completely new hands as with Jester's Mask.
+
+E62 Sabbatical
+Choose a number. You are out of the game for this many rounds.
+
+E63 Trauma
+Gain the ability "All damage you receive is doubled".
+
+E64 The Eye
+Look through all players' libraries without rearranging them for as long as you
+like, then look at their hands.
+
+E65 Cripple
+Remove an ability of your choice from target player.
+
+E66 {EnchantGame} x 2
+
+E67 Philanthropy
+Target player adds his hand to the Middle World.
+
+E68 Economic Rebound
+All players roll a six sided die and get that many chips.
+
+E69 Chaos Squeeze
+Choose Chaos List A through D. From now on roll on Chaos List E instead of this
+list.
+
+E70 [Sever Soul] x 5
+
+E71 [Thieves' Auction]
+
+E72 [Catastrophe]
+
+E73 [Fireball Y=d4], X=Y x d10
+
+E74 [Yawgmoth's Will]
+
+E75 Summon the Brethren
+All players flip over the top d12 cards of their libraries. Any creatures come
+into play; shuffle the other cards into their owner's libraries.
+
+E76 [Wake of Destruction]
+
+E77 Kleptomania
+All counters on all permanents are moved to target permanent.
+
+E78 [Winds of Rath]
+(Bury all creatures that are not enchanted.)
+
+E79 Downward Motion
+Roll once on {Chaos List D}, then once on {Chaos List C}.
+
+E80 [Flame Wave]
+
+E81 Appreciation of Beauty
+Choose an artist. All cards in play drawn by this artist come under your
+control.
+
+E82 Useful Draft Pick
+Choose one of the following: [Blessed Wind], [Denying Wind], [Plague Wind],
+[Searing Wind], [Vitalizing Wind].
+
+E83 Terminal Disease
+Gain d10 + 5 disease counters and the ability "In your upkeep remove a disease
+counter.  If there are no more disease counters, you die".
+
+E84 Despair
+Choose and discard X cards. Look at each opponents' hand, they discard X cards
+of your choice.
+
+E85 [Mind Twist] x 2 X=d8
+
+E86 Historical Repetition
+Set aside all non-land permanents. Then put all permanents in all graveyards
+into play. Finally put all set aside cards into their owners' graveyards.
+
+E87 [Ashen Powder] x 3
+(Put target creature from an opponents' graveyard into play under your
+control).
+
+E88 [Dregs of Sorrow] X=d6
+(Destroy X target non-black creatures. Draw X cards).
+
+E89 Chaos Coagulation
+Roll once on {Chaos List F} and then once on {ExtremeChaos}.
+
+E90 Surprising Fortune
+Gain d100 life.
+
+[=============================================================================]
+
+__Chaos List F__
+
+Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
+
+F10 [Timetwister]
+
+F11 Cosmic Harmony
+Players can look through their decks and put into play land and creatures until
+they have as many as the person with the most. All players must draw up to the
+highest number held at the table.
+
+F12 {ExtremeChaos}
+
+F13 Horrible Allergy
+Gain the ability "Treat all life gains as life losses of equal magnitude".
+
+F14 {Creature Summoning V}
+
+F15 Chaos Sphere
+Get a |Sphere| token.
+
+F16 {The Vortex}
+
+F17 Ace of Trump
+Get a |CounterRoll| token and a |ForkRoll| token.
+
+F18 Vengeful Rage
+Roll on the Spiteful table. This does not count towards your one-roll limit.
+
+F19 Chaos Vortex
+The number of Chaos Rolls made during a player's Chaos step is increased by one
+until a player leaves the game.
+
+F20 Condemnation
+Gain the ability "Cumulative upkeep: Remove the top card of your library from
+the game".
+
+F21 Planar Shift
+You are removed from game for 6 turns.
+
+F22 Deathly illness
+Gain the ability "In your upkeep, gain one poison counter".
+
+F23 Mass Confusion
+Switch the turn order. Everyone chooses a permanent and passes it to the left.
+Everyone chooses a permanent of opponents and takes control of it. Go to The
+Vortex. Roll twice ^_^
+
+F24 Cheese
+Put four Black Vise tokens into play.
+
+F25 Vorticial Attunement
+You gain a degree of control over your fate. Gain the ability "You may have any
+roll on The Vortex rerolled once".  Go to {The Vortex}.
+
+F26 The Gods are Hungry
+Gain the ability "Sacrifice a creature during your upkeep or lose".
+
+F27 Welcome, Wizard
+A player watching the game has the option to join in.
+
+F28 Mystical Amulet
+Get an |Amulet| token.
+
+F29 Wheel of Chaos
+Go to a random Chaos List.
+
+F30 [Timetwister]
+
+F31 Token Void
+All tokens are buried.
+
+F32 Full Moon
+All players gain life equal to cards in their libraries.
+
+F33 Personal Angst
+Take one damage for all permanents all players have in play.
+
+F34 {Creature Summoning IV}.
+
+F35 Unending Pain
+Gain the ability "Take 1 damage during your upkeep".
+
+F36 Impending Insanity
+Roll 5 times each on Chaos Lists A through E, in any order. Any player may
+prevent a roll now by sacrificing a permanent, discarding a card of choice, or
+paying 1 life. Return to Chaos List F.
+
+F37 {ExtremeChaos}
+
+F38 Holocaust
+All players take one damage for each permanent they have in play and each card
+in their hand.
+
+F39 The Chaos Subsides
+Stop rolling on Chaos. During each player's upkeep, he must roll a four sided
+die. If a 1 is rolled go to Chaos List A and resume rolling on Chaos.
+
+F40 [Armageddon]
+
+F41 [Jokulhaups]
+
+F42 Possession
+Target opponent plays one turn for you after you finish a Chaos step.
+
+F43 Productivity
+Get a |Factory| token.
+
+F44 Auspicious Fortune
+Get a |Luck of the Irish| token.
+
+F45 {Musical}
+
+F46 Mind Games
+Halt the game until someone agrees to lose half their life, loss rounded up.
+
+F47 Plasma Storm
+All players and creatures take 16 red damage.
+
+F48 Weissman's Revenge
+Choose 3 cards other than basic land to be banned.
+
+F49 Purification
+All players lose all their abilities.
+
+F50 Brain Torch
+All players discard their hands.
+
+F51 Neilniehtrebor's Disk
+Everything is destroyed! Ahh, ha, ha!! Ok, you can keep your creatures.
+
+F52 [Apocalypse]
+
+F53 Lottery
+All players may trade X permanents for Y rolls on random charts and X - Y chips.
+
+F54 Tactical Nuke
+Drop a normal 8 3/8" by 10 7/8" sheet of paper onto the table from a height of
+two feet. Anything it lands on is removed from the game. If Tactical Nuke
+refuses to hit anything, go to ExtremeChaos: 13.
+
+F55 {ExtremeChaos}
+
+F56 Corrupt Tax
+All basic lands in play are shuffled into their owners' libraries.
+
+F57 {Musical}
+
+F58 Doom Smash
+Target player is now at 1 life.
+
+F59 Chaos Spurns You
+Gain the ability "You do not have a Chaos step".
+
+F60 Political Upheaval
+The next card each player draws becomes banned.
+
+F61 {The Vortex}
+
+F62 Poison Shower
+All players gain nine poison counters.
+
+F63 [Reverse the Sands]
+
+F64 Bankruptcy
+All your land is repossessed by the bank and put in the Middle World.
+
+F65 Paradox
+Choose creatures or land. Go through your deck and remove all of this card type
+from the game.
+
+F66 Sente
+All other players sacrifice/discard their land, creatures, artifacts,
+enchantments, and cards in hand until they have the same as you of each type.
+Cards discarded from hand are chosen.
+
+F67 Ysudsen Somiat
+Everyone returns to starting life, loses all poison counters, and shuffles their
+libraries and removed from game piles into their decks.
+
+F68 Gambling Frenzy
+All players gain an amount of chips equal to cards in hand, discard their hands
+and then head to the {Slot Machine}, wagering all their chips.
+
+F69 Wild Flux in the Chaos
+Roll once on each Land and Chaos List in any order. Return to Chaos List F.
+
+F70 Upping the Stakes
+All players must <ante> an additional card.
+
+F71 Ardnahcluhar's beard brushes the board
+Bury all lands, creatures, and enchantments.
+
+F72 [Fireball] Y=d6, X=Y x d10
+
+F73 Blitzkrieg
+Put all creatures from your hand and graveyard into play. They gain haste.
+
+F74 Royal Bequest
+Each player turns over the top cards of his library until four permanents have
+been revealed or there are no cards remaining in his library. Put these into
+play and shuffle the remaining cards into their libraries.
+
+F75 Impostor Professor Oak
+All other players shuffle their hands into their libraries and draw seven cards.
+
+F76 [Mob Justice] x 3
+
+F77 [Cataclysm]
+
+F78 Even Odds
+Roll a die. If the result is even, destroy all cards in play with odd casting
+cost. If the result is odd, destroy all cards in play with even casting cost.
+
+F79 Downward Motion
+Roll once on {Chaos List E}, then once on {Chaos List D}.
+
+F80 Verminous Scourge
+Each player puts d10 [Plague Rat] tokens into play.
+
+F81 Mass Exodus
+Return all permanents to owners' hands.
+
+F82 Lost and Found
+All non-land cards removed from play are put on the stack. Then all lands
+removed from play are put into play.
+
+F83 [Hellfire]
+(All non-black creatures are destroyed. You take X + 3 damage, where X is
+number of creatures destroyed this way.)
+
+F84 Resurgence
+Each player draws a card for each card in his graveyard.
+
+F85 [Paradigm Shift]
+(Remove your library from the game. Shuffle your graveyard into your library.)
+
+F86 Witch Hunt
+Choose two colours. Look at all players' hands and force them to discard all
+cards of those colours. Use (the) force if necessary.
+
+F87 Bribe the Judge
+All players' life totals come to equal yours.
+
+F88 Crass Capitalism
+All cards in all graveyards and removed from play are put in the Middle World.
+
+F89 Chaos Coagulation
+Roll d4 times on {ExtremeChaos}.
+
+F90 Heed the Call
+Choose any creature from any set.  Put a token copy of this creature into play
+under your control.
+
+F91 Cursed Shield of Immobity
+Gain the ability "Creatures cannot attack you, but you cannot attack".
+
+[=============================================================================]
+
+__The Vortex__
+Roll 3d8
+
+3 {Musical}.
+
+4 {ExtremeChaos}.
+
+5 Roll twice more on {The Vortex}.
+
+6 Go to {Chaos List E} and roll twice.
+
+7 Gain a random Token.
+
+8 Go to {Chaos List C} and roll twice.
+
+9 Go to a random Chart.
+
+10 Go to {Chaos List A} and roll twice.
+
+11 {EnchantGame}.
+
+12 [Timetwister], then roll {The Vortex} again.
+
+13 Gain a chip. The top card of each player's library goes into the Middle
+World.
+
+14 Gain a chip. The top card of each player's library goes into the Middle
+World.
+
+15 Everyone [Gambles], then roll {The Vortex} again.
+
+16 {EnchantGame}.
+
+17 Go to {Chaos List B} and roll twice.
+
+18 Go to a random Chart.
+
+19 Go to {Chaos List D} and roll twice.
+
+20 Gain d10 chips.
+
+21 Go to {Chaos List F} and roll twice.
+
+22 Roll twice more on {The Vortex}.
+
+23 {ExtremeChaos}.
+
+24 The Vortex careers wildly out of control. Roll d8 times on {The Vortex}.
+
+[=============================================================================]
+
+__EnchantGame__
+Roll d120 + 9 (d12 for the tens digit, d10 for the units digit)
+Magic cards that normally only affect their controller affect all players (e.g.
+Necropotence, Library of Leng).
+
+10. Steve's Para-Dimension
+When Steve's Para-Dimension comes into play, remove all creatures from the game
+and put a Steve token into play for each creature removed in this way. Treat
+these token as 1/1 red creatures that can phase out when they please (Steve
+tokens in the phased out zone aren't removed from game). Any further creatures
+brought into play get converted to Steve tokens in like manner. If this
+EnchantGame leaves play, put all the creatures back into play and remove the
+tokens, including those in phased-out zone.
+
+11. Ostracization
+Choose an expansion set. All cards from this expansion set remain tapped during
+their controller's untap step.
+
+12. Feudal System
+This Chaos game now has range. This means that players can only affect those to
+their left or right
+
+13. [Library of Leng]
+
+14. Natural Law
+When playing a spell, as an additional cost, pay the difference between the
+spell's converted mana cost and the card's dollar value.
+
+15. [Worms of the Earth]
+(No lands may be brought into play. Any player may sacrifice 2 lands or pay 5
+life during their upkeep to kill Worms)
+
+16. Will's World
+Players don't roll on Chaos during their Chaos step.
+
+17. [Titania's Song]
+(All artifacts become artifact creatures with power/toughness equal to their
+casting cost and lose their abilities.)
+
+18. Mixed-Up Madness
+All lands are considered to be artifacts with casting cost 0. Artifacts are
+creatures with power and toughness equal to their casting cost, and creatures
+are considered to be land. These cards keep their original types and abilities.
+This applies to all zones.
+
+19. Extreme Deprivation
+Players discard down to one card during their Cleanup.
+
+20. Hot Potato
+During each player's upkeep, he must roll d12. If this player rolls a 1, then
+he takes 18 damage and destroys Hot Potato.
+
+21. Whitmore's Legacy
+All Non-type II cards are banned.
+
+22. [Celestial Dawn]
+(All lands are plains. All non-land permanents are white. All non-land cards not
+in play are white. Coloured mana symbols on those cards and permanents are W.)
+
+23. [Necropotence]
+
+24. Pyrohaven
+Sorcery and instant damage spells now do 2 extra damage to their targets.
+
+25. Angie-Land
+During each player's upkeep, choose another player at random. That player
+leaves play until end of turn. If there are only two people playing, destroy
+Angie- Land.
+
+26. [Null Chamber]
+
+27. Eureka World
+Permanents henceforth have a casting cost of 0. Players may put as many land
+into play as they like during their main phase.
+
+28. [Manabarbs]
+
+29. [Energy Flux]
+
+30. [Living Plane]
+(All lands are also 1/1 creatures.)
+
+31. [Fastbond]
+
+32. [Howling Mine]
+
+33. [Blood Moon]
+
+34. Fair Play
+No card restricted or banned in T1 may be played.
+
+35. [Ivory Mask]
+
+36. Random World
+At the end of any turn, Random Land becomes a copy of an
+EnchantGame from the list (roll), except it retains this ability.
+
+37. Shifting Kingdom
+Creatures with Defender may attack. For such a creature, you may assign damage
+equal to its toughness, rather than its power, if you so desire.
+
+38. [Stasis]
+
+39. [Ivory Tower]
+
+40. [Seismic Assault]
+
+41. [Dense Foliage]
+(Creatures cannot be the target of spells or effects.)
+
+42. World of Knowledge
+All players play with their hands on the table, and can
+look through any player's deck to see what cards are coming up but cannot
+rearrange them.
+
+43. Vortex World
+No, this is not an amusement park ride. Roll on The Vortex instead of Chaos
+during Chaos steps.
+
+44. Ruined Environment
+All creatures have -1/-1.
+
+45. [Moat]
+
+46. [Mana Flare]
+
+47. Jim's World
+All spells may either be cast as Lightning Bolts or as they really are.
+
+48. [Nether Void]
+
+49. Jungle Depths
+Whenever an attack is declared or a player is targeted by a spell or ability,
+instead randomly determine which player is attacked or targeted.
+
+50. [Power Surge]
+
+51. Puzzle Room
+Everyone Timetwisters during their upkeep.
+
+52. Anti-Proxy World
+Anyone playing with proxies must instead play the cards as they really are.
+
+53. Extreme World
+Roll on ExtremeChaos instead of Chaos during Chaos steps.
+
+54. [Worship]
+
+55. [The Abyss]
+
+56. Rahul's World
+All players may search through their libraries for a card restricted in T1,
+instead of drawing a card.
+
+57. Matt's Obstinacy
+All cards besides basic land from the most recently released expansion block
+are banned.
+
+58. Topdecking Skills
+Whenever a player would draw a card, he may instead [Demonic Consultation].
+
+59. Torture World
+Everyone has a Black Vise and a The Rack effect. (This one would make a nice
+amusement park...)
+
+60. [Anvil of Bogardan]
+
+61. [Forsaken Wastes]
+
+62. [Bottomless Pit]
+
+63. [Zur's Weirding]
+
+64. Mad Rioting
+Whenever a creature is declared as an attacker, it attacks a random player that
+can be legally attacked. That player blocks randomly, with not blocking being
+as likely as any one creature blocking.
+
+65. Snow-covered World
+All snow-covered lands produce any colour of mana, and cannot be destroyed.
+
+66. [Bazaar of Wonders]
+(Remove all cards in all graveyards from the game when Bazaar comes into play.
+A spell that comes into play is countered if the same card is already in play
+or in any graveyard.)
+
+67. Inverse Dimension
+Players draw from the bottom of their deck. Whenever a player loses life, they
+instead gain an equal amount of life. Players no longer die as a result of
+being at less than 1 life, instead, any player at 40 or more life dies.
+
+68. [Arcane Laboratory]
+
+69. Bob's World
+Whenever a valuable card (>10$) would come into play, flip a coin. If it lands
+as heads, instead put it in the graveyard.
+
+70. Doom Gate
+A random player rolls on {Creature Summoning II} when Doom Gate comes into
+play. If this creature leaves play, a random player rolls on Creature Summoning
+II at the beginning of the next upkeep, and so on.
+
+71. [Invoke Prejudice]
+(If a player casts a summon spell, and there are no creatures of that colour
+already in play, the spell is countered unless the player pays X, where X is the
+casting cost of that summon spell.)
+
+72. Mental Magic World
+Cards other than basic lands may not be played as they are. Instead, a spell can
+be played as any other spell with the same mana cost, and a non-basic land can
+be played as any other non-basic land. The same card cannot be played twice in
+this way. Cards that are banned cannot be played in this way.
+
+73. Dimension X
+Whenever a card comes into play, add up all the numbers on that card and
+redistribute them as you like on that card.
+
+74. [Sands of Time]
+(Players skip their untap step. At the beginning of each player's upkeep, they
+must tap all untapped lands, creatures, and artifacts they control while
+simultaneously untapping all tapped lands, creatures, and artifacts the
+control.)
+
+75. Jameil's Continuum
+Any player may remove two cards in hand from the game to counter target spell.
+
+76. World of Battle
+Players may declare an additional combat phase on their turn. At the end of the
+first combat phase, untap all attacking creatures.
+
+77. [Teferi's Realm]
+(During a player's upkeep, that player picks artifacts, creatures, lands, or
+global enchantments and all of those cards instantly phase out.)
+
+78. John's World
+Instead of drawing a card, any player may search their library for a Dual Land
+and put it into their hand.
+
+79. [Enduring Renewal]
+
+80. Shifting Chaos
+Whenever a player rolls on a Chaos List, roll on a random Chaos List instead.
+
+81. Whitey's Battlefield
+All Knights get +3/+3.
+
+82. [Angel's Trumpet]
+(Attacking does not cause creatures to tap. At end of turn tap all untapped
+creatures that player controls that did not attack. He takes 1 damage for each
+tapped this way.)
+
+83. Team Spirit
+All creature gain the ability to band with other creatures of the same type.
+
+84. [Concordant Crossroads]
+
+85 . Xenophobic Dimension
+Whenever a non-token creature would come into play, remove it from the game
+instead. That creature's caster rolls d4 and goes to the Creature Summoning
+chart of that number.
+
+86. [Chains of Mephistopheles]
+
+87. [Sylvan Library]
+
+88. [The Tabernacle at Pendrell Vale]
+
+89. [Kismet]
+
+90. [Mana Cache]
+(At end of a player's turn, put a charge counter on Mana Cache for each
+untapped land that player controls. A player can remove counters during his
+turn before his end phase to add one mana apiece to his mana pool.)
+
+91. [Trade Routes]
+
+92. [Conspiracy]
+A random player chooses the creature type.
+
+93. Seedy Bar
+All creatures gain "T: Do this creature's power in damage to target creature".
+
+94. [Kyren Negotiations]
+
+95. [Forbidden Crypt]
+
+96. Rapid Incantation
+All spells may be played whenever instants may be played.
+
+97. [Crumbling Sanctuary]
+
+98. [Opalescence]
+
+99. Dense Fog of Chaos
+Roll an additional time on Chaos during each Chaos step.
+
+100. Heedlessness
+All creatures must attack when able.
+
+101. [Coat of Arms]
+
+102. [Repercussion]
+(Whenever a creature is dealt damage, the controller takes that much red damage
+as well.)
+
+103. [Impatience]
+
+104. [Angelic Chorus]
+
+105. [Planar Void]
+
+106. [Oath of Druids]
+
+107. [Bedlam]
+(Creatures cannot block.)
+
+108. Ink Drain
+When Ink Drain comes into play, randomly choose a colour.  This colour is
+colourless.
+
+109. [Abundance]
+
+110. Cyclotron
+All cards have "Cycling: 4".
+
+111. [Grafted Skullcap]
+(During your draw step, draw an additional card. At end of turn, discard your
+hand.)
+
+112. [Lifeline]
+
+113. Illusionary Shroud
+X: Name a permanent type (artifact, land, creature, or enchantment). The next
+time you play a card of that type with converted mana cost less than or equal
+to X, instead play it face down without paying its mana cost. Reveal it if it
+is tapped, receives damage, or deals damage. (A face-down permanent has no
+abilities, its controller may reveal it whenever he has priority.)
+
+114. [Naked Singularity]
+(Instead of their normal mana colours, plains produce R, mountains produce U,
+islands produce G, forests produce B, swamps produce W.)
+
+115. Pawnshop
+All sorceries and instants gain "Buyback: 3"
+
+116. [Recycle]
+
+117. [Super Secret Tech]
+(All premium creature gain +1/+1. All premium spells cost one less to play).
+
+118. [Eladamri's Vineyard]
+
+119. [Furnace of Rath]
+
+120. Mana Entanglement
+Whenever a land is tapped for mana, tap all lands its controller controls that
+can produce any colour that land can produce.
+
+121. [Static Orb]
+(During a players' untap step, he untaps but two permanents.)
+
+122. [Storage Matrix]
+(During a players' untap step, he chooses artifact, creatures, or lands. Only
+cards of that type untap.)
+
+123. [Dream Halls]
+
+124. [Awakening]
+
+125. [Invasion Plans]
+(Creatures must block whenever able. The attacking player chooses how creatures
+block.)
+
+126. Volrath's Gardens
+2, Tap a creature you control: Gain 2 life. Play this as a sorcery.
+
+127. Mishra's Bargain
+Whenever a player plays an artifact, they lose 1 life and draw a card.
+
+128. [Portcullis]
+
+129. [Pandemonium]
+
+130. [Aluren]
+
+[=============================================================================]
+
+__ExtremeChaos__
+Roll 2d12
+
+2 Cosmic Restructuring
+The Creator re-evaluates Her grand design. Clear the table and begin again. You
+can start by rolling to see who goes first.
+
+3 Infinity
+Continue to roll on Chaos until you die or the game ends.
+
+4 [Shaharazad]
+(Leave the duel in progress as it is. Players must use the cards left in their
+libraries as decks with which to play a sub-duel. When the sub-duel is over,
+these cards are shuffled and returned to the library and the duel resumes. Each
+player that lost in the sub-duel loses half of their life, rounding down.)
+
+5 Invincibility
+Gain the ability "You cannot lose."
+
+6 Symphony of Chaos
+Roll 7 times on {Musical}.
+
+7 Oops, Wrong Button
+Remove your library from the game. Skip your next draw step (this will give you
+a fighting chance).
+
+8 Ragnarok
+All land and creatures are buried, and all players take d100 damage.
+
+9 World Domination
+All creatures in all players' graveyards, hands, and removed
+from game piles, and all creatures in play come into play under your control.
+
+10 Fall of the Mighty
+All players are reduced to one life.
+
+11 Gift of the Gods!
+All players gain 3d20 life, may replenish their hands to 7 cards, and gain 5
+basic land tokens of their choice.
+
+12 Greater Maelstrom
+Randomly determine a player. Put a |Maelstrom| token into play under this
+player's control.
+
+13 Nuclear Winter
+Put a Nuclear token into play under your control.
+
+14 Death
+Loss life equal to your starting amount.
+
+15 Chaos Cloud
+All players gain an ability that causes them to skip one of their phases,
+chosen randomly:
+1. Untap step
+2. Chaos step
+3. Upkeep step
+4. Draw step
+5. First main phase
+6. Combat phase
+7. Second main phase
+8. Cleanup
+
+16 Aridity
+All players go through their libraries and remove all mana-producing cards from
+the game.
+
+17 Supreme Dictatorship
+Get 5 |Tyrant| tokens.
+
+18 Cruel Twist of Fate
+Target player loses all his permanents and cards in hand.
+
+19 Hallucinogenic Wind
+All players count the number of cards they have in play and in hand. They then
+shuffle these card and their graveyards into their decks and deal out the
+number counted onto the table. Treat permanents as if they just came into play
+and send all other cards to the Middle World.
+
+20 Annihilation
+Remove target player from the game. Add his life total to yours.
+
+21 Ruin
+Each player gains the ability "Cumulative upkeep: 1".
+
+22 True Armageddon
+Every player must draw his entire library into his hand. Players can no longer
+draw or discard cards.
+
+23 Order
+Order is restored. Everyone plays the rest of the game without Chaos.
+
+24 Ascendancy
+You become a god. From now on you may choose the results of all die rolls.
+
+25 Mana Departure
+Gain the ability "All mana you produce becomes colourless".
+
+[=============================================================================]
+
+------
+Charts
+------
+For random chart, roll d8.
+
+(1) __Creature Summoning I__
+Roll d30.
+
+1. Veteran Bodyguard 2/5, White, Bodyguard - If Bodyguard is untapped, all
+damage done to you by unblocked creatures is redirected to Bodyguard.
+
+2. Polar Kraken 11/11, Blue, Kraken - Trample. Cumulative upkeep: Sacrifice a
+land.
+
+3. Phyrexian Dreadnaught 12/12, Artifact Creature - Trample. Sacrifice any
+number of creatures with a total power of 12 or more when Dreadnought is brought
+into play or bury it.
+
+4. Chronatog 1/2, Blue, Atog - Skip your next turn: Chronatog gets +3/+3 until
+end of turn. Use this ability only once each turn.
+
+5. Nekrataal 2/1, Black, Nekrataal - First Strike. When brought into play, bury
+target non- black, non-artifact creature.
+
+6. Singing Tree 0/3, Green, Singing Tree - T: Target attacking creature's power
+is 0.
+
+7. Army Ants 1/1, Black/Red, Insects - T, Sacrifice a land: Destroy target land.
+
+8. Ophidian 3/1, Blue, Ophidian - If Ophidian attacks and is not blocked, you
+may choose for Ophidian to deal no damage. If you do this, draw a card.
+
+9. Lhurgoyf */1+*, Green, Lhurgoyf - * = number of creatures in all graveyards.
+
+10. Vesuvan Doppelganger */*, Blue, Doppelganger - Gets all characteristics of a
+target creature, except colour. During your upkeep, you may target a different
+creature instead of the one its currently targeting.
+
+11 Goblin Mime 2/2, Red, Goblin
+When you speak, sacrifice Goblin Mime.
+
+12. Orgg 6/6, Red, Orgg
+May not attack anyone with an untapped creature of power greater than 2.
+May not block a creature of power greater than 2.
+
+13. Bogardan Phoenix 3/3, Red, Phoenix - Flying. When Phoenix is placed in the
+graveyard, put a death counter on it, and return it to play as though it
+regenerated. If Phoenix is placed in the graveyard with a counter on it, remove
+it from the game.
+
+14. Personal Incarnation 6/6, White, Avatar - You may redirect any damage done
+to Personal Incarnation to yourself instead. If Personal Incarnation dies, you
+lose half your life, rounding up.
+
+15. Marjhan 8/8, Blue, Serpent - Islandhome. Does not untap. UU: Sacrifice a
+creature to untap Marjhan. Use this ability during your upkeep. UU: -1/-0 until
+end of turn. Marjhan deals 1 damage to target attacking creature without flying.
+
+16. Dracoplasm */*, Blue/Red - Flying. When Dracoplasm comes into play,
+sacrifice any number of creatures. Dracoplasm has power equal to the total power
+of the sacrificed creatures and toughness equal to the total toughness of the
+sacrificed creatures. R: +1/+0 until end of turn.
+
+17. Ali From Cairo 0/1, Red, Ali From Cairo - All damage that would reduce you
+to less than 1 life instead reduces you to 1.
+
+18. Skyshroud Behemoth 10/10, Green, Beast - Fading: 2. Comes into play tapped.
+
+19. Mishra's War Machine 5/5, Artifact Creature - Banding. During your upkeep,
+discard a card from your hand or War Machine becomes tapped and deals 3 damage
+to you.
+
+20. Crag Saurian 4/4, Red, Lizard - When dealt damage, the controller of the
+damage source gains control of Crag Saurian.
+
+21. Academy Rector 1/2, White, Cleric - When Academy Rector goes to the
+graveyard from play, you may remove him from the game. If you do so, search your
+library for an enchantment and put it directly into play.
+
+22. Apprentice Necromancer 1/1, Black, Wizard - B, T, Sacrifice Apprentice
+Necromancer: Put a creature from your graveyard into play with haste. Sacrifice
+it at end of turn.
+
+23. Serra Avatar */*, White, Avatar - * is equal to your current life total.
+
+24. Okk 4/4, Red, Goblin - Cannot attack or block, unless a creature of greater
+power also does so.
+
+25. Colossus of Sardia 9/9, Artifact
+Does not untap during your untap step.
+9: Untap this; use only during your upkeep.
+
+26. Chaotic Goo 0/0, Red, Ooze
+Comes into play with three +1/+1 counters.
+During your upkeep, you may flip a coin. If you win the flip, add a +1/+1
+counter, otherwise remove one.
+
+27. Volrath's Shapeshifter 0/1, Blue, Shapeshifter
+As long as the top card of your graveyard is a creature card, Volrath's
+Shapeshifter is a copy of that card, except it retains its abilities.
+2: Discard a card.
+
+28. Hell's Caretaker 1/1, Black, Hell's Caretaker
+T, Sacrifice a creature: Put a creature from your graveyard into play as though
+it were just summoned. Use this ability only during your upkeep.
+
+29. Peacekeeper 1/1, White, Peacekeeper - During your upkeep pay 1W or bury
+Peacekeeper. Creatures cannot attack.
+
+30 Sleeper Agent 3/3, Black, Minion
+
+31. Avatar (your choice)
+Avatar of Fury - 6/6, Red
+Flying.
+R: +1/+0 until end of turn.
+Avatar of Hope - 4/9, White
+Flying.
+May block any number of creatures.
+Avatar of Might - 8/8, Green
+Trample.
+Avatar of Will - 5/6, Blue
+Flying.
+Avatar of Woe - 6/5, Black
+Avatar of Woe cannot be blocked by non-black, non-artifact creatures.
+T: Bury target creature.
+
+[=============================================================================]
+
+(2) __Creature Summoning II__
+Roll d12
+
+1. Force of Nature 8/8, Green, Force
+Trample.
+During your upkeep pay GGGG or Force of Nature deals 8 damage to you.
+
+2. Lord of the Pit 7/7, Black, Demon
+Flying. Trample.
+During your upkeep, sacrifice a creature. If you don't Lord of the Pit deals 7
+damage to you. Can't sacrifice itself.
+
+3. Demonic Hordes 5/5, Black, Demons
+T: Destroy target land.
+During your upkeep, pay BBB or Demonic Hordes become tapped and destroy one of
+your lands of target opponent's choice.
+
+4. Yawgmoth Demon 6/6, Black, Demon
+Flying. First strike.
+Sacrifice an artifact during your upkeep. If unable to do so, Yawgmoth Demon
+deals 2 damage to you and becomes tapped.
+
+5. Minion of Leshrac 5/5, Black, Demon
+Protection from black.
+T: Destroy target creature or land.
+During your upkeep, sacrifice a creature or Minion of Leshrac becomes tapped
+and deals 5 damage to you. May not sacrifice Minion of Leshrac to itself for
+this purpose.
+
+6. Phyrexian Negator 5/5, Black, Horror
+Trample.
+For each point of damage accrued, sacrifice a permanent.
+
+7. Gargantuan Gorilla 7/7, Green, Gorilla
+Sacrifice a forest during your upkeep or bury Gargantuan Gorilla and take 7
+damage. If you sacrifice a Snow-covered forest, Gargantuan Gorilla tramples
+until end of turn.
+
+8. Emberwilde Caliph 4/4, Blue/Red, Djinn
+Flying. Trample.
+Must attack each turn if possible.
+Lose 1 life for each damage dealt by Emberwilde Caliph.
+
+9. Primordial Ooze 1/1, Red, Ooze
+Must attack each turn if possible.
+During your upkeep, put a +1/+1 counter on Primordial Ooze. You must pay 1 per
+counter or Primordial Ooze becomes tapped and does an amount of damage to you
+equal to the number of counters it has.
+
+10. Elder Spawn 6/6, Blue, Spawn
+During your upkeep, sacrifice an island or bury Elder Spawn and take 6 damage.
+Cannot be blocked by red creatures.
+
+11. Kookus 3/5, Red, Djinn
+During your upkeep, if you control no Keepers of Kookus, Kookus deals 3 damage
+to you and attacks this turn if able.
+R: +1/+0 until end of turn.
+
+12. Infernal Denizen 5/7, Black, Infernal-Denizen
+During your upkeep, sacrifice two swamps. If you don't, tap Infernal Denizen
+and an opponent may gain control of a creature you control of his choice as
+long as Infernal Denizen is in play.
+T: Gain control of target creature for as long as Infernal Denizen is in play.
+
+13. Ebon Drake 3/3, Blank, Drake.
+Flying.
+Whenever a player plays a spell, lose one life.
+
+[==============================================================================]
+
+(3) __Creature Summoning III__
+All rolls are Legendendary.
+Roll d30.
+
+1. [Tetsuo Umezawa]
+(3/3 Red/Blue/Black - Cannot be the target of Enchant Creature spells. BBUR, T:
+Destroy a tapped creature or a blocking creature.)
+
+2. Nebuchadnezzar 3/3, Blue/Black
+X, T: Name a card and look at X cards in any players hand. If named card is
+there, it is discarded. Use this ability only on your turn.
+
+3. Rasputin Dreamweaver 4/1, White/Blue - Put 7 counters on Rasputin when he
+comes into play. Remove a counter to add 1 to your mana pool, or prevent a
+damage done to Rasputin. Put a counter on Rasputin during your upkeep if he
+started your turn untapped, and has less than 7 counters.
+
+4. Rubinia Soulsinger 2/3, Green/White/Blue - You may choose not to untap
+Rubinia during your untap step. T: Take control of target creature as long as
+Rubinia remains tapped.
+
+5. Gwendlyn Di Corci 3/5, Red/Blue/Black - T: Target opponent discards a card.
+Use only on your turn.
+
+6. Adun Oakenshield 1/2, Green/Red/Black - GRB, T: Bring a creature from the
+graveyard to your hand.
+
+7. Hazezon Tamar 2/4, Green/White/Red - During the next upkeep after Hazezon
+comes into play, put X Sand Warrior tokens into play where X is the amount of
+lands you control. Sand Warriors are 1/1 Green/White/Red creatures. If Hazezon
+leaves play, kill all Sand Warriors.
+
+8. Xira Arien 1/2, Green/Red/Black - Flying. GRB, T: Target player must draw a
+card
+
+9. Sol 'kanar Swamp King 5/5, Red/Blue/Black - Swampwalk. Gain 1 life for each
+black spell cast.
+
+10. Lady Caleria 3/6, Green/White - T: Do 3 damage to an attacker or blocker.
+
+11. Halfdane */*, White/Blue/Black - * is 3 when brought into play. During your
+upkeep, change */* equal to any other creature in play. If there are no other
+creatures, * is 3.
+
+12. Maraxus of Kjeld */*, Red - * is equal to the number of untapped permanents
+in play.
+
+13. Marton Stromgald 1/1, Red - When Marton attacks, all other attackers get
++*/+*, where * is the number of other creatures that attack. When Marton blocks,
+all other blockers get +*/+* where * is the number of other creatures that
+block.
+
+14. Autumn Willow 4/4, Green - May not be the target of spells or effects. G:
+Target player may target Autumn Willow with spells and effects.
+
+15. [Taniwha: 7/7, Blue - Trample. Phasing. All lands you control phase out at
+the beginning of your upkeep.]
+
+16. [Reveka, Wizard Savant: 0/1, Blue - T: Reveka deals 2 damage to target
+creature or player. Does not untap next turn.]
+
+17. [Dakkon Blackblade: */*, Black/Blue/White - * = # of lands you control.]
+
+18. Elder Dragon Legend (your choice) All are 7/7, Flying w. Upkeeps = 1 mana of
+each colour they are. Arcades Sabboth - White/Green/Blue - Your untapped
+non-attacking creatures gain +0/+2. W: +0/+1 until end of turn. Chromium -
+Black/Blue/White - Rampage: 2 Nicol Bolas - Blue/Black/Red - When an opponent is
+damaged by Nicol Bolas, they discard their hand. Palladia-Mors - White/Green/Red
+- Trample Vaevictis Asmadi - Green/Red/Black - B, R, or G: +1/+0 until end of
+turn.
+
+19. Sliver Queen 7/7, Black/Blue/Green/Red/White - Counts as a Sliver. 2: Put a
+1/1 Sliver token into play.
+
+20. Legendary Spellshaper (your choice) All are 3/3. Alexi, Zephyr Mage - Blue -
+XU, T, Discard two cards: Return X target creatures to their owners' hands.
+Greel, Mind Raker - Black - XB, T, Discard two cards: Target player discards X
+cards at random. Jolrael, Empress of Beasts - Green - 2G, T, Discard two cards:
+Until end of turn, all of target player's lands are 3/3 creatures that still
+count as lands. Latulla, Keldon Overseer - Red - XR, T, Discard two cards:
+Latulla deals X damage to target creature or player. Mageta the Lion - White -
+2WW, T, Discard two cards: Bury all creatures but Mageta the Lion.
+
+21. Karn, Silver Golem 4/4, Artifact - 1: Target artifact becomes a creature
+with power/toughness equal to converted mana cost until end of turn. When Karn
+blocks or is blocked, he gets -4/+4 until end of turn.
+
+22. Multani, Maro Sorcerer */*, Green - * is equal to the total number of cards
+in all players' hands. Cannot be the target of spells or effects.
+
+23. Orim, Samite Healer 1/3, White - Counts as a Cleric. T: Prevent the next 3
+damage to target creature or player.
+
+24. Baron Sengir 5/5, Black - Flying. Whenever a creature goes to the graveyard
+the same turn as Baron Sengir damaged it, put a +2/+2 counter on Baron Sengir.
+T: Regenerate target Vampire.
+
+25. Volrath the Fallen 6/4, Black - 1B, Discard a creature card from your hand:
+Volrath gets +X/+X until end of turn, where X is the discarded card's converted
+mana cost.
+
+26. Gabriel Angelfire 4/4, White/Green - During your upkeep, Gabriel gains one
+of the following abilities until your next upkeep: flying, first strike,
+trample, or rampage: 3.
+
+27. Spirit of the Night 6/5, Black - Flying, trample, haste, protection from
+black. Gains first strike when attacking.
+
+28. Boris Devilboon 2/2, Black/Red - 2BR, T: put a 1/1 red and black minor
+demon token into play.
+
+29 Phelddagrif 4/4, White/Blue/Green - W: Phelddagrif gains flying until end of
+turn. Target opponent gains 2 life. U: Return Phelddagrif to owner's hand.
+Target opponent may draw a card. G: Phelddagrif gains trample until end of turn.
+Target opponent puts into play a 1/1 green Hippo token.
+
+30 Maraxus of Keld */*, Red - * is the number of untapped artifacts, creatures,
+and lands you control.
+
+[=============================================================================]
+
+(4) __Creature Summoning IV__
+Roll d20
+
+1 Chaos Musician 1/2, Red, Musician. - RT: Roll on a random Chaos List.
+
+2 Indefinite 1/1, White, Indefinite - When Indefinite leaves play, put
+another Indefinite into play on controller's side with X+1 +1/+1 counters at
+end of turn, where X is the number of +1/+1 counters on Indefinite.
+
+3 Learned Sage 0/1, Blue, Human Wizard - T: Look at the top 5 cards of your
+library. Put them back in any order.
+
+4 Lemming Champion 7/5, Green, Lemming
+During your attack step, Lemming Champion attacks a random player.  If this
+player controls any mountains, sacrifice Lemming Champion.
+
+5 Spore Fiend 3/2, Green, Fungus
+Spore Fiend must be blocked by all creatures able to do so.
+X, Sacrifice Spore Fiend: Destroy X target creatures blocking Spore Fiend.
+
+6 Supreme Overlord 2/2, Black
+As this comes into play, choose a creature type. This has the chosen creature
+type. When this comes into play, all creatures of its type come under your
+control.
+T: Take control of target creature of this creature's type.
+
+7 Wall of Chaos 0/4, Green/White/Red/Black/Blue, Wall
+Defender.
+3: Controller of target creature blocked by Wall of Chaos continues flipping
+over the top card of his library until a permanent is found. Replace the blocked
+creature with this card, and shuffle the other cards including the blocked
+creature back into the player's deck. If the new permanent is not a creature,
+remove it from combat.
+
+8 Displacer Beast 2/2, Blue, Beast
+Whenever Displacer Beast is targeted flip a coin. If tails is flipped, you may
+choose a new target.
+
+9 Primal Being 8/7, Red, Beast
+Cannot be blocked. You must sacrifice a creature and a land during your upkeep,
+otherwise Primal Being passes to the left and you lose 8 life. You may not
+sacrifice Primal Being in this fashion.
+
+10 Skilled Spellcaster 1/1, Blue, Wizard
+T: Untap target land.
+UT: Counter target spell. Control of Skilled Spellcaster passes to a random opponent.
+RT: Do one damage to target creature or player.
+BXT: Do X damage to target player. Gain X life. Bury Skilled Spellcaster.
+WT: Prevent one damage to target creature or player.
+GT: All players choose a creature from hand and put it directly into play.
+
+11 Life Spawn */*, Green, Spawn
+* is equal to your life total.
+If Life Spawn is attacking, * is equal to the life total of defending player.
+
+12 Tamagotchi Warrior 1/1, Blue, Tamagotchi
+If he has any +1/+/1 counters on him during his controller's upkeep, remove one;
+otherwise, bury Tamagotchi Warrior. Sacrifice a permanent: Tamagotchi Warrior
+gets a +1/+1 counter.
+
+13 Succubus 3/4, Black, Demon
+T: Look at target player's hand and choose a card. You may cast this as if it
+were in your own hand.
+BT: Take control of target non-white creature.
+
+14 Great Behemoth 14/20, Red, Behemoth.
+
+15 Time Savant 0/1, Blue, Wizard
+T: Return target permanent to owner's hand.
+U: Untap Time Savant.
+
+16 Doomsayer 1/1, Black, Human Wizard
+7T: Roll on ExtremeChaos.
+
+17 Gaian Egg 0/3, Green, Egg
+When Gaian Egg is put in the graveyard, Gaian Egg's controller goes to a random
+Creature Summoning chart.
+
+18 Naplam Elemental 5/4, Red, Elemental
+Put a -1/-1 counter on Naplam Elemental: Do damage equal to Naplam Elemental's
+power to target creature.
+
+19 Virus 0/1, Black, Virus
+Take one damage during your upkeep. When Virus takes lethal damage, put two
+Viruses in play under your control.
+Sacrifice 3 lands: Put a Virus into play under target opponent's control.
+
+20 Mutinous Titan 9/10, Red, Titan
+T: Mutinous Titan deals damage equal to it's power to target creature or player.
+If Mutinous Titan is the target of a spell or effect, it comes under control of
+the player controlling the spell or effect.
+
+21 One Armed Bandit 2/2, Red, Human Bandit
+T: Roll on the {Slot Machine} with a bet of one, without expending any chips.
+
+22 Army of Clones 0/0, Blue, Clone
+As this comes into play, choose a creature. This is a copy of that creature.
+This comes into play with d20 Clone counters. If this would go to the graveyard
+and there is a Clone counter on this, instead regenerate it and remove a Clone
+counter.
+
+[=============================================================================]
+
+(5) __Creature Summoning V__
+Constructed Creature
+
+Mana cost is 0.
+It is a d8/d8 creature.
+Roll d6 for colour: 1: Blue, 2:Green, 3: White, 4: Red, 5: Black, 6: Artifact.
+Choose a creature type and name.
+
+Roll d30 d4 times for the creature's abilities (reroll duplicates):
+
+1 Fading: d6
+2 Shadow
+3 Double Strike
+4 Cannot be the target of spells or effects
+5 Landhome: Your choice
+6 Vigilance
+7 1: +1/+1 until end of turn
+8 Indestructible
+9 Haste
+10 Protection from: Colour of your choice
+11 Bushido: d2
+12 First Strike
+13 Landwalking: Basic land type of your choice
+14 Flying
+15 Banding
+16 1: Regenerate
+17 Trample
+18 Phasing
+19 Provoke
+20 T: Do 1 damage to any target
+21 Defender
+22 Must attack each turn if able
+23 Cumulative upkeep: 1
+24 Threshold: Ability d30
+25 Cannot block
+26 When blocked, can deal power in damage to target creature, instead of combat
+damage
+27 Can block one additional creature
+28 An additional creature is needed to block this
+29 Does not untap in untap step. Has d8: Untap
+30 If unblocked, you may draw a card instead of dealing damage
+
+[=============================================================================]
+
+(6) __Acquisition__
+Roll d40
+
+1 Rainbow Vale, Land
+T: Add 1 mana of any colour to your mana pool. Control
+passes to opponent.
+
+2 Choose one: Legendary Land
+[Gaea's Cradle]
+[Serra's Sanctum]
+[Shivan Gorge]
+[Phyrexian Tower]
+[Tolarian Academy].
+
+3 [Mindslaver]
+4 [Lion's Eye Diamond] x 5 (Artifact - Sacrifice Diamond and discard your hand:
+Add 3 mana of any one colour to your mana pool. Play only as an instant.
+
+5 [Helm of Obedience] (Artifact, X, T: Put the top card of opponent's library
+in his graveyard. Keep doing this until you have put X cards or a creature in
+the graveyard, whatever happens first. If the last card in the graveyard was a
+creature, bury Helm and put that creature into play under your control. X can't
+be 0)
+
+6 Serpent Generator Artifact - 4, T: Place a Snake into play. Snake is a 1/1
+artifact creature who has "if Snake damages a player, they get a poison
+counter".
+
+7 Relic Barrier Artifact - T: Tap target artifact.
+
+8 [Ring of Ma'rûf] (Artifact - 5, T, Skip drawing a card, Remove Ring of Ma'rûf
+from the game: Put a card from outside the game into your hand.)
+
+9 Jester's Mask Artifact - 1, T, Sacrifice Jester's Mask: put target player's
+hand on top of his library, then look through his library and give him a new
+hand of the same sze, then shuffle..
+
+10 Pyramids Artifact - 2: Prevent target land from being destroyed or destroy
+target Enchant Land.
+
+11 [Stone Calendar] (Artifact - Colourless mana in your spells is reduced by
+1.)
+
+12 CoP: Your choice White, Enchantment - 1: Prevent all damage against one
+source of the chosen colour or type (Must be a real CoP).
+
+13 Underworld Dreams Black, Enchantment - When any opponent draws a card he
+takes 1 damage.
+
+14 Bazaar of Baghdad, Land - T: Draw 2 cards and discard 3 cards.
+
+15 War Barge, Artifact
+3: Target creature gains Islandwalk until end of turn. If War Barge leaves play
+this turn, that creature is buried.
+
+16 Despotic Sceptre, Artifact
+T: Bury target permanent you own.
+
+17 Glasses of Urza, Artifact
+T: Look at any player's hand.
+
+18 [Grinning Totem]
+(Artifact - 2, T: Sacrifice Totem to search opponent's library for any card and
+put it face up in front of you. You may play the card as though it were in your
+hand. If you do not play the card by the beginning of your next upkeep, put it
+into its owner's graveyard.)
+
+19 [Zzzyxas's Abyss]
+(At the beginning of your upkeep, destroy all permanents with the first name
+alphabetically among nonland permanents in play.)
+
+20 [Sorrow's Path]
+(Land - T: Switch the blockers of two of your attackers, and Sorrow's Path
+deals 2 damage to you and your creatures.)
+
+21 Desert Land - T: Add 1 to your mana pool, or do 1 damage to an attacker after
+it does its damage.
+
+22 Snowfall Blue, Enchantment - Cumulative upkeep: U. Islands produce an
+additional U and Snow-covered Islands produce an extra UU for paying Cumulative
+upkeep only.
+
+23 Aladdin's Lamp Artifact - X, T: Instead of drawing, draw X cards. Keep 1 and
+shuffle the rest, putting them on the bottom of your library.
+
+24 Lucky Charm (your choice) Artifact - 1: Gain one life for each (colour) spell
+cast. Can only gain one life per spell. Urza's Chalice - Artifact Wooden Sphere
+- Green Ivory Cup - White Iron Star - Red Throne of Bone - Black Crystal Rod -
+Blue
+
+25 Jandor's Saddlebags Artifact - 3, T: Untap a creature.
+
+26 Crown of the Ages Artifact
+4, T: Move a target enchant creature enchantment from one creature to another.
+
+27 Oath of Lim-dûl, Black, Enchantment
+For every point of life lost, you must either discard a card from your hand or
+sacrifice a permanent. You may not sacrifice Oath of Lim-Dul like this.
+BB: Draw a card.
+
+28 Bone Flute Artifact
+2, T: -1/-0 to all creatures until end of turn.
+
+29 Giant Fan
+2, T: Move target counter from one card to another. If the second card's rules
+text refers to any type of counters, the moved counter becomes one of those
+counters. Otherwise, it becomes a +1/+1 counter.
+
+30 Urza's Mitre Artifact
+3: Draw a card. Can only be used when an artifact you control goes to the
+graveyard from play without being sacrificed, and only once per artifact.
+
+31 Monkey Cage Artifact - When a creature comes into play, sacrifice Monk Cage
+and put a number of 2/2 green Ape tokens into play equal to the creature's
+converted mana cost.
+
+32 Chimeric Staff Artifact - X: Chimeric Staff becomes an X/X creature until end
+of turn.
+
+33 [Time Vault]
+(Artifact - Time Vault doesn't untap during your untap step. Skip a turn to
+untap Time Vault and put a counter on it. T: Remove a counter to take an extra
+turn after this one.)
+
+34 Illusionary Mask Artifact - X: The next time you play a creature with
+converted mana cost X or less, play it face down without paying its mana cost
+(additional costs are still paid). If the creature becomes tapped, deals damage,
+or receives damage, turn it face up.
+
+35 Booby Trap Artifact - When Booby Trap comes into play, choose a card other
+than a basic land. Whenever an opponent draws a card, they reveal it. If the
+chosen card is revealed, sacrifice Booby Trap, and they take 10 damage.
+
+36 Choose one Artifact - Spells of the specified colour cost you 1 less to cast.
+Emerald Medallion - Green Pearl Medallion - White Ruby Medallion - Red Jet
+Medallion - Black Sapphire Medallion - Blue
+
+37 Volrath's Laboratory Artifact - when this comes into play, choose a colour
+and a creature type. T: Put a 2/2 creature token into play of the chosen colour
+and type.
+
+38 Survival of the Fittest Green, Enchantment - G, Discard a creature card:
+Search your library for a creature card and put it into your hand.
+
+39 Bosium Strip, Artifact
+3, T: Until end of turn, as long as the top card of your graveyard is an instant
+or sorcery, you may play it as though it were in your hand, but remove it from
+game instead of returning it to the graveyard.
+
+40 Cyclopean Tomb Artifact - At the beginning of your upkeep, you may pay 2. If
+you do so, target land becomes a basic swamp. When Cyclopean Tomb leaves play,
+return one of these lands to normal during each of your upkeeps.
+
+[=============================================================================]
+
+(7) __Acquisition II__
+All rolls are artifact tokens.
+Roll d12
+
+1 Magnet
+When Magnet comes into play or you gain control of it, all artifacts
+come under your control. When an artifact comes into play, gain control of it.
+When Magnet leaves play, return all artifacts you control to their owners.
+
+2 Life Grail
+1: Prevent the next X damage from any source. For each point of damage prevented
+in this way, put a counter and Life Grail.
+When Life Grail leaves play, lose one life for every counter on Life Grail.
+
+3 Chaos Flute
+T: Roll on Chaos List A. This does not affect the list currently being rolled
+on.
+
+4 Soulbox
+Whenever another player loses the game, put a Soul counter on Soulbox.
+Remove a Soul counter: Return to started life.
+
+5 COP: Chaos
+1: Prevent the next damage from a Chaos roll.
+
+6 Elven Mandolin 4: Target non-green creature deals no damage in combat this
+turn. Sacrifice Elven Mandolin: Go to the Musical chart.
+
+7 Spite Disk
+Take 1 damage during your upkeep. If Spite Disk kills you, you may make an
+additional two rolls on Spite.
+
+8 Fixed Die
+T: Reroll the dice.
+
+9 Wand of Dominia
+T, discard a card: Counter a Chaos List roll.
+T, discard a card: Counter target spell that targets Wand of Dominia.
+
+10 Throat Wolf Chunk
+Sacrifice three Throat Wolf Chunks: Put a Throat Wolf into play.  You win!
+
+11 Weather Machine
+T: Choose one - Target creature loses flying until end of turn and target land
+becomes snow-covered.
+Sacrifice Weather Machine: Destroy all lands of a random basic land type.
+
+12 Vesuvan Sphere
+During your upkeep or when Vesuvan Sphere would come into play, you may choose
+another target artifact. Vesuvan Sphere assumes all characteristics and
+abilities of this artifact, but keeps this ability.
+
+13 Font of Evil
+This comes into play with 1 Evil counter on it.
+T: Target player loses 1 life for every Evil counter on Font of Evil.  Add a
+counter to Font of Evil.  Control of Font of Evil passes to a random opponent.
+
+14 Chest of vortices.
+T: A randomly chosen creature you control comes under the control of a random
+opponent. Go to The Vortex.  Use this ability only if you control a
+creature.
+
+[=============================================================================]
+
+(8) __Musical__
+Roll d6
+
+1 Musical Hands
+Everyone passes their hands to the left.
+
+2 Musical Life
+Everyone passes their life total and poison counters to the left.
+
+3 Musical Permanents
+Everyone passes their permanents to the left.
+
+4 Musical Decks
+Everyone passes their decks, graveyards, and removed from game piles to the
+left.
+
+5 Musical <Vanguard>
+Everyone passes their avatars to the left.
+
+6 Musical Chairs
+Everyone moves one place to the left (This means that the player to your right
+will now finish your turn).
+
+[=============================================================================]
+
+__Spite__
+Roll d100
+
+1
+Your spite backfires. The player that killed you gets control of all your
+permanents.
+
+2 - 3
+The Gods take notice of your need for vengeance. Your killer rolls on
+ExtremeChaos.
+
+4 - 5
+All players take 2d10 damage.
+
+6 - 10
+The Gods are piteous, and grant you a |Phoenix| token.
+
+11 - 15
+Your killer loses half his life, lose rounded up.
+
+16 - 25
+Take your spite roll on Chaos.
+
+26 - 35
+The Gods grant one chance for your revenge. Gain a |Phoenix| token. You lose at
+the end of your next turn.
+
+36 - 65
+Greater powers ignore you.
+
+66 - 75
+Your thirst for vengeance keeps you going, and you may go to 1 life,
+shuffle a removed from game card into your library, or lose a poison counter.
+
+76 - 85
+Take your spite roll on {The Vortex}.
+
+86 - 90
+Your killer sacrifices d10 permanents or loses.
+
+91 - 95
+Destroy d20 permanents of your choice.
+
+96 - 97
+Revenge is yours. The player that killed you also loses.
+
+98 - 99
+You are reincarnated. Lose everything and come back to the table with a
+different deck (and Vanguard card).
+
+100
+Fate is with you. Gain d20 + 4 chips, then head to the {Prizes} table.
+
+[=============================================================================]
+
+__Prizes__
+
+Chips:		Prize:
+
+2			{Vortex}.
+2			Basic land from your deck.
+3			Remove a poison Counter.
+4			{EnchantGame}.
+5			Creature Summoning II or IV.
+5			2d4 life.
+6			{Aquisition I}.
+10			Draw d4 cards.
+10			Creature Summoning I or III.
+12			{Acquisition II}.
+15			{Creature Summoning IV}.
+20			|Counteroll| Token.
+20			|Forkroll| Token.
+20			[Disenchant].
+25			50 Life.
+30			[Desert Twister].
+35			Remove an ability from target player.
+40			{ExtremeChaos}.
+45			|Dwelling| Token.
+50			[Time Walk].
+55			|Leave Me Alone| Token.
+60			Put any number of mana producing permanents from your library into
+			play.
+70			|Phoenix| token.
+77			Draw your deck.
+100			500 Life.
+300			|Death| Token.
+1000		Any finite amount of life.
+
+[=============================================================================]
+
+__Slot Machine__
+Wager 1-10 chips and roll 3d8. If the three numbers you rolled match one
+of the patterns below in any order, you are a winner. Use the first item that
+matches your die roll. The asterisk is a wild card.
+
+-888-		Bet X 50.
+-778-		You win 25 chips.
+-777-		You become addicted and gamble away all your permanents. Place them
+			in the Middle World.
+-678-		You enter fever mode. All sevens pay bet X 2 until a roll is made
+			without a seven.
+-666-		Bet X 25.
+-567-		You win bet X 3, plus the progressive bonus
+-555-		Bet X 20.
+-456-		Not only do you win nothing, but someone stole all you chips while
+			you	were playing!
+-444-		Bet X 15.
+-345-		You win 3 free spins at your current bet.
+-333-		Bet X 10.
+-234-		You get your bet back and may roll again.
+-123-		You win a |Joker| token.
+-222-		Bet X 5.
+-111-		You broke the machine! Casino guards throw you out. The slot
+			machine can no longer be used by any player, and you can't redeem
+			your chips.
+-*77-		You win d4 poison counters.
+-*44-		One free spin, Bet = 1.
+-*11-		You get your bet back.
+-**1-		Add your bet to the progressive bonus.
+
+[=============================================================================]
+
+__Resolution__ 
+Roll d12 (There are multiple winners in the case of a tie)
+
+1 The person with the least money on them wins.
+2 The first person to have been knocked out, or else the player with the lowest
+life total wins.
+3 A paper-rock-scissors single elimination tournament determines the winner.
+4 The person with the largest graveyard wins.
+5 The nicest player at the table wins
+6 The person with the longest hair wins.
+7 The person with the longest combined first and last names wins.
+8 The person playing the cheapest deck wins.
+9 Unfortunately, all players lose
+11 Whosoever controls the fewest permanents is the winner
+12 The person using the most interesting deck wins.
+
+[=============================================================================]
+
+__NegativeFeedback__
+Roll d12
+
+1 Remove the top ten cards of your library from the game.
+2 <Ante> an additional card.
+3 Lose half your life, rounded up.
+4 Roll on {Creature Summoning II}.
+5 Lose all your chips.
+6 Gain d10 poison counters.
+7 Sacrifice d4 permanents, chosen by the player who brought it to your
+attention that you failed to roll on Chaos.
+8 Sacrifice all you creatures.
+9 Your <Vanguard> avatar loses all its abilities.
+10 Any player may pay 0 to counter your next Chaos roll.
+11 Discard 2 cards at random.
+12 Remove your graveyard from the game.
+
+[=============================================================================]
+
+--------------
+Rules Appendix
+--------------
+
+Effects from unowned permanents (i.e. EnchantGames) always go on the stack
+last.
+
+Rolls on lists actually go on the stack twice: when the roll is first
+generated, a "Roll on list X" effect is place on the stack. Its resolution will
+be to put a roll from list X on the stack. If a roll asks you to roll multiple
+times, each of these roll are placed on the stack individually as "Roll on list
+X" effects.
+
+The first time someone would dies, a replacement ability gives him the option
+of going to Spite. The Spite roll goes on the stack like any other effect
+and that player gets priority. This is problematic given the usual rules
+because that player is still at 0 life and should die again as a state based
+effect. There is no easy way around this that will still let players respond to
+Spite rolls, but we can use the following device: The replacement ability that
+sends a player to Spite also puts a "death" effect on the stack. That player
+and any player that would lose while the death effect is on the stack gets
+"marked" for death. While there is a death effect on the stack no player loses.
+The death effect resolves as follows: If this is the only death effect on the
+stack, all players marked for death lose the game. If a spell or ability tries
+to empty the stack (i.e. Time Stop), resolve all death effects immediately.

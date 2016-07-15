@@ -1,0 +1,30 @@
+
+Each Chaos List, A through F, will have 100 elements.
+10 of those elements (those rolls ending in 9) will move the players from one list to another, or have some other meta-effect.
+
+For a particular effect, try to find an existing magic card that has that effect before creating a new one.
+
+No land destruction on list A.
+
+Each List has "Fireballs": A(d4,d2), B(d4,d4), C(d6,d4), D(d8,d4), E(d10,d4), F(d10,d6).
+
+keep in mind that slowing down the game is only a real problem if it involves people waiting. a slow effect that has everyone make an interesting choice (e.g. Gamble) is fine.
+
+Things to discourage in chaos:
+
+library search effects. this slows down the game and leads to people waiting.
+Destroying permanents in general. This is an important effect, but shouldn't be too common because it can slow things down and cause frustration.
+Destroying land. It's not fun to lose your land. There should be fewer land destruction effects than other destroy effects.
+Punishing people horribly for playing a mono-color deck (e.g. Naked Singularity is really unfair.)
+Massively one-sided effects. e.g. "destroy all creatures" is more fair than "each opponent sacrifices a creature," which is more fair than "destroy X target creatures".
+Tedious effects. e.g. "do one mild thing 15 times" is much worse than "do one very dramatic thing".
+Giving the players too much choice bogs down the game, especially if the choices aren't horribly interesting. It's usually better to give the player a yes/no choice than a "choice one of the following effects" sort of choice.
+adding effects that have a negligible effect on the game, are only interesting in narrow circumstances, or require people to be playing a certain unusual type of card or deck archetype.
+giving the players permanents that are only useful if they are playing the right deck (e.g. an enchantment that pumps up all elves, or a creature with an activation ability with a colored mana cost.)
+
+Things to encourage:
+
+Putting permanents into play and shifting control of permanents. These effects are both fun and chaotic.
+Doing damage to players. Chaos is a slow format, and this can speed up the game.
+Helping interesting decks. Keep an eye out for effects that help people playing interesting cards.
+adding effects that reinforce the color themes.

@@ -1,0 +1,388 @@
+player gets a new deck
+"everything in the middle goes into play"
+F29 needs meta-chaos
+mine new sets for ideas
+change {} to something else
+make enchantgames out of Planar Chaos
+Creature Summoning V needs expansion ("A,B"-creature abilities examined.)
+Creature Summoning V: use species/class pairs?
+
+== INTERESTING CARDS ==
+
+dangerous wager
+Ill-Gotten Gains
+Radiate
+advice from the fae
+flame fusillade
+patriarch's bidding
+
+One with Nothing
+B
+Instant
+Discard your hand.
+
+Void
+3BR
+Sorcery
+Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number.
+
+blatent thievery
+
+Reweave
+5U
+Instant -- Arcane
+Target permanent's controller sacrifices it. If he or she does, that player reveals cards from the top of his or her library until he or she reveals a permanent card that shares a card type with the sacrificed permanent, puts that card onto the battlefield, then shuffles his or her library.
+
+Reward the Faithful
+W
+Instant
+Any number of target players each gains life equal to the highest converted mana cost among permanents you control.
+
+Nature's Resurgence
+2GG
+Sorcery
+Each player draws a card for each creature card in his or her graveyard.
+
+Biomantic Mastery
+4(g/u)(g/u)(g/u)
+Sorcery
+({(g/u)} can be paid with either {G} or {U}.)
+Draw a card for each creature target player controls, then draw a card for each creature another target player controls.
+
+Natural Balance
+2GG
+Sorcery
+Each player who controls six or more lands chooses five lands he or she controls and sacrifices the rest. Each player who controls four or fewer lands may search his or her library for X basic land cards and put them onto the battlefield, where X is five minus the number of lands he or she controls. Then each player who searched his or her library this way shuffles it.
+
+<<THREATEN>>
+mass mutiny
+mark of mutiny
+traitorous instinct
+slave of the bolas
+insurrection
+
+<<CREATURE BUFF>
+tower above
+
+<<LAND-D>>
+cryoclasm
+
+drastic revelation
+Goblin Lore
+Wild Swing
+Dead Ringers
+Rise from the Dead
+
+"all creatures deal damage to their controller equal to their opower
+Agonizing Memories
+2BB
+Sorcery
+Look at target player's hand and choose two cards from it. Put them on top of that player's library in any order.
+WL-U
+
+Cabal Conditioning
+6B
+Sorcery
+Any number of target players each discards a number of cards equal to the highest converted mana cost among permanents you control.
+
+Congregate
+3W
+Instant
+Target player gains 2 life for each creature on the battlefield.
+
+Congregation at Dawn (have everyone do this)
+GGW
+Instant
+Search your library for up to three creature cards and reveal them. Shuffle your library, then put those cards on top of it in any order.
+RAV-U
+
+empty the catacombs
+
+raging river
+new frontiers
+word of seizing
+Necromancer's Covenant
+debtor's knell
+
+Blood Tribute
+4BB
+Sorcery
+Kicker--Tap an untapped Vampire you control. (You may tap a Vampire you control in addition to any other costs as you cast this spell.)
+Target opponent loses half his or her life, rounded up. If Blood Tribute was kicked, you gain life equal to the life lost this way.
+
+
+
+Acquire
+3UU
+Sorcery
+Search target opponent's library for an artifact card and put that card onto the battlefield under your control. Then that player shuffles his or her library.
+
+Parallel Evolution
+3GG
+Sorcery
+For each creature token on the battlefield, its controller puts a token that's a copy of that creature onto the battlefield.
+
+== CREATURE SUMMONING V ==
+
+Mana cost is 0.
+Roll d6 for each of the creature's power and toughness. Whenever you roll a 6, roll again and add 5 to the total.
+Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Artifact.
+Choose a creature type and name.
+
+Roll d6 d4 times for the creature's abilities, rerolling duplicate abilities:
+
+1 - 3	Common Ability
+4 - 5	Uncommon Ability
+6		Rare Ability
+
+Common:
+Banding
+Bushido d4
+Deathtouch
+Exalted
+Haste
+First strike
+Flanking
+Flying
+Graft d6
+Intimidate
+Lifelink
+Provoke
+Reach
+Shroud
+Trample
+Vigilance
+Wither
+(b/g): Regenerate this creature.
+(b/r): This creature gets +1/+0 until end of turn.
+(w/g): This creature gets +0/+1 until end of turn.
+
+Uncommon:
+Bloodthirst d6
+Champion a creature.
+Dancing (Creatures with power greater than this creature's toughness can't block it.)
+Double strike
+Echo: Discard a card.
+Modular d6
+Phasing
+Protection from artifacts
+Protection from colored permanents
+Protection from colored spells
+Shadow
+Threshold -- (Roll again)
+Vanishing d6
+This creature can't block.
+Legendary landwalk
+This creature is indestructible.
+Whenever this creature attacks, you may tap target creature.
+Whenever this creature deals combat damage to a player, that player discards a card at random.
+Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it.
+Other creatures that share a color with this creature get +1/+1.
+Other creatures that don't share a color with this creature get -1/-1.
+Other creatures that share a creature type with this creature get +1/+1.
+This creature attacks each turn if able.
+You may play an additional land on each of your turns.
+Landfall -- Whenever a plains enters the battlefield under your control,
+Landfall -- Whenever an island enters the battlefield under your control,
+Landfall -- Whenever a swamp enters the battlefield under your control,
+Landfall -- Whenever a mountain enters the battlefield under your control,
+Landfall -- Whenever a forest enters the battlefield under your control, this creature gets +3/+3 and gains trample until end of turn.
+(w/r): Target creature gains first strike until end of turn.
+1WW: Target creature gains protection from the color of your choice until end of turn.
+W: Target creature gains persist until end of turn.
+W: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+W, T: Tap target creature.
+U, T: Draw a card, then discard a card.
+U, T: Scry d4.
+U, T: Counter target activated ability.
+XU, T: Return target nonland permanent with converted mana cost X to its owner's hand.
+U, Tap an untapped creature you control: Tap target permanent.
+U: Target creature gains flying until end of turn.
+U: Target creature gains shroud until end of turn.
+B, pay 1 life: Add one mana of any color to your mana pool.
+B, sacrifice a creature: Target creature gets -2/-2 until end of turn.
+B, T: Target player loses 1 life.
+B, T: Target opponent discard a card. Activate this ability only any time you could cast a sorcery.
+B, T: Destroy target tapped creature.
+1R: This creature deal 1 damage to each creature without flying.
+R: Target creature can't block this turn.
+R: Target creature gains haste until end of turn.
+R: Sacrifice a creature. This creature does damage equal to the sacrificed creature's power to target creature or player.
+(u/r), T: This creature deals 1 damage to target creature or player.
+1G: This creature deals 1 damage to each creature with flying.
+G: Add one mana of any color to your mana pool.
+G: Target creature gains trample until end of turn.
+T: Add G to your mana pool.
+T: Untap target land.
+X, T: Search your library for a creature card with converted mana cost X or less that shares a creature type with this creature and put that creature onto the battlefield. Then shuffle your library.
+Sacrifice this creature: Add BB to your mana pool.
+
+
+Rare:
+Annihilator d6
+Bands with others
+Changeling
+Cumulative Upkeep--1
+Cumulative Upkeep--Put a -1/-1 counter on this creature.
+Defender
+Horsemanship
+Creatures that share a creature type with this creature have "(Roll again)"
+This creature is unblockable.
+This creature can block any number of creatures.
+This creature can block creatures with shadow and horsemanship as though they didn't have shadow or horsemanship.
+When this creature enters the battlefield, put a token that is a copy of it without this ability onto the battlefield.
+Whenever a player casts a spell, this creature gets -1/-1 until end of turn.
+Whenever you cast an enchantment spell, draw a card.
+Whenever another creature is put into a graveyard from the battlefield, you may put a +1/+1 counter on this creature.
+When this creature is put into a graveyard from the battlefield, each player sacrifices a permanent.
+Whenever this creature attacks, it doesn't untap during its controller's next untap step.
+Whenever this creature is the target of a spell or ability, it gets +2/+2 until end of turn.
+Whenever this creature deals combat damage to a player, that player returns a permanent he controls to its owner's hand.
+Whenever this creature deals combat damage to a player, that player sacrifices a permanent.
+Whenever this creature deals combat damage to a player, put a +1/+1 counter on it.
+Whenever a creature dealt damage by this creature this turn is put into a graveyard, put a +1/+1 counter on this creature.
+You can't win the game and your opponents can't lose the game.
+You can't lose the game and your opponents can't win the game.
+1: Target permanent becomes this creature's colors until end of turn.
+S: Target creature loses flying until end of turn.
+W, T: The next time a source of your choice would deal damage to you this turn, that damage is dealt to this creature instead.
+WX, T: This creature deals X damage to target attacking or blocking creature.
+U, T: Change the text of target spell or permanent by replacing all instances of one color word with another.
+B, T: Target creature an opponent controls attacks you this turn if able.
+XB, T, Sacrifice this creature: Target player loses X life. Gain X life.
+R, T: Remove target attacking creature from combat.
+R, T: Destroy target wall.
+G, T: Put a land from your hand onto the battlefield.
+G, T: Each player may choose a creature card in his hand and put that card onto the battlefield.
+G, T: Counter target activated ability from an artifact source.
+Pay 1 life: This creature gets +1/+1 until end of turn.
+Tap an untapped creature you control: This creature gets +1/+1 until end of turn.
+Sacrifice an artifact: This creature gets +2/+2 until end of turn.
+Sacrifice a land: Put a +1/+1 counter on this creature.
+Discard a card: Switch this creature's power and toughness until end of turn.
+W, T, sacrifice this creature: Return target artifact card from your graveyard to your hand.
+U, T, sacrifice this creature: Counter target spell.
+(r/b), T, sacrifice this creature: Destroy target land.
+(r/g), T, sacrifice this creature: Destroy target artifact.
+B, T, sacrifice this creature: You gain life equal to this creature's toughness.
+Sacrifice this creature: Put a +2/+2 counter on target creature. It gains this creature's other abilities.
+
+
+
+== ABILITIES ==
+
+
+4. Solidness
+If you would roll chaos, you may choose to not roll chaos instead.
+
+5. Pollution
+Whenever you play a land, lose one life.
+
+7. Insightfullness
+4, T: Scry 1.
+
+8. Condemnation
+At the beginning of your upkeep, exile the top card of your library.
+
+9. Fountain of Mana
+Add 1 to your mana pool at the beginning of your precombat main phase.
+
+10. Sloth
+As you determine which permanents you control will untap during your untap step, choose a permanent you control. It does not untap.
+
+11. Double-Edged Blade
+Pay 6 life: Destroy target creature.
+
+12. Permamency
+If a card you own would be exiled, you may shuffle it into your library instead.
+
+13. Alchemy
+T, discard two cards that share a type: Draw a card.
+
+14. You grow an extra set of eyes.
+All other players play with their hands revealed. 
+
+15. Perspicuity
+Spells you cast cost 1 less to cast.
+
+16. Lushness
+You may play an additional land each turn.
+
+17. Chaos Spurns You
+Skip your chaos step.
+
+18. Unending Pain
+At the beginning of your upkeep, lose 1 life.
+
+19. Avarice
+You can't cast spells while you have only one card in your hand.
+
+20. Vigilant Defenders 
+Creatures you control have Vigilance.
+
+21. nruT
+Skip your beginning phase. At the beginning of your end step, you get an additional beginning phase after this step.
+
+22. Amazing Discovery
+If a source would deal damage to you or a creature you control, prevent 1 of that damage.
+
+23. Verduran Effulgence
+Whenever an enchantment enters the battlefield, draw a card.
+
+24. Poisonous Breath
+At end of combat, each player that was dealt combat damage this turn by a creature you control gets a poison counter.
+
+25. Vorticial Attunement
+0: Exile target chaos ability that was rolled on The Vortex. Roll on The Vortex. This ability can't be used to exile that roll.
+
+26. Charisma
+Creatures you control get +1/+1.
+
+27. Threaten to never play here again
+You have shroud.
+Your spells and permanents have shroud.
+
+29. Dauntless Courage
+Creatures you control must attack when able.
+
+30. Horrible Allergy
+If you would gain life, instead lose that much life.
+
+31. Mortal Foe
+As you gain this ability, choose an opponent. Prevent all damage dealt to any other player by sources controlled by you or that player. When that player leaves the game, lose this ability.
+
+32. Unbreakable Vow
+For each 1 life you would lose, instead sacrifice a permanent or discard a card. If you don't, you lose the game.
+
+33. Trauma
+If a source would deal damage to you, it deals double that damage to you instead.
+
+34. Love Song
+As you declare blockers, you may declare one untapped nonattacking creature you do not control as a blocker as though you controlled it (all blocking requirements and costs still apply).
+
+35. Horrible Paralysing Fear
+The mana cost of each of your spells is increased by an amount of generic mana equal to its converted mana cost.
+
+36. Hate Opera
+As a player declares attackers, he may declare one untapped creature neither you nor he controls as attacking you as though he controlled it, as long as he declares at least one other creature as attacking you (all attacking requirements and costs still apply).
+
+37. ExtremeChaos Affinity
+4, T, discard two cards: Roll on ExtremeChaos.
+
+38. Deathly illness
+At the beginning of your upkeep, get a poison counter.
+
+39. The Gods are Hungry
+At the beginning of your upkeep, sacrifice a creature. If you don't, you lose the game.
+
+40. Godlike Power
+T: Target nonbasic permanent becomes banned.
+
+If the total is more than 40, you may either remove an ability of your choice from your Vanguard card, or roll again.
+
+OLD spite rule:
+The following complicated rules capture people's intuitive notions about how rolling on Spite should function:
+If a player would lose the game and he hasn't rolled on Spite this game, instead note that player's manner of death, put a death ability on the stack, and that player rolls on Spite.
+Until the death ability begins to resolve, if a player would lose the game, instead note that player's manner of death. If that player hasn't rolled on Spite this game, he rolls on Spite.
+The death ability has:
+"Each player who has 0 or less life, ten or more poison counters, or, in an EDH game, has been dealt 21 or more damage by the same general loses the game. For each player who lost the game by attempting to draw cards from an empty library, if that player has fewer cards in his library than he attempted to draw from an empty library, he loses the game. Otherwise he draws that many cards. Each player who lost the game some other way loses the game. Players who lose as a result of this ability lose simultaneously. Losing the game as a result of this effect can't be modified by a replacement ability."
