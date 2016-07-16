@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Chaos</string>
+    <string name="menu_settings">Settings</string>
+    <string name="listSpinnerPrompt">Choose a List</string>
+	<string name="roll_message">Roll Chaos</string>
+	<string name="global_button">Roll Global</string>
+	
+	<string-array name="list_list">
+	    <item>Chaos List A</item>
+	    <item>Chaos List B</item>
+	    <item>Chaos List C</item>
+	    <item>Chaos List D</item>
+	    <item>Chaos List E</item>
+	    <item>Chaos List F</item>
+	    <item>Extreme Chaos</item>
+	</string-array>
+	
+</resources>
