@@ -1,5 +1,5 @@
 var http = require('http');
-//duh
+//quack
 http.createServer(function(req,res){
     var path = req.url.replace(/\/?(?:\?.*)?$/,'').toLowerCase();
     //res.write(path);
