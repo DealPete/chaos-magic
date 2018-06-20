@@ -15,10 +15,7 @@ http.createServer(function(req,res){
         default:
             res.end('duh');
             break;
-    }
-
-
-   
+    }  
 }).listen(3000);
 
 console.log('Server at http://localhost:3000; Ctrl-C to end');
