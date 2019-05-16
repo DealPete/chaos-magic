@@ -1,0 +1,4 @@
+#Wed May 15 22:37:09 NDT 2019
+base.0=F\:\\Users\\Perry\\Documents\\GitHub\\MobileChaos\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
