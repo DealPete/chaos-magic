@@ -7,19 +7,19 @@
     tools:context=".MainActivity">
 
     <Spinner
-        android:id="@+id/listSpinner"
+        android:id="@+id/chaosSpinner"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:prompt="@string/listSpinnerPrompt"
+        android:prompt="@string/chaosSpinnerPrompt"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/listButton"
-        app:layout_constraintEnd_toStartOf="@id/listButton"
+        app:layout_constraintRight_toLeftOf="@id/chaosButton"
+        app:layout_constraintEnd_toStartOf="@id/chaosButton"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/chaosRollTextBox"/>
 
     <Button
-        android:id="@+id/listButton"
+        android:id="@+id/chaosButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/roll_message"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="@id/chaosRollTextBox"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <com.mobilechaos.www.SwipeableTextView
         android:id="@+id/chaosRollTextBox"
         android:layout_width="0px"
         android:layout_height="0px"
@@ -40,8 +40,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintRight_toLeftOf="@id/guideline2"
         app:layout_constraintEnd_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/listButton"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/chaosButton"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <Button
         android:id="@+id/globalButton"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <com.mobilechaos.www.SwipeableTextView
         android:id="@+id/globalTextBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
