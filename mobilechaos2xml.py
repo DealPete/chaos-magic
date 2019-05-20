@@ -51,3 +51,6 @@ while l:
 	l = f.readline()
 	
 g.write('\n</chaoslist>')
+
+f.close()
+g.close()

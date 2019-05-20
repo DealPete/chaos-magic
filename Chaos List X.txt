@@ -298,7 +298,7 @@ A89 {Chaos List B}
 A90 Explore the New World
 Each player may put a land card from his hand onto the battlefield.
 
-A91 [Unearth] x 2
+A91 [Unearth]
 
 [=============================================================================]
 
