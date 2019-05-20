@@ -1078,7 +1078,7 @@ E33 [Soulquake]
 E34 [Braingeyser] X=2d6.
 
 E35 Lab Catastrophe
-Go to {Treacherous Creature}. The creature enters the battlefield with "This creature can't be the target of spells or abilities you control."
+Go to {Treacherous Creature}. The creature enters the battlefield with "You can't target this creatures with spells and abilities, and you can't sacrificed it."
 
 E36 Call a Friend
 You may discard two cards. If you do, roll on {Planeswalker}.
@@ -1589,7 +1589,7 @@ Roll d20, then gain fifty times that much life.
 19 {Dire Misfortune}
 
 20 Mana Flood
-During your next main phase, add one million mana in any combination of colors to your mana pool.
+At the beginning of your next main phase, add one million mana in any combination of colors to your mana pool.
 
 21 Annihilation
 Remove target player from the game. (He doesn't roll on Spite.) Gain life equal to his life total.
@@ -1613,8 +1613,6 @@ Each of your opponents rolls on Spite as though that opponent had lost, choosing
 
 X Genocide
 Choose a creature type. All cards of that type become banned.
-
-X Metastasis
 
 
 [=============================================================================]
@@ -2201,7 +2199,7 @@ GL160. [Where Ancients Tread]
 (4R, Enchantment
 Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player. (16/4/10))
  
-GL157. Strangling Hold
+GL161. Strangling Hold
 3R, Enchantment
 Players can't search libraries.
 If a player would begin an extra turn, that player skips that turn instead.

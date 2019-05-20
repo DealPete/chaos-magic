@@ -1333,7 +1333,7 @@ XC Limitless Vigor
 Roll d20, then gain fifty times that much life.
 
 XC Mana Flood
-During your next main phase, add one million mana in any combination of colors to your mana pool.
+At the beginning of your next main phase, add one million mana in any combination of colors to your mana pool.
 
 XC Annihilation
 Remove target player from the game. (He doesn't roll on Spite.) Gain life equal to his life total.
