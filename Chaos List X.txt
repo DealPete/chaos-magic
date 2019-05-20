@@ -33,11 +33,11 @@ Some rolls are preceded by terms in angle brackets. These refer to optional game
 
 If the result of a roll uses an optional mechanic that you're not playing with, roll again.
 
-Occasionally a card will become banned due to a Chaos roll. If a banned card is face up in a public zone, remove it from the game as a state-based action. If a banned card would enter a public zone, remove it from the game instead. Note that banned cards are not exiled - they are truly removed from the game.
+There is a new zone to hold banned cards. When a card becomes banned due to a Chaos roll, move it and any other face up cards with the same name to the banned zone. If a card with the same name as a card in the banned zone would enter a public zone, move it to the banned zone instead and give that card's owner a warning for playing a banned card. Players' Commanders and other cards in the Command Zone are exempt from this rule.
 
 Some rolls cause a player to temporarily leave the game. A player leaving the game temporarily does not have the same effect as does a player leaving the game completely. Instead that player takes no actions while he is gone, and is considered to be outside of each other player's range of influence. (Spells and abilities can't affect or target objects or players outside their controller's range of influence. Creatures can attack only opponents within their controller's range of influence.) If a player leaves the game on his turn, the turn continues to completion without an active player.
 
-(Optional Rule) If a player tries to leave his chaos step without rolling chaos, he must roll on {NegativeFeedback} and suffer the consequences.
+Some players habitually forget to roll Chaos on their turns. To combat this, if a player tries to leave his chaos step without rolling chaos, the other players may have him roll on {NegativeFeedback}.
 
 When a player loses the game, if more than one of that player's opponents are left in the game, that player rolls on Spite.
 
@@ -88,8 +88,7 @@ A15 {Mild Creature}
 A16 Suction
 Tap all artifacts, creatures, and lands.
 
-A17 You forget to draw.
-Skip your next draw step.
+A17 {Global}
 
 A18 Soldevi Company
 Put your graveyard on the bottom of your library.
@@ -552,8 +551,7 @@ Choose an opponent. Until your next turn, you can't target each other's library,
 C13 Olympics
 Each player puts each creature in his hand onto the battlefield.
 
-C14 Sin of Choice
-Choose one -- [Hurricane] [Earthquake] [Pestilence] [Savage Twister] X=d6.
+C14 {Global}
 
 C15 [Stone Rain]
 (Destroy target land. (16/4/10))
@@ -678,7 +676,7 @@ C58 [Wheel of Fortune]
 C59 {Chaos List D}
 
 C60 Re-zoning
-Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or command zone. If the chosen card is moved to a player's library, that player shuffles his library.
+Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or banned. If the chosen card is moved to a player's library, that player shuffles his library.
 
 C61 U-Turn
 Reverse Turn Order
@@ -695,7 +693,7 @@ If the total power of all creatures on the battlefield is greater than or equal 
 C65 [Spelltwine]
 (Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine. (14/02/14))
 
-C66 {Global}
+C66 [Time Stop]
 
 C67 Impossible Quest
 Exile target nontoken creature. If there are any other creatures exiled this way, return those creatures to the battlefield with nine +1/+1 counters on them, shroud, and "This creature is indestructible."
@@ -789,7 +787,8 @@ D12 {Global}
 D13 Unravel Soul
 Each player exiles the top X cards of his library, where X is the number of creatures on the battlefield.
 
-D14 <vanguard> New Identity
+D14 New Identity
+Roll again if you aren't playing with Vanguard cards.
 Draw a new Vanguard card.
 
 D15 Important Decision
@@ -941,8 +940,7 @@ The player or players with the lowest life total gain 20 life.
 
 D69 {Chaos List E}
 
-D70 [Wave of Reckoning]
-(Each creature deals damage to itself equal to its power. (16/4/10))
+D70 {Global}
 
 D71 [Donate] x 3
 (Choose different target permanents for each copy.)
@@ -1078,7 +1076,7 @@ E33 [Soulquake]
 E34 [Braingeyser] X=2d6.
 
 E35 Lab Catastrophe
-Go to {Treacherous Creature}. The creature enters the battlefield with "You can't target this creatures with spells and abilities, and you can't sacrificed it."
+Go to {Treacherous Creature}. The creature enters the battlefield with "You can't target this creatures with spells and abilities, and you can't sacrifice it."
 
 E36 Call a Friend
 You may discard two cards. If you do, roll on {Planeswalker}.
@@ -1133,7 +1131,8 @@ Until the beginning of your next turn, players can't play spells.
 
 E55
 
-E56 <vanguard> New Identity
+E56 New Identity
+Roll again if you aren't playing with Vanguard cards.
 Draw a new Vanguard card.
 
 E57 Vengeful Rage
@@ -1148,7 +1147,7 @@ E60 Shadow of Anarchy
 Each player may leave the game until end of turn. Then if there are any players in the game, a random player rolls on Extreme Chaos.
 
 E61 Revenge of the Fool
-Each player puts the cards from his hand on top of his library. Then the player to that player's right search that player's library for that many cards. That player puts those cards into his hand, then shuffles his library.
+Each player puts the cards from his hand on top of his library. Then the player to that player's right searches that player's library for that many cards. That player puts those cards into his hand, then shuffles his library.
 
 E62 Planar Shift
 You leave the game for 6 turns.
@@ -1305,10 +1304,12 @@ Personal Angst deals damage to you equal to the number of permanents in play.
 
 F34 {Exceptional Creature}
 
-F35 <vanguard> End of Act
+F35 End of Act
+Roll again if you aren't playing with Vanguard cards.
 Each player draws a new Vanguard card.
 
-F36 <vanguard> Purification
+F36 Purification
+Roll again if you aren't playing with Vanguard cards.
 Each player's Vanguard card loses all its abilities.
 
 F37 {Extreme Chaos}
@@ -1330,7 +1331,7 @@ Split second
 If it is your turn, target opponent controls the rest of your turn. Otherwise, he controls your next turn.
 
 F43 Collision of Worlds
-All nonland permanents gain the supertype "global". (Any player may play the activated abilities of a global permanent. If a player would roll on {Global}, first exile all global permanents.)
+All nonland permanents gain the supertype "global". (Any player may play the activated abilities of a global permanent.)
 
 F44 The Gods are Toying with You
 Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
@@ -1344,7 +1345,7 @@ F47 Plasma Storm
 Plasma Storm deals 16 damage to each player and each creature.
 
 F48 Weissman's Revenge
-Name three nonbasic cards. Those cards become banned.
+Ban three faceup non-basic cards that aren't in the Command Zone.
 
 F49 Impending Insanity
 Roll five times on Chaos List A, four times on Chaos List B, three times on Chaos List C, twice on Chaos List D, and once on Chaos List E. Then the next time a player would roll chaos, he rolls on Chaos List F instead of rolling on the last Chaos List that was rolled on.
@@ -1352,7 +1353,7 @@ Roll five times on Chaos List A, four times on Chaos List B, three times on Chao
 F50 Brain Torch
 Each player discards his hand.
 
-F51
+F51 {Global}
 
 F52 Great Leadership
 Gain control of all creatures.
