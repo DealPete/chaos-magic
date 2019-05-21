@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.magicthegathering:javasdk:0.0.14@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../.gradle/caches/modules-2/files-2.1/io.magicthegathering/javasdk/0.0.14/10f9ed3fcb31eea4b6704861601e36952788a079/javasdk-0.0.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../.gradle/caches/modules-2/files-2.1/io.magicthegathering/javasdk/0.0.14/73abe327dd08751f9da63828525b92cbc83877d0/javasdk-0.0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

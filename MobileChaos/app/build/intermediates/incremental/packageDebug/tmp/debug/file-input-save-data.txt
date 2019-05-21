@@ -1,11 +1,15 @@
 #Internal package file, do not edit.
-#Wed May 15 22:37:10 NDT 2019
+#Tue May 21 20:56:21 NDT 2019
 1.base=F\:\\Users\\Perry\\Documents\\GitHub\\MobileChaos\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.path=Chaos Magic.xml
 0.baseType=DIRECTORY
+2.base=F\:\\Users\\Perry\\Documents\\GitHub\\MobileChaos\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.set=ASSET
 1.baseType=DIRECTORY
-count=2
+count=3
 1.set=ASSET
 0.path=classes.dex
 0.set=DEX
 0.base=F\:\\Users\\Perry\\Documents\\GitHub\\MobileChaos\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
-1.path=Chaos Magic.xml
+2.baseType=DIRECTORY
+1.path=fonts/Beleren-Bold.ttf

@@ -8,7 +8,9 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Typeface;
+import android.os.AsyncTask;
 import android.os.Bundle;
 
 import android.text.method.ScrollingMovementMethod;
@@ -20,8 +22,15 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-import java.util.*;
 
+import java.util.*;
+import java.util.regex.Pattern;
+
+import io.magicthegathering.javasdk.api.CardAPI;
+import io.magicthegathering.javasdk.resource.Card;
+
+/* import com.mobilechaos.www.OnSwipeTouchListener;
+   import com.mobilechaos.www.SwipeableTextView; */
 
 
 public class MainActivity extends Activity {
@@ -65,12 +74,14 @@ public class MainActivity extends Activity {
 
         public ChaosRoll getRandom() {
 
-            int count = 0, dieRoll = random.nextInt(totalWeight);
+            int i;
+            i = 0;
+            int dieRoll = random.nextInt(totalWeight);
 
             for (ChaosRoll croll : roll)
             {
-                count += croll.rollWeight;
-                if (dieRoll <= count) {
+                i += croll.rollWeight;
+                if (dieRoll <= i) {
                     return croll;
                 }
             }
@@ -86,26 +97,57 @@ public class MainActivity extends Activity {
     private ChaosList global;
 
     private Spinner chaosSpinner;
-    private Button chaosButton;
+    private Button chaosButton ;
     private Button globalButton;
 
-    private TextView chaosText;
-    private TextView globalText;
+    private SwipeableTextView chaosText;
+    private SwipeableTextView globalText;
+
 
     private Typeface customFont;
+
+    public static class CardTask extends AsyncTask<String, Integer, String> {
+
+        private SwipeableTextView textView;
+        protected Card card;
+
+        public CardTask(SwipeableTextView parentTextView){
+            textView = parentTextView;
+        }
+
+        @Override
+        protected String doInBackground(String... strings) {
+            ArrayList<String> filter = new ArrayList<>();
+            filter.add("name=" + strings[0]);
+            List<Card> cardList = CardAPI.getAllCards(filter);
+            Card card = cardList.get(0);
+            return card.getName() + "\n\n" + card.getText();
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
+            /*Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();*/
+            textView.setText(result);
+            textView.updateCurrent(result);
+        }
+    };
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        customFont = Typeface.createFromAsset(getAssets(),  "fonts/Beleren-Bold.ttf");
+        /*AsyncTask cardTask = new CardTask(this).execute("Chaos Orb");*/
 
-        chaosSpinner = (Spinner) findViewById(R.id.listSpinner);
+        customFont = Typeface.createFromAsset(getAssets(), "fonts/Beleren-Bold.ttf");
 
-        chaosButton = (Button) findViewById(R.id.listButton);
+        chaosSpinner = (Spinner) findViewById(R.id.chaosSpinner);
+
+        chaosButton = (Button) findViewById(R.id.chaosButton);
         globalButton = (Button) findViewById(R.id.globalButton);
 
         chaosButton.setTypeface(customFont);
@@ -113,8 +155,8 @@ public class MainActivity extends Activity {
 
         random = new Random();
 
-        chaosText = (TextView) findViewById(R.id.chaosRollTextBox);
-        globalText = (TextView) findViewById(R.id.globalTextBox);
+        chaosText = (SwipeableTextView) findViewById(R.id.chaosRollTextBox);
+        globalText = (SwipeableTextView) findViewById(R.id.globalTextBox);
 
         chaosText.setTypeface(customFont);
         globalText.setTypeface(customFont);
@@ -147,9 +189,6 @@ public class MainActivity extends Activity {
         }
 
     }
-
-
-
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -374,29 +413,108 @@ public class MainActivity extends Activity {
                 ChaosRoll roll = global.getRandom();
                 globalText.setText(roll.rollName);
                 globalText.append("\n\n" + roll.rollEffect);
+
+                globalText.addHistory(roll.rollName + "\n\n" + roll.rollEffect);
+
+                String pattern = "(\\[)([^\\[]*)(\\])";
+                if(roll.rollName.matches(pattern)) {
+                    CardTask cardTask = new CardTask(globalText);
+                    cardTask.execute(roll.rollName.replaceAll(pattern,"$2"));
+                }
             }
-        });
+        }
+        );
 
         chaosButton.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
+                int listIndex;
+                listIndex = listNames.indexOf((String) chaosSpinner.getSelectedItem());
 
-                int listIndex = listNames.indexOf(chaosSpinner.getSelectedItem());
                 ChaosRoll roll = lists.get(listIndex).getRandom();
                 chaosText.setText(roll.rollName);
                 //chaosText.setTypeface(null, Typeface.NORMAL);
                 chaosText.append("\n\n" + roll.rollEffect);
                 //Toast.makeText(MainActivity.this,    		"You chose " +                    String.valueOf(chaosSpinner.getSelectedItem()),                    Toast.LENGTH_SHORT).show();
+
+                chaosText.addHistory(roll.rollName + "\n\n" + roll.rollEffect);
+
+                String pattern = "(\\[)([^\\[]*)(\\])";
+                if(roll.rollName.matches(pattern)) {
+                    CardTask cardTask = new CardTask(chaosText);
+                    cardTask.execute(roll.rollName.replaceAll(pattern,"$2"));
+                }
             }
+
+        });
+
+        chaosText.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
+
+            @Override
+            public void onSwipeLeft() {
+                super.onSwipeLeft();
+                if(!chaosText.decrementHistory() )
+                    Toast.makeText(MainActivity.this, "at first Chaos Roll", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSwipeRight() {
+                super.onSwipeRight();
+                if(!chaosText.incrementHistory() )
+                    Toast.makeText(MainActivity.this, "at last Chaos Roll", Toast.LENGTH_SHORT).show();
+            }
+            /*
+            @Override
+            public void onSwipeTop() {
+                super.onSwipeTop();
+             }
+
+            @Override
+            public void onSwipeBottom() {
+                super.onSwipeBottom();
+            }
+            */
+        });
+
+        globalText.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
+            @Override
+            public void onSwipeRight() {
+                super.onSwipeRight();
+                if(!globalText.decrementHistory() )
+                    Toast.makeText(MainActivity.this, "at first Global Roll", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSwipeLeft() {
+                super.onSwipeLeft();
+                if(!globalText.incrementHistory() )
+                    Toast.makeText(MainActivity.this, "at last Global Roll", Toast.LENGTH_SHORT).show();
+            }
+
+            /*
+            @Override
+            public void onSwipeTop() {
+                super.onSwipeTop();
+                Toast.makeText(MainActivity.this, "GlobalSwipeTop", Toast.LENGTH_SHORT).show();
+                ChaosRoll roll = global.getRandom();
+                globalText.setText(roll.rollName);
+                globalText.append("\n\n" + roll.rollEffect);
+            }
+            @Override
+            public void onSwipeBottom() {
+                super.onSwipeBottom();
+                Toast.makeText(MainActivity.this, "GlobalSwipeBottom", Toast.LENGTH_SHORT).show();
+                ChaosRoll roll = global.getRandom();
+                globalText.setText(roll.rollName);
+                globalText.append("\n\n" + roll.rollEffect);
+            }
+            */
 
         });
     }
 
-    public <ViewGroup> void customSpinner(){
 
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
