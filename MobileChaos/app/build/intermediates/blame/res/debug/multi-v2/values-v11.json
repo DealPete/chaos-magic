@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Users\\Perry\\Documents\\GitHub\\MobileChaos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "F:\\Users\\Perry\\Documents\\GitHub\\chaos-magic\\MobileChaos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
                     "source": "F:\\Users\\Perry\\.gradle\\caches\\transforms-2\\files-2.1\\f59af419d3492494c0f9ceab8eb6b8fd\\res\\values-v11\\values-v11.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "F:\\Users\\Perry\\Documents\\GitHub\\MobileChaos\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "F:\\Users\\Perry\\Documents\\GitHub\\chaos-magic\\MobileChaos\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

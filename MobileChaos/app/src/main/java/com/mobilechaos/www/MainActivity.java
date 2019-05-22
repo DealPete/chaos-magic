@@ -24,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.*;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import io.magicthegathering.javasdk.api.CardAPI;
@@ -38,7 +39,10 @@ public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
     private static final String STATE_CHAOS = "chaos";
     private static final String STATE_GLOBAL = "global";
-
+    private static final String STATE_CHAOS_HISTORY = "chaosHistory";
+    private static final String STATE_GLOBAL_HISTORY = "globalHistory";
+    private static final String STATE_CHAOS_INDEX = "chaosIndex";
+    private static final String STATE_GLOBAL_INDEX = "globalIndex";
     private Random random;
 
     public class ChaosRoll {
@@ -97,7 +101,7 @@ public class MainActivity extends Activity {
     private ChaosList global;
 
     private Spinner chaosSpinner;
-    private Button chaosButton ;
+    private Button chaosButton;
     private Button globalButton;
 
     private SwipeableTextView chaosText;
@@ -109,29 +113,47 @@ public class MainActivity extends Activity {
     public static class CardTask extends AsyncTask<String, Integer, String> {
 
         private SwipeableTextView textView;
+        private int index;
         protected Card card;
+        protected String appendToRollName;
+        protected Context context;
 
-        public CardTask(SwipeableTextView parentTextView){
+        CardTask(SwipeableTextView parentTextView, Context c){
             textView = parentTextView;
+            index = textView.getIndex();
+            context = c;
         }
 
         @Override
         protected String doInBackground(String... strings) {
             ArrayList<String> filter = new ArrayList<>();
             filter.add("name=" + strings[0]);
-            List<Card> cardList = CardAPI.getAllCards(filter);
-            Card card = cardList.get(0);
-            return card.getName() + "\n\n" + card.getText();
+            List<Card> cardList = new ArrayList<>();
+            String errorText="";
+            try {
+                cardList = CardAPI.getAllCards(filter);
+            } catch (Exception e) {
+                errorText = e.getMessage();
+                Toast.makeText(context, "Exception: " + errorText, Toast.LENGTH_SHORT).show();
+            }
+            Card card;
+            if (!cardList.isEmpty()){
+                card = cardList.get(0);
+                return card.getName() + " " + appendToRollName + "\n\n" + card.getText();
+            } else {
+                return errorText;
+            }
         }
 
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             /*Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();*/
-            textView.setText(result);
-            textView.updateCurrent(result);
-        }
-    };
+            textView.updateHistoryItem(result, index);
+            if(index == textView.getIndex())
+                textView.setText(result);
+            }
+    }
 
 
 
@@ -185,8 +207,11 @@ public class MainActivity extends Activity {
 
         if (savedInstanceState != null) {
             chaosText.setText(savedInstanceState.getCharSequence(STATE_CHAOS));
+            chaosText.setHistory(savedInstanceState.getCharSequenceArrayList(STATE_CHAOS_HISTORY));
+            chaosText.setIndex(savedInstanceState.getInt(STATE_CHAOS_INDEX));
             globalText.setText(savedInstanceState.getCharSequence(STATE_GLOBAL));
-        }
+            globalText.setHistory(savedInstanceState.getCharSequenceArrayList(STATE_GLOBAL_HISTORY));
+            globalText.setIndex(savedInstanceState.getInt(STATE_GLOBAL_INDEX));        }
 
     }
 
@@ -195,6 +220,10 @@ public class MainActivity extends Activity {
         super.onSaveInstanceState(outState);
         outState.putCharSequence(STATE_CHAOS, chaosText.getText());
         outState.putCharSequence(STATE_GLOBAL, globalText.getText());
+        outState.putCharSequenceArrayList(STATE_CHAOS_HISTORY, chaosText.getHistory());
+        outState.putCharSequenceArrayList(STATE_GLOBAL_HISTORY, globalText.getHistory());
+        outState.putInt(STATE_CHAOS_INDEX, chaosText.getIndex());
+        outState.putInt(STATE_GLOBAL_INDEX, globalText.getIndex());
     }
 
     public void importChaosLists() throws Exception {
@@ -405,7 +434,6 @@ public class MainActivity extends Activity {
         listNameAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         chaosSpinner.setAdapter(listNameAdapter);
 
-
         globalButton.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -416,14 +444,16 @@ public class MainActivity extends Activity {
 
                 globalText.addHistory(roll.rollName + "\n\n" + roll.rollEffect);
 
-                String pattern = "(\\[)([^\\[]*)(\\])";
-                if(roll.rollName.matches(pattern)) {
-                    CardTask cardTask = new CardTask(globalText);
-                    cardTask.execute(roll.rollName.replaceAll(pattern,"$2"));
+                Pattern pattern = Pattern.compile("(\\[)([^\\[]*)(\\])(.*)");
+                Matcher matcher = pattern.matcher(roll.rollName);
+                if (matcher.find()) {
+                    CardTask cardTask = new CardTask(globalText, getApplicationContext());
+                    cardTask.appendToRollName = matcher.group(4);
+                    cardTask.execute(matcher.group(2));
                 }
             }
         }
-        );
+    );
 
         chaosButton.setOnClickListener(new OnClickListener() {
 
@@ -440,27 +470,28 @@ public class MainActivity extends Activity {
 
                 chaosText.addHistory(roll.rollName + "\n\n" + roll.rollEffect);
 
-                String pattern = "(\\[)([^\\[]*)(\\])";
-                if(roll.rollName.matches(pattern)) {
-                    CardTask cardTask = new CardTask(chaosText);
-                    cardTask.execute(roll.rollName.replaceAll(pattern,"$2"));
+                Pattern pattern = Pattern.compile("(\\[)([^\\[]*)(\\])(.*)");
+                Matcher matcher = pattern.matcher(roll.rollName);
+                if (matcher.find()) {
+                    CardTask cardTask = new CardTask(chaosText, getApplicationContext());
+                    cardTask.appendToRollName = matcher.group(4);
+                    cardTask.execute(matcher.group(2));
                 }
             }
-
         });
 
         chaosText.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
 
             @Override
-            public void onSwipeLeft() {
-                super.onSwipeLeft();
+            public void onSwipeRight() {
+                super.onSwipeRight();
                 if(!chaosText.decrementHistory() )
                     Toast.makeText(MainActivity.this, "at first Chaos Roll", Toast.LENGTH_SHORT).show();
             }
 
             @Override
-            public void onSwipeRight() {
-                super.onSwipeRight();
+            public void onSwipeLeft() {
+                super.onSwipeLeft();
                 if(!chaosText.incrementHistory() )
                     Toast.makeText(MainActivity.this, "at last Chaos Roll", Toast.LENGTH_SHORT).show();
             }

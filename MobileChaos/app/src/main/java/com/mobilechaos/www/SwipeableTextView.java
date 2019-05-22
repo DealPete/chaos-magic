@@ -3,21 +3,35 @@ package com.mobilechaos.www;
 import android.content.Context;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class SwipeableTextView extends AppCompatTextView {
 
 
-    private ArrayList<String> history;
+    private ArrayList<CharSequence> history;
     private int historyViewIndex = 0;
+
+    public SwipeableTextView(Context context) {
+        super(context);
+        history = new ArrayList<CharSequence>();
+    }
+    public SwipeableTextView(Context context, AttributeSet attrs) {
+        super(context,attrs);
+        history = new ArrayList<CharSequence>();
+    }
+    public SwipeableTextView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        history = new ArrayList<CharSequence>();
+    }
+
+    public int getIndex() {return historyViewIndex;}
+    public void setIndex(int index) {historyViewIndex = index;}
 
     public boolean decrementHistory() {
         if(historyViewIndex > 0){
             historyViewIndex--;
-            this.setText(getHistory(historyViewIndex));
+            this.setText(getHistoryItem(historyViewIndex));
             return true;
         }
         else {
@@ -29,16 +43,12 @@ public class SwipeableTextView extends AppCompatTextView {
             return false;
         else {
             historyViewIndex++;
-            this.setText(getHistory(historyViewIndex));
+            this.setText(getHistoryItem(historyViewIndex));
             return true;
         }
     }
 
-    public ArrayList<String> getHistory() {
-        return history;
-    }
-
-    public void setHistory(ArrayList<String> history) {
+    public void setHistory(ArrayList<CharSequence> history) {
         this.history = history;
     }
 
@@ -47,7 +57,7 @@ public class SwipeableTextView extends AppCompatTextView {
         historyViewIndex = history.size()-1;
     }
 
-     public String getHistory(int index){
+     public CharSequence getHistoryItem(int index){
          if (history.isEmpty())
              return null;
          else
@@ -55,30 +65,25 @@ public class SwipeableTextView extends AppCompatTextView {
 
      }
 
-    public String getCurrent(){
+     protected ArrayList<CharSequence> getHistory()
+     {
+         return history;
+     }
+
+    public CharSequence getCurrent(){
         if (history.isEmpty())
             return null;
         else
             return history.get(history.size()-1);
     }
 
-    public void updateCurrent(String string){
+    public void updateHistoryItem(String string, int idx){
         if (!history.isEmpty())
-            history.set(history.size()-1, string);
+            history.set(idx, string);
     }
 
-    public SwipeableTextView(Context context) {
-        super(context);
-        history = new ArrayList<String>();
-    }
-    public SwipeableTextView(Context context, AttributeSet attrs) {
-        super(context,attrs);
-        history = new ArrayList<String>();
-    }
-    public SwipeableTextView(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context,attrs, defStyleAttr);
-        history = new ArrayList<String>();
-    }
+
+
 
     /*
     SwipeableTextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
