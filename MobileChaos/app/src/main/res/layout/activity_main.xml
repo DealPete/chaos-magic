@@ -1,0 +1,89 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/chaosSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:prompt="@string/chaosSpinnerPrompt"
+        app:layout_constraintLeft_toLeftOf="@id/chaosRollTextBox"
+        app:layout_constraintStart_toStartOf="@id/chaosRollTextBox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/chaosRollTextBox"/>
+
+    <Button
+        android:id="@+id/chaosButton"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_message"
+        app:layout_constraintLeft_toRightOf="@id/chaosSpinner"
+        app:layout_constraintStart_toEndOf="@id/chaosSpinner"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/chaosRollTextBox"  />
+
+    <com.mobilechaos.www.SwipeableTextView
+        android:id="@+id/chaosRollTextBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:lines="10"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textIsSelectable="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chaosButton"
+        app:layout_constraintBottom_toTopOf="@id/guideline2" />
+
+    <Button
+        android:id="@+id/globalButton"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="@string/global_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
+
+    <com.mobilechaos.www.SwipeableTextView
+        android:id="@+id/globalTextBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:lines="10"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textIsSelectable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/globalButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chaosRollTextBox"
+        />
+
+</android.support.constraint.ConstraintLayout>

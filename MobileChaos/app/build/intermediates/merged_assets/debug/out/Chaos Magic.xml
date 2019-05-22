@@ -1,0 +1,4611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chaoslist>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Howl from Beyond] X = d6</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Mnemonic Nexus]</name>
+	<effect>(Each player shuffles his or her graveyard into his or her library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Divine Offering]</name>
+	<effect>(Destroy target artifact. You gain life equal to its converted mana cost. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Blood of the Martyr]</name>
+	<effect>(Until end of turn, if damage would be dealt to any creature, you may have that damage dealt to you instead. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Roulette</name>
+	<effect>Destroy a nonland permanent at random. It can't be regenerated.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Mild Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Suction</name>
+	<effect>Tap all artifacts, creatures, and lands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Soldevi Company</name>
+	<effect>Put your graveyard on the bottom of your library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Falling Card</name>
+	<effect>Put the top card of your library into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Mana Clash]</name>
+	<effect>(You and target player each flip a coin. Each player who flipped tails takes 1 damage. Repeat until both come up heads.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Gather the Footsoldiers</name>
+	<effect>Choose a basic land type. Each player puts a 1/1 token onto the battlefield for each basic land of that type he controls. Depending on which basic land type you chose, the tokens are white Soldiers, green Saprolings, red Goblins, blue Merfolk, or black Zombies.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Mana Alteration</name>
+	<effect>Choose target nonland nontoken permanent. For each of the colored mana symbols on that card, you may change it to a mana symbol of any other color. (Reminder text has no effect.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Depermafication</name>
+	<effect>Target nonland permanent gains "Cumulative Upkeep: 1".</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Drafna's Restoration]</name>
+	<effect>(Return any number of target artifact cards from target player's graveyard to the top of his or her library in any order. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Mute</name>
+	<effect>Target player can't cast spells until the end of his next turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Stream of Life] X = 2d6.</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Lightning Bolt]</name>
+	<effect>(Lightning Bolt deals 3 damage to target creature or player. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>U-Turn</name>
+	<effect>Reverse the turn order.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Ideas Unbound]</name>
+	<effect>(Draw three cards. Discard three cards at the beginning of the next end step. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Pity</name>
+	<effect>Each player with the lowest life total or tied for the lowest life total gains 5 life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Crystal Ball</name>
+	<effect>Look at all players' hands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Mild Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Xenic Influence</name>
+	<effect>Target noncreature artifact becomes an artifact creature with power and toughness equal to its converted mana cost. It loses all abilities.
+(Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Hamstring</name>
+	<effect>Remove an ability from target nonland permanent.
+(White)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Telling Time]</name>
+	<effect>(Look at the top three cards of your library. Put one of those cards into your hand, one on top of your library, and one on the bottom of your library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Pull from Eternity]</name>
+	<effect>(Put target face-up exiled card into its owner's graveyard. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Mugging</name>
+	<effect>Lose d6 life and discard a card at random.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Mild Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Drain Life] X=d6.</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>U-Turn</name>
+	<effect>Reverse the turn order.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Nirvana</name>
+	<effect>Until end of turn, if a creature would deal combat damage, instead its controller gains that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Storm Seeker]</name>
+	<effect>(Green)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Atonement</name>
+	<effect>Sacrifice a nonland permanent.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Temporal Extortion]</name>
+	<effect>(When you cast Temporal Extortion, any player may pay half his or her life, rounded up. If a player does, counter Temporal Extortion.
+Take an extra turn after this one. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[New Frontiers] X=1</name>
+	<effect>(Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Juxtaposition</name>
+	<effect>Choose target nonland permanent controlled by an opponent. That opponent then chooses target nonland permanent that you control. Exchange control of them.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Entropy Invesion</name>
+	<effect>Replace all tap symbols on target creature with untap symbols.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Assassinate</name>
+	<effect>Destroy target tapped creature.
+(Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Mirrorweave]</name>
+	<effect>(Each other creature becomes a copy of target nonlegendary creature until end of turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Faith Shield</name>
+	<effect>Until the beginning of your next turn, prevent all damage that would be dealt to you.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Rampant Growth]</name>
+	<effect>(Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Tranquility]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Friendly Gesture</name>
+	<effect>Target opponent gains control of target nonland permanent that he doesn't control.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Petty Jab</name>
+	<effect>Petty Jab deals 5 damage to target player.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Mana Aid</name>
+	<effect>Reveal cards from the top of your library until a card with a mana ability is revealed, and put that card into your hand. Shuffle the other cards back into your library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Animate Land]</name>
+	<effect>(Until end of turn, target land becomes a 3/3 creature that's still a land. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Magical Aura</name>
+	<effect>You may change the text of any number of nonland cards by replacing any color words with other color words and any basic land types with other basic land types.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Sekai no Owari</name>
+	<effect>Destroy all legendary nonland permanents.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Mild Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Mass Transmutation</name>
+	<effect>Each creature's power becomes equal to its toughness, and vice versa.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Autumn's Onset</name>
+	<effect>Each player who controls four or fewer lands may search his library for a basic land card, put it onto the battlefield tapped, then shuffle his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Disperse]</name>
+	<effect>(Return target nonland permanent to its owner's hand. (16/4/10))
+(Blue)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Stronghold Gambit]</name>
+	<effect>(Each player chooses a card in his hand. Then each player reveals his chosen card. The owner of the creature card revealed this way with the lowest converted mana cost puts that card onto the battlefield. If two or more creature cards are tied for lowest cost, those cards are put onto the battlefield.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Exhibition</name>
+	<effect>Each player may put a land, or an artifact, creature, or enchantment card with converted mana cost 5 or less from his hand onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Spring Rituals</name>
+	<effect>Any player may discard any number of cards. Each player who does searches his library for that many basic land cards, reveals those cards, and puts them into his hand. That player then shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Truce]</name>
+	<effect>(Each player may draw up to two cards. For each card less than two a player draws this way, that player gains 2 life. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Lobotomy]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Elven Scrying</name>
+	<effect>Each player searches his library for a land card, reveals it, and puts it into his hand. Then all players shuffle their libraries.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Summer Bloom]</name>
+	<effect>(You may play up to three additional lands this turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Disenchant]</name>
+	<effect>(Destroy target artifact or enchantment. (16/4/10))
+(White)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Fireballs</name>
+	<effect>Fireballs deals 3 damage to each of up to 2 target creatures and/or players.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Inner Calm, Outer Strength]</name>
+	<effect>(Target creature gets +X/+X until end of turn, where X is the number of cards in your hand. (16/4/10))
+(Green)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Tormod's Cycle</name>
+	<effect>Exile all cards in all graveyards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Brand]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Parliament of Owls</name>
+	<effect>All players look at the top four cards of their libraries and may rearrange them.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Vigean Intuition]</name>
+	<effect>(Choose a card type, then reveal the top four cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest into your graveyard.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Truce]</name>
+	<effect>(Each player may draw up to two cards. For each card less than two a player draws this way, that player gains 2 life. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Musical Enchantments</name>
+	<effect>Each player gains control of all enchantments controlled by the player to his right.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>{Chaos List B}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>Explore the New World</name>
+	<effect>Each player may put a land card from his hand onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>[Unearth] x 2</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Compliance</name>
+	<effect>Reveal the top card of each opponent's library. Put each creature card revealed this way onto the battlefield under your control.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Ma'rûf's Cane</name>
+	<effect>Each player shuffles his exiled cards into his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Jester's Headgear</name>
+	<effect>Target opponent reveals the top ten cards of his library. Choose two of those cards and exile them. Then that opponent shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Share the Wealth</name>
+	<effect>Each player chooses one of his permanents. The player on his left gains control of that permanent.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Stream of Life] X=2d6.</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Truce]</name>
+	<effect>(Each player may draw up to two cards. For each card less than two a player draws this way, that player gains 2 life. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Creature Dividends</name>
+	<effect>Each player draws a card for each creature he controls.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Chaos Spurt</name>
+	<effect>Roll chaos three times.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Words of Command</name>
+	<effect>Split second
+Look at target opponent's hand and choose a card from it. If that card is a land card, that player puts that card onto the battlefield. Otherwise, that player plays that card with his own mana, but you make all decisions it calls for. The player is required only to spend mana in his mana pool and/or mana that can be produced by lands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Pact With the Dead</name>
+	<effect>Discard three cards. Then return two cards from your graveyard to your hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Black Mass</name>
+	<effect>Each player discards two cards at random.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Secret Route</name>
+	<effect>Choose a basic land type. All creatures you control gain the corresponding landwalking ability.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Fiery Justice]</name>
+	<effect>(Fiery Justice deals 5 damage divided as you choose among any number of target creatures and/or players. Target opponent gains 5 life. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Taint</name>
+	<effect>Choose one -- Lose 2d6 life; or target opponent gains that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Regrowth]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Gaea's Benison</name>
+	<effect>Target player shuffles up to three target cards from his graveyard into his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Chance Explosion</name>
+	<effect>Destroy all artifacts and creatures that have converted mana cost d6.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Mnemonic Nexus]</name>
+	<effect>(Each player shuffles his or her graveyard into his or her library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Mild Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Explosion</name>
+	<effect>Destroy target nonland permanent. The owner of that permanent may pay 1 life to copy this ability and may choose a new target for that copy.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Reflection</name>
+	<effect>Exchange life totals with target player.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Kickback</name>
+	<effect>You gain 1 life for each creature on the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Surprise Attack</name>
+	<effect>Until end of turn all lands you control are 1/1 creatures with haste that are still lands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Mild Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Tranquility]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Metamorphose]</name>
+	<effect>(Put target permanent an opponent controls on top of its owner's library. That opponent may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield. (16/4/10))
+(Blue)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Channel]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Poetic Justice</name>
+	<effect>Each player loses 3 life for each red instant or sorcery in his graveyard. Then for each blue instant in each player`s graveyard, each of that player's opponents may put a nonland card from his graveyard onto the stack. Then each player discards a card at random for each black instant or sorcery in his graveyard. </effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Windfall]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Rally the Horde]</name>
+	<effect>(Exile the top three cards of your library. If the last card exiled isn't a land, repeat this process until the last card exiled is a land. Put a 1/1 red Warrior creature token onto the battlefield for each nonland card exiled this way. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Seek the Horizon]</name>
+	<effect>(Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Mild Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Deja Vu</name>
+	<effect>Each player shuffles his graveyard and puts the shuffled cards on top of his library. Then each player puts the top card of his library into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Drink Break</name>
+	<effect>Target player goes to get a drink, leaving the game until your next turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Clear the Land]</name>
+	<effect>(Each player reveals the top five cards of his or her library, puts all land cards revealed this way onto the battlefield tapped, and exiles the rest. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Hireling</name>
+	<effect>You may discard two cards. If you do, draw a card from the Strong Creature deck and put it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Spleradicour</name>
+	<effect>Exile target artifact, enchantment, or creature. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Leech</name>
+	<effect>Target player loses 2d6 life. You gain that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Artistic Inspiration</name>
+	<effect>Choose a artist. All opponents reveal their hands and put any cards drawn by that artist into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Scapegoat</name>
+	<effect>Choose target player. That player loses 2 life for each other player in the game. Each other player gains 2 life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Unexpected Result</name>
+	<effect>Each player shuffles his library, then reveals the top card. If it's a nonland card, he may cast it without paying its mana cost. If it's a land card, he may put it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Mild Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Feoffment</name>
+	<effect>You may exile a land you control. If you do, draw a card from the Strong Creature deck and put it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Flaming Gambit] X=2d6</name>
+	<effect>Flaming Gambit deals X damage to target player. That player may choose a creature he or she controls and have Flaming Gambit deal that damage to it instead. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Power Drain</name>
+	<effect>Target player activates a mana ability of each land he controls, then empties his mana pool. At the beginning of your next main phase, add mana to your mana pool equal to the type and amount emptied from that player's mana pool this way.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Dust to Dust]</name>
+	<effect>(Exile two target artifacts. (16/4/10))
+(White)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>U-Turn</name>
+	<effect>Reverse Turn Order</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Tooth for a Tooth</name>
+	<effect>Target player rolls a six-sided die and loses that much life. That player may copy this ability and may choose a new target for that copy.
+(White)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Call from Within</name>
+	<effect>All players search their libraries for a card, then reveal those cards simultaneously. Exile those cards with five time counters on them and suspend.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Contract</name>
+	<effect>You may exile an artifact you control. If you do, draw a card from the Strong Creature deck and put it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Flame Rift]</name>
+	<effect>(Flame Rift deals 4 damage to each player. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Show and Tell]</name>
+	<effect>(Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Feedback Bolt]</name>
+	<effect>(Feedback Bolt deals damage to target player equal to the number of artifacts you control. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Blood Oath]</name>
+	<effect>(Choose a card type. Target opponent reveals his or her hand. Blood Oath deals 3 damage to that player for each card of the chosen type revealed this way. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Natural Affinity]</name>
+	<effect>(All lands become 2/2 creatures until end of turn. They're still lands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Fireballs</name>
+	<effect>Fireballs deals 3 damage to each of up to 4 target creatures and/or players.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Meltdown] X=d6.</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Resurrection] x 2</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Noesis</name>
+	<effect>Return all creatures to their owner's hands that have power greater than the number of cards in their controller's hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Meditate]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Lat-Nam's Athenaeum</name>
+	<effect>An opponent chooses one -- You draw three cards; or you search your library for a card, put that card into your hand, then shuffle your library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Banish</name>
+	<effect>Put target nonland permanent on top of its owner's library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Might of Oaks]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>AEther Snap</name>
+	<effect>(Remove all counters from all permanents and exile all tokens. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Poison</name>
+	<effect>Target player gets 3 poison counters.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Sowing Salt]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>Musical Artifacts</name>
+	<effect>Each player gains control of all artifacts controlled by the player to his right.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>{Chaos List C}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>New Frontier</name>
+	<effect>Each player may search his or her library for up to two basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List B</list>
+	<name>[Spontaneous Generation]</name>
+	<effect>(Put a 1/1 green Saproling creature token onto the battlefield for each card in your hand. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Mathematical Insight</name>
+	<effect>Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top three cards of the Mild Creature deck. Put one onto the battlefield, and put the other two on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Uneasy Truce</name>
+	<effect>Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attack each other.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Olympics</name>
+	<effect>Each player puts each creature in his hand onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Stone Rain]</name>
+	<effect>(Destroy target land. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Channel]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Prejudice</name>
+	<effect>Choose an expansion. Destroy all nonland cards from that expansion. They can't be regenerated.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Collective Unconscious]</name>
+	<effect>(Draw a card for each creature you control. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Chaos Dance</name>
+	<effect>Roll on Chaos List B, then on Chaos List D, then on Chaos List C.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Hypnotize</name>
+	<effect>Target opponent reveals his hand. Choose any number of cards from it. That players discards those cards, then draws that many cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top three cards of the Mild Creature deck. Put one onto the battlefield, and put the other two on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Stunted Growth]</name>
+	<effect>(Target player chooses three cards from his or her hand and puts them on top of his or her library in any order. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Spellmonger</name>
+	<effect>Each player may put any number of cards from his hand into the middle world, then draw that many cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Fugue]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Bath in the Styx</name>
+	<effect>You may pay any amount of life. If you do, put that many cards from the top of your library into your hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Mutiny</name>
+	<effect>All of your creatures attack you this turn if able. Tapped creatures can attack this turn. Attacking creatures can't block.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Tempt with Reflections]</name>
+	<effect>(Tempting offer — Choose target creature you control. Put a token onto the battlefield that's a copy of that creature. Each opponent may put a token onto the battlefield that's a copy of that creature. For each opponent who does, put a token onto the battlefield that's a copy of that creature. (14/02/14))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Rip in the Chaos</name>
+	<effect>A disinterested third party (someone who isn't playing) chooses the result of this roll from Chaos List C. If no disinterested person is present, roll again.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Winds of Change]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Regrowth]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Empty the Rift</name>
+	<effect>All players shuffle their graveyard and the exiled cards they own into their libraries.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Demonic Tutor]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Virtues of the Past</name>
+	<effect>Until end of turn, you may cast target exiled instant or sorcery card you own without paying its mana cost.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Bad Karma</name>
+	<effect>Each player loses 1 life for each land he controls.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Chaos List D}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Tranquility]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Smiling Totem</name>
+	<effect>Look at target opponent's hand, choose a card from it and exile it. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, return it to its owner's hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Tower of Babel</name>
+	<effect>If the total number of permanents is greater than ten times the number of players, roll on {Extreme Chaos}.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Rummage Sale</name>
+	<effect>Each player searches the library of the player to his right, chooses a card, and puts it into the middle world. Then each player shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[New Frontiers] X=d6</name>
+	<effect>(Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Honor the Fallen]</name>
+	<effect>(Exile all creature cards from all graveyards. You gain 1 life for each card exiled this way. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Important Decision</name>
+	<effect>Choose one -- Roll on The Vortex; or roll on Global; or discard four cards. If you do, roll on Extreme Chaos.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Relentless Battle</name>
+	<effect>There are two additional combat phases this turn, each followed by an additional main phase.
+A tapped creature can attack this turn if it attacked during a previous attack phase this turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Chaos List D}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top three cards of the Mild Creature deck. Put one onto the battlefield, and put the other two on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Vindicate]</name>
+	<effect>(Destroy target permanent. (16/4/10))
+(White/Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Mob Justice]</name>
+	<effect>(Mob Justice deals damage to target player equal to the number of creatures you control. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Loan Shark</name>
+	<effect>Each player may put any number of nontoken permanents into the middle world, then draw that many cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Global Life Reset</name>
+	<effect>Each player's life total becomes his starting life total.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Purge</name>
+	<effect>Each player rolls 2d6 and loses that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Gerrymandering]</name>
+	<effect>(Exile all nontoken lands. For each land a player controlled exiled in this way, that player puts one of those lands into play under his control, chosen at random.  Untap those lands. (11/08/98))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Wheel of Fortune]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Chaos List D}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Re-zoning</name>
+	<effect>Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or ante. If the chosen card is moved to a player's library, that player shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>U-Turn</name>
+	<effect>Reverse Turn Order</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Sever Soul]</name>
+	<effect>(Destroy target nonblack creature. It can't be regenerated. You gain life equal to its toughness. (16/4/10))
+(Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Paranoia</name>
+	<effect>If the total power of all creatures on the battlefield is greater than or equal to your life total, you lose half your life, rounded up.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Spelltwine]</name>
+	<effect>(Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine. (14/02/14))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Time Stop]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Impossible Quest</name>
+	<effect>Exile target nontoken creature. If there are any other creatures exiled this way, return those creatures to the battlefield with nine +1/+1 counters on them, shroud, and "This creature is indestructible."</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Chaos List D}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Aura Theft</name>
+	<effect>Gain control of all enchantments.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Mental Lapse</name>
+	<effect>Each player discards three cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Acidic Soil]</name>
+	<effect>(Acidic Soil deals damage to each player equal to the number of lands he or she controls. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Game of Chaos]</name>
+	<effect>(Flip a coin. If you win the flip, you gain 1 life and target opponent loses 1 life, and you decide whether to flip again. If you lose the flip, you lose 1 life and that opponent gains 1 life, and that player decides whether to flip again. Double the life stakes with each flip. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Puppet's Verdict]</name>
+	<effect>(Flip a coin. If you win the flip, destroy all creatures with power 2 or less. If you lose the flip, destroy all creatures with power 3 or greater. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Volcanic Wind]</name>
+	<effect>(Volcanic Wind deals X damage divided as you choose among any number of target creatures, where X is the number of creatures on the battlefield as you cast Volcanic Wind. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Entrance</name>
+	<effect>Each player returns all enchantments in his graveyard to the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Fireballs</name>
+	<effect>Fireballs deals 5 damage to each of up to 4 target creatures and/or players.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Planar Birth]</name>
+	<effect>(Return all basic land cards from all graveyards to the battlefield tapped under their owners' control. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Chaos List D}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Windfall]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Reprocess]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Destructive Appetite</name>
+	<effect>Sacrifice any number of permanents. Gain life equal to the total converted mana cost of the permanents sacrificed this way.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Hallowe'en</name>
+	<effect>Return all creatures in all graveyards to the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Living Death]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Overrun]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>The Cheese is Standing Alone</name>
+	<effect>If you control no permanents and have no cards in hand, you win.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Die of Fate</name>
+	<effect>Choose a player at random. That player takes the next turn. (This isn't an extra turn. After his turn, play proceeds in the normal order from that player.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Musical Creatures</name>
+	<effect>Each player gains control of all creatures controlled by the player to his right.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Chaos List D}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Tornado Seeker</name>
+	<effect>Tornado Seeker deals damage to each player equal to the number of cards in that player's hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>Channel the Pain</name>
+	<effect>Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
+(Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List C</list>
+	<name>[Rebuild]</name>
+	<effect>(Return all artifacts to owners' hands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Rolling Thunder] X=d6 + 2</name>
+	<effect>(Rolling Thunder deals X damage divided as you choose among any number of target creatures and/or players. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Encroaching Darkness</name>
+	<effect>Each player sacrifices all his lands. A player may keep a land for each nonland permanent he sacrifices or card he exiles from his hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Unravel Soul</name>
+	<effect>Each player exiles the top X cards of his library, where X is the number of creatures on the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Wheel of Fortune]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Time Stop]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Open the Vaults]</name>
+	<effect>(Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>The Chaos Thickens</name>
+	<effect>Roll chaos d6 times.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Mind Twist] X=d6</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Flame Wave]</name>
+	<effect>(Flame Wave deals 4 damage to target player and each creature he or she controls. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[New Frontiers] X=2d6</name>
+	<effect>(Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Winds of Change]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Frenzied Tilling]</name>
+	<effect>(Destroy target land. Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Poisonous Fog</name>
+	<effect>Each player rolls an eight sided die and gets that many poison counters.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[All Suns' Dawn]</name>
+	<effect>(For each color, return up to one target card of that color from your graveyard to your hand. Exile All Suns' Dawn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Chaos Commons</name>
+	<effect>Each player rolls chaos.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Vindicate]</name>
+	<effect>(Destroy target permanent. (16/4/10))
+(White/Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Explosive Revelation]</name>
+	<effect>(Choose target creature or player. Reveal cards from the top of your library until you reveal a nonland card. Explosive Revelation deals damage equal to that card's converted mana cost to that creature or player. Put the nonland card into your hand and the rest on the bottom of your library in any order. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Seeds of Innocence]</name>
+	<effect>(Destroy all artifacts. They can't be regenerated. The controller of each artifact destroyed this way gains life equal to its converted mana cost. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Ad Nauseam]</name>
+	<effect>(Reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost. You may repeat this process any number of times. (16/4/10)) </effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Eureka]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Veni, Vidi, Vici</name>
+	<effect>For each opponent, choose target land he controls. Gain control of those land.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Lava Boulder</name>
+	<effect>Lava Boulder deals 10 damage to target player.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Ancestral Recall]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Chaos Delay</name>
+	<effect>At the beginning of your next end step, roll chaos.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Amnesia Fumes</name>
+	<effect>Discard all nonland cards in your hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Urza's Restoration</name>
+	<effect>Return all artifacts in all graveyards to the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Ruination]</name>
+	<effect>(Destroy all nonbasic lands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Stream of Mana</name>
+	<effect>Add fifteen mana in any combination of colors to your mana pool. Until end of turn, this mana doesn't empty from your mana pool as steps and phases end.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Eternal Tutor</name>
+	<effect>Return an exiled card you own to your hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Joyous Occasion</name>
+	<effect>Gain 7 life and put all creatures from your hand onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Chaos List E}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Power Vacuum</name>
+	<effect>Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Doom Approacheth</name>
+	<effect>Roll 2d6. If you roll 5 or less, go to {Extreme Chaos}.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Extinction]</name>
+	<effect>(Destroy all creatures of the creature type of your choice. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Betrayal</name>
+	<effect>Choose an opponent at random. He gains control of all of your creatures.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Demonic Tutor]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Bribery]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Illicit Auction]</name>
+	<effect>(Each player may bid life for control of target creature. You start the bidding with a bid of 0. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid and gains control of the creature. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Replenishment</name>
+	<effect>Each players rolls 4d6 and gains that much plus life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Chaos List E}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Devil's Bargain</name>
+	<effect>You may pay 10 life. If you do, draw a card from the Exceptional Creature deck and put it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Time Walk]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Alliances Abroad</name>
+	<effect>Sacrifice a basic land. Put a token onto the battlefield that's a copy of a land card of your choice.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Wake of Distortion</name>
+	<effect>Return up to d6 target nonland permanents to their owners' hands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Mercy</name>
+	<effect>The player or players with the lowest life total gain 20 life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Chaos List E}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Donate] x 3</name>
+	<effect>(Choose different target permanents for each copy.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Shared Resources</name>
+	<effect>Each player puts the cards from his hand into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Fireballs</name>
+	<effect>Fireballs deals 7 damage to each of up to 4 target creatures and/or players.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Timetwister]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Yawgmoth's Will]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Wildfire]</name>
+	<effect>(Each player sacrifices four lands. Wildfire deals 4 damage to each creature. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Memory Plunder]</name>
+	<effect>(You may cast target instant or sorcery card from an opponent's graveyard without paying its mana cost. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Living Death]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Chaos List E}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Reins of Power]</name>
+	<effect>(Untap all creatures you control and all creatures target opponent controls. You and that opponent each gain control of all creatures the other controls until end of turn. Those creatures gain haste until end of turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Blink</name>
+	<effect>Exile all permanents, then return all permanents exiled in this way to the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Miraculous Recovery]</name>
+	<effect>(Return target creature card from your graveyard to the battlefield with a +1/+1 counter on it. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Sorrowful End</name>
+	<effect>Destroy up to three target nonblack creatures. Draw a card for each creature destroyed this way.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Mists of Enchantment</name>
+	<effect>Each player may search his library for an aura card and put it onto the battlefield. Then each player who searched his library this way shuffles it.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Mind's Devotion</name>
+	<effect>Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.
+When you roll this ability, copy it for each time chaos was rolled before it this turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>[Flowstone Surge] X=d6</name>
+	<effect>(All creatures get +X/-X until end of turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Musical Life</name>
+	<effect>All players pass their life totals and poison counters to the left.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>{Chaos List E}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Energize</name>
+	<effect>All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Retrofit</name>
+	<effect>You may sacrifice an artifact. If you do, search your library for an artifact card and put that card onto the battlefield. Then shuffle your library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Irrigation</name>
+	<effect>Search your library for five land cards and put them onto the battlefield. Shuffle your library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Inferno]</name>
+	<effect>(Inferno deals 6 damage to each creature and each player. (16/4/10))
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Sunder]</name>
+	<effect>(Return all lands to their owners' hands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Day of Teferi</name>
+	<effect>All permanents phase out.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Strong Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Control Sorcery</name>
+	<effect>For each permanent type, choose up to one target permanent of that type. Gain control of those permanents. (The permanent types are artifact, land, creature, enchantment, and planeswalker.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Strong Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Eureka]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Chaos Surge</name>
+	<effect>Roll twice each on Chaos Lists A through D. Then the next time a player would roll chaos, he rolls on Chaos List E instead of rolling on the last Chaos List that was rolled on.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Pox]</name>
+	<effect>(Each player loses a third of his or her life, then discards a third of the cards in his or her hand, then sacrifices a third of the creatures he or she controls, then sacrifices a third of the lands he or she controls. Round up each time. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Balance]</name>
+	<effect>(Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Uprising</name>
+	<effect>Your creatures rebel against your control. Put all nontoken creature you control into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Whims of the Fates]</name>
+	<effect>(Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents. (Piles can be empty.) (14/02/14))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Trouble at Home</name>
+	<effect>Exile all planeswalkers.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Wrath of God]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Immolate</name>
+	<effect>Immolate deals 15 damage to target player.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Beacons of Immortality</name>
+	<effect>Double all players' life totals.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Strong Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Soulquake]</name>
+	<effect>(Return all creatures on the battlefield and all creature cards in graveyards to their owners' hands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Braingeyser] X=2d6.</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Ancient Prophecy</name>
+	<effect>Flip a coin. If you lose the flip, roll on {Extreme Chaos}.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Chaos Spurt</name>
+	<effect>Roll chaos three times.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Aid from afar</name>
+	<effect>You may discard two cards. If you do, draw a card from the Exceptional Creature deck and put it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Time Stretch]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Atog Revolt</name>
+	<effect>Destroy all artifacts. Atog Revolt deals 2 damage to each player for each artifact that player controlled that was destroyed this way.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Mass Suicide</name>
+	<effect>Sacrifice all creatures you control.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Hidetsugu's Final Rite</name>
+	<effect>Hidetsugu's Final Rite deals 10 damage to each player.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Timetwister]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Witch Hunt</name>
+	<effect>Choose two colors. Each player reveals his hand and discards all cards that share one of the chosen colors.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Shifting Loyalty</name>
+	<effect>Shuffle all creatures on the battlefield together and deal them out starting with you and going left. Each creature comes under the control of the player to whom it is dealt.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Blackout</name>
+	<effect>Until the beginning of your next turn, players can't play spells.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Summon Magic</name>
+	<effect>Look at the top two cards of the Strong Creature deck. Put one onto the battlefield, and put the other one on the bottom of the deck.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Vengeful Rage</name>
+	<effect>Roll on Spite. (You can still roll on Spite the first time you lose.) </effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Passive Turn Taking</name>
+	<effect>The active player skips his next turn. End the turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Chaos List F}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Shadow of Anarchy</name>
+	<effect>Each player may leave the game until end of turn. Then if there are any players in the game, a random player rolls on Extreme Chaos.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Revenge of the Fool</name>
+	<effect>Each player puts the cards from his hand on top of his library. Then the player to that player's right searches that player's library for that many cards. That player puts those cards into his hand, then shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Planar Shift</name>
+	<effect>You leave the game for 6 turns.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Death by Dragons]</name>
+	<effect>(Each player other than target player puts a 5/5 red Dragon creature token with flying onto the battlefield. (19/06/11))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Global} x 2</name>
+	<effect>(Don't exile the first global as you roll on Global the second time.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Philanthropy</name>
+	<effect>Target player puts the cards from his hand into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Surprising Fortune</name>
+	<effect>Roll d20 and gain five times that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Chaos List F}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Rogue's Auction</name>
+	<effect>Exile all nontoken, nonland permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under his or her control. Repeat this process until all cards exiled this way have been chosen.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Fracturing Gust]</name>
+	<effect>(Destroy all artifacts and enchantments. You gain 2 life for each permanent destroyed this way. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Fireballs</name>
+	<effect>Fireballs deals 9 damage to each of up to 4 target creatures and/or players.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Yawgmoth's Will]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Summon the Brethren</name>
+	<effect>Each player reveals the top eight cards of his library, then puts all creatures cards revealed this way onto the battlefield. Each player shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Wake of Destruction]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Kleptomania</name>
+	<effect>Move all counters from all permanents onto target permanent. If that permanent's rules text refers to any type of counters, the moved counters becomes counters of that type. Otherwise, they become +1/+1 counters.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Rare, Rare, Go Away</name>
+	<effect>Each player sacrifices all rare and mythic permanents, then reveals his hand and discards all rare and mythic cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Chaos List F}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[All is Dust]</name>
+	<effect>(Each player sacrifices all colored permanents he or she controls. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Appreciation of Beauty</name>
+	<effect>Choose an artist. Gain control of all nonland permanents drawn by this artist.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Winds of Choice</name>
+	<effect>Choose one -- [Blessed Wind] or [Searing Wind]</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List D</list>
+	<name>Sorrowful End</name>
+	<effect>Destroy up to five target nonblack creatures. Draw a card for each creature destroyed this way.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Despair</name>
+	<effect>Discard any number of cards. Then for each opponent, that player reveals his hand. Choose as many cards from that player's hand as you discarded this way. That opponent discards those cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Mind Twist] x 2 X=d6</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Historical Repetition</name>
+	<effect>Set aside all nonland permanents. Then put all nonland permanent cards in all graveyards onto the battlefield. Then put all set aside cards into their owners' graveyards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>[Ashen Powder] x 3</name>
+	<effect>(Put target creature card from an opponent's graveyard onto the battlefield under your control. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>Musical Hands</name>
+	<effect>Each player exiles the cards from his hand. As long as those cards are exiled, they are considered to be in the hand of the player to that player's left, rather than that player's.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List E</list>
+	<name>{Chaos List F}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Relive the Past</name>
+	<effect>Each player shuffles his hand and graveyard and all exiled cards he owns into his library, then draws seven cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Cosmic Harmony</name>
+	<effect>Each player may search his library and put creatures from his library onto the battlefield until he controls as many creatures as the player who controls the most. If he does, he shuffles his library. Then each player draws cards until he has as many cards in his hand as the player with the most.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Extreme Chaos}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Day of Doom</name>
+	<effect>Each player searches his library and graveyard for five cards and exiles the rest. That player puts the chosen cards on top of his library in any order. Then each player loses half his life, rounded up.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Decree of Annihilation]</name>
+	<effect>(Exile all artifacts, creatures, and lands from the battlefield, all cards from all graveyards, and all cards from all hands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Exceptional Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Crucify</name>
+	<effect>Crucify deals 25 damage to target creature or player.
+(White)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Chaos Vortex</name>
+	<effect>Until a player loses, each player rolls chaos an additional time at the beginning of his chaos step.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Praetor's Counsel]</name>
+	<effect>(Return all cards from your graveyard to your hand. Exile Praetor's Counsel. You have no maximum hand size for the rest of the game. (19/6/11))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Sabbatical</name>
+	<effect>Choose a positive number. Leave the game for that many turns. Whenever there is only one other player in the game, this effect ends at end of turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Global}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Unnatural Disaster</name>
+	<effect>Chooses a basic land type. Destroy all lands of the chosen type. </effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Summon the Storm</name>
+	<effect>Put five tokens onto the battlefield that are copies of the card [Ball Lightning].</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Fate's Favourite</name>
+	<effect>Roll d20 and gain ten times that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Conflux]</name>
+	<effect>(Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Welcome, Wizard</name>
+	<effect>A player watching the game may join in as though the game were just starting. (He won't have any permanents on the battlefield, but it's list F, so he stands a chance.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Scrambleverse]</name>
+	<effect>For each nonland permanent, choose a player at random. Then each player gains control of each permanent for which he or she was chosen. Untap those permanents.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Relive the Past</name>
+	<effect>Each player shuffles his hand and graveyard and all exiled cards he owns into his library, then draws seven cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Exceptional Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Warp World]</name>
+	<effect>(Each player shuffles all permanents he or she owns into his or her library, then reveals that many cards from the top of his or her library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of his or her library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Personal Angst</name>
+	<effect>Personal Angst deals damage to you equal to the number of permanents in play.
+(Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Exceptional Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Extreme Chaos}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Holocaust</name>
+	<effect>Holocaust deals damage to each player equal to the number of permanents he controls plus the number of cards in his hand.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Wheel of Chaos</name>
+	<effect>Go to a random Chaos List.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Armageddon]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Jokulhaups]</name>
+	<effect>(Destroy all artifacts, creatures, and lands. They can't be regenerated. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Possession</name>
+	<effect>Split second
+If it is your turn, target opponent controls the rest of your turn. Otherwise, he controls your next turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Collision of Worlds</name>
+	<effect>All nonland permanents gain the supertype "global". (Any player may play the activated abilities of a global permanent. If a player would roll on {Global}, first exile all global permanents.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Goblin Game]</name>
+	<effect>(Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items he or she revealed. The player who revealed the fewest items then loses half his or her life, rounded up. If two or more players are tied for fewest, each loses half his or her life, rounded up. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Plasma Storm</name>
+	<effect>Plasma Storm deals 16 damage to each player and each creature.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Impending Insanity</name>
+	<effect>Roll five times on Chaos List A, four times on Chaos List B, three times on Chaos List C, twice on Chaos List D, and once on Chaos List E. Then the next time a player would roll chaos, he rolls on Chaos List F instead of rolling on the last Chaos List that was rolled on.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Brain Torch</name>
+	<effect>Each player discards his hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Great Leadership</name>
+	<effect>Gain control of all creatures.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Cruel Ultimatum]</name>
+	<effect>(Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Random Destruction</name>
+	<effect>Select half the permanents on the battlefield at random. Destroy those permanents.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Chaos Coagulation</name>
+	<effect>Roll thrice on {Extreme Chaos}.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Corrupt Tax</name>
+	<effect>Shuffle all basic lands on the battlefield into their owners' libraries.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Common Recovery</name>
+	<effect>Put all cards in all graveyards and all exiled cards into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Doom Smash</name>
+	<effect>Target player's life total becomes 1.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Wild Flux in the Chaos</name>
+	<effect>Roll on Global, then roll on Chaos Lists A through F.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Insurrection]</name>
+	<effect>(Untap all creatures and gain control of them until end of turn. They gain haste until end of turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Exceptional Creature}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Poison Shower</name>
+	<effect>Each player gets nine poison counters.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Reverse the Sands]</name>
+	<effect>(Redistribute any number of players' life totals. (Each of those players gets one life total back.) (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Bankruptcy</name>
+	<effect>Your land is repossessed by the bank. Put all lands you control into the middle world.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Paradox</name>
+	<effect>Choose creature or land. Your opponents search your library and exile all cards of that type. Then shuffle your library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Sente</name>
+	<effect>Each player sacrifices lands until the number of lands that player controls is less than or equal to the number of lands you control. Repeat this process for creatures, artifacts, and enchantments. Then each player discards cards until the number of cards in that player's hand is less than or equal to the number of cards in your hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Ysudsen Somiat</name>
+	<effect>Each player's life total becomes that player's starting life total. Each player loses all poison counters then shuffles his graveyard and exiled cards into his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Worldpurge]</name>
+	<effect>(Return all permanents to their owners' hands. Each player chooses up to seven cards in his or her hand, then shuffles the rest into his or her library. Empty all mana pools. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Chaos List A}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Endless Domains</name>
+	<effect>Any player may search his library for any number of basic land cards and put them onto the battlefield. Then all players who searched their libraries shuffle them.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Fireballs</name>
+	<effect>Fireballs deals 9 damage to each of up to 6 target creatures and/or players.
+(Red)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Blitzkrieg</name>
+	<effect>Put all creatures from your hand and graveyard onto the battlefield. Those creatures gain haste.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Royal Bequest</name>
+	<effect>Each player reveals cards from the top of his library until he reveals four permanent spells. That player puts those cards onto the battlefield, then shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Impostor Professor Oak</name>
+	<effect>Each opponent shuffles his hand into his library and draws seven cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Return to Power</name>
+	<effect>Return all lands in your graveyard and all exiled lands you own to the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Cataclysm]</name>
+	<effect>(Each player chooses from the permanents he or she controls an artifact, a creature, an enchantment, and a land, then sacrifices the rest. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Even Odds</name>
+	<effect>Roll a die. If the result is even, destroy all permanents with odd casting cost. If the result is odd, destroy all nonland permanents with even casting cost.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Chaos List A}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Invincible Chorus</name>
+	<effect>Each players counts the number of cards in his library. His life total becomes that number.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Death by Exceptional Creature</name>
+	<effect>Each player other than target player draws a card from the Exceptional Creature deck and puts it onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Lost and Found</name>
+	<effect>Put all exiled nonland cards on the stack. Then put all exiled lands onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Hellfire]</name>
+	<effect>(Destroy all nonblack creatures. Hellfire deals X plus 3 damage to you, where X is the number of creatures put into all graveyards this way. (16/4/10))
+(Black)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Resurgence</name>
+	<effect>Each player draws a number of cards equal to the number of cards in his graveyard.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>[Paradigm Shift]</name>
+	<effect>(Exile all cards from your library. Then shuffle your graveyard into your library. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Winds of Choice</name>
+	<effect>Choose one -- [Plague Wind] or [Vitalizing Wind].</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>Bribe the Judge</name>
+	<effect>Each player's life total becomes your life total.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List F</list>
+	<name>{Chaos List A}</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>[Shaharazad]</name>
+	<effect>(Players play a MAGIC subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half his or her life, rounded up.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Musical Chairs</name>
+	<effect>Each player moves one seat to the left. (The player to the old active player's right becomes the active player.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>[Sway of the Stars]</name>
+	<effect>(Each player shuffles his or her hand, graveyard, and permanents he or she owns into his or her library, then draws seven cards. Each player's life total becomes 7. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>[Biorhythm]</name>
+	<effect>(Each player's life total becomes the number of creatures he or she controls. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Ragnarok</name>
+	<effect>Destroy all lands. They can't be regenerated. Each player rolls d20, and Ragnarok deals five times that much damage to that player.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>World Domination</name>
+	<effect>Gain control of all creatures. Then each player reveals his hand and puts all creatures cards from his hand, all creatures cards in his graveyard, and all exiled creature cards he owns onto the battlefield under your control. Then put all creatures from the middle world and the command zone onto the battlefield under your control.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Oops, Wrong Button</name>
+	<effect>Each player exchanges his library and his exiled cards, then shuffles his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Fall of the Mighty</name>
+	<effect>Each player's life total becomes 1.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Gift of the Gods!</name>
+	<effect>Each player rolls 3d20 and gains that much life, draws X cards, where X is 7 minus the number of cards in his hand, and puts five basic lands onto the battlefield from outside the game.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Hallucinogenic Wind</name>
+	<effect>Each player shuffles all permanents he owns, cards in his graveyard, and cards in his hand into his library, then reveals that many cards from the top of his library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then put all other cards revealed this way onto the stack.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Aridity</name>
+	<effect>Each player searches his library for all cards with mana abilities and exiles those cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Supreme Dictatorship</name>
+	<effect>Put five Tyranny tokens onto the battlefield:
+"Tyranny
+7WWW, Enchantment
+Sacrifice Tyranny: Exile five permanents.
+If an effect controlled by an opponent removes Tyranny from the battlefield, Tyranny deals 10 damage to that player."</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Limitless Vigor</name>
+	<effect>Roll d20, then gain fifty times that much life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Mana Flood</name>
+	<effect>During your next main phase, add one million mana in any combination of colors to your mana pool.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Annihilation</name>
+	<effect>Remove target player from the game. (He doesn't roll on Spite.) Gain life equal to his life total.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>True Armageddon</name>
+	<effect>Each player draws all cards from his library. For the rest of the game, if a player would draw a card, instead he doesn't. </effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Order</name>
+	<effect>Order is restored. For the rest of the game, players skip their chaos steps.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Ascendancy</name>
+	<effect>You get an emblem with "At the beginning of your upkeep, you win the game."</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Put a Judgement token onto the battlefield:</name>
+	<effect>"Judgement
+(Judgement has a nonexistent mana cost and no type.)
+Sacrifice Judgement: Target player loses the game."</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Inspire Hatred</name>
+	<effect>Each of your opponents rolls on Spite as though that opponent had lost, choosing you as his killer.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>[Worldfire]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>Kaervek's Vengeance</name>
+	<effect>Sacrifice all permanents you control and discard your hand.
+Target player loses 5 life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Extreme Chaos</list>
+	<name>[Final Fortune]</name>
+	<effect>(Take an extra turn after this one. At the beginning of that turn's end step, you lose the game. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Chaos List A</list>
+	<name>the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands he controlled at the beginning of this turn.</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Ostracization</name>
+	<effect>3BB, Enchantment
+As Ostracization enters the command zone, each player chooses an expansion symbol. Nonbasic permanent cards bearing that expansion symbol don't untap during their controllers' untap steps. (You can't choose a set that didn't use an expansion symbol.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Feudal System</name>
+	<effect>All players have a range of influence of 1 seat.
+When there are three or fewer players, the active player rolls on Global.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Anvil of Bogardan]</name>
+	<effect>(2, Artifact
+Players have no maximum hand size.
+At the beginning of each player's draw step, that player draws an additional card, then discards a card. (19/06/11))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Natural Law</name>
+	<effect>Uncommon spells cost an additional 1 mana to cast, Rare spells cost an additional 2 mana to cast, and Mythic Rare spells cost an additional 4 mana to cast.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Earth Worms</name>
+	<effect>Players can't play lands.
+If a land would enter the battlefield, instead it doesn't.
+At the beginning of each upkeep, any player may sacrifice two lands or pay 5 life. If a player does either, that player rolls on Global.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Will's World</name>
+	<effect>WWW, Enchantment
+Each player skips his chaos step.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Titania's Song]</name>
+	<effect>(Each noncreature artifact loses its abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Nether World Portal</name>
+	<effect>2BB, Artifact
+At the beginning of a player's declare attackers step, that player draws a card from either Mild Creature or Strong Creature, chosen at random, and puts that creature onto the battlefield tapped and attacking. Exile that creature at the beginning of the next end step.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Extreme Deprivation</name>
+	<effect>As Extreme Deprivation enters the command zone, each player exiles the cards from his hand.
+When Extreme Deprivation leaves the command zone, return all cards exiled with Extreme Deprivation to their owner's hands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Hot Potato</name>
+	<effect>At the beginning of each player's upkeep, that player rolls a twelve sided die. If that player rolls a 1, Hot Potato deals 18 damage to him. Exile Hot Potato.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Knowledge Pool]</name>
+	<effect>(6, Artifact
+Imprint -- When Knowledge Pool enters the battlefield, each player exiles the top three cards of his or her library.
+Whenever a player casts a spell from his or her hand, that player exiles it. If the player does, he or she may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost. (19/6/11))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Celestial Dawn]</name>
+	<effect>(1WW, Enchantment
+Lands you control are Plains.
+Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.
+You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Necropotence]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Worldslayer]</name>
+	<effect>(5, Artifact -- Equipment
+Whenever equipped creature deals combat damage to a player, destroy all permanents other than Worldslayer.
+Equip {5} (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Where Ancients Tread]</name>
+	<effect>(4R, Enchantment
+Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Zero Chamber</name>
+	<effect>3W, Enchantment
+As Zero Chamber enters the command zone, all players name a nonbasic card.
+The named cards can't be played.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Eureka World</name>
+	<effect>Permanent spells have mana cost 0.
+Players can play any number of additional lands on each of their turns.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Dual Reality</name>
+	<effect>3UU, Enchantment
+As Dual Reality enters the command zone, a new zone forms called the Delta Zone. Cards in the Delta Zone are face down in a pile near Dual Reality.
+At the beginning of each player's upkeep, each player puts the top card of his library into the Delta Zone.
+4: Reveal a card at random from the Delta Zone. If that card is a land, put it onto the battlefield. Otherwise, cast it without paying its mana cost.
+As Dual Reality leaves the command zone, the Delta Zone collapses. All cards in the Delta Zone leave the game.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Energy Flux]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Living Plane]</name>
+	<effect>(All lands are 1/1 creatures that are still lands. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Fastbond]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Rites of Flourishing]</name>
+	<effect>(2G, Enchantment
+At the beginning of each player's draw step, that player draws an additional card.
+Each player may play an additional land on each of his or her turns. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Back to Basics]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Chronomancer's Prank</name>
+	<effect>Whenever a spell resolves on its caster's turn, that player flips a coin. If he loses the flip, end the turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Eburnean Mask</name>
+	<effect>All players have shroud.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Random World</name>
+	<effect>At the beginning of each player's end step, roll on Global. Instead of putting a new global into the command zone, Random World becomes a copy of the global rolled this way, but retains this ability.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Shifting Kingdom</name>
+	<effect>Creatures with defender can attack as though they didn't have defender.
+A Creature with defender deals combat damage equal to the total of its power and toughness.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Stasis Field</name>
+	<effect>1U, Enchantment
+Players skip their untap steps.
+At the beginning of each player's upkeep, that player rolls on {Global} unless any player pays 1.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Eburnean Tower</name>
+	<effect>At the beginning of each player's upkeep, that player gains X life, where X is the number of cards in his hand minus four.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Seismic Assault]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Dense Foliage]</name>
+	<effect>(Creatures can't be the targets of spells. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>World of Knowledge</name>
+	<effect>All players play with their hands and the top card of their libraries revealed.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>nruT</name>
+	<effect>2UR, Enchantment
+As nruT enters the command zone, end the turn.
+Players skip their beginning phases. At the beginning of a player's end step, that player gets an additional beginning phase after this step.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Night of Souls' Betrayal]</name>
+	<effect>(2BB, Legendary Enchantment
+All creatures get -1/-1. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Quicksilver Geyser</name>
+	<effect>3, Artifact
+At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land he controls of his choice.
+Lands with flood counters on them are Islands.
+At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Heartbeat of Spring]</name>
+	<effect>(2G, Enchantment
+Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Keg of Chaos</name>
+	<effect>2, Artifact
+If a player would roll Chaos, instead put a fuse counter on Keg of Chaos.
+Whenever Keg of Chaos has ten or more fuse counters on it, exile it.
+When Keg of Chaos leaves the command zone, the active player rolls chaos X times, where X is the number of fuse counters on Keg of Chaos.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Nether Void]</name>
+	<effect>(3B, World Enchantment
+Whenever a player casts a spell, counter it unless its controller pays {3}. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Grips of Chaos</name>
+	<effect>Whenever a spell or ability is put onto the stack, reselect its targets at random. (This includes chaos abilities.)</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Mindlock Orb]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Teferi's Puzzle Box]</name>
+	<effect>(4, Artifact
+At the beginning of each player's draw step, that player puts the cards in his or her hand on the bottom of his or her library in any order, then draws that many cards. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Jungle Depths</name>
+	<effect>4GG, Enchantment
+At the beginning of the declare attackers step, assign each attacking creature to be attacking a random player or planeswalker.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Extreme World</name>
+	<effect>RRRRR, Enchantment
+The first chaos roll each player would make in his chaos step is made on Extreme Chaos instead of a Chaos List.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Worship]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[The Abyss]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Chaos Reflection</name>
+	<effect>4RR, Enchantment
+Whenever a player rolls chaos, that player puts an additional copy of the rolled ability on the stack.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Elfhame Sanctum</name>
+	<effect>1G, Enchantment
+At the beginning of each player's upkeep, that player may reveal cards from the top of his library until he reveals a basic land card. That player puts that card into his hand, and shuffles the other revealed cards and puts them on the bottom of his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Earnest Fellowship]</name>
+	<effect>(1W, Enchantment
+Each creature has protection from its colors. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Torture World</name>
+	<effect>At the beginning of each player's upkeep, Torture World deals X damage to that player, where X is the number of cards in his hand minus 4.
+At the beginning of each player's upkeep, Tortune World deals X damage to that player, where X is 3 minus the number of cards in his or her hand.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Damping Matrix]</name>
+	<effect>(3, Artifact
+Activated abilities of artifacts and creatures can't be activated unless they're mana abilities. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Forsaken Wastes]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[AEther Rift]</name>
+	<effect>(1RG, Enchantment
+At the beginning of your upkeep, discard a card at random. If you discard a creature card this way, return it from your graveyard to the battlefield unless any player pays 5 life. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Zur's Weirding]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Grand Melee]</name>
+	<effect>(All creatures attack each turn if able.
+All creatures block each turn if able. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Eon Hub]</name>
+	<effect>(5, Artifact
+Players skip their upkeep steps.
+5DN-R (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Wonderful Bazaar</name>
+	<effect>Whenever a player casts a spell, counter it if a card with the same name is in a graveyard or a nontoken permanent with the same name is on the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Inverse Dimension</name>
+	<effect>3U, Enchantment
+When a player draws a card, instead of putting the top card of his library into his hand, he puts the bottom card of his library into his hand.
+If a player would gain or lose life, he loses or gains that much life instead.
+Players don't lose the game for having 0 or less life.
+Players lose the game for having 2 times X or more life, where X is their starting life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Arcane Laboratory]</name>
+	<effect>(2U, Enchantment
+Each player can't cast more than one spell each turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Braids, Conjurer Adept]</name>
+	<effect>(2UU, Legendary Human Wizard, 2/2
+At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from his or her hand onto the battlefield. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Injury Reflection</name>
+	<effect>5B, Enchantment
+At the beginning of each end step, each player loses life equal to the life he lost this turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Shared Resources</name>
+	<effect>2WW, Enchantment
+As Socialism enters the command zone, each player puts the cards from his hand into the middle world.
+If a card would go to a player's hand, he puts that card into the middle world instead.
+When Socialism leaves the command zone, return all cards in the middle world to their owners' hands.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Mental Magic</name>
+	<effect>3UU, Enchantment
+If a player would play a nonbasic card, he first chooses another card with the same mana cost as that card that has not been played this game. That player puts that card onto the stack, if it is a spell, or onto the battlefield, if it is a land, as a copy of the named card.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Dimension X</name>
+	<effect>Whenever a nontoken permanent enters the battlefield, calculate the total of all the numbers on that card that are not mana symbols. That permanent's controller may assign new non-negative values to those numbers, as long as the new values have the same total.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Sands of Time]</name>
+	<effect>(Each player skips his or her untap step.
+At the beginning of each player's upkeep, that player simultaneously untaps each tapped artifact, creature, and land he or she controls and taps each untapped artifact, creature, and land he or she controls. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Jameil's Continuum</name>
+	<effect>0, Exile two cards from your hand: Counter target spell.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>World of Battle</name>
+	<effect>After each postcombat main phase, there is an additional combat phase followed by an additional main phase.
+At the end of the first combat phase of a turn, untap all creatures that attacked that turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Teferi's Realm]</name>
+	<effect>(At the beginning of each player's upkeep, that player chooses artifact, creature, land, or non-Aura enchantment. All nontoken permanents of that type phase out. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Sword of Fire and Ice]</name>
+	<effect>(3, Artifact -- Equipment
+Equipped creature gets +2/+2 and has protection from red and from blue.
+Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to target creature or player and you draw a card.
+Equip {2} (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Enduring Renewal]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Shifting Chaos</name>
+	<effect>If a player would roll on a Chaos List, he rolls on a random Chaos List instead.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Cobra Dagger</name>
+	<effect>3, Artifact -- Equipment
+Equipped creatures has poisonous 2.
+Equip {2}</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Angel's Blessing</name>
+	<effect>W, Enchantment
+All creatures have vigilance.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Team Spirit</name>
+	<effect>All creatures have "bands with other creatures that share a creature type with this creature."</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Concordant Crossroads]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Xenophobic Dimension</name>
+	<effect>If a nontoken creature would enter the battlefield, exile it instead. That creature's controller draws a card from Mild Creature, Strong Creature, or Exceptional Creature, chosen at random, and puts that card onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Chains of Mephistopheles]</name>
+	<effect>(If a player would draw a card except the first one he or she draws in his or her draw step each turn, that player discards a card instead. If the player discards a card this way, he or she draws a card. If the player doesn't discard a card this way, he or she puts the top card of his or her library into his or her graveyard. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Sylvan Library]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Spiteful Visions]</name>
+	<effect>(2(b/r)(b/r), Enchantment
+At the beginning of each player's draw step, that player draws an additional card.
+Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.
+SHM-R (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Doran, the Siege Tower]</name>
+	<effect>(BGW, Legendary Treefolk Shaman, 0/5
+Each creature assigns combat damage equal to its toughness rather than its power.
+LRW-R (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Responsiveness</name>
+	<effect>3UU, Enchantment
+Whenever a player casts an instant or sorcery spell, another random player casts a random instant spell.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Dovescape]</name>
+	<effect>(3(w/u)(w/u)(w/u), Enchantment
+Whenever a player casts a noncreature spell, counter that spell. That player puts X 1/1 white and blue Bird creature tokens with flying onto the battlefield, where X is the spell's converted mana cost. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Conspiracies</name>
+	<effect>3BB, Enchantment
+As Conspiracies enters the command zone, each player chooses a creature type.
+Creature cards that aren't on the battlefield, creature spells, and creatures on the battlefield are the chosen types.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Brawlers Pit</name>
+	<effect>All creatures have "T: This creature deals damage equal to its power to target creature."</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Kyren Negotiations]</name>
+	<effect>(2RR, Enchantment
+Tap an untapped creature you control: Kyren Negotiations deals 1 damage to target player. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Forbidden Crypt]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Rapid Incantation</name>
+	<effect>Spells have flash.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Crumbling Sanctuary]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Opalescence]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Engulfed in Chaos</name>
+	<effect>RRR, Enchantment
+Each player rolls chaos an additional time at the beginning of his chaos step.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Heedlessness</name>
+	<effect>All creatures attack each turn, even if they couldn't normally be chosen as attackers. Players ignore restrictions on which creatures can attack, and don't pay costs to attack.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Coat of Arms]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Repercussion]</name>
+	<effect>(1RR, Enchantment
+Whenever a creature is dealt damage, Repercussion deals that much damage to that creature's controller. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Impatience]</name>
+	<effect>(2R, Enchantment
+At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to him or her. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Angelic Chorus]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Planar Void]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Oath of Druids]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Bedlam]</name>
+	<effect>(Creatures can't block. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Ink Drain</name>
+	<effect>Mana costs of spells and activated abilities may be paid with any type of mana.
+Cards, tokens, and abilities are colorless.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Abundance]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Cyclotron</name>
+	<effect>All cards have "Cycling: 3".</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Grafted Skullcap]</name>
+	<effect>(At the beginning of your draw step, draw an additional card.
+At the beginning of your end step, discard your hand. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Lifeline]</name>
+	<effect>(5, Artifact
+Whenever a creature is put into a graveyard from the battlefield, if another creature is on the battlefield, return the first card to the battlefield under its owner's control at the beginning of the next end step. (19/06/11))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Everlasting Torment]</name>
+	<effect>(2(b/r), Enchantment
+Players can't gain life.
+Damage can't be prevented.
+All damage is dealt as though its source had wither. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Timesifter]</name>
+	<effect>5, Artifact
+At the beginning of each upkeep, each player exiles the top card of his or her library. The player who exiled the card with the highest converted mana cost takes an extra turn after this one. If two or more players' cards are tied for highest cost, the tied players repeat this process until the tie is broken. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Pawnshop</name>
+	<effect>All sorcery and instant spells have "Buyback: 3".</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Null Cycle</name>
+	<effect>4BG, Enchantment
+Each player skips his draw step.
+Whenever a player plays a card, that player draws a card.
+Each player's maximum hand size is two.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Super Secret Tech]</name>
+	<effect>(All premium creatures get +1/+1. All premium spells cost one less to play).</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Extraplanar Prison</name>
+	<effect>7, Artifact
+As Extraplanar Prison enters the command zone, choose a player at random. That player leaves the game.
+When Extraplanar Prison leaves the command zone, that player returns to the game as the turn ends.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Furnace of Rath]</name>
+	<effect>(1RRR, Enchantment
+If a source would deal damage to a creature or player, it deals double that damage to that creature or player instead. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Crucible of Planets</name>
+	<effect>3, Artifact
+Players may play lands cards from their graveyards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Static Orb]</name>
+	<effect>(3, Artifact
+If Static Orb is untapped, players can't untap more than two permanents during their untap steps. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Storage Matrix]</name>
+	<effect>(3, Artifact
+As long as Storage Matrix is untapped, each player chooses artifact, creature, or land during his or her untap step. That player can untap only permanents of the chosen type this step. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Dream Halls]</name>
+	<effect>(3UU, Enchantment
+Rather than pay the mana cost for a spell, its controller may discard a card that shares a color with that spell. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Awakening]</name>
+	<effect></effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Invasion Plans]</name>
+	<effect>(All creatures block each turn if able.
+The attacking player chooses how each creature blocks each turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Aluren]</name>
+	<effect>(2GG, Enchantment
+Any player may play creature cards with converted mana cost 3 or less without paying their mana cost and as though they had flash. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Mishra's Bargain</name>
+	<effect>Whenever a player casts an artifact spell, he loses 1 life and draws a card.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Turnstile</name>
+	<effect>4, Artifact
+Whenever a creature enters the battlefield, if there are two or more other creatures on the battlefield, exile that creature. Return that card to the battlefield under its owner's control when Turnstile leaves the battlefield.
+Whenever there are one or fewer creatures on the battlefield, return to the battlefield under its owner's control a random creature from among those creatures exiled by Turnstile which have been in the exiled zone the longest.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Pandemonium]</name>
+	<effect>(3R, Enchantment
+Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Psychic Battle]</name>
+	<effect>(3UU, Enchantment
+Whenever a player chooses one or more targets, each player reveals the top card of his or her library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger this ability. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Hive Mind]</name>
+	<effect>(5U, Enchantment
+Whenever a player casts an instant or sorcery spell, each other player copies that spell. Each of those players may choose new targets for his or her copy. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Eye of the Storm]</name>
+	<effect>(5UU, Enchantment
+Whenever a player casts an instant or sorcery card, exile it. Then that player copies each instant or sorcery card exiled with Eye of the Storm. For each copy, the player may cast the copy without paying its mana cost. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Ron's Realm</name>
+	<effect>2PP, Enchantment
+When Ron's Realm enters the battlefield, shuffle all exiled cards into their owner's libraries.
+At the beginning of each player's upkeep, that player may shuffle any number of exiled cards he owns into his library.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Killer Instinct]</name>
+	<effect>(4RG, Enchantment
+At the beginning of your upkeep, reveal the top card of your library. If it's a creature card, put it onto the battlefield. That creature gains haste until end of turn. Sacrifice it at the beginning of the next end step. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Tombstone Stairs</name>
+	<effect>At the beginning of each upkeep, each player puts a 2/2 black Zombie creature token with haste named Tombspawn onto the battlefield for each creature card in his or her graveyard.
+At the beginning of each end step or when Tombstone Stairs leaves the command zone, destroy all tokens put onto the battlefield with Tombstone Stairs. They can't be regenerated.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Cast through Time]</name>
+	<effect>(4UUU, Enchantment
+Instant and sorcery spells you control have rebound. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Maelstrom Nexus]</name>
+	<effect>(WUBRG, Enchantment
+The first spell you cast each turn has cascade. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Thought Reflection]</name>
+	<effect>(4UUU, Enchantment
+If you would draw a card, draw two cards instead. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Mesmeric Orb]</name>
+	<effect>(2, Artifact
+Whenever a permanent becomes untapped, that permanent's controller puts the top card of his or her library into his or her graveyard. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Strange Singularity</name>
+	<effect>4
+(Strange Singularity has no type.)
+If a player would roll on Global, instead put five anti-matter counters on Strange Singularity.
+2: Exile a permanent you own and put an anti-matter counter on Strange Singularity.
+Whenever there are fifteen or more anti-matter counters on Strange Singularity, return all permanent cards exiled by it to the battlefield, then roll on Global.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Pandora's Pyxis]</name>
+	<effect>1, Artifact
+At the beginning of your upkeep, exile the top card of your library face down.
+When Pandora's Pyxis leaves the command zone, each player turns face up all cards he or she owns exiled with Pandora's Pyxis, then puts all permanent cards among them onto the battlefield.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Arboria]</name>
+	<effect>(2GG, World Enchantment
+Creatures can't attack a player unless that player cast a spell or put a nontoken permanent onto the battlefield during his or her last turn. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Aurification]</name>
+	<effect>(2WW, Enchantment
+Whenever a creature deals damage to you, put a gold counter on it.
+Each creature with a gold counter on it is a Wall in addition to its other creature types and has defender.
+When Aurification leaves the battlefield, remove all gold counters from all creatures. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Knowledge Pool]</name>
+	<effect>(6, Artifact
+Imprint -- When Knowledge Pool enters the battlefield, each player exiles the top three cards of his or her library.
+Whenever a player casts a spell from his or her hand, that player exiles it. If the player does, he or she may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost. (19/6/11))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Shared Fate]</name>
+	<effect>(4U, Enchantment
+If a player would draw a card, that player exiles the top card of an opponent's library face down instead.
+Each player may look at and play cards he or she exiled with Shared Fate. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Bottled Cloister]</name>
+	<effect>(4, Artifact
+At the beginning of each opponent's upkeep, exile all cards from your hand face down.
+At the beginning of your upkeep, return all cards you own exiled with Bottled Cloister to your hand, then draw a card. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Zo-Zu the Punisher]</name>
+	<effect>(1RR, Legendary Goblin Warrior, 2/2
+Whenever a land enters the battlefield, Zo-Zu the Punisher deals 2 damage to that land's controller. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Trinicube</name>
+	<effect>3, Artifact
+As long as Trinicube is untapped, each spell costs the greater of three mana or the number of colored mana symbols in its mana cost to cast.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Meek Stone]</name>
+	<effect>(1, Artifact
+Creatures with power 3 or greater don't untap during their controllers' untap steps. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Week of the Dragons</name>
+	<effect>4UUU, Enchantment
+When Week of the Dragons enters the command zone, all creatures phase out. These creatures don't phase in during their controller's untap step. Then each player puts a 5/5 red Dragon creature token with flying onto the battlefield for each creature he controlled that phased out this way. 
+When Week of the Dragons leaves the command zone, all players sacrifice all Dragons. Then all creatures that phased out this way phase in.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Dosan the Falling Leaf]</name>
+	<effect>(1GG, Legendary Human Monk, 2/2
+Players can cast spells only during their own turns. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Tripling Season</name>
+	<effect>6G, Enchantment
+If an effect would put one or more tokens onto the battlefield, it puts thrice that many of those tokens onto the battlefield instead.
+If an effect would place one or more counters on a permanent, it places thrice that many of those counters on that permanent instead.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Cerebral Collocation</name>
+	<effect>4UUUU, Enchantment
+Each player controls the player to his right.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>All-Pervading Darkness</name>
+	<effect>3BB, Enchantment
+Each player has a range of influence of 0.
+2: A player who would be within your range of influence but for All-Pervading Darkness enters your range of influence until end of turn.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>Thought Churning</name>
+	<effect>4R, Enchantment
+Whenever a player casts a spell, that player puts the cards in his hand on the bottom of his library in any order, then draw that many cards.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Confusion in the Ranks]</name>
+	<effect>(3RR, Enchantment
+Whenever an artifact, creature, or enchantment enters the battlefield, its controller chooses target permanent another player controls that shares a card type with it. Exchange control of those permanents. (16/4/10))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Global Chaos</list>
+	<name>[Stranglehold]</name>
+	<effect>(3R, Enchantment
+Your opponents can't search libraries.
+If an opponent would begin an extra turn, that player skips that turn instead. (8/2/14))</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your spite backfires. Your killer gains 50 life.</effect>
+	<weight>1</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>The Gods take notice of your need for vengeance. Your killer gains an emblem with "Whenever a creature deals damage to you, that creature's controller gains 4 life."</effect>
+	<weight>2</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your fury is too intense to be directed at a single player. All players roll 3d6 and take that much damage.</effect>
+	<weight>2</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>You control your killer's next turn.</effect>
+	<weight>5</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your killer loses half his life, rounded up.</effect>
+	<weight>5</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>If you lost as a result of being at negative life, your killer loses an amount of life equal to the magnitude of your life below zero.</effect>
+	<weight>10</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your killer discards his hand.</effect>
+	<weight>10</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Greater powers ignore you.</effect>
+	<weight>30</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your killer sacrifices 2d6 permanents. If he doesn't he loses the game.</effect>
+	<weight>10</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your killer exiles the top twenty cards of his library.</effect>
+	<weight>10</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Each opponent other than your killer draws a card from the Strong Creature deck and puts it onto the battlefield.</effect>
+	<weight>5</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Destroy up to d20 permanents owned or controlled by your killer.</effect>
+	<weight>5</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Each other player gains 5 life. Your killer loses life equal to the life gained this way.</effect>
+	<weight>2</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Your killer sacrifies all of his non-land permanents and discards his hand. Triggered abilities that would trigger as a result of this effect don't trigger.</effect>
+	<weight>2</weight>
+</roll>
+
+<roll>
+	<list>Spite</list>
+	<name>Spite</name>
+	<effect>Revenge is yours. The player who killed you loses the game.</effect>
+	<weight>1</weight>
+</roll>
+
+
+</chaoslist>
