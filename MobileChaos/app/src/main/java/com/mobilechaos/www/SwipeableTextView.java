@@ -1,12 +1,12 @@
 package com.mobilechaos.www;
 
 import android.content.Context;
-import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class SwipeableTextView extends AppCompatTextView {
+public class SwipeableTextView extends android.support.v7.widget.AppCompatTextView {
 
 
     private ArrayList<CharSequence> history;
@@ -70,22 +70,18 @@ public class SwipeableTextView extends AppCompatTextView {
          return history;
      }
 
-    public CharSequence getCurrent(){
+     public CharSequence getCurrent(){
         if (history.isEmpty())
             return null;
         else
             return history.get(history.size()-1);
-    }
+     }
 
-    public void updateHistoryItem(String string, int idx){
+     public void updateHistoryItem(String string, int idx){
         if (!history.isEmpty())
             history.set(idx, string);
-    }
-
-
-
-
-    /*
+     }
+/*
     SwipeableTextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
