@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spoiler set="">
+  <card>
+    <name>Emrakul, the Aeons Rent</name>
+    <cost>15</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Eldrazi </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Emrakul, the Aeons Rent enters the battlefield, take an extra turn after this one.
+Flying, protection from colored spells, annihilator 6
+When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>15</power>
+      <toughness>15</toughness>
+    </stats>
+    <illustrator>Mark Tedin</illustrator>
+    <number>1/45</number>
+  </card>
+  <card>
+    <name>It That Betrays</name>
+    <cost>12</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Eldrazi </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
+Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.
+Your pleas for death shall go unheard.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>11</power>
+      <toughness>11</toughness>
+    </stats>
+    <illustrator>Tomasz Jedruszek</illustrator>
+    <number>2/45</number>
+  </card>
+  <card>
+    <name>Kozilek, Butcher of Reality</name>
+    <cost>10</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Eldrazi </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Kozilek, Butcher of Reality enters the battlefield, draw four cards.
+Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
+When Kozilek, Butcher of Reality is put into a graveyard from anywhere, it’s owner shuffles his graveyard into his library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>12</power>
+      <toughness>12</toughness>
+    </stats>
+    <illustrator>Michael Komarck</illustrator>
+    <number>3/45</number>
+  </card>
+  <card>
+    <name>Ulamog, the Endless Gyre</name>
+    <cost>11</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Eldrazi </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Ulamog, the Endless Gyre  enters the battlefield, destroy target permanent.
+Indestructible
+Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
+When Ulamog, the Endless Gyre is put into a graveyard from anywhere, its owner shuffles his graveyard into his library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>10</power>
+      <toughness>10</toughness>
+    </stats>
+    <illustrator>Aleksi Briclot</illustrator>
+    <number>4/45</number>
+  </card>
+  <card>
+    <name>Admonition Angel</name>
+    <cost>3WWW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Landfall — Whenever a land enters the battlefield under your control, you may exile target nonland permanent other than Admonition Angel.
+When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners’ control.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>6</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Steve Argyle</illustrator>
+    <number>5/45</number>
+  </card>
+  <card>
+    <name>Avacyn, Angel of Hope</name>
+    <cost>5WWW</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, vigilance, indestructible
+Other permanents you control have indestructible.</rules>
+    <flavor>A golden helix streaked skyward from the Helvault. A thunderous explosion shattered the silver monolith and Avacyn emerged, free from her prison at last.</flavor>
+    <stats>
+      <power>8</power>
+      <toughness>8</toughness>
+    </stats>
+    <illustrator>Jason Chan</illustrator>
+    <number>6/45</number>
+  </card>
+  <card>
+    <name>Blazing Archon</name>
+    <cost>6WWW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Archon </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Creatures can’t attack you.</rules>
+    <flavor>“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
+—Dravin, Gruul deserter</flavor>
+    <stats>
+      <power>5</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Zoltan Boros &amp; Gabor Szikszai</illustrator>
+    <number>7/45</number>
+  </card>
+  <card>
+    <name>Iona, Shield of Emeria</name>
+    <cost>6WWW</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+As Iona, Shield of Emeria enters the battlefield, choose a color.
+Your opponents can’t cast spells of the chosen color.
+No more shall the righteous cower before evil.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>7</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>Jason Chan</illustrator>
+    <number>8/45</number>
+  </card>
+  <card>
+    <name>Serra Avatar</name>
+    <cost>4WWW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Avatar </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Serra Avatar’s power and toughness are each equal to your life total.
+When Serra Avatar is put into a graveyard from anywhere, shuffle it into its owner’s library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Illus. Dermot Power</illustrator>
+    <number>9/45</number>
+  </card>
+  <card>
+    <name>Consecrated Sphinx</name>
+    <cost>4UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Sphinx </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever an opponent draws a card, you may draw two cards.</rules>
+    <flavor>Blessed by the hands of Jin-Gitaxias.</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Mark Zug</illustrator>
+    <number>10/45</number>
+  </card>
+  <card>
+    <name>Denizen of the Deep</name>
+    <cost>5UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Serpent </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Denizen of the Deep enters the battlefield, return each other creature you control to its owner’s hand.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>11</power>
+      <toughness>11</toughness>
+    </stats>
+    <illustrator>Illus. Anson Maddocks</illustrator>
+    <number>11/45</number>
+  </card>
+  <card>
+    <name>Inkwell Leviathan</name>
+    <cost>7UU</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Leviathan </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Islandwalk (This creature can’t be blocked as long as defending player controls an Island.), trample, shroud</rules>
+    <flavor>“Into its maw went the seventh sea, never to be seen again while the world remains.”
+—Esper fable</flavor>
+    <stats>
+      <power>7</power>
+      <toughness>11</toughness>
+    </stats>
+    <illustrator>Anthony Francisco</illustrator>
+    <number>12/45</number>
+  </card>
+  <card>
+    <name>Jin-Gitaxias, Core Augur</name>
+    <cost>8UU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Praetor </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flash
+At the beginning of your end step, draw seven cards.
+Each opponent’s maximum hand size is reduced by seven.</rules>
+    <flavor>“It is not a goal, but a process—the process of creating the perfect Phyrexia.”</flavor>
+    <stats>
+      <power>5</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Eric Deschamps</illustrator>
+    <number>13/45</number>
+  </card>
+  <card>
+    <name>Kederekt Leviathan</name>
+    <cost>6UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Leviathan </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Kederekt Leviathan enters the battlefield, return all other nonland permanents to their owners’ hands.
+Unearth 6U (6U: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Mark Hyzer</illustrator>
+    <number>14/45</number>
+  </card>
+  <card>
+    <name>Lorthos, the Tidemaker</name>
+    <cost>5UUU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Octopus </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever Lorthos, the Tidemaker attacks, you may pay 8. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.</rules>
+    <flavor>When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.</flavor>
+    <stats>
+      <power>8</power>
+      <toughness>8</toughness>
+    </stats>
+    <illustrator>Kekai Kotaki</illustrator>
+    <number>15/45</number>
+  </card>
+  <card>
+    <name>Polar Kraken</name>
+    <cost>8UUU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Kraken </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+Polar Kraken enters the battlefield tapped.
+Cumulative upkeep—Sacrifice a land. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)</rules>
+    <flavor></flavor>
+    <stats>
+      <power>11</power>
+      <toughness>11</toughness>
+    </stats>
+    <illustrator>Illus. Mark Tedin</illustrator>
+    <number>16/45</number>
+  </card>
+  <card>
+    <name>Trench Gorger</name>
+    <cost>6UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Leviathan </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+When Trench Gorger enters the battlefield, you may search your library for any number of land cards, exile them, then shuffle your library. If you do, Trench Gorger’s power and toughness each become equal to the number of cards exiled this way.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>6</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Hideaki Takamura</illustrator>
+    <number>17/45</number>
+  </card>
+  <card>
+    <name>Griselbrand</name>
+    <cost>4BBBB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Demon </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, lifelink
+Pay 7 life: Draw seven cards.</rules>
+    <flavor>“Avacyn emerged from the broken Helvault, but her freedom came at a price—him.”
+—Thalia, Knight-Cathar</flavor>
+    <stats>
+      <power>7</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>Igor Kieryluk</illustrator>
+    <number>18/45</number>
+  </card>
+  <card>
+    <name>Hellcarver Demon</name>
+    <cost>3BBB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Demon </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever Hellcarver Demon deals combat damage to a player, sacrifice all other permanents you control and discard your hand. Exile the top six cards of your library. You may cast any number of nonland cards exiled this way without paying their mana costs.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>6</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Greg Staples</illustrator>
+    <number>19/45</number>
+  </card>
+  <card>
+    <name>Ob Nixilis, the Fallen</name>
+    <cost>3BB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Demon </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Landfall—Whenever a land enters the battlefield under your control, you may have target player lose 3 life. If you do, put three +1/+1 counters on Ob Nixilis, the Fallen.</rules>
+    <flavor>His spark lost, he plots revenge upon the plane whose corrupting mana fractured his soul.</flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Jason Felix</illustrator>
+    <number>20/45</number>
+  </card>
+  <card>
+    <name>Sheoldred, Whispering One</name>
+    <cost>5BB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Praetor </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Swampwalk (This creature can’t be blocked as long as defending player controls a Swamp.)
+At the beginning of your upkeep, return target creature card from your graveyard to the battlefield.
+At the beginning of each opponent’s upkeep, that player sacrifices a creature.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>6</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Jana Schirmer &amp; Johannes Voss</illustrator>
+    <number>21/45</number>
+  </card>
+  <card>
+    <name>Avatar of Slaughter</name>
+    <cost>6RR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Avatar </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>All creatures have double strike and attack each turn if able.</rules>
+    <flavor>“Diplomacy has solved nothing. Only bloodspill can end this now. Call forth the warbringer.”
+—Basandra, Battle Seraph</flavor>
+    <stats>
+      <power>8</power>
+      <toughness>8</toughness>
+    </stats>
+    <illustrator>Jason A. Engle</illustrator>
+    <number>22/45</number>
+  </card>
+  <card>
+    <name>Avenger of Zendikar</name>
+    <cost>5GG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Elemental </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Avenger of Zendikar enters the battlefield, put a 0/1 green Plant creature token onto the battlefield for each land you control.
+Landfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant you control.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Zoltan Boros &amp; Gabor Szikszai</illustrator>
+    <number>23/45</number>
+  </card>
+  <card>
+    <name>Elderscale Wurm</name>
+    <cost>4GGG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wurm </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+When Elderscale Wurm enters the battlefield, if your life total is less than 7, your life total becomes 7.
+As long as you have 7 or more life, damage that would reduce your life total to less than 7 reduces it to 7 instead.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>7</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>Richard Wright</illustrator>
+    <number>24/45</number>
+  </card>
+  <card>
+    <name>Gigantomancer</name>
+    <cost>7G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Shaman </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>1: Target creature you control becomes 7/7 until end of turn.</rules>
+    <flavor>“All life is driven by an indomitable will to survive. I simply turn that into something more ... tangible.”</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Chippy</illustrator>
+    <number>25/45</number>
+  </card>
+  <card>
+    <name>Multani, Maro-Sorcerer</name>
+    <cost>4GG</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Elemental </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Shroud
+Multani, Maro-Sorcerer’s power and toughness are each equal to the total number of cards in all players’ hands.</rules>
+    <flavor>“To make peace with the forest, make peace with me.”
+—Multani, to Urza</flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Illus. Daren Bader</illustrator>
+    <number>26/45</number>
+  </card>
+  <card>
+    <name>Rampaging Baloths</name>
+    <cost>4GG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Beast </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+Landfall — Whenever a land enters the battlefield under your control, you may put a 4/4 green Beast creature token onto the battlefield.</rules>
+    <flavor>“When the land is angry, so are they.”
+—Nissa Revane</flavor>
+    <stats>
+      <power>6</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Steve Prescott</illustrator>
+    <number>27/45</number>
+  </card>
+  <card>
+    <name>Vorinclex, Voice of Hunger</name>
+    <cost>6GG</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Praetor </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.
+Whenever an opponent taps a land for mana, that land doesn’t untap during its controller’s next untap step.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>7</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>Karl Kopinski</illustrator>
+    <number>28/45</number>
+  </card>
+  <card>
+    <name>Worldspine Wurm</name>
+    <cost>8GGG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wurm </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+When Worldspine Wurm dies, put three 5/5 green Wurm creature tokens with trample onto the battlefield.
+When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner’s library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>15</power>
+      <toughness>15</toughness>
+    </stats>
+    <illustrator>Richard Wright</illustrator>
+    <number>29/45</number>
+  </card>
+  <card>
+    <name>Autochthon Wurm</name>
+    <cost>10GGGWW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wurm </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)
+Trample</rules>
+    <flavor>The trainer awoke to begin the journey from the wurm’s tail to its head. The sun was setting when she arrived.</flavor>
+    <stats>
+      <power>9</power>
+      <toughness>14</toughness>
+    </stats>
+    <illustrator>Michael Phillippi</illustrator>
+    <number>30/45</number>
+  </card>
+  <card>
+    <name>Blood Tyrant</name>
+    <cost>4UBR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Vampire </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, trample
+At the beginning of your upkeep, each player loses 1 life. Put a +1/+1 counter on Blood Tyrant for each 1 life lost this way.
+Whenever a player loses the game, put five +1/+1 counters on Blood Tyrant.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Karl Kopinski</illustrator>
+    <number>31/45</number>
+  </card>
+  <card>
+    <name>Bringer of the Wooberg Dawn</name>
+    <cost>4WUBRG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Bringer </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of your upkeep, you may choose one — Return target artifact card from your graveyard to your hand; or draw two cards; or pay 2 life. If you do, search your library for a card, then shuffle your library and put that card on top of it; or untap target creature and gain control of it until end of turn. That creature gains haste until end of turn; or put a 3/3 green Beast creature token onto the battlefield.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>benskywalking (DeviantART)</illustrator>
+    <number>32/45</number>
+  </card>
+  <card>
+    <name>Empyrial Archangel</name>
+    <cost>4GWWU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, shroud
+All damage that would be dealt to you is dealt to Empyrial Archangel instead.</rules>
+    <flavor>Her wings are the prayers of the devoted; her sword, the despair of the vile.</flavor>
+    <stats>
+      <power>5</power>
+      <toughness>8</toughness>
+    </stats>
+    <illustrator>Greg Staples</illustrator>
+    <number>33/45</number>
+  </card>
+  <card>
+    <name>Gisela, Blade of Goldnight</name>
+    <cost>4RWW</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, first strike
+If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Jason Chan</illustrator>
+    <number>34/45</number>
+  </card>
+  <card>
+    <name>Godsire</name>
+    <cost>4RGGW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Beast </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Vigilance
+T: Put an 8/8 Beast creature token that’s red, green, and white onto the battlefield.</rules>
+    <flavor>“Lay sacrifice to the godsire that it may spare us, but save some for his progeny who also will hunger.”
+—Syeena, elvish godtoucher</flavor>
+    <stats>
+      <power>8</power>
+      <toughness>8</toughness>
+    </stats>
+    <illustrator>Jim Murray</illustrator>
+    <number>35/45</number>
+  </card>
+  <card>
+    <name>Lord of Extinction</name>
+    <cost>3BG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Elemental </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Lord of Extinction’s power and toughness are each equal to the number of cards in all graveyards.</rules>
+    <flavor>The forlorn cries of the dead combine to make its laugh.</flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Izzy</illustrator>
+    <number>36/45</number>
+  </card>
+  <card>
+    <name>Magister Sphinx</name>
+    <cost>4WUB</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Sphinx </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+When Magister Sphinx enters the battlefield, target player’s life total becomes 10.</rules>
+    <flavor>“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”</flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Steven Belledin</illustrator>
+    <number>37/45</number>
+  </card>
+  <card>
+    <name>Novablast Wurm</name>
+    <cost>3GGWW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wurm </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever Novablast Wurm attacks, destroy all other creatures.</rules>
+    <flavor>“The sun was born within its coils, but it fled to the sky. The wurm hungers for its child, and the world will bear its loss.”
+—Screed of the Mul Daya</flavor>
+    <stats>
+      <power>7</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>Michael Komarck</illustrator>
+    <number>38/45</number>
+  </card>
+  <card>
+    <name>Progenitus</name>
+    <cost>WWUUBBRRGG</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Hydra Avatar </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Protection from everything (Nothing everything can block, target, deal damage to, or attach to this creature.)
+If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner’s library instead.
+The Soul of the World has returned.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>10</power>
+      <toughness>10</toughness>
+    </stats>
+    <illustrator>Jaime Jones</illustrator>
+    <number>39/45</number>
+  </card>
+  <card>
+    <name>Simic Sky Swallower</name>
+    <cost>5GU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Leviathan </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, trample, shroud</rules>
+    <flavor>“We’ve bred out the shortcomings of the species’ natural form and replaced them with assets of our own design.”
+—Momir Vig</flavor>
+    <stats>
+      <power>6</power>
+      <toughness>6</toughness>
+    </stats>
+    <illustrator>rk post</illustrator>
+    <number>40/45</number>
+  </card>
+  <card>
+    <name>Doomgape</name>
+    <cost>4B/GB/GB/G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Elemental </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+At the beginning of your upkeep, sacrifice a creature. You gain life equal to that creature’s toughness.</rules>
+    <flavor>It eats and eats until the juiciest morsel it can find is itself.</flavor>
+    <stats>
+      <power>10</power>
+      <toughness>10</toughness>
+    </stats>
+    <illustrator>Dave Allsop</illustrator>
+    <number>41/45</number>
+  </card>
+  <card>
+    <name>Blightsteel Colossus</name>
+    <cost>12</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Golem </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample, infect, indestructible
+If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner’s library instead.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>11</power>
+      <toughness>11</toughness>
+    </stats>
+    <illustrator>Chris Rahn</illustrator>
+    <number>42/45</number>
+  </card>
+  <card>
+    <name>Darksteel Colossus</name>
+    <cost>11</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Golem </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample, indestructible
+If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner’s library instead.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>11</power>
+      <toughness>11</toughness>
+    </stats>
+    <illustrator>Carl Critchlow</illustrator>
+    <number>43/45</number>
+  </card>
+  <card>
+    <name>Platinum Emperion</name>
+    <cost>8</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Golem </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Your life total can’t change. (You can’t gain or lose life. You can’t pay any amount of life except 0.)</rules>
+    <flavor>It ignores such insignificant forces as time, entropy, and death.</flavor>
+    <stats>
+      <power>8</power>
+      <toughness>8</toughness>
+    </stats>
+    <illustrator>Chris Rahn</illustrator>
+    <number>44/45</number>
+  </card>
+  <card>
+    <name>Self-Building Golem</name>
+    <cost>6</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Golem </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Imprint — T: Exile target creature.
+Self-Building Golem gets +X/+Y, where X is the total power of all creature cards exiled with, and Y is the total toughness of all creature cards exiled with it. Self-Building Golem also has the abilities, colors, and creature types of all cards exiled with it.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>bejzar (DeviantART)</illustrator>
+    <number>45/45</number>
+  </card>
+</spoiler>
