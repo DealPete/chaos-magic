@@ -1,2 +1,11 @@
-spoil-ug.txt
-spoil-uh.txt
+# Editor Files
+*.swp
+
+# Java Files
+*.iml
+MobileChaos/gradle
+.idea
+.gradle
+gen
+build
+local.properties

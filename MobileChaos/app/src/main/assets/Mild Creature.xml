@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spoiler set="">
+  <card>
+    <name>Archon of Redemption</name>
+    <cost>3WW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Archon </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever Archon of Redemption or another creature with flying enters the battlefield under your control, you may gain life equal to that creature’s power.</rules>
+    <flavor>Until Emeria is freed, he raises his sword in her name.</flavor>
+    <stats>
+      <power>3</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Steven Belledin</illustrator>
+    <number>1/108</number>
+  </card>
+  <card>
+    <name>Blinding Angel</name>
+    <cost>3WW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever Blinding Angel deals combat damage to a player, that player skips his or her next combat phase.</rules>
+    <flavor>“Their eyes will shrivel and blacken before faith’s true light.”</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Illus. Todd Lockwood</illustrator>
+    <number>2/108</number>
+  </card>
+  <card>
+    <name>Elder Land Wurm</name>
+    <cost>4WWW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Dragon Wurm </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Defender, Trample
+When Elder Land Wurm blocks, it loses defender.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Illus. © Quniton Hoover</illustrator>
+    <number>3/108</number>
+  </card>
+  <card>
+    <name>Galepowder Mage</name>
+    <cost>3W</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Kithkin Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever Galepowder Mage attacks, exile another target creature. Return that card to the battlefield under its owner’s control at the beginning of the next end step.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Jeremy Jarvis</illustrator>
+    <number>4/108</number>
+  </card>
+  <card>
+    <name>Graceful Antelope</name>
+    <cost>2WW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Antelope </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Plainswalk (This creature can’t be blocked as long as defending player controls a Plains.)
+Whenever Graceful Antelope deals combat damage to a player, you may have target land become a plains until Graceful Antelope leaves the battlefield.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Heather Hudson</illustrator>
+    <number>5/108</number>
+  </card>
+  <card>
+    <name>Indomitable Ancients</name>
+    <cost>2WW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Treefolk Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>“Odum and Broadbark were the only beings mighty enough to challenge the giant Moran the Destroyer. Their battle lasted a hundred dawns, until Moran became so exhausted that he fell into namesleep. He awoke as Moran the Gardener.”
+—The Tale of Odum and Broadbark</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>10</toughness>
+    </stats>
+    <illustrator>Pete Venters</illustrator>
+    <number>6/108</number>
+  </card>
+  <card>
+    <name>Long Wall</name>
+    <cost>1W</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wall </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Defender
+Any player may block with Long Wall.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>davidsant (DeviantART)</illustrator>
+    <number>7/108</number>
+  </card>
+  <card>
+    <name>Mirror Entity</name>
+    <cost>2W</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Shapeshifter </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Changeling (This card is every creature type at all times.)
+X: Creatures you control become X/X and gain all creature types until end of turn.
+Unaware of Lorwyn’s diversity, it sees only itself, reflected a thousand times over.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Zoltan Boros &amp; Gabor Szikszai</illustrator>
+    <number>8/108</number>
+  </card>
+  <card>
+    <name>Æthermuck</name>
+    <cost>3UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Illusion </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever Æthermuck blocks a creature, you may put a creature card from your hand onto the battlefield blocking that creature. If you do, remove Æthermuck from combat.</rules>
+    <flavor>Its fickle form holds hints of a thousand former identities.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Nottsuo</illustrator>
+    <number>9/108</number>
+  </card>
+  <card>
+    <name>Aura Thief</name>
+    <cost>3U</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Illusion </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+When Aura Thief dies, you gain control of all enchantments. (You don’t get to move Auras.)</rules>
+    <flavor>Illusion steals reality from the unwise.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Illus. Ron Spears</illustrator>
+    <number>10/108</number>
+  </card>
+  <card>
+    <name>Body Double</name>
+    <cost>4U</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Shapeshifter </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>You may have Body Double enter the battlefield as a copy of any creature card in a graveyard.</rules>
+    <flavor>Where the dead outnumbered the living, mimics scavenged faces from the fallen.</flavor>
+    <stats>
+      <power>0</power>
+      <toughness>0</toughness>
+    </stats>
+    <illustrator>Steve Prescott</illustrator>
+    <number>11/108</number>
+  </card>
+  <card>
+    <name>Conundrum Sphinx</name>
+    <cost>2UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Sphinx </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever Conundrum Sphinx attacks, each player names a card. Then each player reveals the top card of his or her library. If the card a player revealed is the card he or she named, that player puts it into his or her hand. If it’s not, that player puts it on the bottom of his or her library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Michael Komarck</illustrator>
+    <number>12/108</number>
+  </card>
+  <card>
+    <name>Djinn of Infinite Deceits</name>
+    <cost>4UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Djinn </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+T: Exchange control of two target nonlegendary creatures. You can’t activate this ability during combat.</rules>
+    <flavor>The winds of change have a mind of their own.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>Robbie Trevino</illustrator>
+    <number>13/108</number>
+  </card>
+  <card>
+    <name>Dormant Gomazoa</name>
+    <cost>1UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Jellyfish </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Dormant Gomazoa enters the battlefield tapped.
+Dormant Gomazoa doesn’t untap during your untap step.
+Whenever you become the target of a spell, you may untap Dormant Gomazoa.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Chris Rahn</illustrator>
+    <number>14/108</number>
+  </card>
+  <card>
+    <name>Erayo, Soratami Ascendant</name>
+    <cost>1U</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Moonfolk Monk </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever the fourth spell of a turn is cast, flip Erayo, Soratami Ascendant.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Matt Cavotta</illustrator>
+    <number>15/108</number>
+  </card>
+  <card>
+    <name>Fateraveller</name>
+    <cost>1UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of each opponent’s upkeep, that player chooses two of chaos step, draw step, main phase, or combat phase. The player skips each instance of the chosen steps and phases this turn.</rules>
+    <flavor>No one knows what she is watching, but she never takes her eyes off it.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>rk post</illustrator>
+    <number>16/108</number>
+  </card>
+  <card>
+    <name>Ixidron</name>
+    <cost>3UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Illusion </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As Ixidron comes into play, turn all other nontoken creatures in play face down. (They’re 2/2 creatures.)
+Ixidron’s power and toughness are each equal to the number of face-down creatures on the battlefield.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Terese Nielsen</illustrator>
+    <number>17/108</number>
+  </card>
+  <card>
+    <name>Laboratory Maniac</name>
+    <cost>2U</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>If you would draw a card while your library has no cards in it, you win the game instead.</rules>
+    <flavor>His mind whirled with grand plans, never thinking of what might happen if he were to succeed.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Jason Felix</illustrator>
+    <number>18/108</number>
+  </card>
+  <card>
+    <name>Meloku the Clouded Mirror</name>
+    <cost>4U</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Moonfolk Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+1, Return a land you control to its owner’s hand: Put a 1/1 blue Illusion creature token with flying onto the battlefield.</rules>
+    <flavor>He loved his cities in the clouds. When he traveled to the lands below, he brought many reminders of his home.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Scott M. Fischer</illustrator>
+    <number>19/108</number>
+  </card>
+  <card>
+    <name>Perplexing Chimera</name>
+    <cost>4U</cost>
+    <type>
+      <supertype>Enchantment Creature</supertype>
+      <subtype>Chimera </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever an opponent casts a spell, you may exchange control of Perplexing Chimera and that spell. If you do, you may choose new targets for the spell. (If the spell becomes a permanent, you control that permanent.)</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Tyler Jacobson</illustrator>
+    <number>20/108</number>
+  </card>
+  <card>
+    <name>Qima, Who Rides a Horse</name>
+    <cost>2U</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Soldier </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Horsemanship (This creature can’t be blocked except by creatures with horsemanship.)
+Creatures with flying may block Qima as though it didn’t have horsemanship.</rules>
+    <flavor>“Look at my horse, my horse is amazing!”</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Zhao Mengfu</illustrator>
+    <number>21/108</number>
+  </card>
+  <card>
+    <name>Teferi, Mage of Zhalfir</name>
+    <cost>2UUU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flash
+Creature cards you own that aren’t on the battlefield have flash.
+Each opponent can cast spells only any time he or she could cast a sorcery.
+To save this plane, he must forsake all others.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>D. Alexander Gregory &amp; Jeremy Jarvis</illustrator>
+    <number>22/108</number>
+  </card>
+  <card>
+    <name>Thada Adel, Acquisitor</name>
+    <cost>1UU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Merfolk Rogue </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Islandwalk (This creature can’t be blocked as long as defending player controls an Island.)
+Whenever Thada Adel, Acquisitor deals combat damage to a player, search that player’s library for an artifact card and exile it. Then that player shuffles his or her library. Until end of turn, you may play that card.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Andrew Robinson</illustrator>
+    <number>23/108</number>
+  </card>
+  <card>
+    <name>True-Name Nemesis</name>
+    <cost>1UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Merfolk Rogue </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As True-Name Nemesis enters the battlefield, choose a player.
+True-Name Nemesis has protection from the chosen player. (This creature can’t be blocked, targeted, dealt damage, or enchanted by anything controlled by that player.)</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Zack Stella</illustrator>
+    <number>24/108</number>
+  </card>
+  <card>
+    <name>Unstable Shapeshifter</name>
+    <cost>3U</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Shapeshifter </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever another creature enters the battlefield, Unstable Shapeshifter becomes a copy of that creature and gains this ability.</rules>
+    <flavor>“In a world of untruths, the living lie rules.”
+—Oracle en-Vec</flavor>
+    <stats>
+      <power>0</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. Terese Nielsen</illustrator>
+    <number>25/108</number>
+  </card>
+  <card>
+    <name>Vesuvan Doppleganger</name>
+    <cost>3UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Shapeshifter </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield except it doesn’t copy that creature’s color and it gains “At the beginning of your upkeep, you may have this creature become a copy of target creature except it doesn’t copy that creature’s color. If you do, this creature gains this ability.”</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>0</toughness>
+    </stats>
+    <illustrator>Illus. © Quinton Hoover</illustrator>
+    <number>26/108</number>
+  </card>
+  <card>
+    <name>Whirlpool Drake</name>
+    <cost>3U</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Drake </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+When Whirlpool Drake enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.
+When Whirlpool Drake dies, shuffle the cards from your hand into your library, then draw that many cards.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Alan Pollack</illustrator>
+    <number>27/108</number>
+  </card>
+  <card>
+    <name>Wormfang Manta</name>
+    <cost>5UU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Nightmare Fish Beast </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+When Wormfang Manta enters the battlefield, you skip your next turn.
+When Wormfang Manta leaves the battlefield, you take an extra turn after this one.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>6</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. Heather Hudson</illustrator>
+    <number>28/108</number>
+  </card>
+  <card>
+    <name>Bone Dancer</name>
+    <cost>1BB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Zombie </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever Bone Dancer attacks and isn’t blocked, you may put the top creature card of defending player’s graveyard onto the battlefield under your control. If you do, Bone Dancer assigns no combat damage this turn.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Illus. Scott Kirschner</illustrator>
+    <number>29/108</number>
+  </card>
+  <card>
+    <name>Doomsayer</name>
+    <cost>B</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>8, T: Roll on Extreme Chaos.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator></illustrator>
+    <number>30/108</number>
+  </card>
+  <card>
+    <name>Dr. Frankenstein’s Monster</name>
+    <cost>1BB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Zombie </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As Dr. Frankenstein’s Monster enters the battlefield, exile any number of creature cards from graveyards. For each creature card exiled this way, Dr. Frankenstein’s Monster enters the battlefield with a +2/+0, +1/+1, or +0/+2 counter on it.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. © Anson Maddocks</illustrator>
+    <number>31/108</number>
+  </card>
+  <card>
+    <name>Necrotic Ooze</name>
+    <cost>2BB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ooze </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As long as Necrotic Ooze is on the battlefield, it has all activated abilities of all creature cards in all graveyards.</rules>
+    <flavor>“To death all must go, and so in death lies ultimate power.”
+—Geth, Lord of the Vault</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>James Ryman</illustrator>
+    <number>32/108</number>
+  </card>
+  <card>
+    <name>Overlord</name>
+    <cost>4BB</cost>
+    <type>
+      <supertype>Tribal Creature</supertype>
+      <subtype></subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As Overlord enters the battlefield, choose a creature type. Overlord has that creature type.
+You control all creatures that share a creature type with Overlord.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Illus. lunijavij (DeviantART)</illustrator>
+    <number>33/108</number>
+  </card>
+  <card>
+    <name>Phyrexian Plaguelord</name>
+    <cost>3BB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Carrier </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>T, Sacrifice Phyrexian Plaguelord: Target creature gets -4/-4 until end of turn.
+Sacrifice a creature: Target creature gets -1/-1 until end of turn.</rules>
+    <flavor>“The final stage of the illness: delirium, convulsions, and death.”
+—Phyrexian progress notes</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Illus. Kev Walker</illustrator>
+    <number>34/108</number>
+  </card>
+  <card>
+    <name>Sengir Nosferatu</name>
+    <cost>3BB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Vampire </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+1B, Exile Sengir Nosferatu: Put a 1/2 black Bat creature token with plying onto the battlefield. It has “1B, Sacrifice this creature: Return an exiled card named Sengir Nosferatu to the battlefield under its owner’s control.”</rules>
+    <flavor></flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Scott M. Fischer</illustrator>
+    <number>35/108</number>
+  </card>
+  <card>
+    <name>Sewer Nemesis</name>
+    <cost>3B</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Horror </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As Sewer Nemesis enters the battlefield, choose a player.
+Sewer Nemesis’s power and toughness are each equal to the number of cards in the chosen player’s graveyard.
+Whenever the chosen player casts a spell, that player puts the top card of his or her library into his or her graveyard.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Nils Hamm</illustrator>
+    <number>36/108</number>
+  </card>
+  <card>
+    <name>Shirei, Shizo’s Caretaker</name>
+    <cost>4B</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Spirit </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever a creature with power 1 or less is put into your graveyard from the battlefield, you may return that card to the battlefield under your control at the beginning of the next end step if  Shirei, Shizo’s Caretaker is still on the battlefield.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Wayne Reynolds</illustrator>
+    <number>37/108</number>
+  </card>
+  <card>
+    <name>Sleeper Agent</name>
+    <cost>B</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Minion </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Sleeper Agent enters the battlefield, target opponent gains control of it.
+At the beginning of your upkeep, Sleeper Agent deals 2 damage to you.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Illus. Randy Gallegos</illustrator>
+    <number>38/108</number>
+  </card>
+  <card>
+    <name>Ali from Cairo</name>
+    <cost>2RR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Damage that would reduce your life total to less than 1 reduces it to 1 instead.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. © Mark Poole</illustrator>
+    <number>39/108</number>
+  </card>
+  <card>
+    <name>Barbed Shocker</name>
+    <cost>3R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Insect </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample, haste
+Whenever Barbed Shocker deals damage to a player, that player discards all the cards in his or her hand, then draws that many cards.
+Fervid shamans willingly submit to shockers in hopes of glimpsing the fortunes of the future.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Tony Szczudlo</illustrator>
+    <number>40/108</number>
+  </card>
+  <card>
+    <name>Bazaar Trader</name>
+    <cost>1R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Goblin </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>T: Target player gains control of target artifact, creature, or land you control.</rules>
+    <flavor>“No need for a hurda? How about these maps to recently discovered tombs? Or these vials of invisible potion? Very fancy...”</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Matt Cavotta</illustrator>
+    <number>41/108</number>
+  </card>
+  <card>
+    <name>Bomb Squad</name>
+    <cost>3R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Dwarf </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>T: Put a fuse counter on target creature.
+At the beginning of your upkeep, put a fuse counter on each creature with a fuse counter on it.
+Whenever a creature has four or more fuse counters on it, remove all fuse counters from it and destroy it. That creature deals 4 damage to its controller.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. Greg &amp; Tim Hildebrandt</illustrator>
+    <number>42/108</number>
+  </card>
+  <card>
+    <name>Chaos Musician</name>
+    <cost>RR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>3/R, T: Roll on a random Chaos List.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>rlanghi (DeviantART)</illustrator>
+    <number>43/108</number>
+  </card>
+  <card>
+    <name>Countryside Crusher</name>
+    <cost>1RR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Giant Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of your upkeep, reveal the top card of your library. If it’s a land card, put it into your graveyard and repeat this process.
+Whenever a land card is put into your graveyard from anywhere, put a +1/+1 counter on Countryside Crusher.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Volkan Baga</illustrator>
+    <number>44/108</number>
+  </card>
+  <card>
+    <name>Crag Saurian</name>
+    <cost>RRR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Lizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever a source deals damage to Crag Saurian, that source’s controller gains control of Crag Saurian.</rules>
+    <flavor>It follows the strongest leader—the one with the longest whip.</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Illus. Matthew Wilson</illustrator>
+    <number>45/108</number>
+  </card>
+  <card>
+    <name>Deep-Slumber Titan</name>
+    <cost>2RR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Giant Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Deep-Slumber Titan enters the battlefield tapped.
+Deep-Slumber Titan doesn’t untap during your untap step.
+Whenever Deep-Slumber Titan is dealt damage, untap it.</rules>
+    <flavor>Do not disturb.</flavor>
+    <stats>
+      <power>7</power>
+      <toughness>7</toughness>
+    </stats>
+    <illustrator>Steve Prescott</illustrator>
+    <number>46/108</number>
+  </card>
+  <card>
+    <name>Dragonmaster Outcast</name>
+    <cost>R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Shaman </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of your upkeep, if you control six or more lands, put a 5/5 red Dragon creature token with flying onto the battlefield.</rules>
+    <flavor>“Cast out by my tribe, I am the pariah trapped in this mammal’s carcass. Only my true kin hear my cries.”</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Raymond Swanland</illustrator>
+    <number>47/108</number>
+  </card>
+  <card>
+    <name>Fumiko the Lowblood</name>
+    <cost>2RR</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Samurai </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. (When this blocks or becomes blocked, it gets +X/+X until end of turn.)
+Creatures your opponents control attack each turn if able.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Michael Sutfin</illustrator>
+    <number>48/108</number>
+  </card>
+  <card>
+    <name>Goblin Welder</name>
+    <cost>R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Goblin Artificer </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>T: Exchange target artifact a player controls for target artifact card in that player’s graveyard.</rules>
+    <flavor>“I wrecked your metal guy, boss. But look! I made you an ashtray.”</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. Scott M. Fischer</illustrator>
+    <number>49/108</number>
+  </card>
+  <card>
+    <name>Markov Blademaster</name>
+    <cost>1RR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Vampire Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Double strike
+When Markov Blademaster deals combat damage to a player, put a +1/+1 counter on it.
+“Mortals practice swordplay for a few decades at best. How can they ever attain the exquisite mastery that eternity has to offer?”</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Jana Schirmer &amp; Johannes Voss</illustrator>
+    <number>50/108</number>
+  </card>
+  <card>
+    <name>Norin the Wary</name>
+    <cost>R</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever a player casts a spell or a creature attacks, exile Norin the Wary. Return it to the battlefield under its owner’s control at the beginning of the next end step.</rules>
+    <flavor>“I have a bad feeling about this.”</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Heather Hudson</illustrator>
+    <number>51/108</number>
+  </card>
+  <card>
+    <name>Rhys the Chaotic</name>
+    <cost>R</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Elf Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>2U/B, T: Put a 1/1 blue and black Homarid Warrior creature token onto the battlefield.
+4G/WG/W, T: For each other creature token you control, put a token that’s a copy of that creature onto the battlefield.</rules>
+    <flavor>Whole again in honor and horn.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Steve Prescott</illustrator>
+    <number>52/108</number>
+  </card>
+  <card>
+    <name>Rogue Skycaptain</name>
+    <cost>2R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Rogue Mercenary </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+At the beginning of your upkeep, put a wage counter on Rogue Skycaptain. You may pay 2 for each wage counter on it. If you don’t, remove all wage counters from Rogue Skycaptain and an opponent gains control of it.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Illus. Randy Asplund</illustrator>
+    <number>53/108</number>
+  </card>
+  <card>
+    <name>Slumbering Dragon</name>
+    <cost>R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Dragon </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Slumbering Dragon can’t attack or block unless it has five or more +1/+1 counters on it.
+Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Slumbering Dragon.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Chris Rahn</illustrator>
+    <number>54/108</number>
+  </card>
+  <card>
+    <name>Sokenzan Renegade</name>
+    <cost>2R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ogre Samurai Mercenary </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+At the beginning of your upkeep, if a player has more cards in hand than each other player, the player who has the most cards in hand gains control of Sokenzan Renegade.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Alan Pollack</illustrator>
+    <number>55/108</number>
+  </card>
+  <card>
+    <name>Ageless Entity</name>
+    <cost>3GG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Elemental </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever you gain life, put that many +1/+1 counters on Ageless Entity.</rules>
+    <flavor>Tel-Jilad’s sworn protectors are the trolls, yet more fearsome protectors were created by the Tangle itself.</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Jeff Miracola</illustrator>
+    <number>56/108</number>
+  </card>
+  <card>
+    <name>Ancient Ooze</name>
+    <cost>5GG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ooze </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Ancient Ooze’s power and toughness are each equal to the total converted mana cost of other creatures you control.</rules>
+    <flavor>The ooze has always been. The ooze will always be.</flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Illus. Erica Gassalasca-Jape</illustrator>
+    <number>57/108</number>
+  </card>
+  <card>
+    <name>Azusa, Lost but Seeking</name>
+    <cost>2G</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Monk </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>You may play two additional lands on each of your turns.</rules>
+    <flavor>“I do not miss Jukai Forest. It is not my home. My home is Kamigawa, its people my family. Wherever I set my pack and rest my head, I am home.”</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Todd Lockwood</illustrator>
+    <number>58/108</number>
+  </card>
+  <card>
+    <name>Bioplasm</name>
+    <cost>3GG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ooze </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever Bioplasm attacks, exile the top card of your library. If it’s a creature card, Bioplasm gets +X/+Y until end of turn, where X is the exiled creature card’s power and Y is its toughness.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Jon Foster</illustrator>
+    <number>59/108</number>
+  </card>
+  <card>
+    <name>Lotus Cobra</name>
+    <cost>1G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Snake </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.</rules>
+    <flavor>Its scales contain the essence of thousands of lotus blooms.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Chippy</illustrator>
+    <number>60/108</number>
+  </card>
+  <card>
+    <name>Manaplasm</name>
+    <cost>2G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ooze </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever you cast a spell, Manaplasm gets +X/+X until end of turn, where X is that spell’s converted mana cost.</rules>
+    <flavor>Urak froze when he heart it. That was his first mistake. He turned and cast a dramatic ward spell. That was his last.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Daarken</illustrator>
+    <number>61/108</number>
+  </card>
+  <card>
+    <name>Melira, Sylvok Outcast</name>
+    <cost>1G</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Scout </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>You can’t get poison counters.
+Creatures you control can’t have -1/-1 counters placed on them.
+Creatures your opponents control lose infect.
+Once a pariah, now Mirrodin’s greatest hope.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Min Yum</illustrator>
+    <number>62/108</number>
+  </card>
+  <card>
+    <name>Mitotic Slime</name>
+    <cost>4G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ooze </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Mitotic Slime dies, put two 2/2 green Ooze creature tokens onto the battlefield. They have “When this creature dies, put two 1/1 green Ooze creature tokens onto the battlefield.”</rules>
+    <flavor></flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Raymond Swanland</illustrator>
+    <number>63/108</number>
+  </card>
+  <card>
+    <name>Nacatl War-Pride</name>
+    <cost>3GGG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Cat Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Nacatl War-Pride must be blocked by exactly one creature if able.
+Whenever Nacatl War-Pride attacks, put X tokens that are copies of Nacatl War-Pride onto the battlefield tapped and attacking, where X is the number of creatures defending player controls. Exile the tokens at the beginning of the next end step.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>James Kei</illustrator>
+    <number>64/108</number>
+  </card>
+  <card>
+    <name>Oracle of Mul Daya</name>
+    <cost>3G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Elf Shaman </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>You may play an additional land on each of your turns.
+Play with the top card of your library revealed.
+You may play the top card of your library if it’s a land card.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Vance Kovacs</illustrator>
+    <number>65/108</number>
+  </card>
+  <card>
+    <name>Predator Ooze</name>
+    <cost>GGG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Ooze </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Predator Ooze is indestructible.
+Whenever Predator Ooze attacks, put a +1/+1 counter on it.
+Whenever a creature dealt damage by Predator Ooze this turn dies, put a +1/+1 counter on Predator Ooze.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Dark Ascension</illustrator>
+    <number>66/108</number>
+  </card>
+  <card>
+    <name>Scute Mob</name>
+    <cost>G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Insect </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on Scute Mob.</rules>
+    <flavor>“Survival rule 781: There are always more scute bugs.”
+—Zurdi, goblin shortcutter</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Zoltan Boros &amp; Gabor Szikzai</illustrator>
+    <number>67/108</number>
+  </card>
+  <card>
+    <name>Seedborn Muse</name>
+    <cost>3GG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Spirit </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Untap all permanents you control during each other player’s untap step.</rules>
+    <flavor>“Her voice is wilderness, savage and pure.”
+—Kamahl, druid acolyte</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Illus. Adam Rex</illustrator>
+    <number>68/108</number>
+  </card>
+  <card>
+    <name>Tree of Redemption</name>
+    <cost>3G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Plant </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Defender
+T: Exchange your life total with Tree of Redemption’s toughness.
+The executioner’s tree in Tharben Cathedral holds the power to absolve more than the souls of the hanged.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>13</toughness>
+    </stats>
+    <illustrator>Vincent Proce</illustrator>
+    <number>69/108</number>
+  </card>
+  <card>
+    <name>Wild Mongrel</name>
+    <cost>1G</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Hound </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn.</rules>
+    <flavor>It teaches you to play dead.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Illus. Anthony S. Walters</illustrator>
+    <number>70/108</number>
+  </card>
+  <card>
+    <name>Animar, Soul of Elements</name>
+    <cost>URG</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Elemental </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Protection from white and from black (Nothing white or black can block, target, deal damage to, or attach to this creature.)
+Whenever you cast a creature spell, put a +1/+1 counter on Animar, Soul of Elements.
+Creature spells you cast cost 1 less to cast for each +1/+1 counter on Animar.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Peter Mohrbacher</illustrator>
+    <number>71/108</number>
+  </card>
+  <card>
+    <name>Dakkon Blackblade</name>
+    <cost>2WUUB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Warrior </subtype>
+    </type>
+    <rarity>B</rarity>
+    <rules>Dakkon Blackblade’s power and toughness are each equal to the number of lands you control.
+“My power is as vast as the plains, my strength is that of mountains. Each wave that crashes upon the shore thunders like blood in my veins.”
+—Dakkon Blackblade, Memoirs</rules>
+    <flavor></flavor>
+    <stats>
+      <power>*</power>
+      <toughness>*</toughness>
+    </stats>
+    <illustrator>Illus. © Richard Kane-Ferguson</illustrator>
+    <number>72/108</number>
+  </card>
+  <card>
+    <name>Daxos of Meletis</name>
+    <cost>1WU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Soldier </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Daxos of Meletis can’t be blocked by creatures with power 3 or greater.
+Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player’s library. You gain life equal to that card’s converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Karla Ortiz</illustrator>
+    <number>73/108</number>
+  </card>
+  <card>
+    <name>Edric, Spymaster of Trest</name>
+    <cost>1GU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Elf Rogue </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.</rules>
+    <flavor>“I am not at liberty to reveal my sources, but I can assure you, the price on your head is high.”</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Volkan Baga</illustrator>
+    <number>74/108</number>
+  </card>
+  <card>
+    <name>Goblin Flectomancer</name>
+    <cost>URR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Goblin Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Sacrifice Goblin Flectomancer: You may change the targets of target instant or sorcery spell.</rules>
+    <flavor>Rerouting magic through a goblin’s brain is the surest way to throw it wildly off course.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Matt Cavotta</illustrator>
+    <number>75/108</number>
+  </card>
+  <card>
+    <name>Gwafa Hazid, Racketeer</name>
+    <cost>1WU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Rogue </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>2, T: Put a bribery counter on target creature you don’t control. Its controller draws a card.
+Creatures with bribery counters on them can’t attack or block.</rules>
+    <flavor>“Everyone has a price.”</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Todd Lockwood</illustrator>
+    <number>76/108</number>
+  </card>
+  <card>
+    <name>Havengul Lich</name>
+    <cost>3UB</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Zombie Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>1: You may cast target creature card from a graveyard this turn. When you cast that card this turn, Havengul Lich gains all activated abilities of that card until end of turn.</rules>
+    <flavor>Fusing intelligence with the power of undeath requires inspiration of the darkest kind.</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>James Ryman</illustrator>
+    <number>77/108</number>
+  </card>
+  <card>
+    <name>Jeleva, Nephalia’s Scourge</name>
+    <cost>1UBR</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Vampire Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+When Jeleva, Nephalia’s Scourge enters the battlefield, each player exiles the top X cards of his or her library, where X is the amount of mana spent to cast Jeleva.
+Whenever Jeleva attacks, you may cast an instant or sorcery card exiled with it without paying its mana cost.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Cynthia Sheppard</illustrator>
+    <number>78/108</number>
+  </card>
+  <card>
+    <name>Karadur, Ghost Chieftain</name>
+    <cost>5BGW</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Centaur Spirit </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>During each of your turns, you may cast one creature card from your graveyard.</rules>
+    <flavor>“Death tried to uncrown me. But now I return, king of a greater realm.”</flavor>
+    <stats>
+      <power>3</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Todd Lockwood</illustrator>
+    <number>79/108</number>
+  </card>
+  <card>
+    <name>Lazav, Dimir Mastermind</name>
+    <cost>UUBB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Shapeshifter </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Hexproof
+Whenever a creature card is put into an opponent’s graveyard from anywhere, you may have Lazav, Dimir Mastermind become a copy of that card except its name is still Lazav, Dimir Mastermind, it’s legendary in addition to its other types, and it gains hexprrof and this ability.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>David Rapoza</illustrator>
+    <number>80/108</number>
+  </card>
+  <card>
+    <name>Nebuchadnezzar</name>
+    <cost>3UB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>B</rarity>
+    <rules>X, T: Name a card. Target opponent reveals X cards at random from his or her hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Illus. © Ricard Kane-Ferguson</illustrator>
+    <number>81/108</number>
+  </card>
+  <card>
+    <name>Rakdos Augermage</name>
+    <cost>BBR</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>First Strike
+T: Reveal your hand and discard a card of target opponent’s choice. Then that player reveals his or her hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery.</rules>
+    <flavor>“Great minds bleed alike.”</flavor>
+    <stats>
+      <power>3</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Zoltan Boros &amp; Gabor Szikszai</illustrator>
+    <number>82/108</number>
+  </card>
+  <card>
+    <name>Realm Razer</name>
+    <cost>3RGW</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Beast </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Realm Razer enters the battlefield, exile all lands.
+When Realm Razer leaves the battlefield, return the exiled cards to the battlefield tapped under their owners’ control.</rules>
+    <flavor>The behemoth roared, and the world was blasted free of empires and tyrants.</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Hideaki Takamura</illustrator>
+    <number>83/108</number>
+  </card>
+  <card>
+    <name>Rubinia Soulsinger</name>
+    <cost>2GWU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Faerie </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>You may choose not to untap Rubinia Soulsinger during your untap step.
+T: Gain control of target creature for as long as you control Rubinia and Rubinia remains tapped.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Illus. © Rob Alexander</illustrator>
+    <number>84/108</number>
+  </card>
+  <card>
+    <name>Stoic Angel</name>
+    <cost>1GWU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Angel </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying, vigilance
+Players can’t untap more than one creature during their untap steps.</rules>
+    <flavor>Even the most battle-hardened soldiers pause in her presence for a moment of introspection.</flavor>
+    <stats>
+      <power>3</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Volkan Baga</illustrator>
+    <number>85/108</number>
+  </card>
+  <card>
+    <name>Thromok the Insatiable</name>
+    <cost>3RG</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Hellion </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Devour X (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with X times that many +1/+1 counters on it.), where X is the number of creatures devoured this way.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>0</toughness>
+    </stats>
+    <illustrator>Terese Nielsen</illustrator>
+    <number>86/108</number>
+  </card>
+  <card>
+    <name>Varolz, the Scar-Striped</name>
+    <cost>1BG</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Troll Warrior </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Each creature card in your graveyard has scavenge. The scavenge cost is equal to its mana cost. (Exile a creature card from your graveyard and pay its mana cost: Put a number of +1/+1 counters equal to that card’s power on target creature. Scavenge only as a sorcery.)
+Sacrifice another creature: Regenerate Varolz, the Scar-Striped.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Adam Paquette</illustrator>
+    <number>87/108</number>
+  </card>
+  <card>
+    <name>Wall of Chaos</name>
+    <cost>WUBRG</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wall </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Defender
+Whenever Wall of Chaos blocks a creature, put that creature on the bottom of its owner’s library. Then that creature’s controller reveals cards from the top of his or her library until a creature card is revealed, and puts that card onto the battlefield tapped, attacking, and blocked by Wall of Chaos. That player shuffles all other cards revealed this way into his or her library.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>ibon16 (DeviantART)</illustrator>
+    <number>88/108</number>
+  </card>
+  <card>
+    <name>Warping Wurm</name>
+    <cost>2GU</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Wurm </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Phasing (This phases in or out before you untap during each of your untap steps. While it’s phased out, it’s treated as though it doesn’t exist.)
+During your upkeep, pay 2GU or Warping Wurm phases out.
+When Warping Wurm phases in, put a +1/+1 counter on it.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Illus. Scott Fischer</illustrator>
+    <number>89/108</number>
+  </card>
+  <card>
+    <name>Zedruu the Magnanimous</name>
+    <cost>1RWU</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Minotaur Monk </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of your upkeep, you gain X life and draw X cards, where X is the number of permanents you own that your opponents control.
+3: Target opponent gains control of target permanent you control.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Mark Zug</illustrator>
+    <number>90/108</number>
+  </card>
+  <card>
+    <name>Zur the Enchanter</name>
+    <cost>1WUB</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Wizard </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Whenever Zur the Enchanter attacks, you may search your library for an enchantment card with converted mana cost 3 or less and put it onto the battlefield. If you do, shuffle your library.</rules>
+    <flavor>Zur remained aloof from Terisiare’s suffering, intent only on his own perfection.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Pete Venters</illustrator>
+    <number>91/108</number>
+  </card>
+  <card>
+    <name>Calming Elk</name>
+    <cost>2G/W</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Elk </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>At the beginning of your upkeep, sacrifice Calming Elk unless you pay 1G/W.
+Creatures can’t attack.
+As the sacred elk crossed the battlefield, soldiers laid down their arms in reverence.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Diane Whitehead</illustrator>
+    <number>92/108</number>
+  </card>
+  <card>
+    <name>Djinn Illuminatus</name>
+    <cost>5U/RU/R</cost>
+    <type>
+      <supertype>Creature</supertype>
+      <subtype>Djinn </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)</rules>
+    <flavor></flavor>
+    <stats>
+      <power>3</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Carl Critchlow</illustrator>
+    <number>93/108</number>
+  </card>
+  <card>
+    <name>Sapling of Colfenor</name>
+    <cost>3B/GB/G</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Treefolk Shaman </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Indestructible
+Whenever Sapling of Colfenor attacks, reveal the top card of your library. If it’s a creature card, you gain life equal to that card’s toughness, lose life equal to its power, then put in into your hand.</rules>
+    <flavor>Her plans may yet bear fruit.</flavor>
+    <stats>
+      <power>2</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>John Avon</illustrator>
+    <number>94/108</number>
+  </card>
+  <card>
+    <name>Bronze Bombshell</name>
+    <cost>4</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Construct </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When a player other than Bronze Bombshell’s owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to him or her.</rules>
+    <flavor>“Ooh, shiny! Let’s pull off the chain and take her with us.”
+—Ukl, Gruul raider, last words</flavor>
+    <stats>
+      <power>4</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Martina Pilcerova</illustrator>
+    <number>95/108</number>
+  </card>
+  <card>
+    <name>Chronomaton</name>
+    <cost>1</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Golem </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>1, T: Put a +1/+1 counter on Chronomaton.</rules>
+    <flavor>On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Vincent Proce</illustrator>
+    <number>96/108</number>
+  </card>
+  <card>
+    <name>Clone Shell</name>
+    <cost>5</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Shapeshifter </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Imprint — When Clone Shell enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library in any order.
+When Clone Shell dies, turn the exiled card face up. If it’s a creature card, put it onto the battlefield under your control.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>2</power>
+      <toughness>2</toughness>
+    </stats>
+    <illustrator>Volkan Baga</illustrator>
+    <number>97/108</number>
+  </card>
+  <card>
+    <name>Creepy Doll</name>
+    <cost>5</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Construct </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Indestructible
+Whenever Creepy Doll deals combat damage to a creature, flip a coin. If you win the flip, destroy that creature.
+A child’s porcelain doll went missing one night, as did a pair of kitchen shears and the town magistrate.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Matt Stewart</illustrator>
+    <number>98/108</number>
+  </card>
+  <card>
+    <name>Darksteel Gargoyle</name>
+    <cost>7</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Gargoyle </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Flying
+Indestructible</rules>
+    <flavor>The ultimate treasure is one that guards itself.</flavor>
+    <stats>
+      <power>3</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Ron Spencer</illustrator>
+    <number>99/108</number>
+  </card>
+  <card>
+    <name>Galvanic Juggernaut</name>
+    <cost>4</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Juggernaut </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Galvanic Juggernaut attacks each turn if able.
+Galvanic Juggernaut doesn’t untap during your untap step.
+Whenever another creature dies, untap Galvanic Juggernaut.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>5</power>
+      <toughness>5</toughness>
+    </stats>
+    <illustrator>Lucas Graciano</illustrator>
+    <number>100/108</number>
+  </card>
+  <card>
+    <name>Hex Parasite</name>
+    <cost>1</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Insect </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>XH/B: Remove up to X counters from target permanent. For each counter removed this way, Hex Parasite gets +1/+0 until end of turn. (H/B can be paid with either B or 2 life.)</rules>
+    <flavor>Drawn by power, fueled by conquest.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Raymond Swanland</illustrator>
+    <number>101/108</number>
+  </card>
+  <card>
+    <name>Karn, Silver Golem</name>
+    <cost>5</cost>
+    <type>
+      <supertype>Legendary Artifact Creature</supertype>
+      <subtype>Golem </subtype>
+    </type>
+    <rarity>B</rarity>
+    <rules>Whenever Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.
+1: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost until end of turn.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Illus. Mark Zug</illustrator>
+    <number>102/108</number>
+  </card>
+  <card>
+    <name>Myr Propagator</name>
+    <cost>3</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Myr </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>3, T: Put a token that’s a copy of Myr Propagator onto the battlefield.</rules>
+    <flavor>“We will ingest and remake this world in our image, not unlike some admirable designs I have seen here.”
+—Vorinclex, Voice of Hunger</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Ryan Pancoast</illustrator>
+    <number>103/108</number>
+  </card>
+  <card>
+    <name>Painter’s Servant</name>
+    <cost>2</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Scarecrow </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>As Painter’s Servant enters the battlefield, choose a color.
+All cards that aren’t on the battlefield, spells, and permanents are the chosen color in addition to their other colors.</rules>
+    <flavor>It gathers hues from the twilight mist so that its master can paint a better world.</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>3</toughness>
+    </stats>
+    <illustrator>Mike Dringenberg</illustrator>
+    <number>104/108</number>
+  </card>
+  <card>
+    <name>Spellskite</name>
+    <cost>2</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Horror </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>H/U: Change the target of target spell or ability to Spellskite. (H/U can be paid with either U or 2 life.)</rules>
+    <flavor>“Let’s show Vorinclex that progress doesn’t always need teeth or claws.”
+—Malcator, Executor of Synthesis</flavor>
+    <stats>
+      <power>0</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Chippy</illustrator>
+    <number>105/108</number>
+  </card>
+  <card>
+    <name>Stuffy Doll</name>
+    <cost>5</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Construct </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Indestructible
+As Stuffy Doll enters the battlefield, choose a player.
+Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.
+T: Stuffy Doll deals 1 damage to itself.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator>Dave Allsop</illustrator>
+    <number>106/108</number>
+  </card>
+  <card>
+    <name>Summoner’s Egg</name>
+    <cost>4</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Construct </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Imprint—When Summoner’s Egg enters the battlefield, you may exile a card from your hand face down.
+When Summoner’s Egg dies, turn the exiled card face up. If it’s a creature card, put it onto the battlefield under your control.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>0</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Jim Nelson</illustrator>
+    <number>107/108</number>
+  </card>
+  <card>
+    <name>Volatile Rig</name>
+    <cost>4</cost>
+    <type>
+      <supertype>Artifact Creature</supertype>
+      <subtype>Construct </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trample
+Volatile Rig attacks each turn if able.
+Whenever Volatile Rig is dealt damage, flip a coin. If you lose the flip, sacrifice Volatile Rig.
+When Volatile Rig dies, flip a coin. If you lose the flip, it deals 4 damage to each creature and each player.</rules>
+    <flavor></flavor>
+    <stats>
+      <power>4</power>
+      <toughness>4</toughness>
+    </stats>
+    <illustrator>Mathias Kollros</illustrator>
+    <number>108/108</number>
+  </card>
+</spoiler>
