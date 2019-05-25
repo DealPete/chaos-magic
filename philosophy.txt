@@ -21,6 +21,7 @@ Tedious effects. e.g. "do one mild thing 15 times" is much worse than "do one ve
 Giving the players too much choice bogs down the game, especially if the choices aren't horribly interesting. It's usually better to give the player a yes/no choice than a "choice one of the following effects" sort of choice.
 adding effects that have a negligible effect on the game, are only interesting in narrow circumstances, or require people to be playing a certain unusual type of card or deck archetype.
 giving the players permanents that are only useful if they are playing the right deck (e.g. an enchantment that pumps up all elves, or a creature with an activation ability with a colored mana cost.)
+giving out a lot of different and complicated tokens.
 
 Things to encourage:
 

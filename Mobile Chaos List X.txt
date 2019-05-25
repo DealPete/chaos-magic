@@ -228,7 +228,7 @@ A89 {Chaos List B}
 A90 Explore the New World
 Each player may put a land card from his hand onto the battlefield.
 
-A91 [Unearth] x 2
+A91 Unearth
 
 [=============================================================================]
 
@@ -303,7 +303,7 @@ B33 Explosion
 Destroy target nonland permanent. The owner of that permanent may pay 1 life to copy this ability and may choose a new target for that copy.
 
 B34 Reflection
-Exchange life totals with target player.
+Exchange life totals with target opponent.
 
 B35 Kickback
 You gain 1 life for each creature on the battlefield.
@@ -598,7 +598,7 @@ C58 [Wheel of Fortune]
 C59 {Chaos List D}
 
 C60 Re-zoning
-Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or ante. If the chosen card is moved to a player's library, that player shuffles his library.
+Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or absolutely-removed-from-the-freaking-game-forever. If the chosen card is moved to a player's library, that player shuffles his library.
 
 C61 U-Turn
 Reverse Turn Order
@@ -1013,6 +1013,9 @@ You leave the game for 6 turns.
 E64 [Death by Dragons]
 (Each player other than target player puts a 5/5 red Dragon creature token with flying onto the battlefield. (19/06/11))
 
+E65 Political Upheaval
+Each player reveals cards from the top of his library until he reveals a card that's not basic. Ban those cards. Each player shuffles his library.
+
 E66 {Global} x 2
 (Don't exile the first global as you roll on Global the second time.)
 
@@ -1058,7 +1061,7 @@ Choose an artist. Gain control of all nonland permanents drawn by this artist.
 E82 Winds of Choice
 Choose one -- [Blessed Wind] or [Searing Wind]
 
-D84 Sorrowful End
+D83 Sorrowful End
 Destroy up to five target nonblack creatures. Draw a card for each creature destroyed this way.
 
 E84 Despair
@@ -1165,7 +1168,7 @@ Split second
 If it is your turn, target opponent controls the rest of your turn. Otherwise, he controls your next turn.
 
 F43 Collision of Worlds
-All nonland permanents gain the supertype "global". (Any player may play the activated abilities of a global permanent. If a player would roll on {Global}, first exile all global permanents.)
+All nonland permanents gain the supertype "global". (Any player may play the activated abilities of a global permanent.)
 
 F46 [Goblin Game]
 (Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items he or she revealed. The player who revealed the fewest items then loses half his or her life, rounded up. If two or more players are tied for fewest, each loses half his or her life, rounded up. (16/4/10))
@@ -1173,11 +1176,16 @@ F46 [Goblin Game]
 F47 Plasma Storm
 Plasma Storm deals 16 damage to each player and each creature.
 
+F48 Weissman's Revenge
+Ban three faceup non-basic cards that aren't in the Command Zone.
+
 F49 Impending Insanity
 Roll five times on Chaos List A, four times on Chaos List B, three times on Chaos List C, twice on Chaos List D, and once on Chaos List E. Then the next time a player would roll chaos, he rolls on Chaos List F instead of rolling on the last Chaos List that was rolled on.
 
 F50 Brain Torch
 Each player discards his hand.
+
+F51 {Global}
 
 F52 Great Leadership
 Gain control of all creatures.
@@ -1333,7 +1341,7 @@ XC Limitless Vigor
 Roll d20, then gain fifty times that much life.
 
 XC Mana Flood
-During your next main phase, add one million mana in any combination of colors to your mana pool.
+At the beginning of your next main phase, add one million mana in any combination of colors to your mana pool.
 
 XC Annihilation
 Remove target player from the game. (He doesn't roll on Spite.) Gain life equal to his life total.
