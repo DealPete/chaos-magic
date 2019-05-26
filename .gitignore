@@ -8,3 +8,9 @@ MobileChaos/gradle
 .gradle
 gen
 build
+
+# Website build
+website
+
+# Downloaded Data
+scryfall-default-cards.json

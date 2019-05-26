@@ -1,4 +1,4 @@
-listA:
+- short_name: listA
   full_name: Chaos List A
   rolls:
     - card: Howl From Beyond
@@ -31,7 +31,7 @@ listA:
       Xdice: [6, 6]
     - card: Lightning Bolt
     - list: listB
-    - name: Change Course
+    - name: About Face
       text: Reverse the turn order.
     - card: Ideas Unbound
     - name: Pity the Weak
@@ -127,3 +127,134 @@ listA:
     - name: Explore the New World
       text: Each player may put a land card from his hand onto the battlefield.
     - card: Unearth
+
+- short_name: listB
+  full_name: Chaos List B
+  rolls:
+    - name: Compliance
+      text: Reveal the top card of each opponent's library. Put each creature card revealed this way onto the battlefield under your control.
+    - name: Ma'rûf's Cane
+      text: Each player shuffles his exiled cards into his library.
+    - name: Jester's Headgear
+      text: Target opponent reveals the top ten cards of his library. Choose two of those cards and exile them. THen that opponent shuffles his library.
+    - name: Share the Wealth
+      text: Each player chooses one of his permanents. The player on his left gains control of that permanent.
+    - list: global
+    - list: global
+    - card: Stream of Life
+      Xdice: [6, 6]
+    - card: Truce
+    - name: Creature Dividends
+      text: Each player draws a card for each creature he controls.
+    - name: Chaos Spurt
+      text: Roll Chaos three times.
+    - name: Words of Command
+      text: "Split second\nLook at target opponent's hand and choose a card from it. If that card is a land card, that player puts that card onto the battlefield. Otherwise, that player plays that card with his own mana, but you make all decisions it calls for. The player is required only to spend mana in his mana pool and/or mana that can be produced by lands."
+    - name: Prepared Response
+      text: The next time any player casts an instant or sorcery spell, another random player rolls on [response] choosing that spell as the target. 
+    - name: Pact with the Dead
+      text: Discard three cards. Then return two cards from your graveyard to your hand.
+    - name: Black Mass
+      text: Each player discards two cards at random.
+    - name: Secret Route
+      text: Choose a basic land type. All creatures you control gain the corresponding landwalking ability.
+    - card: Fiery Justice
+    - name: Taint
+      text: Choose one -- Lose 2d6 life; or target player gains that much life.
+    - card: Regrowth
+    - name: Gaea's Benison
+      text: Target players shuffles up to three target cards from his graveyard into his library.
+    - list: listC
+    - name: Chance Explosion
+      text: Destroy all artifacts and creatures that have converted mana cost d6.
+    - card: Mnemonic Nexus
+    - list: vortex
+    - name: Explosion
+      text: Destory target nonland permanent. The owner of that permanent may pay 1 life to copy this ability and may choose a new target for that copy.
+    - name: Reflection
+      text: Exchange life totals with target opponent.
+    - name: Kickback
+      text: You gain 1 life for each creature on the battlefield.
+    - name: Surprise Attack
+      text: Until end of turn all lands you control are 1/1 creatures with haste that are still lands.
+    - name: Summon Magic
+      text: Choose one -- Roll on [mild-creature]; or roll on [treacherous-creature].
+    - card: Tranquility
+    - list: listC
+    - card: Metamorphose
+    - card: Channel
+    - name: Poetic Justice
+      text: Each player loses 3 life for each red instant or sorcery in his graveyard. Then for each blue instant in each player`s graveyard, each of that player's opponents may put a nonland card from his graveyard onto the stack. Then each player discards a card at random for each black instant or sorcery in his graveyard.
+    - card: Windfall
+    - list: Global
+    - card: Rally the Horde
+    - card: Seek the Horizon
+    - list: vortex
+    - name: Deja Vu
+      text: Each player shuffles his graveyard and puts the shuffled cards on top of his library. Then each player puts the top card of his library into the middle world.
+    - list: listC
+    - list: acquisition
+    - name: Drink Break
+      text: Target player goes to get a drink, leaving the game until your next turn.
+    - card: Clear the Land
+    - name: Hireling
+      text: You may discard two cards to roll on [strong-creature].
+    - name: Spleradicour
+      text: Exile target artifact, enchantment, or creature. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles his library.
+    - name: Leech
+      text: Target player loses 2d6 life. You gain that much life.
+    - name: Artistic Inspiration
+      text: Choose an artist. All opponents reveal their hands and put any cards drawn by that artist into the middle world.
+    - name: Coalesce
+      text: You may exile two of your creatures. If you do, roll on [synthetic-creature].
+    - name: Scapegoat
+      text: Choose target player. That player loses 2 life fore ach other player in the game. Each other player gains 2 life.
+    - list: listC
+    - name: Unexpected Result
+      text: Each player shuffles his library, then reveals the top card. If it's a nonland card, he may cast it without paying its mana cost. If it's a land card, he may put it onto the battlefield.
+    - list: vortex
+    - name: Feoffment
+      text: You may exile a land you control. If you do, roll on [strong-creature].
+    - card: Flaming Gambit
+      Xdice: [6, 6]
+    - name: Power Drain
+      text: Exile target artifact, enchantment, or creature. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles his library.
+    - card: Dust to Dust
+    - name: About Face
+      text: Reverse the turn order.
+    - name: Tooth for a tooth
+      text: Target player rolls a six-sided die and loses that much life. That player may copy this ability and may choose a new target for that copy.
+      color: W
+    - name: Call from Within
+      text: All players search their libraries for a card, then reveal those cards simultaneously. Exile those cards with five time counters on them and suspend.
+    - list: listC
+    - name: Contract
+      text: You may exile an artifact you control. If you do, roll on [strong-creature].
+    - card: Flame Rift
+    - card: Show and Tell
+    - card: Feedback Bolt
+    - card: Blood Oath
+    - card: Natural Affinity
+    - name: Fireballs
+      text: Fireballs deals 3 damage to each of up to 4 target creatures and/or players.
+      color: R
+    - card: Meltdown
+    - card: Resurrection
+    - list: listC
+    - name: Noesis
+      text: Return all creatures to their owner's hands that have power greater than the number of cards in their controller's hand.
+    - card: Meditate
+    - name: Lat-Nam's Athenaeum
+      text: An opponent chooses one -- You draw three cards; or you search your library for a card, put that card into your hand, then shuffle your library.
+    - name: Banish
+      text: Put target nonland permanent on top of its owner's library.
+    - card: Might of Oaks
+    - card: Aether Snap
+    - name: Poison
+      text: Target player gets 3 poison counters.
+    - card: Sowing Salt
+    - list: musical
+    - list: listC
+    - name: New Frontier
+      text: Each player may search his library for up to two basic land cards and put them onto the battlefield tapped. Then each player who searched his library this way shuffles it.
+    - card: Spontaneous Generation

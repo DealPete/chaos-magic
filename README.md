@@ -4,7 +4,11 @@ This is a multi-player variant of Magic the Gathering for long-time players look
 
 There have been many versions of Chaos Magic over the years; it was the inspiration for Wizards of the Coast's <a href="https://en.wikipedia.org/wiki/Planechase">Planechase product</a>. This version is rather complex and is not for the faint of heart.
 
-To play the game, open the file `index.html`.
+To play the game, run
+
+`$ python3 buid-website.py`
+
+then open the file `website/index.html`.
 
 ### Files
 
@@ -21,4 +25,3 @@ The directory `MSE` contains cards created in [Magic Set Editor](http://magicset
 `Ron's Chaos Program.rar` is an old Windows GUI application created by a friend.
 
 `Chaos Magic Stats.ods` is a spreadsheet that helps me keep track of how often various kinds of effects come up on the list.
-

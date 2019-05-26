@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chaos Magic</title>
+	</head>
+	<body>
+		<h1>Chaos Magic</h1>
+		<p>This is a multi-player variant of Magic the Gathering for long-time players looking to add a bit of excitement and wackiness to the game. The basic idea is that at the beginning of each player's turn he rolls some dice and consults a list of spells, resolving that spell as if it had just been cast. We usually play with our Commander decks, and sometimes with <a href="https://magic.wizards.com/en/vanguard">Vanguard cards</a>.</p>
+		<p>There have been many versions of Chaos Magic over the years; it was the inspiration for Wizards of the Coast's <a href="https://en.wikipedia.org/wiki/Planechase">Planechase product</a>. This version is rather complex and is not for the faint of heart.
+
+		<h2>Rules</h2>
+		<p>At the beginning of the game, roll on the <a href="global.html">Global List</a> and put a token copy of in the centre of the table. The global has an interesting effect on the rest of the game and affects all players equally. It can't be targeted or removed by spells, but some Chaos roles allow you to replace it with a another Global.</p>
+
+		<p>Near the beginning of each player's turn - after his untap and upkeep steps, but before his draw step - he rolls two dice and finds the corresponding effect on one the main Chaos Lists. The effect goes on the stack and players can respond to as they would a spell cast by a player, though it is not a spell and can't be countered.</p>
+		
+		<p>The main lists are labelled A through F. Players start by rolling on <a href="listA.html">List A</a>. Some rolls cause a player to roll on one of the other main lists. After that happens, players continue to roll on the new list on following turns. However, this only applies to the main lists. For example, suppose Alan rolls on List C and is directed to roll on <a href="vortex.html">The Vortex</a>. Alan resolve the roll on the Vortex and carries on with his turn. The next player then rolls again on List C, not the Vortex.</p>
+
+		<p>There is a new zone called the <em>Middle World</em>. Some Chaos rolls have players place cards in the <em>Middle World</em>. All players can play one card a turn from the <em>Middle World</em>, even if the card is owned by another player.</p>
+
+		<p>When a player loses the game, if more than one of his opponents are left in the game, he can rolls on the <a href="spite.html">Spite</a> table. This gives him a chance to get revenge on the player who killed him.</p>
+
+		<h2>Lists</h2>
+		<ul>
+		{% for list in lists %}
+			<li><a href="{{ list.url }}">{{ list.full_name }}</a></li>
+		{% endfor %}
+		<ul>
+	</body>
+</html>
