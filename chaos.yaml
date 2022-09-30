@@ -8,7 +8,7 @@
     - card: Blood of the Martyr
     - name: Roulette
       text: Destroy a nonland permanent at random. it can't be regenerated.
-    - list: mild_creature
+    - list: mild-creature
     - name: Time to Strike
       text: Tap all artifacts, creatures, and lands.
     - list: global
@@ -186,7 +186,7 @@
     - name: Poetic Justice
       text: Each player loses 3 life for each red instant or sorcery in his graveyard. Then for each blue instant in each player`s graveyard, each of that player's opponents may put a nonland card from his graveyard onto the stack. Then each player discards a card at random for each black instant or sorcery in his graveyard.
     - card: Windfall
-    - list: Global
+    - list: global
     - card: Rally the Horde
     - card: Seek the Horizon
     - list: vortex
@@ -258,3 +258,255 @@
     - name: New Frontier
       text: Each player may search his library for up to two basic land cards and put them onto the battlefield tapped. Then each player who searched his library this way shuffles it.
     - card: Spontaneous Generation
+
+- short_name: listC
+  full_name: Chaos List C
+  rolls:
+    - name: Mathematical Insight
+      text: Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.
+    - list: vortex
+    - name: Uneasy Truce
+      text: Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attach each other.
+    - name: Olympics
+      text: Each player puts each creature in his hand onto the battlefield.
+    - list: global
+    - card: Stone Rain
+    - card: Channel
+    - name: Prejudice
+      text: Choose an expansion symbol. Destroy all nonland cards with that symbol. They can't be regenerated.
+    - card: Collective Unconscious
+    - name: Chaos Dance
+      text: Roll on [listB], then on [listD], then on [listC].
+    - name: Hypnotize
+      text: Target opponent reveals his hand. Choose any number of cards from it. That player discards those cards, then draws that many cards.
+    - list: vortex
+    - list: global
+    - card: Stunted Growth
+    - name: Spellmonger
+      text: Each player may put any number of cards from his hand into the middle world, then draw that many cards.
+    - card: Fugue
+    - name: Bath in the Styx
+      text: You may pay any amount of life. If you do, put that many cards from the top of your library into your hand.
+    - name: Mutiny
+      text: All of your creatures attack you this turn if able. Tapped creatures can attack this turn. Attacking creatures can't block.
+    - card: Tempt with Reflections
+    - name: Rip in the Chaos
+      text: A disinterested third party (someone who isn't playing) chooses the result of this roll from Chaos List C. If no disinterested person is present, roll again.
+    - list: acquisition2
+    - card: Winds of Change
+    - card: Regrowth
+    - list: global
+    - list: vortex
+    - name: Empty the Rift
+      text: All players shuffle their graveyard and the exiled cards they own into their libraries.
+    - card: Demonic Tutor
+    - name: Virtues of the Past
+      text: Until end of turn, you may cast target exiled instant or sorcery card you own without paying its mana cost.
+    - name: Bad Karma
+      text: Each player loses 1 life for each land he controls.
+    - list: listD
+    - card: Tranquility
+    - name: Smiling Totem
+      text: Look at target opponent's hand, choose a card from it and exile it. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, return it to its owner's hand.
+    - name: Tower of Babel
+      text: If the total number of permanents is greater than ten times the number of players, roll on [extreme].
+    - name: Rummage Sale
+      text: Each player searches the library of the player to his right, chooses a card, and puts it into the middle world. Then each player shuffles his library.
+    - card: New Frontiers
+      Xdice: 6
+    - card: Honor the Fallen
+    - name: Important Decision
+      text: Choose one -- Roll on [vortex]; or roll on [global]; or discard four cards. If you do, roll on [extreme].
+    - list: [strong-creature]
+    - name: Relentless Battle
+      text: There are two additional combat phases this turn, each followed by an additional main phase. A tapped creature can attack this turn if it attacked during a previous attack phase this turn.
+    - list: listD
+    - name: Summon Magic
+      text: Roll on [mild-creature] or [treacherous-creature].
+    - name: Burdensome Gift
+      text: You may sacrifice a land or discard a card. If you do, target player copies this ability. If you don't, roll on [treacherous-creature].
+    - card: Vindicate
+    - card: Mob Justice
+    - name: Loan Shark
+      text: Each player may put any number of nontoken permanents into the middle world, then draw that many cards.
+    - name: Global Life Reset
+      text: Each player's life total becomes his starting life total.
+    - name: Purge
+      text: Each player rolls 2d6 and loses that much life.
+    - card: Gerrymandering
+    - card: Wheel of Fortune
+    - list: listD
+    - name: Re-zoning
+      text: "Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or banned. If the chosen card is moved to a player's library, that player shuffles his library."
+    - name: About Face
+      text: Reverse the turn order.
+    - card: Sever Soul
+    - list: acquisition
+    - name: Paranoia
+      text: If the total power of all creatures on the battlefield is greater than or equal to your life total, you lose half your life, rounded up.
+    - card: Spelltwine
+    - card: Time Stop
+    - name: Impossible Quest
+      text: 'Exile target nontoken creature. If there are any other creatures exiled this way, return those creatures to the battlefield with nine +1/+1 counters on them, shroud, and "This creature is indestructible."'
+    - name: Biobeast
+      text: Choose a creature and an artifact controlled by the same player. They can't be the same permanent. Exile those permanents. If you do, that player rolls on [synthetic-creature].
+    - list: listD
+    - name: Aura Theft
+      text: Gain control of all enchantments.
+    - name: Mental Lapse
+      text: Each player dicards three cards.
+    - card: Acidic Soil
+    - card: Game of Chaos
+    - card: Puppet's Verdict
+    - card: Volcanic Wind
+    - name: Entrance
+      text: Each player returns all enchantments in his graveyard to the battlefield.
+    - name: Fireballs
+      text: Fireballs deals 5 damage to each of up to 4 target creatures and/or players.
+      color: R
+    - card: Planar Birth
+    - list: listD
+    - card: Windfall
+    - card: Reprocess
+    - name: Destructive Appetite
+      text: Sacrifice any number of permanents. Gain life equal to the total converted mana cost of the permanents sacrificed this way.
+    - name: Hollowe'en
+      text: Return all creatures in all graveyards to the battlefield.
+    - card: Living Death
+    - card: Overrun
+    - name: The Cheese is Standing Alone
+      text: If you control no permanents and have no cards in hand, you win.
+    - name: Die of Fate
+      text: Choose a player at random. That player takes the next turn. (After his turn, play proceeds in the normal order from that player.)
+    - list: Musical
+    - list: listD
+    - list: strong-creature
+    - name: Tornado Seeker
+      text: Tornado Seeker deals damage to each player equal to the number of cards in that player's hand.
+    - name: Channel the Pain
+      text: Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
+      color: B
+    - card: Rebuild
+
+- short_name: listD
+  full_name: Chaos List D
+  rolls:
+    - card: Rolling Thunder
+    - name: Encroaching Darkness
+      text: Each player sacrifices all his lands. A player may keep a land for each nonland permanent he sacrifices or card he exiles from his hand.
+    - list: global
+    - name: Unravel Soul
+      text: Each player exiles the top X cards of his library, where X is the number of creatures on the battlefield.
+    - name: New Identity
+      text: "Roll again if you aren't playing with Vanguard cards.\nDraw a new Vanguard card."
+    - name: Important Decision
+      text: Choose one - Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
+    - card: Wheel of Fortune
+    - card: Time Stop
+    - card: Open the Vaults
+    - name: The Chaos Thickens
+      text: Roll chaos d6 times.
+    - card: Mind Twist
+      Xdice: 6
+    - card: Flame Wave
+    - list: vortex
+    - card: New Frontiers
+      Xdice: [6, 6]
+    - card: Winds of Change
+    - list: acquisition2
+    - card: Frenzied Tilling
+    - name: Poisonous Fog
+      text: Each player rolls an eight-sided die and gets that many poison counters.
+    - card: All Suns' Dawn
+    - name: Chaos Commons
+      text: Each player rolls chaos.
+    - card: Vindicate
+    - card: Explosive Revelation
+    - list: acquisition2
+    - card: Seeds of Innocence
+    - card: Ad Nauseam
+    - card: Eureka
+    - name: Veni, Vidi, Vici
+      text: For each opponent, choose target land he controls. Gain control of those land.
+    - name: Lava Boulder
+      text: Lava Boulder deals 10 damage to target player.
+    - card: Ancestral Recall
+    - name: Chaos Delay
+      text: At the beginning of your next end step, roll chaos.
+    - list: strong-creature
+    - name: Amnesia Fumes
+      text: Discard all nonland cards in your hand.
+    - name: Urza's Restoration
+      text: Return all artifacts in all graveyard to the battlefield.
+    - card: Ruination
+    - list: treacherous-creature
+    - name: Stream of Mana
+      text: Add fifteen mana in any combination of colors to your mana pool. Until end of turn, this mana doesn't empty from your mana pool as steps and phases end.
+    - name: Eternal Tutor
+      text: Return an exiled card you own to your hand.
+    - list: synthetic-creature
+    - name: Joyous Occasion
+      text: Gain 7 life and put all creatures from your hand onto the battlefield.
+    - list: listE
+    - name: Power Vacuum
+      text: Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries.
+    - name: Doom Approacheth
+      text: Roll 2d6. If you roll 5 or less, roll on [extreme].
+    - card: Extinction
+    - name: Betrayal
+      text: Choose an opponent at random. He gains control of all of your creatures.
+    - card: Demonic Tutor
+    - list: vortex
+    - card: Bribery
+    - card: Illicit Auction
+    - name: Replenishment
+      text: Each players rolls 4d6 and gains that much plus life.
+    - list: listE
+    - name: Prize Package
+      text: Each player rolls on [acquisition]
+    - name: Devil's Bargain
+      text: You may pay 10 life. If you do, roll on [exceptional-creature].
+    - card: Time Walk
+    - name: Planeswalkers for Hire
+      text: Any player may discard four cards. Each player who does rolls on [planeswalker].
+    - name: Alliances Abroad
+      text: Sacrifice a basic land. Put a token onto the battlefield that's a copy of a land card of your choice.
+    - list: vortex
+    - list: synthetic-creature
+    - name: Wake of Distortion
+      text: Return up to d6 target nonland permanets to their owners' hands.
+    - name: Mercy
+      text: The player or players with the lowest life total gain 20 life.
+    - list: listE
+    - list: global
+    - card: Donate
+      times: 3
+    - name: Shared Resources
+      text: Each player puts the cards from his hand into the middle world.
+    - name: Fireballs
+      text: Fireballs deals 7 damage to each of up to 4 target creatures and/or players.
+      color: R
+    - card: Timetwister
+    - card: Yawgmoth's Will
+    - card: Wildfire
+    - card: Memory Plunder
+    - card: Living Death
+    - list: listE
+    - card: Reins of Power
+    - name: Blink
+      text: Exile all permanents, then return all permanents exiled in this way to the battlefield.
+    - name: Thickening Tension
+      text: "Choose a Creature Summoning chart: [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], [synthetic-creature]. Each player rolls on that chart."
+    - card: Miraculous Recovery
+    - name: Sorrowful End
+      text: Destroy up to three target nonblack creatures. Draw a card for each creature destroyed this way.
+    - name: Mists of Enchantment
+      text: Each player may search his library for an aura card and put it onto the battlefield. Then each player who searched his library this way shuffles it.
+    - name: Mind's Devotion
+      text: "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nWhen you roll this ability, copy it for each time chaos was rolled before it this turn."
+      card: Flowstone Surge
+      Xdice: 6
+    - list: musical
+    - list: listE
+    - name: Energize
+      text: All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
