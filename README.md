@@ -6,7 +6,7 @@ There have been many versions of Chaos Magic over the years; it was the inspirat
 
 To play the game, run
 
-`$ python3 buid-website.py`
+`$ python3 build-website.py`
 
 then open the file `website/index.html`.
 

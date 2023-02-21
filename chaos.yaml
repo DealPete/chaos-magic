@@ -1,7 +1,7 @@
 - short_name: listA
   full_name: Chaos List A
   rolls:
-    - card: Howl From Beyond
+    - card: Howl from Beyond
       Xdice: 6
     - card: Mnemonic Nexus
     - card: Divine Offering
