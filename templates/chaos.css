@@ -1,0 +1,21 @@
+@font-face {
+	font-family: Magic;
+	src: url('magmed.woff2');
+}
+
+@font-face {
+	font-family: MagicNew;
+	src: url('mplantin2.woff2');
+}
+
+body {
+	font-family: Magic;
+}
+
+.roll-title {
+	white-space: nowrap;
+}
+
+.roll-text {
+	font-family: MagicNew;
+}

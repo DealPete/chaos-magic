@@ -1,5 +1,7 @@
 - short_name: listA
   full_name: Chaos List A
+  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  first_index: 10
   rolls:
     - card: Howl from Beyond
       Xdice: 6
@@ -130,6 +132,8 @@
 
 - short_name: listB
   full_name: Chaos List B
+  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  first_index: 10
   rolls:
     - name: Compliance
       text: Reveal the top card of each opponent's library. Put each creature card revealed this way onto the battlefield under your control.
@@ -148,8 +152,7 @@
       text: Each player draws a card for each creature he controls.
     - name: Chaos Spurt
       text: Roll Chaos three times.
-    - name: Words of Command
-      text: "Split second\nLook at target opponent's hand and choose a card from it. If that card is a land card, that player puts that card onto the battlefield. Otherwise, that player plays that card with his own mana, but you make all decisions it calls for. The player is required only to spend mana in his mana pool and/or mana that can be produced by lands."
+    - card: Word of Command
     - name: Prepared Response
       text: The next time any player casts an instant or sorcery spell, another random player rolls on [response] choosing that spell as the target. 
     - name: Pact with the Dead
@@ -261,6 +264,8 @@
 
 - short_name: listC
   full_name: Chaos List C
+  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  first_index: 10
   rolls:
     - name: Mathematical Insight
       text: Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.
@@ -390,6 +395,8 @@
 
 - short_name: listD
   full_name: Chaos List D
+  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  first_index: 10
   rolls:
     - card: Rolling Thunder
     - name: Encroaching Darkness
