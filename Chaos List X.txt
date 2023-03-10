@@ -85,8 +85,8 @@ Destroy a nonland permanent at random. It can't be regenerated.
 
 A15 {Mild Creature}
 
-A16 Suction
-Tap all artifacts, creatures, and lands.
+A16 Time to Strike
+Tap all artifacts, creatures, and lands you don't control.
 
 A17 {Global}
 
@@ -155,8 +155,7 @@ A39 {Chaos List B}
 A40 [Pull from Eternity]
 (Put target face-up exiled card into its owner's graveyard. (16/4/10))
 
-A41 Mugging
-Lose d6 life and discard a card at random.
+A41 [Unearth]
 
 A42 {The Vortex}
 
@@ -229,8 +228,8 @@ Destroy all legendary nonland permanents.
 
 A66 {The Vortex}
 
-A67 Mass Transmutation
-Each creature's power becomes equal to its toughness, and vice versa.
+A67 Explore the New World
+Each player may put a land card from his hand onto the battlefield.
 
 A68 Autumn's Onset
 Each player who controls four or fewer lands may search his library for a basic land card, put it onto the battlefield tapped, then shuffle his library.
@@ -294,11 +293,6 @@ A87 [Truce]
 A88 {Musical}
 
 A89 {Chaos List B}
-
-A90 Explore the New World
-Each player may put a land card from his hand onto the battlefield.
-
-A91 [Unearth]
 
 [=============================================================================]
 
@@ -3162,6 +3156,8 @@ Flying
 At the beginning of your upkeep, sacrifice an artifact other than Rust Elemental. If you can't, tap Rust Elemental and you lose 4 life. (16/4/10))
 
 16 [Soulgorger Orgg]
+17 [Abyssal Persecutor]
+18 [Archfiend of the Dross]
 
 [=============================================================================]
 
@@ -3587,6 +3583,7 @@ Life Conduit doesn't untap during your untap step.
 1, T: Target opponent loses 1 life.
 1, Q: Target opponent gains 1 life.
 
+32 [Lich's Mirror]
 
 [=============================================================================]
 

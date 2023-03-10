@@ -1,10 +1,11 @@
 - short_name: listA
   full_name: Chaos List A
-  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
   first_index: 10
+  format: Table
   rolls:
     - card: Howl from Beyond
-      Xdice: 6
+      Xdice: [1, 6, 0]
     - card: Mnemonic Nexus
     - card: Divine Offering
     - card: Blood of the Martyr
@@ -12,7 +13,7 @@
       text: Destroy a nonland permanent at random. it can't be regenerated.
     - list: mild-creature
     - name: Time to Strike
-      text: Tap all artifacts, creatures, and lands.
+      text: Tap all artifacts, creatures, and lands you don't control.
     - list: global
     - name: Soldevi Company
       text: Put your graveyard on the bottom of your library.
@@ -21,16 +22,16 @@
       text: Put the top card of your library into the middle world.
     - card: Mana Clash
     - name: Gather the Footsoldiers
-      text: Choose a basic land type. Each player puts a 1/1 token onto the battlefield for each land of that type he controls. Depending on which land type you chose, the tokens are white Soldiers, green Saprolings, red Goblins, blue Merfolk, or black Zombies.
+      text: Choose a basic land type. Each player puts a 1/1 token onto the battlefield for each land of that type they control. Depending on which land type you chose, the tokens are white Soldiers, green Saprolings, red Goblins, blue Merfolk, or black Zombies.
     - name: Alter Mana
       text: Choose target nonland nontoken permanent. For each of the colored mana symbols on that card, you may change it to a mana symbol of any other color. (Reminder text has no effect.)
     - name: Evanescence
       text: 'Target nonland permanent gains “Cumulative Upkeep: 1”.'
     - card: Drafna’s Restoration
     - name: Mute
-      text: Target player can't cast spells until the end of his next turn.
+      text: Target player can't cast spells until the end of their next turn.
     - card: Stream of Life
-      Xdice: [6, 6]
+      Xdice: [2, 6, 0]
     - card: Lightning Bolt
     - list: listB
     - name: About Face
@@ -44,18 +45,16 @@
     - name: Xenic Influence
       text: Target noncreature artifact becomes an artifact creature with power and toughness equal to its converted mana cost. It loses all abilities.
       color: U
-    - list: Acquisition
+    - list: acquisition
     - name: Hamstring
       text: Remove an ability from target nonland permanent.
       color: W
     - card: Telling Time
     - list: listB
     - card: Pull from Eternity
-    - name: Mugging
-      text: Lose X life and a card from your hand.
-      Xdice: 6
     - list: vortex
     - card: Drain Life
+      Xdice: [1, 6, 0]
     - name: Change Course
       text: Reverse the turn order.
     - name: Nirvana
@@ -66,9 +65,9 @@
     - card: Temporal Extortion
     - list: listB
     - card: New Frontiers
-      Xdice: 1
+      Xdice: [0, 0, 1]
     - name: Juxtaposition
-      text: Choose target nonland permanent controlled by an opponent. That opponent then chooses target nonland permanent that you control. Exchange control of them.
+      text: Choose a nonland permanent controlled by target opponent. That player then chooses a nonland permanent that you control. Exchange control of them.
     - name: Entropy Inversion
       text: Replace all tap symbols on target creature with untap symbols.
     - name: Assassinate
@@ -80,7 +79,7 @@
     - card: Rampant Growth
     - card: Tranquility
     - name: Friendly Gesture
-      text: Target opponent gains control of target nonland permanent that he doesn't control.
+      text: Target opponent gains control of target nonland permanent that they don't control.
     - list: listB
     - name: Petty Jab
       text: Petty Jab deals 5 damage to target player.
@@ -94,22 +93,20 @@
     - name: Sekai no Owari
       text: Destroy all legendary nonland permanents.
     - list: vortex
-    - name: Mass Transmutation
-      text: Each creature's power becomes equal to its toughness, and vice versa.
     - name: Autumn's Onset
-      text: Each player who controls four or fewer lands may search his library for a basic land card, put it onto the battlefield tapped, then shuffle his library.
+      text: Each player who controls four or fewer lands may search their library for a basic land card, put it onto the battlefield tapped, then shuffle their library.
     - list: listB
     - card: Disperse
     - card: Stronghold Gambit
     - name: Exhibition
-      text: Each player may put a land, or an artifact, creature, or enchantment card with converted mana cost 5 or less from his hand onto the battlefield.
+      text: Each player may put a land, or an artifact, creature, or enchantment card with converted mana cost 5 or less from their hand onto the battlefield.
     - name: Spring Rituals
-      text: Any player may discard any number of cards. Each player who does searches his library for that many basic land cards, reveals those cards, and puts them into his hand. That player then shuffles his library.
+      text: Any player may discard any number of cards. Each player who does searches their library for that many basic land cards, reveals those cards, and puts them into their hand. That player then shuffles their library.
     - card: Truce
     - list: global
     - card: Lobotomy
     - name: Elven Scrying
-      text: Each player searches his library for a land card, reveals it, and puts it into his hand. Then all players shuffle their libraries.
+      text: Each player searches their library for a land card, reveals it, and puts it into their hand. Then all players shuffle their libraries.
     - card: Summer Bloom
     - list: listB
     - card: Disenchant
@@ -127,34 +124,35 @@
     - list: musical
     - list: listB
     - name: Explore the New World
-      text: Each player may put a land card from his hand onto the battlefield.
+      text: Each player may put a land card from their hand onto the battlefield.
     - card: Unearth
 
 - short_name: listB
   full_name: Chaos List B
-  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
   first_index: 10
+  format: Table
   rolls:
     - name: Compliance
       text: Reveal the top card of each opponent's library. Put each creature card revealed this way onto the battlefield under your control.
     - name: Ma'rûf's Cane
-      text: Each player shuffles his exiled cards into his library.
+      text: Each player shuffles their exiled cards into their library.
     - name: Jester's Headgear
-      text: Target opponent reveals the top ten cards of his library. Choose two of those cards and exile them. THen that opponent shuffles his library.
+      text: Target opponent reveals the top ten cards of their library. Choose two of those cards and exile them. Then that opponent shuffles their library.
     - name: Share the Wealth
-      text: Each player chooses one of his permanents. The player on his left gains control of that permanent.
+      text: Each player chooses one of their permanents. The player on their left gains control of that permanent.
     - list: global
     - list: global
     - card: Stream of Life
-      Xdice: [6, 6]
+      Xdice: [2, 6, 0]
     - card: Truce
     - name: Creature Dividends
-      text: Each player draws a card for each creature he controls.
+      text: Each player draws a card for each creature they control.
     - name: Chaos Spurt
       text: Roll Chaos three times.
     - card: Word of Command
     - name: Prepared Response
-      text: The next time any player casts an instant or sorcery spell, another random player rolls on [response] choosing that spell as the target. 
+      text: The next time that any player casts an instant or sorcery spell, another random player rolls on [response].
     - name: Pact with the Dead
       text: Discard three cards. Then return two cards from your graveyard to your hand.
     - name: Black Mass
@@ -166,7 +164,7 @@
       text: Choose one -- Lose 2d6 life; or target player gains that much life.
     - card: Regrowth
     - name: Gaea's Benison
-      text: Target players shuffles up to three target cards from his graveyard into his library.
+      text: Target players shuffles up to three target cards from their graveyard into their library.
     - list: listC
     - name: Chance Explosion
       text: Destroy all artifacts and creatures that have converted mana cost d6.
@@ -187,14 +185,14 @@
     - card: Metamorphose
     - card: Channel
     - name: Poetic Justice
-      text: Each player loses 3 life for each red instant or sorcery in his graveyard. Then for each blue instant in each player`s graveyard, each of that player's opponents may put a nonland card from his graveyard onto the stack. Then each player discards a card at random for each black instant or sorcery in his graveyard.
+      text: Each player loses 3 life for each red instant or sorcery in their graveyard. Then for each blue instant in each player`s graveyard, each of that player's opponents may put a nonland card from their graveyard onto the stack. Then each player discards a card at random for each black instant or sorcery in their graveyard.
     - card: Windfall
     - list: global
     - card: Rally the Horde
     - card: Seek the Horizon
     - list: vortex
     - name: Deja Vu
-      text: Each player shuffles his graveyard and puts the shuffled cards on top of his library. Then each player puts the top card of his library into the middle world.
+      text: Each player shuffles their graveyard and puts the shuffled cards on top of their library. Then each player puts the top card of their library into the middle world.
     - list: listC
     - list: acquisition
     - name: Drink Break
@@ -203,7 +201,7 @@
     - name: Hireling
       text: You may discard two cards to roll on [strong-creature].
     - name: Spleradicour
-      text: Exile target artifact, enchantment, or creature. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles his library.
+      text: Exile target artifact, enchantment, or creature. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles their library.
     - name: Leech
       text: Target player loses 2d6 life. You gain that much life.
     - name: Artistic Inspiration
@@ -211,17 +209,17 @@
     - name: Coalesce
       text: You may exile two of your creatures. If you do, roll on [synthetic-creature].
     - name: Scapegoat
-      text: Choose target player. That player loses 2 life fore ach other player in the game. Each other player gains 2 life.
+      text: Choose target player. That player loses 2 life for each other player in the game. Each other player gains 2 life.
     - list: listC
     - name: Unexpected Result
-      text: Each player shuffles his library, then reveals the top card. If it's a nonland card, he may cast it without paying its mana cost. If it's a land card, he may put it onto the battlefield.
+      text: Each player shuffles their library, then reveals the top card. If it's a nonland card, they may cast it without paying its mana cost. If it's a land card, they may put it onto the battlefield.
     - list: vortex
     - name: Feoffment
       text: You may exile a land you control. If you do, roll on [strong-creature].
     - card: Flaming Gambit
-      Xdice: [6, 6]
+      Xdice: [2, 6, 0]
     - name: Power Drain
-      text: Exile target artifact, enchantment, or creature. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles his library.
+      text: Target player activates a mana ability of each land they control, then empties their mana pool. At the beginning of your next main phase, add mana to your mana pool equal to the type and amount emptied from that player's mana pool this way.
     - card: Dust to Dust
     - name: About Face
       text: Reverse the turn order.
@@ -242,6 +240,7 @@
       text: Fireballs deals 3 damage to each of up to 4 target creatures and/or players.
       color: R
     - card: Meltdown
+      Xdice: [1, 6, 0]
     - card: Resurrection
     - list: listC
     - name: Noesis
@@ -259,13 +258,14 @@
     - list: musical
     - list: listC
     - name: New Frontier
-      text: Each player may search his library for up to two basic land cards and put them onto the battlefield tapped. Then each player who searched his library this way shuffles it.
+      text: Each player may search their library for up to two basic land cards and put them onto the battlefield tapped. Then each player who searched their library this way shuffles it.
     - card: Spontaneous Generation
 
 - short_name: listC
   full_name: Chaos List C
-  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
   first_index: 10
+  format: Table
   rolls:
     - name: Mathematical Insight
       text: Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.
@@ -273,7 +273,7 @@
     - name: Uneasy Truce
       text: Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attach each other.
     - name: Olympics
-      text: Each player puts each creature in his hand onto the battlefield.
+      text: Each player puts each creature in their hand onto the battlefield.
     - list: global
     - card: Stone Rain
     - card: Channel
@@ -283,12 +283,12 @@
     - name: Chaos Dance
       text: Roll on [listB], then on [listD], then on [listC].
     - name: Hypnotize
-      text: Target opponent reveals his hand. Choose any number of cards from it. That player discards those cards, then draws that many cards.
+      text: Target opponent reveals their hand. Choose any number of cards from it. That player discards those cards, then draws that many cards.
     - list: vortex
     - list: global
     - card: Stunted Growth
     - name: Spellmonger
-      text: Each player may put any number of cards from his hand into the middle world, then draw that many cards.
+      text: Each player may put any number of cards from their hand into the middle world, then draw that many cards.
     - card: Fugue
     - name: Bath in the Styx
       text: You may pay any amount of life. If you do, put that many cards from the top of your library into your hand.
@@ -308,7 +308,7 @@
     - name: Virtues of the Past
       text: Until end of turn, you may cast target exiled instant or sorcery card you own without paying its mana cost.
     - name: Bad Karma
-      text: Each player loses 1 life for each land he controls.
+      text: Each player loses 1 life for each land they controls.
     - list: listD
     - card: Tranquility
     - name: Smiling Totem
@@ -316,13 +316,13 @@
     - name: Tower of Babel
       text: If the total number of permanents is greater than ten times the number of players, roll on [extreme].
     - name: Rummage Sale
-      text: Each player searches the library of the player to his right, chooses a card, and puts it into the middle world. Then each player shuffles his library.
+      text: Each player searches the library of the player to their right, chooses a card, and puts it into the middle world. Then each player shuffles their library.
     - card: New Frontiers
-      Xdice: 6
+      Xdice: [1, 6, 0]
     - card: Honor the Fallen
     - name: Important Decision
       text: Choose one -- Roll on [vortex]; or roll on [global]; or discard four cards. If you do, roll on [extreme].
-    - list: [strong-creature]
+    - list: strong-creature
     - name: Relentless Battle
       text: There are two additional combat phases this turn, each followed by an additional main phase. A tapped creature can attack this turn if it attacked during a previous attack phase this turn.
     - list: listD
@@ -335,14 +335,14 @@
     - name: Loan Shark
       text: Each player may put any number of nontoken permanents into the middle world, then draw that many cards.
     - name: Global Life Reset
-      text: Each player's life total becomes his starting life total.
+      text: Each player's life total becomes their starting life total.
     - name: Purge
       text: Each player rolls 2d6 and loses that much life.
     - card: Gerrymandering
     - card: Wheel of Fortune
     - list: listD
     - name: Re-zoning
-      text: "Choose a card in any zone. Move it to one of the following eight zones at random: Library, hand, graveyard, exiled, stack, battlefield, middle world, or banned. If the chosen card is moved to a player's library, that player shuffles his library."
+      text: "Choose a card in any zone. Move it to one of the following eight zones at random: Library, Hand, Graveyard, Exiled, Stack, Battlefield, Middle World, or Command. If the chosen card is moved to a player's library, that player shuffles their library."
     - name: About Face
       text: Reverse the turn order.
     - card: Sever Soul
@@ -365,7 +365,7 @@
     - card: Puppet's Verdict
     - card: Volcanic Wind
     - name: Entrance
-      text: Each player returns all enchantments in his graveyard to the battlefield.
+      text: Each player returns all enchantments in their graveyard to the battlefield.
     - name: Fireballs
       text: Fireballs deals 5 damage to each of up to 4 target creatures and/or players.
       color: R
@@ -382,7 +382,7 @@
     - name: The Cheese is Standing Alone
       text: If you control no permanents and have no cards in hand, you win.
     - name: Die of Fate
-      text: Choose a player at random. That player takes the next turn. (After his turn, play proceeds in the normal order from that player.)
+      text: Choose a player at random. That player takes the next turn. (After their turn, play proceeds in the normal order from that player.)
     - list: Musical
     - list: listD
     - list: strong-creature
@@ -395,15 +395,17 @@
 
 - short_name: listD
   full_name: Chaos List D
-  dice: "Roll d8 for the tens digit, d10 for the ones digit"
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
   first_index: 10
+  format: Table
   rolls:
     - card: Rolling Thunder
+      Xdice: [1, 6, 2]
     - name: Encroaching Darkness
-      text: Each player sacrifices all his lands. A player may keep a land for each nonland permanent he sacrifices or card he exiles from his hand.
+      text: Each player sacrifices all their lands. A player may keep a land for each nonland permanent they sacrifice or card they exile from their hand.
     - list: global
     - name: Unravel Soul
-      text: Each player exiles the top X cards of his library, where X is the number of creatures on the battlefield.
+      text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
     - name: New Identity
       text: "Roll again if you aren't playing with Vanguard cards.\nDraw a new Vanguard card."
     - name: Important Decision
@@ -412,13 +414,13 @@
     - card: Time Stop
     - card: Open the Vaults
     - name: The Chaos Thickens
-      text: Roll chaos d6 times.
+      text: Roll Chaos d6 times.
     - card: Mind Twist
-      Xdice: 6
+      Xdice: [1, 6, 0]
     - card: Flame Wave
     - list: vortex
     - card: New Frontiers
-      Xdice: [6, 6]
+      Xdice: [2, 6, 0]
     - card: Winds of Change
     - list: acquisition2
     - card: Frenzied Tilling
@@ -434,7 +436,7 @@
     - card: Ad Nauseam
     - card: Eureka
     - name: Veni, Vidi, Vici
-      text: For each opponent, choose target land he controls. Gain control of those land.
+      text: For each opponent, choose target land they control. Gain control of those land.
     - name: Lava Boulder
       text: Lava Boulder deals 10 damage to target player.
     - card: Ancestral Recall
@@ -489,7 +491,7 @@
     - card: Donate
       times: 3
     - name: Shared Resources
-      text: Each player puts the cards from his hand into the middle world.
+      text: Each player puts the cards from their hand into the middle world.
     - name: Fireballs
       text: Fireballs deals 7 damage to each of up to 4 target creatures and/or players.
       color: R
@@ -508,12 +510,227 @@
     - name: Sorrowful End
       text: Destroy up to three target nonblack creatures. Draw a card for each creature destroyed this way.
     - name: Mists of Enchantment
-      text: Each player may search his library for an aura card and put it onto the battlefield. Then each player who searched his library this way shuffles it.
+      text: Each player may search their library for an aura card and put it onto the battlefield. Then each player who searched their library this way shuffles it.
     - name: Mind's Devotion
       text: "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nWhen you roll this ability, copy it for each time chaos was rolled before it this turn."
       card: Flowstone Surge
-      Xdice: 6
+      Xdice: [1, 6, 0]
     - list: musical
     - list: listE
     - name: Energize
       text: All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
+
+- short_name: listE
+  full_name: Chaos List E
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  first_index: 10
+  format: Table
+  rolls:
+    - name: Retrofit
+      text: You may sacrifice an artifact. If you do, search your library for an artifact card and put that card onto the battlefield. Then shuffle your library.
+
+- short_name: listF
+  full_name: Chaos List F
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  first_index: 10
+  format: Table
+  rolls:
+    - name: Relive the Past
+      text: Each player shuffles their hand and graveyard and all exiled cards they own into their library, then draws seven cards.
+
+- short_name: global
+  full_name: Global
+  desc: "Remove all existing globals, then roll d120 + 9 (d12 for the tens digit, d10 for the units digit). Put a copy of the result into the command zone."
+  first_index: 10
+  format: Table
+  rolls:
+    - name: Mana Surge
+      mana_cost: RR
+      type: Enchantment
+      text: |
+        If mana would be emptied from a player's mana pool, instead it is emptied and that player loses 1 life for each mana emptied this way.
+        At the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
+
+- short_name: vortex
+  full_name: The Vortex
+  desc: "Roll 3d8. Put the result onto the stack as a chaos ability."
+  first_index: 3
+  format: List
+  rolls:
+    - list: musical
+    - list: extreme
+    - text: Roll twice more on The Vortex.
+    - text: Roll Chaos twice, making the first roll on [listE].
+    - text: Flip a coin. If you win the flip, roll on [exceptional-creature]. If you lose the flip, roll on [treacherous-creature].
+    - text: Roll Chaos twice, making the first roll on [listC].
+    - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
+    - text: Roll Chaos twice, making the first roll on [listA].
+    - list: global
+    - text: Each player discards any number of cards, then shuffles their graeyard into their library and draws X cards, where X is the number of cards that player discarded. Roll again on The Vortex.
+    - text: Each player chooses an exiled card they owns and puts it on the bottom of their library. Roll again on The Vortex.
+    - text: Each player puts the top card of their library into the middle world. Roll again on The Vortex.
+    - text: Each player searches their library for a card, puts that card into their hand, discards a card at random, and shuffles. Roll again on the The Vortex.
+    - list: global
+    - text: Roll Chaos twice, making the first roll on [listB].
+    - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
+    - text: Roll Chaos twice, making the first roll on [listD].
+    - text: Flip a coin. If you win the flip, roll on [planeswalker]. If you lose the flip, roll on [acquisition2].
+    - text: Roll Chaos twice, making the first roll on [listF].
+    - text: Roll twice more on The Vortex.
+    - list: extreme
+    - list: deadly-acquisition
+
+- short_name: musical
+  full_name: Musical
+  desc: "Roll d6. Put the result onto the stack"
+  first_index: 1
+  format: Table
+  rolls:
+    - name: Musical Hands
+      text: Each player passes their hand to the player on their left.
+    - name: Musical Life
+      text: All players pass their life totals and poison counters to the player on their left.
+    - name: Musical Creatures
+      text: Each player gains control of all creatures controlled by the player to their right.
+    - name: Musical Artifacts
+      text: Each player gains control of all artifacts controlled by the player to their right.
+    - name: Musical Enchantments
+      text: Each player gains control of all enchantments controlled by the player to their right.
+    - name: Musical Planeswalkers
+      text: Each player gains control of all enchantments controlled by the player to their right.
+
+- short_name: extreme
+  full_name: Extreme Chaos
+  desc: "Roll 2d12. Put the result onto the stack"
+  first_index: 2
+  format: Table
+  rolls:
+    - name: Cosmic Restructuring
+      text: The Creator re-evaluates His grand design. Begin a new game.
+    - name: Inifinity
+      text: For the rest of the game, whenever you are in the game and the stack is empty, a random player rolls on [dire-misfortune].
+
+- short_name: mild-creature
+  full_name: Mild Creature
+  desc: "Roll d100. Conjure the result onto the battlefield"
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Karn, Silver Golem
+
+- short_name: strong-creature
+  full_name: Strong Creature
+  desc: "Roll d100. Conjure the result onto the battlefield"
+  first_index: 1
+  format: Table
+  rolls:
+    - name: Chaos Musician
+      text: "r/3, T: Roll on a random Chaos List."
+    - card: Taniwha
+    - card: Butcher Orgg
+    - card: Colossus of Sardia
+    - card: Skyshroud Behemoth
+
+- short_name: exceptional-creature
+  full_name: Exceptional Creature
+  desc: "Roll d40. Conjure the result onto the battlefield"
+  first_index: 1
+  format: Table
+  rolls:
+    - card: "Multani, Maro-Sorcerer"
+    - card: Polar Kraken
+
+- short_name: treacherous-creature
+  full_name: Treacherous Creature
+  desc: "Roll d20. Conjure the result onto the battlefield"
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Force of Nature
+    - card: Lord of the Pit
+
+- short_name: synthetic-creature
+  full_name: Synthetic Creature
+  desc: |
+    Mana cost is 0.
+    It is a d8/d8 creature.
+    Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Artifact.
+    Choose a creature type and name.
+
+    Roll d30 d4 times for the creature's abilities (reroll duplicates):
+  first_index: 1
+  format: List
+  rolls:
+    - text: "Fading: d6"
+    - text: "Shadow"
+    - text: "Double Strike"
+
+- short_name: acquisition
+  full_name: Acquisition
+  desc: "Roll d40. Conjure the result onto the battlefield"
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Rainbow Vale
+    - card: Gaea's Cradle
+    - card: Tolarian Academy
+    - card: Dark Depths
+    - card: Voltaic Key
+    - card: Helix Pinnacle
+    - card: Serpent Generator
+    - name: Relic Wall
+      mana_cost: 2
+      type: Artifact
+      text: "T: Tap target artifact. That artifact loses its abilities and doesn't deal combat damage to creatures it blocks as long as it remains tapped."
+    - card: Ring of Ma'rûf
+    - card: Phyrexian Unlife
+
+- short_name: powerful-acquisition
+  full_name: Powerful Acquisition
+  desc: "Roll d40. Conjure the result onto the battlefield"
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Mindslaver
+
+- short_name: deadly-acquisition
+  full_name: Deadly Acquisition
+  desc: "Roll d8. Put the result onto the stack."
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Leveler
+    - card: Sky Swallower
+    - card: Form of the Squirrel
+    - card: Lich
+    - card: Phage the Untouchable
+    - card: Inverter of Truth
+    - card: Demonic Pact
+    - card: Forbidden Crypt
+    - card: Immortal Coil
+    - card: Transcendence
+
+- short_name: response
+  full_name: Response
+  desc: "Choose target instant or sorcery spell, then roll d12. Put the result onto the stack targeting that spell."
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Spelljack
+    - name: Mana Shock
+      text: Mana Shock deals X damage to you, where X is the converted mana cost of target spell. Add X colorless mana to your mana pool.
+    - card: Fork
+    - name: Scatter
+      text: Choose new targets at random for target spell.
+    - card: Wild Ricochet
+    - name: Mana Sink
+      text: Counter target spell. At the beginning of your next main phase, pay X, where X is that spell's converted mana cost. If you don't, that spell's controller may put a copy of that spell onto the stack.
+    - card: Parallectric Feedback
+    - name: Cause Paranoia
+      text: Counter target spell. That spell's controller puts the top X cards of their library into their graveyard, then put the top X cards of your library into your graveyard, where X is the spell's converted mana cost.
+    - card: Spellshift
+    - name: Duplicate
+      text: Target spell's controller puts a copy of that spell onto the stack.
+    - name: Paint
+      text: Target spell becomes the color or colors of your choice. Change that spell's text by replacing all instances of one color word with another.
+    - card: Delay

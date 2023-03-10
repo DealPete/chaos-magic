@@ -4,31 +4,37 @@ import json
 import yaml
 from jinja2 import Template
 
-f = open('chaos.yaml')
+y = open('chaos.yaml')
 h = open('templates/header.html')
+f = open('templates/footer.html')
 s = open('templates/sidebar.html')
-c = open('scryfall-default-cards.json')
+#c = open('scryfall-default-cards.json')
 l = open('templates/list.html')
 i = open('templates/index.html')
 
-chaos = yaml.safe_load(f)
+chaos = yaml.safe_load(y)
 header = h.read()
+footer = f.read()
 sidebar = s.read()
-cards = json.load(c)
+#cards = json.load(c)
 page = l.read()
 index = i.read()
 
+y.close()
+h.close()
 f.close()
 s.close()
-c.close()
+#c.close()
 l.close()
 i.close()
 
 headerTemplate = Template(header)
+footerTemplate = Template(footer)
 sidebarTemplate = Template(sidebar)
 indexTemplate = Template(index)
 pageTemplate = Template(page)
-cardCell = Template('<td class="roll-title"><a class="magic-card" href="{{ uri }}">{{ card }}</a></td>')
+cardCell = Template('<td class="roll-title hover"><auto-card>{{ card }}</auto-card></td>')
+cardCellNoHover = Template('<td class="roll-title no-hover"><a href="https://scryfall.com/search?q=name:{{ card }}">{{ card }}</a></td>')
 listCell = Template('<td class="roll-title"><a class="chaos-list" href="{{ uri }}">{{ name }}</a></td>')
 effectCell = Template('<td class="roll-title"><span class="chaos-effect">{{ name }}</span></td>')
 emptyRollTextCell = '<td class="roll-text"></td>'
@@ -42,62 +48,109 @@ copyfile("templates/chaos.css", "website/chaos.css")
 def get_lists():
     lists = []
 
-    for list in chaos:
-        file_name = f"{list['short_name']}.html"
-        lists.append({ "url": file_name, "short_name": list['short_name'], "full_name": list['full_name'], "body": list})
+    for chaos_list in chaos:
+        file_name = f"{chaos_list['short_name']}.html"
+        lists.append({ "url": file_name, "short_name": chaos_list['short_name'], "full_name": chaos_list['full_name'], "body": chaos_list})
 
     return lists
 
-def write_lists(lists, preface):
-    for list in lists:
-        body = list['body']
-        list_file = open(f"website/{list['url']}", 'w')
-        heading = f"<h3>{body['dice']}:</h3><table>"
-        rolls = ""
-        offset = body['first_index']
+def write_lists():
+    for chaos_list in lists:
+        body = chaos_list['body']
 
-        for i, roll in enumerate(body['rolls']):
-            rolls += f'<tr class="chaos-roll"><td class="index">{i + offset}</td>'
+        heading = f"<h3>{body['desc']}</h3>"
+        list_file = open(f"website/{chaos_list['url']}", 'w')
 
-            if 'list' in roll:
-                cell = '<td class="roll-totle"></td>'
+        if body['format'] == 'List':
+            parsed = parse_as_list(body)
+        else:
+            parsed = parse_as_table(body)
 
-                for l in lists:
-                    if l['short_name'] == roll['list']:
-                        uri = f"{list['short_name']}.html"
-                        cell = listCell.render(uri = uri, name = l['full_name'])
-                        break
-
-                rolls += cell + emptyRollTextCell
-
-            elif 'name' in roll:
-                rolls += effectCell.render(name = roll['name'])
-                rolls += f"<td class='roll-text'>{roll['text']}</td>"
-            else:
-                card = find_card(roll['card'])
-                if card:
-                    rolls += cardCell.render(uri = card['image_uris']['large'], card = roll['card'])
-                else:
-                    rolls += effectCell.render(name = roll['card']) 
-
-                if 'Xdice' in roll:
-                    rolls += Template('<td class="roll-text"><span>X = d{{ dice }}</span></td>').render(dice = roll['Xdice'])
-                else:
-                    rolls += emptyRollTextCell
-
-            rolls += '</tr>'
-
-        rolls += '</table>'
-
-        output = preface + pageTemplate.render(full_name = list['full_name'], heading = heading, rolls = rolls)
+        parsed = replace_embedded_links(parsed)
+        output = preface + pageTemplate.render(full_name = chaos_list['full_name'], heading = heading, rolls = parsed) + footerTemplate.render()
         list_file.write(output)
         list_file.close()
 
-    return lists
+def parse_as_list(body):
+    rolls = f"<ol start={body['first_index']}>"
 
-def write_index(preface):
+    for roll in body['rolls']:
+        if 'list' in roll:
+            cell = get_list_cell(roll['list'])
+            rolls += f'<li class="roll-text">{cell}</li>'
+        else:
+            rolls += f'<li class="roll-text">{roll["text"]}</li>'
+
+    rolls += '</ol>'
+    return rolls
+
+def parse_as_table(body):
+    rolls = "<table>"
+
+    offset = body['first_index']
+
+    for i, roll in enumerate(body['rolls']):
+        rolls += f'<tr class="chaos-roll"><td class="index">{i + offset}</td>'
+
+        if 'list' in roll:
+            cell = get_list_cell(roll['list'])
+            rolls += cell + emptyRollTextCell
+
+        elif 'name' in roll:
+            rolls += effectCell.render(name = roll['name'])
+            text = roll['text'].split('\n')
+            markup = '<br>'.join([ f'<span>{t}</span>' for t in text ])
+            rolls += f"<td class='roll-text'>{markup}</td>"
+        else:
+            rolls += cardCell.render(card = roll['card']) + cardCellNoHover.render(card = roll['card'])
+
+            if 'Xdice' in roll:
+                roll_dice = parse_dice(roll['Xdice'])
+                rolls += Template('<td class="roll-text"><span>X = {{ dice }}</span></td>').render(dice = roll_dice)
+            else:
+                rolls += emptyRollTextCell
+
+        rolls += '</tr>'
+
+    rolls += '</table>'
+
+    return rolls
+
+def replace_embedded_links(parsed):
+    for l in lists:
+        short_name = l["short_name"]
+        full_name = l["full_name"]
+        replacement = f'<a href="{short_name}.html">{full_name}</a>'
+        parsed = parsed.replace(f'[{short_name}]', replacement)
+
+    return parsed
+
+def get_list_cell(list_name):
+    cell = '<td class="roll-title"></td>'
+    for l in lists:
+        if l['short_name'] == list_name:
+            uri = f"{l['short_name']}.html"
+            cell = listCell.render(uri = uri, name = l['full_name'])
+            break
+
+    return cell
+    
+def parse_dice(xdice):
+    dice = []
+
+    if xdice[0] == 1:
+        dice.append(f"d{xdice[1]}")
+    elif xdice[0] > 1:
+        dice.append(f"{xdice[0]}d{xdice[1]}")
+
+    if xdice[2] > 0:
+        dice.append(f"{xdice[2]}")
+
+    return " + ".join(dice)
+
+def write_index():
     index_file = open("website/index.html", 'w')
-    output = preface + indexTemplate.render()
+    output = preface + indexTemplate.render() + footerTemplate.render()
     index_file.write(output)
     index_file.close()
 
@@ -111,5 +164,5 @@ def find_card(card_name):
 
 lists = get_lists()
 preface = headerTemplate.render() + sidebarTemplate.render(lists = lists)
-write_lists(lists, preface)
-write_index(preface)
+write_lists()
+write_index()
