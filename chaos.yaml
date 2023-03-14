@@ -26,7 +26,7 @@
     - name: Alter Mana
       text: Choose target nonland nontoken permanent. For each of the colored mana symbols on that card, you may change it to a mana symbol of any other color. (Reminder text has no effect.)
     - name: Evanescence
-      text: 'Target nonland permanent gains “Cumulative Upkeep: 1”.'
+      text: 'Target nonland permanent gains “Cumulative Upkeep: {1}”.'
     - card: Drafna’s Restoration
     - name: Mute
       text: Target player can't cast spells until the end of their next turn.
@@ -94,7 +94,7 @@
       text: Destroy all legendary nonland permanents.
     - list: vortex
     - name: Autumn's Onset
-      text: Each player who controls four or fewer lands may search their library for a basic land card, put it onto the battlefield tapped, then shuffle their library.
+      text: Each player who controls four or fewer lands may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
     - list: listB
     - card: Disperse
     - card: Stronghold Gambit
@@ -106,7 +106,7 @@
     - list: global
     - card: Lobotomy
     - name: Elven Scrying
-      text: Each player searches their library for a land card, reveals it, and puts it into their hand. Then all players shuffle their libraries.
+      text: Each player searches their library for a land card, reveals it, and puts it into their hand. Then all players shuffle.
     - card: Summer Bloom
     - list: listB
     - card: Disenchant
@@ -247,7 +247,7 @@
       text: Return all creatures to their owner's hands that have power greater than the number of cards in their controller's hand.
     - card: Meditate
     - name: Lat-Nam's Athenaeum
-      text: An opponent chooses one -- You draw three cards; or you search your library for a card, put that card into your hand, then shuffle your library.
+      text: An opponent chooses one -- You draw three cards; or you search your library for a card, put that card into your hand, then shuffle.
     - name: Banish
       text: Put target nonland permanent on top of its owner's library.
     - card: Might of Oaks
@@ -271,10 +271,12 @@
       text: Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.
     - list: vortex
     - name: Uneasy Truce
-      text: Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attach each other.
+      text: Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attack each other.
     - name: Olympics
       text: Each player puts each creature in their hand onto the battlefield.
-    - list: global
+    - name: Channel the Pain
+      text: Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
+      color: B
     - card: Stone Rain
     - card: Channel
     - name: Prejudice
@@ -297,7 +299,7 @@
     - card: Tempt with Reflections
     - name: Rip in the Chaos
       text: A disinterested third party (someone who isn't playing) chooses the result of this roll from Chaos List C. If no disinterested person is present, roll again.
-    - list: acquisition2
+    - list: powerful-acquisition
     - card: Winds of Change
     - card: Regrowth
     - list: global
@@ -336,8 +338,6 @@
       text: Each player may put any number of nontoken permanents into the middle world, then draw that many cards.
     - name: Global Life Reset
       text: Each player's life total becomes their starting life total.
-    - name: Purge
-      text: Each player rolls 2d6 and loses that much life.
     - card: Gerrymandering
     - card: Wheel of Fortune
     - list: listD
@@ -354,7 +354,7 @@
     - name: Impossible Quest
       text: 'Exile target nontoken creature. If there are any other creatures exiled this way, return those creatures to the battlefield with nine +1/+1 counters on them, shroud, and "This creature is indestructible."'
     - name: Biobeast
-      text: Choose a creature and an artifact controlled by the same player. They can't be the same permanent. Exile those permanents. If you do, that player rolls on [synthetic-creature].
+      text: All players may sacrifice a creature and another artifact they own. Each player who does rolls on [synthetic-creature].
     - list: listD
     - name: Aura Theft
       text: Gain control of all enchantments.
@@ -375,23 +375,16 @@
     - card: Reprocess
     - name: Destructive Appetite
       text: Sacrifice any number of permanents. Gain life equal to the total converted mana cost of the permanents sacrificed this way.
-    - name: Hollowe'en
+    - name: Hallowe'en
       text: Return all creatures in all graveyards to the battlefield.
     - card: Living Death
     - card: Overrun
-    - name: The Cheese is Standing Alone
-      text: If you control no permanents and have no cards in hand, you win.
+    - card: Rebuild
     - name: Die of Fate
       text: Choose a player at random. That player takes the next turn. (After their turn, play proceeds in the normal order from that player.)
-    - list: Musical
+    - list: musical
     - list: listD
     - list: strong-creature
-    - name: Tornado Seeker
-      text: Tornado Seeker deals damage to each player equal to the number of cards in that player's hand.
-    - name: Channel the Pain
-      text: Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
-      color: B
-    - card: Rebuild
 
 - short_name: listD
   full_name: Chaos List D
@@ -406,8 +399,8 @@
     - list: global
     - name: Unravel Soul
       text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
-    - name: New Identity
-      text: "Roll again if you aren't playing with Vanguard cards.\nDraw a new Vanguard card."
+    - name: Energize
+      text: All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
     - name: Important Decision
       text: Choose one - Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
     - card: Wheel of Fortune
@@ -422,23 +415,23 @@
     - card: New Frontiers
       Xdice: [2, 6, 0]
     - card: Winds of Change
-    - list: acquisition2
+    - list: powerful-acquisition
     - card: Frenzied Tilling
     - name: Poisonous Fog
-      text: Each player rolls an eight-sided die and gets that many poison counters.
+      text: Each player rolls d8 and gets that many poison counters.
     - card: All Suns' Dawn
     - name: Chaos Commons
       text: Each player rolls chaos.
     - card: Vindicate
     - card: Explosive Revelation
-    - list: acquisition2
+    - list: powerful-acquisition
     - card: Seeds of Innocence
     - card: Ad Nauseam
     - card: Eureka
     - name: Veni, Vidi, Vici
       text: For each opponent, choose target land they control. Gain control of those land.
-    - name: Lava Boulder
-      text: Lava Boulder deals 10 damage to target player.
+    - name: Push into Lava
+      text: Push into Lava deals 10 damage to target player.
     - card: Ancestral Recall
     - name: Chaos Delay
       text: At the beginning of your next end step, roll chaos.
@@ -453,17 +446,18 @@
       text: Add fifteen mana in any combination of colors to your mana pool. Until end of turn, this mana doesn't empty from your mana pool as steps and phases end.
     - name: Eternal Tutor
       text: Return an exiled card you own to your hand.
-    - list: synthetic-creature
+    - name: synthetic-creature
+      text: Choose a creature and an artifact controlled by the same player. They can't be the same permanent. Exile those permanents. If you do, that player rolls on Synthetic Creature. Repeat this process for each player.
     - name: Joyous Occasion
       text: Gain 7 life and put all creatures from your hand onto the battlefield.
     - list: listE
     - name: Power Vacuum
-      text: Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries.
+      text: Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries. Commanders moved as part of this effect cannot be put into the command zone instead.
     - name: Doom Approacheth
       text: Roll 2d6. If you roll 5 or less, roll on [extreme].
     - card: Extinction
     - name: Betrayal
-      text: Choose an opponent at random. He gains control of all of your creatures.
+      text: Choose an opponent at random. They gain control of all of your creatures.
     - card: Demonic Tutor
     - list: vortex
     - card: Bribery
@@ -515,10 +509,10 @@
       text: "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nWhen you roll this ability, copy it for each time chaos was rolled before it this turn."
       card: Flowstone Surge
       Xdice: [1, 6, 0]
+    - card: Flowstone Surge
+      Xdice: [1, 6, 0]
     - list: musical
     - list: listE
-    - name: Energize
-      text: All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
 
 - short_name: listE
   full_name: Chaos List E
@@ -527,7 +521,138 @@
   format: Table
   rolls:
     - name: Retrofit
-      text: You may sacrifice an artifact. If you do, search your library for an artifact card and put that card onto the battlefield. Then shuffle your library.
+      text: You may sacrifice an artifact. If you do, search your library for an artifact card and put that card onto the battlefield. Then shuffle.
+    - name: Irrigation
+      text: Search your library for five land cards and put them onto the battlefield. Then shuffle.
+    - card: Inferno
+      color: R
+    - card: Sunder
+    - name: Day of Teferi
+      text: All permanents phase out.
+    - list: vortex
+    - name: Control Sorcery
+      text: For each permanent type, choose up to one target permanent of that type. Gain control of those permanents. (The permanent types are artifact, land, creature, enchantment, and planeswalker.)
+    - list: strong-creature
+    - card: Eureka
+    - name: Chaos Surge
+      text: Roll twice each on Chaos Lists A through D. Then the next time a player would roll chaos, they roll on Chaos List E instead of rolling on the last Chaos List that was rolled on.
+    - card: Pox
+    - card: Balance
+    - name: Uprising
+      text: Your creatures rebel against your control. Put all nontoken creature you control into the middle world.
+    - card: Whims of the Fates
+    - name: Trouble at Home
+      text: Exile all planeswalkers.
+    - name: Promote
+      text: Target creature becomes a commander (e.g. it can be put in the command zone when it leaves the battlefield; it can cause a player to lose by dealing 21 combat damage to them).
+    - card: Wrath of God
+    - name: Immolate
+      text: Immolate deals 15 damage to target player.
+      color: R
+    - name: Beacons of Immortality
+      text: Double all players' life totals.
+    - name: Chaos Squeeze
+      text: Choose Chaos List A through D. For the rest of the game, if you would roll on that list, instead roll on Chaos List E.
+    - list: vortex
+    - name: Chaos Market
+      text: Each player may sacrifice up to two permanents. If they do, they roll on a random chart for each permanent they sacrificed this way.
+    - name: Meteor Storm
+      text: All players roll d6. Meteor Storm deals 3d6 damage to each player who rolls greater than 4. Each player who rolls 1 may roll on [powerful-acquisition].
+    - card: Soulquake
+    - card: Braingeyser
+      Xdice: [2, 6, 0]
+    - name: Lab Catastrophe
+      text: Go to [treacherous-creature]. The creature enters the battlefield with "You can't target this creatures with spells and abilities, and you can't sacrifice it."
+    - name: Call a Friend
+      text: You may discard two cards. If you do, roll on [planeswalker].
+    - name: Ancient Prophecy
+      text: Flip a coin. If you lose the flip, roll on [extreme].
+    - name: Paperwork
+      text: All players vote on a supplementary list. Roll on the list that gets the most votes. If there's a tie choose one of the winners to roll on. (The supplementary lists are Global through Planeswalker on the left sidebar).
+    - name: Chaos Spurt
+      text: Roll chaos three times.
+    - name: Aid from afar
+      text: You may discard two cards. If you do, roll on [exceptional-creature].
+    - list: global
+    - card: Time Stretch
+    - name: Atog Revolt
+      text: Destroy all artifacts. Atog Revolt deals 2 damage to each player for each artifact that player controlled that was destroyed this way.
+    - name: Mass Suicide
+      text: Sacrifice all creatures you control.
+    - list: vortex
+    - name: Hidetsugu's Final Rite
+      text: Hidetsugu's Final Rite deals 10 damage to each player.
+      color: R
+    - name: Attaint
+      text: Choose target creature. If it is a commander, it loses that status. Exile that creature.
+    - list: synthetic-creature
+    - name: Chaos Auction
+      text: Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items they revealed. If one player revealed more items than any other player, that player rolls on [exceptional-creature]. The player or players who revealed the least number of items roll on [treacherous-creature].
+    - card: Timetwister
+    - name: Witch Hunt
+      text: Choose two colors. Each player reveals their hand and discards all cards that share one of the chosen colors.
+#E52
+    - name: Shifting Loyalty
+      text: Shuffle all creatures on the battlefield together and deal them out starting with you and going left. Each creature comes under the control of the player to whom it is dealt.
+    - name: Blackout
+      text: Until the beginning of your next turn, players can't play spells.
+    - name: Possession
+      text: If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
+#E56
+    - name: Vengeful Rage
+      text: Roll on Spite. (You can still roll on Spite if you lose.) 
+    - name: Passive Turn Taking
+      text: The active player skips their next turn. End the turn.
+    - list: listF
+    - name: Shadow of Anarchy
+      text: Each player may leave the game until end of turn. Then if there are any players in the game, a random player rolls on [extreme].
+    - name: Revenge of the Fool
+      text: Each player puts the cards from their hand on top of their library. Then the player to that player's right searches that player's library for that many cards. That player puts those cards into their hand, then shuffles their library.
+    - name: Planar Shift
+      text: You leave the game for 6 turns.
+#E63 Desperate Gamble
+#You may flip a coin. If you do and win, put an |Extra Life| token onto the battlefield. If you do and lose, roll on Dire Misfortune.
+    - card: Death by Dragons
+#E65
+    - name: Twin Worlds
+      text: Roll twice on [global] and put both into the command zone. (Remove both globals the next time a player rolls on Global).
+    - name: Philanthropy
+      text: Target player puts the cards from their hand into the middle world.
+    - name: Surprising Fortune
+      text: Roll d20 and gain five times that much life.
+    - list: listF
+    - card: Searing Wind
+    - name: Rogue's Auction
+      text: Exile all nontoken, nonland permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under their control. Repeat this process until all cards exiled this way have been chosen.
+    - card: Fracturing Gust
+    - name: Fireballs
+      text: Fireballs deals 9 damage to each of up to 4 target creatures and/or players.
+      color: R
+    - card: Yawgmoth's Will
+    - name: Summon the Brethren
+      text: Each player reveals the top eight cards of their library, then puts all creatures cards revealed this way onto the battlefield. Then each player shuffles their library.
+    - card: Wake of Destruction
+    - name: Kleptomania
+      text: Move all counters from all permanents onto target permanent. If that permanent's rules text refers to any type of counters, the moved counters becomes counters of that type. Otherwise, they become +1/+1 counters.
+    - name: Rare, Rare, Go Away
+      text: Each player sacrifices all rare and mythic permanents, then reveals their hand and discards all rare and mythic cards.
+    - list: listF
+    - card: All is Dust
+    - name: Appreciation of Beauty
+      text: Choose an artist. Gain control of all nonland permanents drawn by this artist.
+    - card: Blessed Wind
+    - name: Sorrowful End
+      text: Destroy up to five target nonblack creatures. Draw a card for each creature destroyed this way.
+    - name: Despair
+      text: Discard any number of cards. Then for each opponent, that player reveals their hand. Choose as many cards from that player's hand as you discarded this way. That opponent discards those cards.
+    - card: Mind Twist
+      Xdice: [0, 0, 7]
+    - name: Historical Repetition
+      text: Set aside all nonland permanents. Then put all nonland permanent cards in all graveyards onto the battlefield. Then put all set aside cards into their owners' graveyards.
+    - card: Boneyard Parley
+    - name: Chaos Duet
+      text: Roll twice on [musical].
+    - list: listF
 
 - short_name: listF
   full_name: Chaos List F
@@ -537,6 +662,130 @@
   rolls:
     - name: Relive the Past
       text: Each player shuffles their hand and graveyard and all exiled cards they own into their library, then draws seven cards.
+    - name: Cosmic Harmony
+      text: Each player may search their library and put creatures from their library onto the battlefield until they control as many creatures as the player who controls the most. If they do, they shuffle. Then each player draws cards until they have as many cards in their hand as the player with the most.
+    - list: extreme
+    - name: Day of Doom
+      text: Each player searches their library and graveyard for five cards and exiles the rest. That player puts the chosen cards on top of their library in any order. Then each player loses half their life, rounded up.
+    - list: synthetic-creature
+    - card: Decree of Annihilation
+    - list: vortex
+#F17 Ace of Trump
+#Put a |Counter Roll| token and a |Fork Roll| token onto the battlefield.
+    - name: Crucify
+      text: Crucify deals 25 damage to target creature or player.
+      color: W
+    - name: Chaos Vortex
+      text: Until a player loses, each player rolls chaos an additional time at the beginning of their chaos step.
+    - card: Praetor's Counsel
+    - name: Sabbatical
+      text: Choose a positive number. Leave the game for that many turns. Whenever there is only one other player in the game, this effect ends at end of turn.
+    - list: global
+    - name: Unnatural Disaster
+      text: Chooses a basic land type. Destroy all lands of the chosen type. 
+    - name: Summon the Storm
+      text: Put five 6/1 red elemental creature tokens with haste and trample onto the battlefield. Sacrifice them at the beginning of the end step.
+    - name: Fate's Favourite
+      text: Roll d20 and gain ten times that much life.
+    - card: Conflux
+    - name: Welcome, Wizard
+      text: A player watching the game may join in as though the game were just starting. (He won't have any permanents on the battlefield, but it's list F, so he stands a chance.)
+    - name: Frenzied Casting
+      text: Each player reveals cards from the top of their library until they reveal an instant or sorcery card, puts the revealed card onto the stack and shuffles the other revealed cards into their library. Then each player rolls on [response].
+    - card: Scrambleverse
+    - name: Relive the Past
+      text: Each player shuffles their hand and graveyard and all exiled cards they own into their library, then draws seven cards.
+    - list: planeswalker
+    - card: Warp World
+    - name: Personal Angst
+      text: Personal Angst deals damage to you equal to the number of permanents in play.
+    - list: exceptional-creature
+    - card: Vitalizing Wind
+#F36
+    - list: extreme
+    - name: Holocaust
+      text: Holocaust deals damage to each player equal to the number of permanents they control plus the number of cards in their hand.
+      color: R
+    - name: Wheel of Chaos
+      text: Go to a random Chaos List.
+    - card: Armageddon
+    - card: Jokulhaups
+#F43
+#F44 The Gods are Toying with You
+#Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
+#F45
+    - card: Goblin Game
+    - name: Plasma Storm
+      text: Plasma Storm deals 16 damage to each player and each creature.
+    - name: Impending Insanity
+      text: Roll five times on [listA], four times on [listB], three times on [listC], twice on [listD], and once on [listE]. Then the next time a player would roll chaos, they roll on [listF] instead of rolling on the last Chaos List that was rolled on.
+    - name: Brain Torch
+      text: Each player discards their hand.
+    - list: global
+    - name: Great Leadership
+      text: Gain control of all creatures.
+    - card: Cruel Ultimatum
+    - name: Random Destruction
+      text: Select half the permanents on the battlefield at random. Destroy those permanents.
+    - name: Chaos Coagulation
+      text: Roll thrice on [extreme].
+    - name: Corrupt Tax
+      text: Shuffle all basic lands on the battlefield into their owners' libraries.
+    - name: Common Recovery
+      text: Put all cards in all graveyards and all exiled cards into the middle world.
+    - name: Doom Smash
+      text: Target player's life total becomes 1.
+    - name: Wild Flux in the Chaos
+      text: Roll on [vortex], [global], and Chaos Lists A through F.
+    - card: Insurrection
+    - list: vortex
+    - name: Poison Shower
+      text: Each player gets nine poison counters.
+    - card: Reverse the Sands
+    - name: Bankruptcy
+      text: Your land is repossessed by the bank. Put all lands you control into the middle world.
+    - name: Paradox
+      text: Choose creature or land. Your opponents search your library and exile all cards of that type. Then shuffle.
+    - name: Sente
+      text: Each player sacrifices lands until the number of lands that player controls is less than or equal to the number of lands you control. Repeat this process for creatures, artifacts, and enchantments. Then each player discards cards until the number of cards in that player's hand is less than or equal to the number of cards in your hand.
+    - name: Ysudsen Somiat
+      text: Each player's life total becomes that player's starting life total. Each player loses all poison counters then shuffles their graveyard and exiled cards into their library.
+    - card: Worldpurge
+    - list: listA
+#F70
+    - name: Endless Domains
+      text: Any player may search their library for any number of basic land cards and put them onto the battlefield. Then all players who searched their libraries shuffle them.
+    - name: Fireballs
+      text: Fireballs deals 9 damage to each of up to 6 target creatures and/or players.
+      color: R
+    - name: Blitzkrieg
+      text: Put all creatures from your hand and graveyard onto the battlefield. Those creatures gain haste.
+    - name: Royal Bequest
+      text: Each player reveals cards from the top of their library until they reveal four permanent spells. They put those cards onto the battlefield, then shuffle their library.
+    - name: Impostor Professor Oak
+      text: Each opponent shuffles their hand into their library and draws seven cards.
+    - name: Return to Power
+      text: Return all lands in your graveyard and all exiled lands you own to the battlefield.
+    - card: Cataclysm
+    - name: Even Odds
+      text: Roll a die. If the result is even, destroy all permanents with odd casting cost. If the result is odd, destroy all nonland permanents with even casting cost.
+    - list: listA
+    - name: Invincible Chorus
+      text: Each players counts the number of cards in their library. Their life total becomes that number.
+    - name: Death by Exceptional Creature
+      text: Each player other than target player rolls on [exceptional-creature].
+    - name: Lost and Found
+      text: Put all exiled nonland cards on the stack. Then put all exiled lands onto the battlefield.
+    - card: Hellfire
+    - name: Resurgence
+      text: Each player draws a number of cards equal to the number of cards in their graveyard.
+    - card: Paradigm Shift
+    - card: Plague Wind
+    - name: Bribe the Judge
+      text: Each player's life total becomes your life total.
+    - name: Symphony of Chaos
+      text: Roll seven times on [musical].
+    - list: listA
 
 - short_name: global
   full_name: Global
@@ -550,6 +799,589 @@
       text: |
         If mana would be emptied from a player's mana pool, instead it is emptied and that player loses 1 life for each mana emptied this way.
         At the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
+    - name: Ostracization
+      mana_cost: 3BB
+      type: Enchantment
+      text: |
+        As Ostracization enters the command zone, each player chooses an expansion symbol. Nonbasic permanent cards bearing that expansion symbol don't untap during their controllers' untap steps. (You can't choose a set that didn't use an expansion symbol.)
+    - name: Feudal System
+      text: |
+        All players have a range of influence of 1 seat.
+        When there are three or fewer players, the active player rolls on Global.
+    - card: Anvil of Bogardan
+    - name: Natural Law
+      text: |
+        Uncommon spells cost an additional 1 mana to cast, Rare spells cost an additional 2 mana to cast, and Mythic Rare spells cost an additional 4 mana to cast.
+    - card: Worms of the Earth
+    - name: Will's World
+      mana_cost: WWW
+      type: Enchantment
+      text: |
+        Each player skips his chaos step.
+    - card: Titania's Song
+    - name: Nether World Portal
+      mana_cost: 2BB
+      type: Artifact
+      text: |
+        At the beginning of a player's declare attackers step, that player rolls on Mild Creature or Strong Creature at random. That creature enters the battlefield tapped and attacking. Exile that creature at the beginning of the next end step.
+    - name: Extreme Deprivation
+      text: |
+        As Extreme Deprivation enters the command zone, each player exiles the cards from his hand.
+        When Extreme Deprivation leaves the command zone, return all cards exiled with Extreme Deprivation to their owner's hands.
+    - name: Hot Potato
+      text: |
+        At the beginning of each player's upkeep, that player rolls a twelve sided die. If that player rolls a 1, Hot Potato deals 18 damage to him. Exile Hot Potato.
+GL21. Whitmore's Legacy
+All cards banned or restricted in Legacy or Vintage are banned. 
+
+GL22. [Celestial Dawn]
+(1WW, Enchantment
+Lands you control are Plains.
+Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.
+You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana. (16/4/10))
+
+GL23. [Necropotence]
+
+GL24. [Worldslayer]
+(5, Artifact -- Equipment
+Whenever equipped creature deals combat damage to a player, destroy all permanents other than Worldslayer.
+Equip {5} (16/4/10))
+
+GL25. Angie-Land
+At the beginning of each player's upkeep, if there are only two players in the game, exile Angie-Land. Otherwise, choose another player at random. That player leaves the game until end of turn.
+
+GL26. Zero Chamber
+3W, Enchantment
+As Zero Chamber enters the command zone, all players name a nonbasic card.
+The named cards can't be played.
+
+GL27. Eureka World
+Permanent spells have mana cost 0.
+Players can play any number of additional lands on each of their turns.
+
+GL28. Dual Reality
+3UU, Enchantment
+As Dual Reality enters the command zone, a new zone forms called the Delta Zone. Cards in the Delta Zone are face down in a pile near Dual Reality.
+At the beginning of each player's upkeep, each player puts the top card of his library into the Delta Zone.
+4: Reveal a card at random from the Delta Zone. If that card is a land, put it onto the battlefield. Otherwise, cast it without paying its mana cost.
+As Dual Reality leaves the command zone, the Delta Zone collapses. All cards in the Delta Zone leave the game.
+
+GL29. [Energy Flux]
+
+GL30. [Living Plane]
+(All lands are 1/1 creatures that are still lands. (16/4/10))
+
+GL31. [Fastbond]
+
+GL32. [Rites of Flourishing]
+(2G, Enchantment
+At the beginning of each player's draw step, that player draws an additional card.
+Each player may play an additional land on each of his or her turns. (16/4/10))
+
+GL33. [Back to Basics]
+
+GL34. Chronomancer's Prank
+Whenever a spell resolves on its caster's turn, that player flips a coin. If he loses the flip, end the turn.
+
+GL35. Eburnean Mask
+All players have shroud.
+
+GL36. Random World
+At the beginning of each player's end step, roll on Global. Instead of putting a new global into the command zone, Random World becomes a copy of the global rolled this way, but retains this ability.
+
+GL37. Shifting Kingdom
+Creatures with defender can attack as though they didn't have defender.
+A Creature with defender deals combat damage equal to the total of its power and toughness.
+
+GL38. Stasis Field
+1U, Enchantment
+Players skip their untap steps.
+At the beginning of each player's upkeep, that player rolls on {Global} unless any player pays 1.
+
+GL39. Eburnean Tower
+At the beginning of each player's upkeep, that player gains X life, where X is the number of cards in his hand minus four.
+
+GL40. [Seismic Assault]
+
+GL41. [Dense Foliage]
+(Creatures can't be the targets of spells. (16/4/10))
+
+GL42. World of Knowledge
+All players play with their hands and the top card of their libraries revealed.
+
+GL43. Vortex World
+The first chaos roll each player would make in his chaos step is made on The Vortex instead of a Chaos List.
+
+GL44. [Night of Souls' Betrayal]
+(2BB, Legendary Enchantment
+All creatures get -1/-1. (16/4/10))
+
+GL45. Quicksilver Geyser
+3, Artifact
+At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land he controls of his choice.
+Lands with flood counters on them are Islands.
+At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
+
+GL46. [Heartbeat of Spring]
+(2G, Enchantment
+Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced. (16/4/10))
+
+GL47. Keg of Chaos
+2, Artifact
+If a player would roll Chaos, instead put a fuse counter on Keg of Chaos.
+Whenever Keg of Chaos has ten or more fuse counters on it, exile it.
+When Keg of Chaos leaves the command zone, the active player rolls chaos X times, where X is the number of fuse counters on Keg of Chaos.
+
+GL48. [Nether Void]
+(3B, World Enchantment
+Whenever a player casts a spell, counter it unless its controller pays {3}. (16/4/10))
+
+GL49. Grips of Chaos
+Whenever a spell or ability is put onto the stack, reselect its targets at random. (This includes chaos abilities.)
+
+GL50. [Mindlock Orb]
+
+GL51. [Teferi's Puzzle Box]
+(4, Artifact
+At the beginning of each player's draw step, that player puts the cards in his or her hand on the bottom of his or her library in any order, then draws that many cards. (16/4/10))
+
+GL52. Jungle Depths
+4GG, Enchantment
+At the beginning of the declare attackers step, assign each attacking creature to be attacking a random player or planeswalker.
+
+GL53. Extreme World
+RRRRR, Enchantment
+The first chaos roll each player would make in his chaos step is made on Extreme Chaos instead of a Chaos List.
+
+GL54. [Worship]
+
+GL55. [The Abyss]
+
+GL56. Chaos Reflection
+4RR, Enchantment
+Whenever a player rolls chaos, that player puts an additional copy of the rolled ability on the stack.
+
+GL57. Matt's Obstinacy
+2WW, Artifact
+All nonbasic cards that only appear in the most recently released expansion block are banned.
+
+GL58. [Earnest Fellowship]
+(1W, Enchantment
+Each creature has protection from its colors. (16/4/10))
+
+GL59. Torture World
+At the beginning of each player's upkeep, Torture World deals X damage to that player, where X is the number of cards in his hand minus 4.
+At the beginning of each player's upkeep, Tortune World deals X damage to that player, where X is 3 minus the number of cards in his or her hand.
+
+GL60. [Damping Matrix]
+(3, Artifact
+Activated abilities of artifacts and creatures can't be activated unless they're mana abilities. (16/4/10))
+
+GL61. [Forsaken Wastes]
+
+GL62.	[AEther Rift]
+(1RG, Enchantment
+At the beginning of your upkeep, discard a card at random. If you discard a creature card this way, return it from your graveyard to the battlefield unless any player pays 5 life. (16/4/10))
+
+GL63. [Zur's Weirding]
+
+GL64. [Grand Melee]
+(All creatures attack each turn if able.
+All creatures block each turn if able. (16/4/10))
+
+GL65. [Eon Hub]
+(5, Artifact
+Players skip their upkeep steps.
+5DN-R (16/4/10))
+
+GL66. Wonderful Bazaar
+Whenever a player casts a spell, counter it if a card with the same name is in a graveyard or a nontoken permanent with the same name is on the battlefield.
+
+GL67. Inverse Dimension
+3U, Enchantment
+When a player draws a card, instead of putting the top card of his library into his hand, he puts the bottom card of his library into his hand.
+If a player would gain or lose life, he loses or gains that much life instead.
+Players don't lose the game for having 0 or less life.
+Players lose the game for having 2 times X or more life, where X is their starting life.
+
+GL68. [Arcane Laboratory]
+(2U, Enchantment
+Each player can't cast more than one spell each turn. (16/4/10))
+
+GL69. [Braids, Conjurer Adept]
+(2UU, Legendary Human Wizard, 2/2
+At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from his or her hand onto the battlefield. (16/4/10))
+
+GL70. Doom Gate
+When Doom Gate enters the command zone, the active player rolls on {Treacherous Creature}.
+When a creature summoned this way leaves the battlefield, at the beginning of the next turn's upkeep, the active player rolls on Treacherous Creature.
+
+GL71. Socialism
+2WW, Enchantment
+As Socialism enters the command zone, each player puts the cards from his hand into the middle world.
+If a card would go to a player's hand, he puts that card into the middle world instead.
+When Socialism leaves the command zone, return all cards in the middle world to their owners' hands.
+
+GL72. Mental Magic
+3UU, Enchantment
+If a player would play a nonbasic card, he first chooses another card with the same mana cost as that card that has not been played this game. That player puts that card onto the stack, if it is a spell, or onto the battlefield, if it is a land, as a copy of the named card.
+
+GL73. Dimension X
+Whenever a nontoken permanent enters the battlefield, calculate the total of all the numbers on that card that are not mana symbols. That permanent's controller may assign new non-negative values to those numbers, as long as the new values have the same total.
+
+GL74. [Sands of Time]
+(Each player skips his or her untap step.
+At the beginning of each player's upkeep, that player simultaneously untaps each tapped artifact, creature, and land he or she controls and taps each untapped artifact, creature, and land he or she controls. (16/4/10))
+
+GL75. Jameil's Continuum
+0, Exile two cards from your hand: Counter target spell.
+
+GL76. World of Battle
+After each postcombat main phase, there is an additional combat phase followed by an additional main phase.
+At the end of the first combat phase of a turn, untap all creatures that attacked that turn.
+
+GL77. [Teferi's Realm]
+(At the beginning of each player's upkeep, that player chooses artifact, creature, land, or non-Aura enchantment. All nontoken permanents of that type phase out. (16/4/10))
+
+GL78. [Sword of Fire and Ice]
+(3, Artifact -- Equipment
+Equipped creature gets +2/+2 and has protection from red and from blue.
+Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to target creature or player and you draw a card.
+Equip {2} (16/4/10))
+
+GL79. [Enduring Renewal]
+
+GL80. Shifting Chaos
+If a player would roll on a Chaos List, he rolls on a random Chaos List instead.
+
+GL81. Cobra Dagger
+3, Artifact -- Equipment
+Equipped creatures has poisonous 2.
+Equip {2}
+
+GL82. Angel's Blessing
+W, Enchantment
+All creatures have vigilance.
+
+GL83. Team Spirit
+All creatures have "bands with other creatures that share a creature type with this creature."
+
+GL84. [Concordant Crossroads]
+
+GL85. Xenophobic Dimension
+If a nontoken creature would enter the battlefield, exile it instead. That creature's controller rolls on Mild Creature, Strong Creature, Exceptional Creature, or Treacherous Creature at random.
+
+GL86. [Chains of Mephistopheles]
+(If a player would draw a card except the first one he or she draws in his or her draw step each turn, that player discards a card instead. If the player discards a card this way, he or she draws a card. If the player doesn't discard a card this way, he or she puts the top card of his or her library into his or her graveyard. (16/4/10))
+
+GL87. [Sylvan Library]
+
+GL88. [Spiteful Visions]
+(2(b/r)(b/r), Enchantment
+At the beginning of each player's draw step, that player draws an additional card.
+Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.
+SHM-R (16/4/10))
+
+GL89. [Doran, the Siege Tower]
+(BGW, Legendary Treefolk Shaman, 0/5
+Each creature assigns combat damage equal to its toughness rather than its power.
+LRW-R (16/4/10))
+
+GL90. Responsiveness
+3UU, Enchantment
+Whenever a player casts an instant or sorcery spell, another random players rolls on Response, choosing that spell as the target of his roll.
+
+GL91. [Dovescape]
+(3(w/u)(w/u)(w/u), Enchantment
+Whenever a player casts a noncreature spell, counter that spell. That player puts X 1/1 white and blue Bird creature tokens with flying onto the battlefield, where X is the spell's converted mana cost. (16/4/10))
+
+GL92. Conspiracies
+3BB, Enchantment
+As Conspiracies enters the command zone, each player chooses a creature type.
+Creature cards that aren't on the battlefield, creature spells, and creatures on the battlefield are the chosen types.
+
+GL93. Brawlers Pit
+All creatures have "T: This creature deals damage equal to its power to target creature."
+
+GL94. [Kyren Negotiations]
+(2RR, Enchantment
+Tap an untapped creature you control: Kyren Negotiations deals 1 damage to target player. (16/4/10))
+
+GL95. [Forbidden Crypt]
+
+GL96. Rapid Incantation
+Spells have flash.
+
+GL97. [Crumbling Sanctuary]
+
+GL98. [Opalescence]
+
+GL99. Engulfed in Chaos
+RRR, Enchantment
+Each player rolls chaos an additional time at the beginning of his chaos step.
+
+GL100. Heedlessness
+All creatures attack each turn, even if they couldn't normally be chosen as attackers. Players ignore restrictions on which creatures can attack, and don't pay costs to attack.
+
+GL101. [Coat of Arms]
+
+GL102. [Repercussion]
+(1RR, Enchantment
+Whenever a creature is dealt damage, Repercussion deals that much damage to that creature's controller. (16/4/10))
+
+GL103. [Impatience]
+(2R, Enchantment
+At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to him or her. (16/4/10))
+
+GL104. [Angelic Chorus]
+
+GL105. [Planar Void]
+
+GL106. [Oath of Druids]
+
+GL107. [Bedlam]
+(Creatures can't block. (16/4/10))
+
+GL108. Ink Drain
+Mana costs of spells and activated abilities may be paid with any type of mana.
+Cards, tokens, and abilities are colorless.
+
+GL109. [Abundance]
+
+GL110. Cyclotron
+All cards have "Cycling: 3".
+
+GL111. [Grafted Skullcap]
+(At the beginning of your draw step, draw an additional card.
+At the beginning of your end step, discard your hand. (16/4/10))
+
+GL112. [Lifeline]
+(5, Artifact
+Whenever a creature is put into a graveyard from the battlefield, if another creature is on the battlefield, return the first card to the battlefield under its owner's control at the beginning of the next end step. (19/06/11))
+
+GL113. [Everlasting Torment]
+(2(b/r), Enchantment
+Players can't gain life.
+Damage can't be prevented.
+All damage is dealt as though its source had wither. (16/4/10))
+
+GL114. [Timesifter]
+5, Artifact
+At the beginning of each upkeep, each player exiles the top card of his or her library. The player who exiled the card with the highest converted mana cost takes an extra turn after this one. If two or more players' cards are tied for highest cost, the tied players repeat this process until the tie is broken. (16/4/10))
+
+GL115. Pawnshop
+All sorcery and instant spells have "Buyback: 3".
+
+GL116. Null Cycle
+4BG, Enchantment
+Each player skips his draw step.
+Whenever a player plays a card, that player draws a card.
+Each player's maximum hand size is two.
+
+GL117. [Super Secret Tech]
+(All premium creatures get +1/+1. All premium spells cost one less to play).
+
+GL118. Extraplanar Prison
+7, Artifact
+As Extraplanar Prison enters the command zone, choose a player at random. That player leaves the game.
+When Extraplanar Prison leaves the command zone, that player returns to the game as the turn ends.
+
+GL119. [Furnace of Rath]
+(1RRR, Enchantment
+If a source would deal damage to a creature or player, it deals double that damage to that creature or player instead. (16/4/10))
+
+GL120. Crucible of Planets
+3, Artifact
+Players may play lands cards from their graveyards.
+
+GL121. [Static Orb]
+(3, Artifact
+If Static Orb is untapped, players can't untap more than two permanents during their untap steps. (16/4/10))
+
+GL122. [Storage Matrix]
+(3, Artifact
+As long as Storage Matrix is untapped, each player chooses artifact, creature, or land during his or her untap step. That player can untap only permanents of the chosen type this step. (16/4/10))
+
+GL123. [Dream Halls]
+(3UU, Enchantment
+Rather than pay the mana cost for a spell, its controller may discard a card that shares a color with that spell. (16/4/10))
+
+GL124. [Awakening]
+
+GL125. [Invasion Plans]
+(All creatures block each turn if able.
+The attacking player chooses how each creature blocks each turn. (16/4/10))
+
+GL126. [Aluren]
+(2GG, Enchantment
+Any player may play creature cards with converted mana cost 3 or less without paying their mana cost and as though they had flash. (16/4/10))
+
+GL127. Mishra's Bargain
+Whenever a player casts an artifact spell, he loses 1 life and draws a card.
+
+GL128. Turnstile
+4, Artifact
+Whenever a creature enters the battlefield, if there are two or more other creatures on the battlefield, exile that creature. Return that card to the battlefield under its owner's control when Turnstile leaves the battlefield.
+Whenever there are one or fewer creatures on the battlefield, return to the battlefield under its owner's control a random creature from among those creatures exiled by Turnstile which have been in the exiled zone the longest.
+
+GL129. [Pandemonium]
+(3R, Enchantment
+Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice. (16/4/10))
+
+GL130. [Psychic Battle]
+(3UU, Enchantment
+Whenever a player chooses one or more targets, each player reveals the top card of his or her library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger this ability. (16/4/10))
+
+GL131. [Hive Mind]
+(5U, Enchantment
+Whenever a player casts an instant or sorcery spell, each other player copies that spell. Each of those players may choose new targets for his or her copy. (16/4/10))
+
+GL132. [Eye of the Storm]
+(5UU, Enchantment
+Whenever a player casts an instant or sorcery card, exile it. Then that player copies each instant or sorcery card exiled with Eye of the Storm. For each copy, the player may cast the copy without paying its mana cost. (16/4/10))
+
+GL133. Ron's Realm
+2PP, Enchantment
+When Ron's Realm enters the battlefield, shuffle all exiled cards into their owner's libraries.
+At the beginning of each player's upkeep, that player may shuffle any number of exiled cards he owns into his library.
+
+GL134. [Killer Instinct]
+(4RG, Enchantment
+At the beginning of your upkeep, reveal the top card of your library. If it's a creature card, put it onto the battlefield. That creature gains haste until end of turn. Sacrifice it at the beginning of the next end step. (16/4/10))
+
+GL135. Tombstone Stairs
+At the beginning of each upkeep, each player puts a 2/2 black Zombie creature token with haste named Tombspawn onto the battlefield for each creature card in his or her graveyard.
+At the beginning of each end step or when Tombstone Stairs leaves the command zone, destroy all tokens put onto the battlefield with Tombstone Stairs. They can't be regenerated.
+
+GL136. [Cast through Time]
+(4UUU, Enchantment
+Instant and sorcery spells you control have rebound. (16/4/10))
+
+GL137. [Maelstrom Nexus]
+(WUBRG, Enchantment
+The first spell you cast each turn has cascade. (16/4/10))
+
+GL138. [Thought Reflection]
+(4UUU, Enchantment
+If you would draw a card, draw two cards instead. (16/4/10))
+
+GL139. [Mesmeric Orb]
+(2, Artifact
+Whenever a permanent becomes untapped, that permanent's controller puts the top card of his or her library into his or her graveyard. (16/4/10))
+
+GL140. Strange Singularity
+4
+(Strange Singularity has no type.)
+If a player would roll on Global, instead put five anti-matter counters on Strange Singularity.
+2: Exile a permanent you own and put an anti-matter counter on Strange Singularity.
+Whenever there are fifteen or more anti-matter counters on Strange Singularity, return all permanent cards exiled by it to the battlefield, then roll on Global.
+
+GL141. [Pandora's Pyxis]
+1, Artifact
+At the beginning of your upkeep, exile the top card of your library face down.
+When Pandora's Pyxis leaves the command zone, each player turns face up all cards he or she owns exiled with Pandora's Pyxis, then puts all permanent cards among them onto the battlefield.
+
+GL142. [Arboria]
+(2GG, World Enchantment
+Creatures can't attack a player unless that player cast a spell or put a nontoken permanent onto the battlefield during his or her last turn. (16/4/10))
+
+GL143. [Aurification]
+(2WW, Enchantment
+Whenever a creature deals damage to you, put a gold counter on it.
+Each creature with a gold counter on it is a Wall in addition to its other creature types and has defender.
+When Aurification leaves the battlefield, remove all gold counters from all creatures. (16/4/10))
+
+GL144. [Knowledge Pool]
+(6, Artifact
+Imprint -- When Knowledge Pool enters the battlefield, each player exiles the top three cards of his or her library.
+Whenever a player casts a spell from his or her hand, that player exiles it. If the player does, he or she may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost. (19/6/11))
+
+GL145. [Shared Fate]
+(4U, Enchantment
+If a player would draw a card, that player exiles the top card of an opponent's library face down instead.
+Each player may look at and play cards he or she exiled with Shared Fate. (16/4/10))
+
+GL146. [Bottled Cloister]
+(4, Artifact
+At the beginning of each opponent's upkeep, exile all cards from your hand face down.
+At the beginning of your upkeep, return all cards you own exiled with Bottled Cloister to your hand, then draw a card. (16/4/10))
+
+GL147. [Zo-Zu the Punisher]
+(1RR, Legendary Goblin Warrior, 2/2
+Whenever a land enters the battlefield, Zo-Zu the Punisher deals 2 damage to that land's controller. (16/4/10))
+
+GL148. Trinicube
+3, Artifact
+As long as Trinicube is untapped, each spell costs the greater of three mana or the number of colored mana symbols in its mana cost to cast.
+
+GL149. [Meek Stone]
+(1, Artifact
+Creatures with power 3 or greater don't untap during their controllers' untap steps. (16/4/10))
+
+GL150. Week of the Dragons
+4UUU, Enchantment
+When Week of the Dragons enters the command zone, all creatures phase out. These creatures don't phase in during their controller's untap step. Then each player puts a 5/5 red Dragon creature token with flying onto the battlefield for each creature he controlled that phased out this way. 
+When Week of the Dragons leaves the command zone, all players sacrifice all Dragons. Then all creatures that phased out this way phase in.
+
+GL151. [Dosan the Falling Leaf]
+(1GG, Legendary Human Monk, 2/2
+Players can cast spells only during their own turns. (16/4/10))
+
+GL152. Tripling Season
+6G, Enchantment
+If an effect would put one or more tokens onto the battlefield, it puts thrice that many of those tokens onto the battlefield instead.
+If an effect would place one or more counters on a permanent, it places thrice that many of those counters on that permanent instead.
+
+GL153. Cerebral Collocation
+4UUUU, Enchantment
+Each player controls the player to his right.
+
+GL154. All-Pervading Darkness
+3BB, Enchantment
+Each player has a range of influence of 0.
+2: A player who would be within your range of influence but for All-Pervading Darkness enters your range of influence until end of turn.
+
+GL155. Thought Churning
+4R, Enchantment
+Whenever a player casts a spell, that player puts the cards in his hand on the bottom of his library in any order, then draw that many cards.
+
+GL156. [Confusion in the Ranks]
+(3RR, Enchantment
+Whenever an artifact, creature, or enchantment enters the battlefield, its controller chooses target permanent another player controls that shares a card type with it. Exchange control of those permanents. (16/4/10))
+
+GL157. Injury Reflection
+5B, Enchantment
+At the beginning of each end step, each player loses life equal to the life he lost this turn.
+
+GL158. Elfhame Sanctum
+1G, Enchantment
+At the beginning of each player's upkeep, that player may reveal cards from the top of his library until he reveals a basic land card. That player puts that card into his hand, and shuffles the other revealed cards and puts them on the bottom of his library.
+
+GL159. nruT
+2UR, Enchantment
+As nruT enters the command zone, end the turn.
+Players skip their beginning phases. At the beginning of a player's end step, that player gets an additional beginning phase after this step.
+
+GL160. [Where Ancients Tread]
+(4R, Enchantment
+Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player. (16/4/10))
+ 
+GL161. Strangling Hold
+3R, Enchantment
+Players can't search libraries.
+If a player would begin an extra turn, that player skips that turn instead.
+
+GL162. [Gibbering Descent]
+(4BB, Enchantment
+At the beginning of each player's upkeep, that player loses 1 life and discards a card.
+Hellbent — Skip your upkeep step if you have no cards in hand. (17/02/14))
+
+GL163. [The Cheese Stands Alone]
+
+GL164. Everyone's a Commander
+2WW, Enchantment
+All non-token creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
+
 
 - short_name: vortex
   full_name: The Vortex
@@ -597,7 +1429,7 @@
     - name: Musical Enchantments
       text: Each player gains control of all enchantments controlled by the player to their right.
     - name: Musical Planeswalkers
-      text: Each player gains control of all enchantments controlled by the player to their right.
+      text: Each player gains control of all planeswalkers controlled by the player to their right.
 
 - short_name: extreme
   full_name: Extreme Chaos
@@ -625,7 +1457,7 @@
   format: Table
   rolls:
     - name: Chaos Musician
-      text: "r/3, T: Roll on a random Chaos List."
+      text: "{R/U}, {T}: Roll on a random Chaos List (A through F)."
     - card: Taniwha
     - card: Butcher Orgg
     - card: Colossus of Sardia
@@ -695,7 +1527,7 @@
 
 - short_name: deadly-acquisition
   full_name: Deadly Acquisition
-  desc: "Roll d8. Put the result onto the stack."
+  desc: "Roll d8. Conjure the result onto the battlefield"
   first_index: 1
   format: Table
   rolls:
@@ -710,6 +1542,31 @@
     - card: Immortal Coil
     - card: Transcendence
 
+- short_name: planeswalker
+  full_name: Planeswalker
+  desc: "Roll d20. Conjure the result onto the battlefield."
+  first_index: 1
+  format: Table
+  rolls:
+    - card: Ajani Goldmane
+    - card: Ajani Vengeant
+    - card: Chandra Ablaze
+    - card: Chandra Nalaar
+    - card: Elspeth, Knight-Errant
+    - card: Garruk Wildspeaker
+    - card: Gideon Jura
+    - card: Jace Beleren
+    - card: Jace, the Mind Sculptor
+    - card: Liliana Vess
+    - card: Nicol Bolas, Planeswalker
+    - card: Sarkhan Vol
+    - card: Sarkhan the Mad
+    - card: Sorin Markov
+    - card: Tezzeret the Seeker
+    - card: 
+    
+
+   
 - short_name: response
   full_name: Response
   desc: "Choose target instant or sorcery spell, then roll d12. Put the result onto the stack targeting that spell."

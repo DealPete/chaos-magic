@@ -27,12 +27,6 @@ When the title of a roll is in brackets, the chaos ability has the text and char
 
 If the game breaks up or becomes tedious, roll on {Resolution}.
 
-Some rolls are preceded by terms in angle brackets. These refer to optional gameplay mechanics:
-
-<vanguard>		The Vanguard casual variant.
-
-If the result of a roll uses an optional mechanic that you're not playing with, roll again.
-
 There is a new zone to hold banned cards. When a card becomes banned due to a Chaos roll, move it and any other face up cards with the same name to the banned zone. If a card with the same name as a card in the banned zone would enter a public zone, move it to the banned zone instead and give that card's owner a warning for playing a banned card. Players' Commanders and other cards in the Command Zone are exempt from this rule.
 
 Some rolls cause a player to temporarily leave the game. A player leaving the game temporarily does not have the same effect as does a player leaving the game completely. Instead that player takes no actions while he is gone, and is considered to be outside of each other player's range of influence. (Spells and abilities can't affect or target objects or players outside their controller's range of influence. Creatures can attack only opponents within their controller's range of influence.) If a player leaves the game on his turn, the turn continues to completion without an active player.
@@ -69,7 +63,7 @@ __Chaos List A__
 
 Roll d80 + 9 (d8 for the tens digit, d10 for the units digit)
 
-A10 [Howl from Beyond] X = d6
+A10 [Howl from Beyond] X=d6
 
 A11 [Mnemonic Nexus]
 (Each player shuffles his or her graveyard into his or her library. (16/4/10))
@@ -116,7 +110,7 @@ A25 [Drafna's Restoration]
 A26 Mute
 Target player can't cast spells until the end of his next turn.
 
-A27 [Stream of Life] X = 2d6.
+A27 [Stream of Life] X=2d6
 
 A28 [Lightning Bolt]
 (Lightning Bolt deals 3 damage to target creature or player. (16/4/10))
@@ -545,7 +539,9 @@ Choose an opponent. Until your next turn, you can't target each other's library,
 C13 Olympics
 Each player puts each creature in his hand onto the battlefield.
 
-C14 {Global}
+C14 Channel the Pain
+Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
+(Black)
 
 C15 [Stone Rain]
 (Destroy target land. (16/4/10))
@@ -659,8 +655,7 @@ Each player may put any number of nontoken permanents into the middle world, the
 C55 Global Life Reset
 Each player's life total becomes his starting life total.
 
-C56 Purge
-Each player rolls 2d6 and loses that much life.
+C56 {Strong Creature}
 
 C57 [Gerrymandering]
 (Exile all nontoken lands. For each land a player controlled exiled in this way, that player puts one of those lands into play under his control, chosen at random.  Untap those lands. (11/08/98))
@@ -741,8 +736,8 @@ C84 [Living Death]
 
 C85 [Overrun]
 
-C86 The Cheese is Standing Alone
-If you control no permanents and have no cards in hand, you win.
+C86 [Rebuild]
+(Return all artifacts to owners' hands. (16/4/10))
 
 C87 Die of Fate
 Choose a player at random. That player takes the next turn. (This isn't an extra turn. After his turn, play proceeds in the normal order from that player.)
@@ -750,18 +745,6 @@ Choose a player at random. That player takes the next turn. (This isn't an extra
 C88 {Musical}
 
 C89 {Chaos List D}
-
-C90 {Strong Creature}
-
-C91 Tornado Seeker
-Tornado Seeker deals damage to each player equal to the number of cards in that player's hand.
-
-C92 Channel the Pain
-Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
-(Black)
-
-C93 [Rebuild]
-(Return all artifacts to owners' hands. (16/4/10))
 
 [=============================================================================]
 
@@ -781,9 +764,8 @@ D12 {Global}
 D13 Unravel Soul
 Each player exiles the top X cards of his library, where X is the number of creatures on the battlefield.
 
-D14 New Identity
-Roll again if you aren't playing with Vanguard cards.
-Draw a new Vanguard card.
+D14 Energize
+All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
 
 D15 Important Decision
 Choose one -- Roll on The Vortex; or roll on Global; or pay 10 life. If you do, roll on Extreme Chaos.
@@ -874,8 +856,8 @@ Add fifteen mana in any combination of colors to your mana pool. Until end of tu
 D46 Eternal Tutor
 Return an exiled card you own to your hand.
 
-D47 Biobeast X=d6
-Choose a creature and an artifact controlled by the same player. They can't be the same permanent. Exile those permanents. If you do, that player rolls on Synthetic Creature. Repeat this process a total of X times. (the rolls on Synthetic Creature will occur after this ability is finished resolving.)
+D47 Biobeast
+All players may sacrifice a creature and another artifact they own. Each player who does rolls on {Synthetic Creature}.
 
 D48 Joyous Occasion
 Gain 7 life and put all creatures from your hand onto the battlefield.
@@ -883,7 +865,7 @@ Gain 7 life and put all creatures from your hand onto the battlefield.
 D49 {Chaos List E}
 
 D50 Power Vacuum
-Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries.
+Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries. Commanders moved as part of this effect cannot be put into the command zone instead.
 
 D51 Doom Approacheth
 Roll 2d6. If you roll 5 or less, go to {Extreme Chaos}.
@@ -990,9 +972,6 @@ D88 {Musical}
 
 D89 {Chaos List E}
 
-D90 Energize
-All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
-
 [=============================================================================]
 
 __Chaos List E__
@@ -1042,7 +1021,8 @@ E23 [Whims of the Fates]
 E24 Trouble at Home
 Exile all planeswalkers.
 
-E25
+E25 Promote
+Target creature becomes a commander (e.g. it can be put in the command zone when it leaves the battlefield; it can cause a player to lose by dealing 21 combat damage to them).
 
 E26 [Wrath of God]
 
@@ -1103,7 +1083,8 @@ E46 Hidetsugu's Final Rite
 Hidetsugu's Final Rite deals 10 damage to each player.
 (Red)
 
-E47
+E47 Attaint
+Choose target creature. If it is a commander, it loses that status. Exile that creature.
 
 E48 {Synthetic Creature}
 
@@ -1123,11 +1104,10 @@ Shuffle all creatures on the battlefield together and deal them out starting wit
 E54 Blackout
 Until the beginning of your next turn, players can't play spells.
 
-E55
+E55 Possession
+If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
 
-E56 New Identity
-Roll again if you aren't playing with Vanguard cards.
-Draw a new Vanguard card.
+E56
 
 E57 Vengeful Rage
 Roll on Spite. (You can still roll on Spite the first time you lose.) 
@@ -1152,8 +1132,7 @@ You may flip a coin. If you do and win, put an |Extra Life| token onto the battl
 E64 [Death by Dragons]
 (Each player other than target player puts a 5/5 red Dragon creature token with flying onto the battlefield. (19/06/11))
 
-E65 Political Upheaval
-Each player reveals cards from the top of his library until he reveals a card that's not basic. Ban those cards. Each player shuffles his library.
+E65
 
 E66 {Global} x 2
 (Don't exile the first global as you roll on Global the second time.)
@@ -1166,7 +1145,7 @@ Roll d20 and gain five times that much life.
 
 E69 {Chaos List F}
 
-E70
+E70 [Searing Wind]
 
 E71 Rogue's Auction
 Exile all nontoken, nonland permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under his or her control. Repeat this process until all cards exiled this way have been chosen.
@@ -1181,7 +1160,7 @@ Fireballs deals 9 damage to each of up to 4 target creatures and/or players.
 E74 [Yawgmoth's Will]
 
 E75 Summon the Brethren
-Each player reveals the top eight cards of his library, then puts all creatures cards revealed this way onto the battlefield. Each player shuffles his library.
+Each player reveals the top eight cards of his library, then puts all creatures cards revealed this way onto the battlefield. Then each player shuffles his library.
 
 E76 [Wake of Destruction]
 
@@ -1199,8 +1178,7 @@ E80 [All is Dust]
 E81 Appreciation of Beauty
 Choose an artist. Gain control of all nonland permanents drawn by this artist.
 
-E82 Winds of Choice
-Choose one -- [Blessed Wind] or [Searing Wind]
+E82 [Blessed Wind]
 
 E83 Sorrowful End
 Destroy up to five target nonblack creatures. Draw a card for each creature destroyed this way.
@@ -1208,13 +1186,12 @@ Destroy up to five target nonblack creatures. Draw a card for each creature dest
 E84 Despair
 Discard any number of cards. Then for each opponent, that player reveals his hand. Choose as many cards from that player's hand as you discarded this way. That opponent discards those cards.
 
-E85 [Mind Twist] x 2 X=d6
+E85 [Mind Twist] X=7
 
 E86 Historical Repetition
 Set aside all nonland permanents. Then put all nonland permanent cards in all graveyards onto the battlefield. Then put all set aside cards into their owners' graveyards.
 
-E87 [Ashen Powder] x 3
-(Put target creature card from an opponent's graveyard onto the battlefield under your control. (16/4/10))
+E87 [Boneyard Parley]
 
 E88 Chaos Duet
 Roll twice on {Musical}.
@@ -1298,13 +1275,9 @@ Personal Angst deals damage to you equal to the number of permanents in play.
 
 F34 {Exceptional Creature}
 
-F35 End of Act
-Roll again if you aren't playing with Vanguard cards.
-Each player draws a new Vanguard card.
+F35 [Vitalizing Wind]
 
-F36 Purification
-Roll again if you aren't playing with Vanguard cards.
-Each player's Vanguard card loses all its abilities.
+F36
 
 F37 {Extreme Chaos}
 
@@ -1320,12 +1293,9 @@ F40 [Armageddon]
 F41 [Jokulhaups]
 (Destroy all artifacts, creatures, and lands. They can't be regenerated. (16/4/10))
 
-F42 Possession
-Split second
-If it is your turn, target opponent controls the rest of your turn. Otherwise, he controls your next turn.
+F42
 
-F43 Collision of Worlds
-All nonland permanents gain the supertype "global". (Any player may play the activated abilities of a global permanent.)
+F43
 
 F44 The Gods are Toying with You
 Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
@@ -1338,8 +1308,7 @@ F46 [Goblin Game]
 F47 Plasma Storm
 Plasma Storm deals 16 damage to each player and each creature.
 
-F48 Weissman's Revenge
-Ban three faceup non-basic cards that aren't in the Command Zone.
+F48
 
 F49 Impending Insanity
 Roll five times on Chaos List A, four times on Chaos List B, three times on Chaos List C, twice on Chaos List D, and once on Chaos List E. Then the next time a player would roll chaos, he rolls on Chaos List F instead of rolling on the last Chaos List that was rolled on.
@@ -1414,7 +1383,7 @@ F73 Blitzkrieg
 Put all creatures from your hand and graveyard onto the battlefield. Those creatures gain haste.
 
 F74 Royal Bequest
-Each player reveals cards from the top of his library until he reveals four permanent spells. That player puts those cards onto the battlefield, then shuffles his library.
+Each player reveals cards from the top of his library until he reveals four permanent spells. They put those cards onto the battlefield, then shuffles his library.
 
 F75 Impostor Professor Oak
 Each opponent shuffles his hand into his library and draws seven cards.
@@ -1449,8 +1418,7 @@ Each player draws a number of cards equal to the number of cards in his graveyar
 F85 [Paradigm Shift]
 (Exile all cards from your library. Then shuffle your graveyard into your library. (16/4/10))
 
-F86 Winds of Choice
-Choose one -- [Plague Wind] or [Vitalizing Wind].
+F86 [Plague Wind]
 
 F87 Bribe the Judge
 Each player's life total becomes your life total.
@@ -2204,6 +2172,11 @@ GL162. [Gibbering Descent]
 At the beginning of each player's upkeep, that player loses 1 life and discards a card.
 Hellbent — Skip your upkeep step if you have no cards in hand. (17/02/14))
 
+GL163. [The Cheese Stands Alone]
+
+GL164. Everyone's a Commander
+2WW, Enchantment
+All non-token creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
 
 [=============================================================================]
 
@@ -3707,8 +3680,8 @@ Each player gains control of all artifacts controlled by the player to his right
 5 Musical Enchantments
 Each player gains control of all enchantments controlled by the player to his right.
 
-6 <vanguard> Musical Avatars
-Each player gains ownership of the Vanguard card of the player to his right for the rest of the game.
+6 Musical Planeswalkers
+Each player gains control of all planeswalkers controlled by the player to his right.
 
 [=============================================================================]
 

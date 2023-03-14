@@ -13,8 +13,11 @@ body {
 	font-family: Magic;
 }
 
+tr {
+	vertical-align: baseline;
+}
+
 td {
-	vertical-align: top;
 	padding: 5px;
 }
 
@@ -23,6 +26,7 @@ li {
 }
 
 .roll-title {
+	font-size: 18px;
 	white-space: nowrap;
 }
 

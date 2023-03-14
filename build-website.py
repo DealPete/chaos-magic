@@ -100,6 +100,7 @@ def parse_as_table(body):
             rolls += effectCell.render(name = roll['name'])
             text = roll['text'].split('\n')
             markup = '<br>'.join([ f'<span>{t}</span>' for t in text ])
+            markup = parse_mana_symbols(markup)
             rolls += f"<td class='roll-text'>{markup}</td>"
         else:
             rolls += cardCell.render(card = roll['card']) + cardCellNoHover.render(card = roll['card'])
@@ -124,6 +125,18 @@ def replace_embedded_links(parsed):
         parsed = parsed.replace(f'[{short_name}]', replacement)
 
     return parsed
+
+def parse_mana_symbols(markup):
+    mana_symbols = [
+        ( '{1}', 'ms-1' ),
+        ( '{T}', 'ms-tap' ),
+        ( '{R/U}', 'ms-ur' )
+    ]
+
+    for ( m, r ) in mana_symbols:
+        markup = markup.replace( m, f'<i class="ms ms-cost {r}"></i>' )
+
+    return markup
 
 def get_list_cell(list_name):
     cell = '<td class="roll-title"></td>'
