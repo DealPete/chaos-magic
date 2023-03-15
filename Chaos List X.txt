@@ -15,7 +15,7 @@ pdeal*at*nl.rogers.com
 RULES
 -----
 
-At the beginning of the game, once all players have kept their opening hands and used the abilities of cards that allow them to take an action with those cards from their opening hands, the active player rolls on Global and puts a copy of the card rolled into the command zone. The abilities of the global function from the command zone and affect the game. The active player may play the global's activated abilities. If the global is an Equipment, it can be attached to a creature, but remains in the command zone. If a player would roll on Global during the game, first remove the current global from the command zone.
+At the beginning of the game, once all players have kept their opening hands and used the abilities of cards that allow them to take an action with those cards from their opening hands, the active player rolls on Global and puts a copy of the card rolled into the command zone. The abilities of the global function from the command zone and affect the game. The active player may play the global's activated abilities. If a player would roll on Global during the game, first remove the current global from the command zone.
 
 There is a new step that takes place between your upkeep and draw steps called the chaos step. Immediately after a player's chaos step begins, as a turn-based action, that player rolls on one of the Chaos Lists. There are 6 Chaos Lists lettered A through F. The first chaos roll of the game is made on Chaos List A. Subsequent chaos rolls are made on the last Chaos List that was rolled on. The result of a roll is called a chaos ability, and the player who rolled it puts it onto the stack. It can then be responded to like any other object that could go on the stack. If the roll asks you to roll dice, do so before choosing targets. The process of rolling on of Chaos Lists A through F is called "rolling chaos".
 
@@ -1638,10 +1638,9 @@ You may spend white mana as though it were mana of any color. You may spend othe
 
 GL23. [Necropotence]
 
-GL24. [Worldslayer]
-(5, Artifact -- Equipment
-Whenever equipped creature deals combat damage to a player, destroy all permanents other than Worldslayer.
-Equip {5} (16/4/10))
+GL24. Everyone's a Commander
+2WW, Enchantment
+All non-token creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
 
 GL25. Angie-Land
 At the beginning of each player's upkeep, if there are only two players in the game, exile Angie-Land. Otherwise, choose another player at random. That player leaves the game until end of turn.
@@ -1839,21 +1838,17 @@ At the end of the first combat phase of a turn, untap all creatures that attacke
 GL77. [Teferi's Realm]
 (At the beginning of each player's upkeep, that player chooses artifact, creature, land, or non-Aura enchantment. All nontoken permanents of that type phase out. (16/4/10))
 
-GL78. [Sword of Fire and Ice]
-(3, Artifact -- Equipment
-Equipped creature gets +2/+2 and has protection from red and from blue.
-Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to target creature or player and you draw a card.
-Equip {2} (16/4/10))
+GL78. [Gibbering Descent]
+(4BB, Enchantment
+At the beginning of each player's upkeep, that player loses 1 life and discards a card.
+Hellbent — Skip your upkeep step if you have no cards in hand. (17/02/14))
 
 GL79. [Enduring Renewal]
 
 GL80. Shifting Chaos
 If a player would roll on a Chaos List, he rolls on a random Chaos List instead.
 
-GL81. Cobra Dagger
-3, Artifact -- Equipment
-Equipped creatures has poisonous 2.
-Equip {2}
+GL81. [The Cheese Stands Alone]
 
 GL82. Angel's Blessing
 W, Enchantment
@@ -2166,17 +2161,6 @@ GL161. Strangling Hold
 3R, Enchantment
 Players can't search libraries.
 If a player would begin an extra turn, that player skips that turn instead.
-
-GL162. [Gibbering Descent]
-(4BB, Enchantment
-At the beginning of each player's upkeep, that player loses 1 life and discards a card.
-Hellbent — Skip your upkeep step if you have no cards in hand. (17/02/14))
-
-GL163. [The Cheese Stands Alone]
-
-GL164. Everyone's a Commander
-2WW, Enchantment
-All non-token creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
 
 [=============================================================================]
 
