@@ -68,7 +68,7 @@ def write_lists():
 
         parsed = replace_embedded_links(parsed)
         output = preface + pageTemplate.render(full_name = chaos_list['full_name'], heading = heading, rolls = parsed) + footerTemplate.render()
-        list_file.write(output)
+        list_file.write(parse_mana_symbols(output))
         list_file.close()
 
 def parse_as_list(body):
@@ -100,7 +100,6 @@ def parse_as_table(body):
             rolls += effectCell.render(name = roll['name'])
             text = roll['text'].split('\n')
             markup = '<br>'.join([ f'<span>{t}</span>' for t in text ])
-            markup = parse_mana_symbols(markup)
             rolls += f"<td class='roll-text'>{markup}</td>"
         else:
             rolls += cardCell.render(card = roll['card']) + cardCellNoHover.render(card = roll['card'])
@@ -128,8 +127,16 @@ def replace_embedded_links(parsed):
 
 def parse_mana_symbols(markup):
     mana_symbols = [
+        ( '{0}', 'ms-0' ),
         ( '{1}', 'ms-1' ),
+        ( '{2}', 'ms-2' ),
+        ( '{3}', 'ms-3' ),
         ( '{T}', 'ms-tap' ),
+        ( '{B}', 'ms-b' ),
+        ( '{U}', 'ms-u' ),
+        ( '{G}', 'ms-g' ),
+        ( '{R}', 'ms-u' ),
+        ( '{W}', 'ms-w' ),
         ( '{R/U}', 'ms-ur' )
     ]
 

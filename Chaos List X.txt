@@ -676,8 +676,8 @@ C62 [Sever Soul]
 
 C63 {Acquisition}
 
-C64 Paranoia
-If the total power of all creatures on the battlefield is greater than or equal to your life total, you lose half your life, rounded up.
+C64 Dockside Extortion
+Create X Treasure tokens, where X is the number of artifacts and enchantments your opponents control.
 
 C65 [Spelltwine]
 (Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine. (14/02/14))
@@ -1096,7 +1096,7 @@ E50 [Timetwister]
 E51 Witch Hunt
 Choose two colors. Each player reveals his hand and discards all cards that share one of the chosen colors.
 
-E52
+E52 [Granny's Payback]
 
 E53 Shifting Loyalty
 Shuffle all creatures on the battlefield together and deal them out starting with you and going left. Each creature comes under the control of the player to whom it is dealt.
@@ -2162,6 +2162,10 @@ GL161. Strangling Hold
 Players can't search libraries.
 If a player would begin an extra turn, that player skips that turn instead.
 
+GL162. [Zzzyxas's Abyss]
+(1BB, Enchantment
+At the beginning of your upkeep, destroy all nonland permanents with the first name alphabetically among nonland permanents in play.)
+
 [=============================================================================]
 
 ------
@@ -2524,7 +2528,7 @@ As long as the top card of your graveyard is a creature card, Volrath's Shapeshi
 
 83 [Thromok the Insatiable]
 
-84 [Zedruu the Magnanimous]
+84 [Zedruu the Greathearted]
 
 85 [Lazav, Dimir Mastermind]
 
@@ -2548,6 +2552,7 @@ As long as the top card of your graveyard is a creature card, Volrath's Shapeshi
 
 95 [Manaplasm]
 
+96 [Ragavan, Nimble Pilferer]
 
 [=============================================================================]
 
@@ -2802,7 +2807,6 @@ When Wurmcoil Engine is put into a graveyard from the battlefield, put a 3/3 col
 
 50 Melding Spore
 4G, Fungus, 1/1
-Shroud
 Sacrifice Melding Spore: Target creature becomes a fungus and gains Melding Spore's abilities (including this ability.)
 
 51 [Isleback Spawn]
@@ -2887,7 +2891,7 @@ At the beginning of your upkeep, you may gain control of target permanent until 
 
 74 [Lord of the Void]
 
-75 [Akron Legionaire]
+75 [Akron Legionnaire]
 
 [==============================================================================]
 
@@ -3131,19 +3135,19 @@ Roll d30 d4 times for the creature's abilities (reroll duplicates):
 1 Fading: d6
 2 Shadow
 3 Double Strike
-4 Shroud
-5 Landhome: Your choice
+4 Hexproof
+5 Deathtouch
 6 Vigilance
 7 1: +1/+1 until end of turn.
 8 This creature is indestructible.
 9 Haste
-10 Protection from: color of your choice
+10 Protection from (color of your choice)
 11 Bushido: d2
 12 First Strike
-13 Landwalking: Basic land type of your choice
+13 Landwalking: (Basic land type of your choice)
 14 Flying
 15 Banding
-16 1: Regenerate
+16 2: Regenerate
 17 Trample
 18 Phasing
 19 Provoke
@@ -3154,10 +3158,10 @@ Roll d30 d4 times for the creature's abilities (reroll duplicates):
 24 Threshold: Ability d30
 25 This creature can't block.
 26 You may assign this creature's combat damage as though it weren't blocked.
-27 Can block one additional creature
-28 An additional creature is needed to block this creature.
-29 Doesn't untap during your untap step. d8: Untap this creature.
-30 Whenever this creature deals damage to an opponent, draw a card.
+27 Can block an additional ninety-nine creatures each combat.
+28 Menace
+29 Lifelink
+30 Prowess
 
 [=============================================================================]
 
@@ -3193,21 +3197,19 @@ v
 (6, Artifact
 {4}, {T}: Put a 1/1 colorless Snake artifact creature token onto the battlefield. This creature has "Whenever this creature deals damage to a player, that player gets a poison counter." (16/4/10))
 
-7 Relic Wall
-2, Artifact
-T: Tap target artifact. That artifact loses its abilities and doesn't deal combat damage to creatures it blocks as long as it remains tapped.
+7 [Phyrexian Unlife]
 
-8 Bracelet of Ma'rûf
-5, Artifact
-5, T: The next time you would draw a card this turn, instead choose an exiled card you own and put it into your hand.
+8 [Time Bomb]
+(4, Artifact
+At the beginning of your upkeep, put a time counter on Time Bomb.
+{1}, {T}, Sacrifice Time Bomb: Time Bomb deals damage to each creature and each player equal to the number of time counters on Time Bomb. (16/4/10))
 
 9 [Panoptic Mirror]
 (5, Artifact
 Imprint -- {X}, {T}: You may exile an instant or sorcery card with converted mana cost X from your hand.
 At the beginning of your upkeep, you may copy a card exiled with Panoptic Mirror. If you do, you may cast the copy without paying its mana cost. (16/4/10))
 
-10 [Circle of Protection: X]
-Choose White, Blue, Black, Red, Green, Artifacts, or Shadow for X.
+10 [Circle of Protection: Art]
 
 11 [Bazaar of Baghdad]
 (Land
@@ -3236,7 +3238,7 @@ When a creature enters the battlefield, sacrifice Monkey Cage and put X 2/2 gree
 17 Devious Trap
 6, Artifact
 As Devious Trap enters the battlefield, name a card other than a basic land card.
-Each opponent reveals each card he draws.
+Each opponent reveals each card they draw.
 When an opponent draws the named card, sacrifice Devious Trap. If you do, Devious Trap deals 10 damage to that opponent.
 
 18 Life Grail
@@ -3376,10 +3378,7 @@ CON-R (16/4/10))
 (UB, Artifact
 {T}, Sacrifice five artifacts: Take an extra turn after this one. (16/4/10))
 
-48 [Time Bomb]
-(4, Artifact
-At the beginning of your upkeep, put a time counter on Time Bomb.
-{1}, {T}, Sacrifice Time Bomb: Time Bomb deals damage to each creature and each player equal to the number of time counters on Time Bomb. (16/4/10))
+48 [Black Lotus]
 
 [=============================================================================]
 
@@ -3389,9 +3388,11 @@ Roll d12. Put the result onto the battlefield.
 
 1 [Mindslaver]
 
-2 [Zzzyxas's Abyss]
-(1BB, Enchantment
-At the beginning of your upkeep, destroy all nonland permanents with the first name alphabetically among nonland permanents in play.)
+2 Life Conduit
+4, Artifact
+Life Conduit doesn't untap during your untap step.
+1, T: Target opponent loses 1 life.
+1, Q: Target opponent gains 1 life.
 
 3 [Time Vault]
 (2, Artifact
@@ -3400,18 +3401,13 @@ Time Vault doesn't untap during your untap step.
 If you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.
 {T}: Take an extra turn after this one. (16/4/10))
 
-4 [Lion's Eye Diamond] x 5
-(0, Artifact
-Sacrifice Lion's Eye Diamond, Discard your hand: Add three mana of any one color to your mana pool. Activate this ability only any time you could cast an instant. (16/4/10))
-
 5 [Helm of Obedience]
 (4, Artifact,
 {X}, {T}: Target opponent puts cards from the top of his or her library into his or her graveyard until a creature card or X cards are put into that graveyard this way, whichever comes first. If a creature card is put into that graveyard this way, sacrifice Helm of Obedience and put that card onto the battlefield under your control. X can't be 0. (16/4/10))
 
 6 Magnet
 8, Artifact
-When Magnet enters the battlefield or you gain control of Magnet, gain control of all artifacts for as long as you control Magnet.
-When an artifact enters the battlefield, gain control of that artifact, for as long as you control Magnet.
+You control all artifacts.
 
 7 Elven Mandolin
 4, Artifact
@@ -3533,14 +3529,6 @@ Whenever enchanted opponent draws a card, you may draw a card. (16/4/10))
 30 Forbidden Closet of Mystery
 5, Artifact
 3, T: Unless any player pays 2, sacrifice Forbidden Closet of Mystery and roll on Extreme Chaos, Exceptional Creature, Planeswalker, or Dire Misfortune, chosen at random.
-
-31 Life Conduit
-4, Artifact
-Life Conduit doesn't untap during your untap step.
-1, T: Target opponent loses 1 life.
-1, Q: Target opponent gains 1 life.
-
-32 [Lich's Mirror]
 
 [=============================================================================]
 
