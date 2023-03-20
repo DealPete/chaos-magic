@@ -58,7 +58,7 @@ def write_lists():
     for chaos_list in lists:
         body = chaos_list['body']
 
-        heading = f"<h3>{body['desc']}</h3>"
+        heading = f'<h3 id="list-header">{body["desc"]}</h3>'
         list_file = open(f"website/{chaos_list['url']}", 'w')
 
         if body['format'] == 'List':
@@ -90,17 +90,23 @@ def parse_as_table(body):
     offset = body['first_index']
 
     for i, roll in enumerate(body['rolls']):
-        rolls += f'<tr class="chaos-roll"><td class="index">{i + offset}</td>'
+        index = i + offset
+
+        if 'index' in roll:
+            index = roll['index']
+
+        rolls += f'<tr class="chaos-roll"><td class="roll-index">{index}</td>'
 
         if 'list' in roll:
             cell = get_list_cell(roll['list'])
             rolls += cell + emptyRollTextCell
-
         elif 'name' in roll:
             rolls += effectCell.render(name = roll['name'])
             text = roll['text'].split('\n')
             markup = '<br>'.join([ f'<span>{t}</span>' for t in text ])
             rolls += f"<td class='roll-text'>{markup}</td>"
+        elif 'text' in roll:
+            rolls += f'<td class="roll-text"><span>{roll["text"]}</span></td>'
         else:
             rolls += cardCell.render(card = roll['card']) + cardCellNoHover.render(card = roll['card'])
 
@@ -131,7 +137,9 @@ def parse_mana_symbols(markup):
         ( '{1}', 'ms-1' ),
         ( '{2}', 'ms-2' ),
         ( '{3}', 'ms-3' ),
+        ( '{4}', 'ms-4' ),
         ( '{T}', 'ms-tap' ),
+        ( '{Q}', 'ms-untap' ),
         ( '{B}', 'ms-b' ),
         ( '{U}', 'ms-u' ),
         ( '{G}', 'ms-g' ),
@@ -168,12 +176,6 @@ def parse_dice(xdice):
 
     return " + ".join(dice)
 
-def write_index():
-    index_file = open("website/index.html", 'w')
-    output = preface + indexTemplate.render() + footerTemplate.render()
-    index_file.write(output)
-    index_file.close()
-
 def find_card(card_name):
     return None
     for card in cards:
@@ -185,4 +187,8 @@ def find_card(card_name):
 lists = get_lists()
 preface = headerTemplate.render() + sidebarTemplate.render(lists = lists)
 write_lists()
-write_index()
+
+index_file = open("website/index.html", 'w')
+output = preface + indexTemplate.render() + footerTemplate.render()
+index_file.write(output)
+index_file.close()

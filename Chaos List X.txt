@@ -2638,7 +2638,7 @@ When Protean Hulk is put into a graveyard from the battlefield, search your libr
 
 17 Gaian Egg 
 2G, Egg, 0/3
-When Gaian Egg is put into a graveyard from the battlefield, Roll on a random Creature Summoning chart.
+When Gaian Egg dies, roll on a random Creature Summoning chart.
 
 18 Succubus
 5BB, Demon, 3/4
@@ -3132,7 +3132,7 @@ Choose a creature type and name.
 
 Roll d30 d4 times for the creature's abilities (reroll duplicates):
 
-1 Fading: d6
+1 Vanishing: 3
 2 Shadow
 3 Double Strike
 4 Hexproof
@@ -3571,17 +3571,9 @@ Roll d15. Put the result onto the stack as a planeswalker token.
 {-1}: Put a 3/3 green Beast creature token onto the battlefield.
 {-4}: Creatures you control get +3/+3 and gain trample until end of turn. (16/4/10))
 
-7 [Gideon Jura]
-(3WW, Gideon, 6
-{+2}: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.
-{-2}: Destroy target tapped creature.
-0: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn. (16/4/10))
+7 [Gideon, Ally of Zendikar]
 
-8 [Jace Beleren]
-(1UU, Jace, 3
-{+2}: Each player draws a card.
-{-1}: Target player draws a card.
-{-10}: Target player puts the top twenty cards of his or her library into his or her graveyard. (16/4/10))
+8 [Ashiok, Nightmare Weaver]
 
 9 [Jace, the Mind Sculptor]
 (2UU, Jace, 3
@@ -3626,11 +3618,15 @@ Roll d15. Put the result onto the stack as a planeswalker token.
 -X: Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.
 {-5}: Artifacts you control become 5/5 artifact creatures until end of turn. (16/4/10))
 
-16 Nissa of Bala Ged
-2GG, Nissa, 4
-{+1}: Put a 2/3 green Elf Warrior creature token named Nissa's Chosen onto the battlefield.
-{+1}: You gain 2 life for each Elf you control.
-{-7}: Search your library for any number of Elf creature cards and put them onto the battlefield. Then shuffle your library.
+16 [Oko, Thief of Crowns]
+
+17 [Narset, Parter of Veils]
+
+18 [Karn Liberated]
+
+19 [Ugin, The Spirit Dragon]
+
+20 [Teferi, Time Raveler]
 
 [=============================================================================]
 

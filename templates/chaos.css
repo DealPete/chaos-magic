@@ -25,6 +25,14 @@ li {
 	margin-bottom: 0.5rem;
 }
 
+#list-header {
+	white-space: pre;
+}
+
+.roll-index {
+	white-space: nowrap;
+}
+
 .roll-title {
 	font-size: 18px;
 	white-space: nowrap;
@@ -61,3 +69,7 @@ li {
 	margin-left: var(--sidebar-width);
 }
 
+.ms
+{
+	font-size: 0.75em;
+}

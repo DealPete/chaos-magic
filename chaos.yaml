@@ -1045,7 +1045,6 @@
         When Extraplanar Prison leaves the command zone, that player returns to the game as the turn ends.
     - card: Furnace of Rath
     - card: Crucible of Worlds
-    - card: Static Orb
     - card: Dream Halls
     - card: Awakening
     - card: Invasion Plans
@@ -1427,7 +1426,7 @@
       power: 0
       toughness: 3
       text: |
-        When Gaian Egg is put into a graveyard from the battlefield, Roll on a random Creature Summoning chart.
+        When Gaian Egg dies, roll on a random Creature Summoning chart.
     - name: Succubus
       mana_cost: 5BB
       type: Demon
@@ -1641,7 +1640,7 @@
   first_index: 1
   format: List
   rolls:
-    - text: "Fading: d6"
+    - text: "Vanishing: 3"
     - text: "Shadow"
     - text: "Double Strike"
     - text: "Hexproof"
@@ -1822,7 +1821,7 @@
       mana_cost: 4
       type: Artifact
       text: |
-        {4}, {T}: Roll on {musical}. Use this ability only any time you could cast a sorcery.
+        {4}, {T}: Roll on [musical]. Use this ability only any time you could cast a sorcery.
     - name: Fixed Die
       mana_cost: 7
       type: Artifact
@@ -1911,12 +1910,12 @@
   rolls:
     - card: Ajani Goldmane
     - card: Ajani Vengeant
-    - card: Asiok, Nightmare Weaver
     - card: Chandra Ablaze
     - card: Chandra Nalaar
     - card: Elspeth, Knight-Errant
     - card: Garruk Wildspeaker
     - card: Gideon, Ally of Zendikar
+    - card: Ashiok, Nightmare Weaver
     - card: Jace, the Mind Sculptor
     - card: Liliana Vess
     - card: Nicol Bolas, Planeswalker
@@ -1929,7 +1928,7 @@
     - card: Karn Liberated
     - card: Ugin, The Spirit Dragon
     - card: Teferi, Time Raveler
-   
+
 - short_name: response
   full_name: Response
   desc: "Choose target instant or sorcery spell, then roll d12. Put the result onto the stack targeting that spell."
@@ -1954,3 +1953,42 @@
     - name: Paint
       text: Target spell becomes the color or colors of your choice. Change that spell's text by replacing all instances of one color word with another.
     - card: Delay
+
+- short_name: spite
+  full_name: Spite
+  desc: |
+    Name another player as your killer.
+    Roll d100. The result is a chaos ability that resolves immediately without using the stack.
+  first_index: 0
+  format: Table
+  rolls:
+    - index: 1
+      text: Your spite backfires. Your killer puts an |Extra Life| token onto the battlefield.
+    - index: "2 - 3"
+      text: The Gods take notice of your need for vengeance. Your killer rolls on [deadly-acquisition]
+    - index: "4 - 5"
+      text: Your rage is too furious to be directed at a single player. All players roll 3d6 and take that much damage.
+    - index: "6 - 10"
+      text: You control your killer's next turn.
+    - index: "11 - 15"
+      text: Your killer loses half their life, rounded up.
+    - index: "16 - 25"
+      text: If you lost as a result of being at negative life, your killer loses an amount of life equal to the magnitude of your life below zero.
+    - index: "26 - 35"
+      text: Your killer rolls on [treacherous-creature].
+    - index: "36 - 65"
+      text: Greater powers ignore you.
+    - index: "66 - 75"
+      text: Your killer sacrifices 2d6 permanents. If they don't they lose the game.
+    - index: "76 - 85"
+      text: Your killer exiles the top twenty cards of their library.
+    - index: "86 - 90"
+      text: Each opponent other than your killer rolls on [strong-creature].
+    - index: "91 - 95"
+      text: Your killer sacrifies all of their non-land permanents and discards their hand. Triggered abilities that would trigger as a result of this effect don't trigger.
+    - index: "96 - 97"
+      text: Each player gains 5 life. Your killer loses life equal to the life gained this way.
+    - index: "98 - 99"
+      text: The Gods take notice of your need for vengeance. Your killer rolls on [extreme]
+    - index: "100"
+      text: Revenge is yours. The player who killed you loses the game.
