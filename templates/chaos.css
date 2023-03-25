@@ -25,8 +25,8 @@ li {
 	margin-bottom: 0.5rem;
 }
 
-#list-header {
-	white-space: pre;
+header {
+	white-space: pre-wrap;
 }
 
 .roll-index {
@@ -34,7 +34,7 @@ li {
 }
 
 .roll-title {
-	font-size: 18px;
+	font-size: 1em;
 	white-space: nowrap;
 }
 
@@ -42,31 +42,60 @@ li {
 	font-family: MagicNew;
 }
 
-#sidebar
+@media (max-width: 700px)
 {
-	width: var(--sidebar-width);
-	height: 100%;
-	position: fixed;
-	left: 0;
-	top: 0;
-	background-color: black;
+	#sidebar
+	{
+		display: none;
+	}
+
+	#list-title
+	{
+		display: none;
+	}
+
+	select
+	{
+		color: black;
+		width: 100%;
+		font-size: 26px;
+		font-family: MagicNew;
+	}
 }
 
-.sidebar-button
+@media (min-width: 701px)
 {
-	margin: 10px 20px;
-}
+	#header
+	{
+		display: none;
+	}
 
-.sidebar-link
-{
-	outline: none;
-	text-decoration: none;
-	color: white;
-}
+	#sidebar
+	{
+		width: var(--sidebar-width);
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: black;
+	}
 
-#main-text
-{
-	margin-left: var(--sidebar-width);
+	.sidebar-button
+	{
+		margin: 10px 20px;
+	}
+
+	.sidebar-link
+	{
+		outline: none;
+		text-decoration: none;
+		color: white;
+	}
+
+	#main-text
+	{
+		margin-left: var(--sidebar-width);
+	}
 }
 
 .ms

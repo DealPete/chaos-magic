@@ -56,9 +56,10 @@ def get_lists():
 
 def write_lists():
     for chaos_list in lists:
+        preface = headerTemplate.render() + sidebarTemplate.render(lists = lists, cur_list = chaos_list['short_name'])
         body = chaos_list['body']
 
-        heading = f'<h3 id="list-header">{body["desc"]}</h3>'
+        heading = f'<header><h3>{body["desc"]}</h3></header>'
         list_file = open(f"website/{chaos_list['url']}", 'w')
 
         if body['format'] == 'List':
@@ -138,6 +139,7 @@ def parse_mana_symbols(markup):
         ( '{2}', 'ms-2' ),
         ( '{3}', 'ms-3' ),
         ( '{4}', 'ms-4' ),
+        ( '{8}', 'ms-8' ),
         ( '{T}', 'ms-tap' ),
         ( '{Q}', 'ms-untap' ),
         ( '{B}', 'ms-b' ),
@@ -145,7 +147,8 @@ def parse_mana_symbols(markup):
         ( '{G}', 'ms-g' ),
         ( '{R}', 'ms-u' ),
         ( '{W}', 'ms-w' ),
-        ( '{R/U}', 'ms-ur' )
+        ( '{R/U}', 'ms-ur' ),
+        ( '{W/G}', 'ms-wg' )
     ]
 
     for ( m, r ) in mana_symbols:
@@ -185,10 +188,9 @@ def find_card(card_name):
     return None
 
 lists = get_lists()
-preface = headerTemplate.render() + sidebarTemplate.render(lists = lists)
 write_lists()
 
 index_file = open("website/index.html", 'w')
-output = preface + indexTemplate.render() + footerTemplate.render()
+output = headerTemplate.render() + sidebarTemplate.render(lists = lists, cur_list = 'Home') + indexTemplate.render() + footerTemplate.render()
 index_file.write(output)
 index_file.close()

@@ -1,4 +1,4 @@
-<div id="sidebar">
+<nav id="sidebar">
 	<p class="sidebar-button">
 		<a class="sidebar-link" href="index.html">Home</a>
 	</p>
@@ -7,4 +7,22 @@
 			<a class="sidebar-link" href="{{ list.url }}">{{ list.full_name }}</a>
 		</p>
 	{% endfor %}
-</div>
+</nav>
+<nav id="header">
+	<select name="chaos-list" id="list-select">
+	<option value="/chaos/index.html">Home</option>
+	{% for list in lists %}
+		<option value="/chaos/{{list.short_name}}.html" {% if list.short_name == cur_list %} selected {% endif %} >
+			{{list.full_name}}
+		</option>
+	{% endfor %}
+	</select>
+</nav>
+
+<script>
+	const select = document.getElementById('list-select');
+	select.addEventListener("change", (event) =>
+	{
+		window.location.href = event.target.value;
+	});
+</script>

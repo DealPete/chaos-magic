@@ -2153,16 +2153,12 @@ GL159. nruT
 As nruT enters the command zone, end the turn.
 Players skip their beginning phases. At the beginning of a player's end step, that player gets an additional beginning phase after this step.
 
-GL160. [Where Ancients Tread]
-(4R, Enchantment
-Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player. (16/4/10))
- 
-GL161. Strangling Hold
+GL160. Strangling Hold
 3R, Enchantment
 Players can't search libraries.
 If a player would begin an extra turn, that player skips that turn instead.
 
-GL162. [Zzzyxas's Abyss]
+GL161. [Zzzyxas's Abyss]
 (1BB, Enchantment
 At the beginning of your upkeep, destroy all nonland permanents with the first name alphabetically among nonland permanents in play.)
 

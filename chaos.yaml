@@ -816,7 +816,7 @@
       mana_cost: 2BB
       type: Artifact
       text: |
-        At the beginning of a player's declare attackers step, that player rolls on Mild Creature or Strong Creature at random. That creature enters the battlefield tapped and attacking. Exile that creature at the beginning of the next end step.
+        At the beginning of a player's declare attackers step, that player rolls on [mild-creature] or [strong-creature] at random and puts a token copy onto the battlefield tapped and attacking. Exile that creature at the beginning of the next end step.
     - name: Extreme Deprivation
       text: |
         As Extreme Deprivation enters the command zone, each player exiles the cards from their hand.
@@ -1134,7 +1134,6 @@
       text: |
         As nruT enters the command zone, end the turn.
         Players skip their beginning phases. At the beginning of a player's end step, that player gets an additional beginning phase after this step.
-    - card: Where Ancients Tread
     - card: Zzzyxas's Abyss
 
 - short_name: vortex
