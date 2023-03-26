@@ -34,8 +34,7 @@ header {
 }
 
 .roll-title {
-	font-size: 1em;
-	white-space: nowrap;
+	font-size: 1.2em;
 }
 
 .roll-text {
@@ -65,6 +64,10 @@ header {
 
 @media (min-width: 701px)
 {
+	.roll-title {
+		white-space: nowrap;
+	}
+
 	#header
 	{
 		display: none;

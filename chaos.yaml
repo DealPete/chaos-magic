@@ -23,8 +23,7 @@
     - card: Mana Clash
     - name: Gather the Footsoldiers
       text: Choose a basic land type. Each player puts a 1/1 token onto the battlefield for each land of that type they control. Depending on which land type you chose, the tokens are white Soldiers, green Saprolings, red Goblins, blue Merfolk, or black Zombies.
-    - name: Alter Mana
-      text: Choose target nonland nontoken permanent. For each of the colored mana symbols on that card, you may change it to a mana symbol of any other color. (Reminder text has no effect.)
+    - card: Chaos Warp 
     - name: Evanescence
       text: 'Target nonland permanent gains “Cumulative Upkeep: {1}”.'
     - card: Drafna’s Restoration
@@ -119,7 +118,7 @@
     - card: Brand
     - name: Parliament of Owls
       text: All players look at the top four cards of their libraries and may rearrange them.
-    - card: Vigeon Intuition
+    - card: Vigean Intuition
     - card: Truce
     - list: musical
     - list: listB
@@ -234,7 +233,7 @@
     - card: Flame Rift
     - card: Show and Tell
     - card: Feedback Bolt
-    - card: Blood Oath
+    - card: Spontaneous Generation
     - card: Natural Affinity
     - name: Fireballs
       text: Fireballs deals 3 damage to each of up to 4 target creatures and/or players.
@@ -254,12 +253,10 @@
     - card: Aether Snap
     - name: Poison
       text: Target player gets 3 poison counters.
-    - card: Sowing Salt
-    - list: musical
-    - list: listC
     - name: New Frontier
       text: Each player may search their library for up to two basic land cards and put them onto the battlefield tapped. Then each player who searched their library this way shuffles it.
-    - card: Spontaneous Generation
+    - list: musical
+    - list: listC
 
 - short_name: listC
   full_name: Chaos List C
@@ -590,7 +587,6 @@
     - card: Timetwister
     - name: Witch Hunt
       text: Choose two colors. Each player reveals their hand and discards all cards that share one of the chosen colors.
-#E52
     - card: Granny's Payback
     - name: Shifting Loyalty
       text: Shuffle all creatures on the battlefield together and deal them out starting with you and going left. Each creature comes under the control of the player to whom it is dealt.
@@ -599,6 +595,7 @@
     - name: Possession
       text: If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
 #E56
+    - card: Chaotic Transformation
     - name: Vengeful Rage
       text: Roll on Spite. (You can still roll on Spite if you lose.) 
     - name: Passive Turn Taking
@@ -610,8 +607,8 @@
       text: Each player puts the cards from their hand on top of their library. Then the player to that player's right searches that player's library for that many cards. That player puts those cards into their hand, then shuffles their library.
     - name: Planar Shift
       text: You leave the game for 6 turns.
-#E63 Desperate Gamble
-#You may flip a coin. If you do and win, put an |Extra Life| token onto the battlefield. If you do and lose, roll on Dire Misfortune.
+    - name: Desperate Gamble
+      text: You may flip a coin. If you do and win, put an |Extra Life| token onto the battlefield. If you do and lose, roll on Dire Misfortune.
     - card: Death by Dragons
 #E65
     - name: Twin Worlds
@@ -670,8 +667,8 @@
     - list: synthetic-creature
     - card: Decree of Annihilation
     - list: vortex
-#F17 Ace of Trump
-#Put a |Counter Roll| token and a |Fork Roll| token onto the battlefield.
+    - name: Ace of Trump
+      text: Put a |Counter Roll| token and a |Fork Roll| token onto the battlefield.
     - name: Crucify
       text: Crucify deals 25 damage to target creature or player.
       color: W
@@ -701,7 +698,7 @@
       text: Personal Angst deals damage to you equal to the number of permanents in play.
     - list: exceptional-creature
     - card: Vitalizing Wind
-#F36
+    - card: Eldritch Pact
     - list: extreme
     - name: Holocaust
       text: Holocaust deals damage to each player equal to the number of permanents they control plus the number of cards in their hand.
@@ -710,10 +707,10 @@
       text: Go to a random Chaos List.
     - card: Armageddon
     - card: Jokulhaups
-#F43
-#F44 The Gods are Toying with You
-#Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
-#F45
+    - card: Rise of the Dark Realms
+    - name: The Gods are Toying with You
+      text: Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
+    - card: Breach the Multiverse
     - card: Goblin Game
     - name: Plasma Storm
       text: Plasma Storm deals 16 damage to each player and each creature.
@@ -752,7 +749,7 @@
       text: Each player's life total becomes that player's starting life total. Each player loses all poison counters then shuffles their graveyard and exiled cards into their library.
     - card: Worldpurge
     - list: listA
-#F70
+    - card: Peer Into the Abyss
     - name: Endless Domains
       text: Any player may search their library for any number of basic land cards and put them onto the battlefield. Then all players who searched their libraries shuffle them.
     - name: Fireballs
@@ -794,7 +791,7 @@
   format: Table
   rolls:
     - name: Ostracization
-      mana_cost: 3BB
+      mana_cost: "{3}{B}{B}"
       type: Enchantment
       text: |
         As Ostracization enters the command zone, each player chooses an expansion symbol. Nonbasic permanent cards bearing that expansion symbol don't untap during their controllers' untap steps. (You can't choose a set that didn't use an expansion symbol.)
@@ -813,7 +810,7 @@
         At the beginning of each upkeep, any player may sacrifice two lands or have Earth Worms deal 5 damage to that player. If a player does either, roll on [global].
     - card: Titania's Song
     - name: Nether World Portal
-      mana_cost: 2BB
+      mana_cost: "{2}{B}{B}"
       type: Artifact
       text: |
         At the beginning of a player's declare attackers step, that player rolls on [mild-creature] or [strong-creature] at random and puts a token copy onto the battlefield tapped and attacking. Exile that creature at the beginning of the next end step.
@@ -831,12 +828,12 @@
         When Whitmore's Legacy leaves the command zone, return all cards exiled with it to the battlefield.
     - card: Necropotence
     - name: Everyone's a Commander
-      mana_cost: 2WW
+      mana_cost: "{2}{W}{W}"
       type: Enchantment
       text: |
         All non-token creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
     - name: Zero Chamber
-      mana_cost: 3W
+      mana_cost: "{3}{W}"
       type: Enchantment
       text: |
         As Zero Chamber enters the command zone, all players name a nonbasic card.
@@ -846,7 +843,7 @@
         Permanent spells have mana cost {0}.
         Players can play any number of additional lands on each of their turns.
     - name: Dual Reality
-      mana_cost: 3UU
+      mana_cost: "{3}{U}{U}"
       type: Enchantment
       text: |
         As Dual Reality enters the command zone, a new zone forms called the Delta Zone. Cards in the Delta Zone are face down in a pile near Dual Reality.
@@ -866,7 +863,7 @@
         Creatures with defender can attack as though they didn't have defender.
         A Creature with defender deals combat damage equal to the total of its power and toughness.
     - name: Stasis Field
-      mana_cost: 1U
+      mana_cost: "{1}{U}"
       type: Enchantment
       text: |
         Players skip their untap steps.
@@ -880,7 +877,7 @@
         The first chaos roll each player would make in their chaos step is made on The Vortex instead of a Chaos List.
     - card: Night of Souls' Betrayal
     - name: Quicksilver Geyser
-      mana_cost: 3
+      mana_cost: "{3}"
       type: Artifact
       text: |
         At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land they controls of their choice.
@@ -888,7 +885,7 @@
         At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
     - card: Heartbeat of Spring
     - name: Keg of Chaos
-      mana_cost: 2
+      mana_cost: "{2}"
       type: Artifact
       text: |
         If a player would roll Chaos, instead put a fuse counter on Keg of Chaos.
@@ -901,24 +898,24 @@
     - card: Mindlock Orb
     - card: Teferi's Puzzle Box
     - name: Jungle Depths
-      mana_cost: 4GG
+      mana_cost: "{4}{G}{G}"
       type: Enchantment
       text: |
         At the beginning of the declare attackers step, assign each attacking creature to be attacking a random player or planeswalker.
     - name: Extreme World
-      mana_cost: RRRRR
+      mana_cost: "{R}{R}{R}{R}{R}"
       type: Enchantment
       text: |
         The first chaos roll each player would make in their chaos step is made on Extreme Chaos instead of a Chaos List.
     - card: Worship
     - card: The Abyss
     - name: Chaos Reflection
-      mana_cost: 4RR
+      mana_cost: "{4}{R}{R}"
       type: Enchantment
       text: |
         Whenever a player rolls on Chaos List A through Chaos List F, that player puts an additional copy of the rolled ability on the stack.
     - name: Matt's Obstinacy
-      mana_cost: 2WW
+      mana_cost: "{2}{W}{W}"
       type: Artifact
       text: |
         As Matt's Obstinacy enters the command zone, exile all non-land non-token permanents that are legal in Standard.
@@ -938,7 +935,7 @@
       text: |
         Whenever a player casts a spell, counter it if a card with the same name is in a graveyard or a nontoken permanent with the same name is on the battlefield.
     - name: Inverse Dimension
-      mana_cost: 3U
+      mana_cost: "{3}{U}"
       type: Enchantment
       text: |
         When a player draws a card, instead of putting the top card of their library into their hand, they puts the bottom card of their library into their hand.
@@ -952,14 +949,14 @@
         When Doom Gate enters the command zone, roll on [treacherous-creature].
         At the beginning of your upkeep, if there are no creatures in play created by Doom Game, roll on [treacherous-creature].
     - name: Socialism
-      mana_cost: 2WW
+      mana_cost: "{2}{W}{W}"
       type: Enchantment
       text: |
         As Socialism enters the command zone, each player puts the cards from their hand into the middle world.
         If a card would go to a player's hand, they put that card into the middle world instead.
         When Socialism leaves the command zone, return all cards in the middle world to their owners' hands.
     - name: Mental Magic
-      mana_cost: 3UU
+      mana_cost: "{3}{U}{U}"
       type: Enchantment
       text: |
         If a player would play a nonbasic card, they first choose another card with the same mana cost as that card that has not been played this game. That player puts that card onto the stack, if it is a spell, or onto the battlefield, if it is a land, as a copy of the named card.
@@ -983,13 +980,13 @@
     - card: Spiteful Visions
     - card: Doran, the Siege Tower
     - name: Responsiveness
-      mana_cost: 3UU
+      mana_cost: "{3}{U}{U}"
       type: Enchantment
       text: |
         Whenever a player casts an instant or sorcery spell, the player to their right rolls on [response].
     - card: Dovescape
     - name: Conspiracies
-      mana_cost: 3BB
+      mana_cost: "{3}{B}{B}"
       type: Enchantment
       text: |
         As Conspiracies enters the command zone, each player chooses a creature type.
@@ -1003,7 +1000,7 @@
     - card: Crumbling Sanctuary
     - card: Opalescence
     - name: Engulfed in Chaos
-      mana_cost: RRR
+      mana_cost: "{R}{R}{R}"
       type: Enchantment
       text: |
         Each player rolls chaos an additional time at the beginning of their chaos step.
@@ -1030,15 +1027,15 @@
       text: |
         All sorcery and instant spells have "Buyback: {3}".
     - name: Null Cycle
-      mana_cost: 4BG
+      mana_cost: "{4}{B}{G}"
       type: Enchantment
       text: |
         Each player skips their draw step.
         Whenever a player plays a card, that player draws a card.
         Each player's maximum hand size is two.
-    - card: Super Secret Tech
+    - card: Grip of Chaos
     - name: Extraplanar Prison
-      mana_cost: 7
+      mana_cost: "{7}"
       type: Artifact
       text: |
         As Extraplanar Prison enters the command zone, choose a player at random. That player leaves the game.
@@ -1053,7 +1050,7 @@
       text: |
         Whenever a player casts an artifact spell, they lose 1 life and draws a card.
     - name: Turnstile
-      mana_cost: 4
+      mana_cost: "{4}"
       type: Artifact
       text: |
         Whenever a creature enters the battlefield, if there are two or more other creatures on the battlefield, exile that creature. Return that card to the battlefield under its owner's control when Turnstile leaves the battlefield.
@@ -1063,7 +1060,7 @@
     - card: Hive Mind
     - card: Eye of the Storm
     - name: Ron's Realm
-      mana_cost: 2PP
+      mana_cost: "{2}{P}{P}"
       type: Enchantment
       text: |
         When Ron's Realm enters the battlefield, shuffle all exiled cards into their owner's libraries.
@@ -1077,14 +1074,13 @@
     - card: Thought Reflection
     - card: Mesmeric Orb
     - name: Strange Singularity
-      type: None
-      mana_cost: 4
+      mana_cost: "{4}"
       text: |
         If a player would roll on Global, instead put five anti-matter counters on Strange Singularity.
         {2}: Exile a permanent you own and put an anti-matter counter on Strange Singularity.
         Whenever there are fifteen or more anti-matter counters on Strange Singularity, return all permanent cards exiled by it to the battlefield, then roll on [global].
     - name: Pandora's Pyxis
-      mana_cost: 1
+      mana_cost: "{1}"
       type: Artifact
       text: |
         At the beginning of your upkeep, exile the top card of your library face down.
@@ -1094,42 +1090,42 @@
     - card: Shared Fate
     - card: Bottled Cloister
     - name: Week of the Dragons
-      mana_cost: 4UUU
+      mana_cost: "{4}{U}{U}{U}"
       type: Enchantment
       text: |
         When Week of the Dragons enters the command zone, all creatures phase out. These creatures don't phase in during their controller's untap step. Then each player puts a 5/5 red Dragon creature token with flying onto the battlefield for each creature they controlled that phased out this way. 
         When Week of the Dragons leaves the command zone, all players sacrifice all Dragons. Then all creatures that phased out this way phase in.
     - card: Dosan the Falling Leaf
     - name: Tripling Season
-      mana_cost: 6G
+      mana_cost: "{6}{G}"
       type: Enchantment
       text: |
         If an effect would put one or more tokens onto the battlefield, it puts thrice that many of those tokens onto the battlefield instead.
         If an effect would place one or more counters on a permanent, it places thrice that many of those counters on that permanent instead.
     - name: Cerebral Collocation
-      mana_cost: 4UUUU
+      mana_cost: "{4}{U}{U}{U}{U}"
       type: Enchantment
       text: |
         Each player controls the player to their right.
     - name: All-Pervading Darkness
-      mana_cost: 3BB
+      mana_cost: "{3}{B}{B}"
       type: Enchantment
       text: |
         Each player has a range of influence of 0.
         {2}: A player who would be within your range of influence but for All-Pervading Darkness enters your range of influence until end of turn.
     - name: Thought Churning
-      mana_cost: 4R
+      mana_cost: "{4}{R}"
       type: Enchantment
       text: |
         Whenever a player casts a spell, that player puts the cards in their hand on the bottom of their library in any order, then draw that many cards.
     - card: Confusion in the Ranks
     - name: Elfhame Sanctum
-      mana_cost: 1G
+      mana_cost: "{1}{G}"
       type: Enchantment
       text: |
         At the beginning of each player's upkeep, that player may reveal cards from the top of their library until they reveal a basic land card. That player puts that card into their hand, and shuffles the other revealed cards and puts them on the bottom of their library.
     - name: nruT
-      mana_cost: 2UR
+      mana_cost: "{2}{U}{R}"
       type: Enchantment
       text: |
         As nruT enters the command zone, end the turn.
@@ -1152,7 +1148,7 @@
     - text: Roll Chaos twice, making the first roll on [listA].
     - list: global
     - text: Each player discards any number of cards, then shuffles their graeyard into their library and draws X cards, where X is the number of cards that player discarded. Roll again on The Vortex.
-    - text: Each player chooses an exiled card they owns and puts it on the bottom of their library. Roll again on The Vortex.
+    - text: Each player chooses an exiled card they own and puts it on the bottom of their library. Roll again on The Vortex.
     - text: Each player puts the top card of their library into the middle world. Roll again on The Vortex.
     - text: Each player searches their library for a card, puts that card into their hand, discards a card at random, and shuffles. Roll again on the The Vortex.
     - list: global
@@ -1167,7 +1163,7 @@
 
 - short_name: musical
   full_name: Musical
-  desc: "Roll d6. Put the result onto the stack"
+  desc: "Roll d6. Put the result onto the stack."
   first_index: 1
   format: Table
   rolls:
@@ -1186,7 +1182,7 @@
 
 - short_name: extreme
   full_name: Extreme Chaos
-  desc: "Roll 2d12. Put the result onto the stack"
+  desc: "Roll 2d12. Put the result onto the stack."
   first_index: 2
   format: Table
   rolls:
@@ -1230,7 +1226,7 @@
 
 - short_name: mild-creature
   full_name: Mild Creature
-  desc: "Roll d100. Conjure the result onto the battlefield"
+  desc: "Roll d100. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
@@ -1239,24 +1235,24 @@
     - card: Nebuchadnezzar
     - card: Sleeper Agent
     - name: Slaver
-      mana_cost: 6B
-      type: Human
+      mana_cost: "{6}{B}"
+      type: Creature - Human
       power: 2
       toughness: 2
       text: |
         As Slaver enters the battlefield, choose a creature type.
         You control all creatures of the chosen type.
     - name: Spore Fiend
-      mana_cost: 2GG
-      type: Fungus
+      mana_cost: "{2}{G}{G}"
+      type: Creature - Fungus
       power: 3
       toughness: 2
       text: |
         Deathtouch
         All creatures able to block Spore Fiend do so.
     - name: Wall of Chaos
-      mana_cost: WUBRG
-      type: Wall
+      mana_cost: "{W}{U}{B}{R}{G}"
+      type: Creature - Wall
       power: 0
       toughness: 4
       text: |
@@ -1264,8 +1260,8 @@
         When Wall of Chaos blocks a creature, exile that creature. Then the player who controlled that creature reveals cards from the top of his library until a permanent spell is revealed. That player puts that permanent spell onto the battlefield attacking you and blocked by Wall of Chaos. (If that permanent isn't a creature, it is removed from combat.) Attach all auras and equipment that were attached to that creature to that permanent. Then that player shuffles all other cards revealed this way into his library.
     - card: Sokenzan Renegade
     - name: Calming Elk
-      mana_cost: 2{W/G}
-      type: Elk
+      mana_cost: "{2}{G/W}"
+      type: Creature - Elk
       power: 1
       toughness: 1
       text: |
@@ -1277,8 +1273,8 @@
     - card: Crag Saurian
     - card: Karador, Ghost Chieftain
     - name: Doomsayer
-      mana_cost: B
-      type: Human Wizard
+      mana_cost: "{B}"
+      type: Creature - Human Wizard
       power: 1
       toughness: 1
       text: |
@@ -1304,8 +1300,8 @@
     - card: Mirror Entity
     - card: Ageless Entity
     - name: AEthermuck
-      mana_cost: 2UB
-      type: Illusion
+      mana_cost: "{2}{U}{B}"
+      type: Creature - Illusion
       power: 1
       toughness: 1
       text: |
@@ -1315,8 +1311,8 @@
     - card: Augury Adept
     - card: Azusa, Lost but Seeking
     - name: Dr. Frankenstein
-      mana_cost: 1B
-      type: Legendary Human Artificer
+      mana_cost: "{1}{B}"
+      type: Creature - Legendary Human Artificer
       power: 0
       toughness: 1
       text: |
@@ -1337,8 +1333,8 @@
     - card: Nacatl War-Pride
     - card: Meloku the Clouded Mirror
     - name: Long Wall
-      mana_cost: W
-      type: Wall
+      mana_cost: "{W}"
+      type: Creature - Wall
       power: 0
       toughness: 7
       text: |
@@ -1380,16 +1376,20 @@
     - card: Edric, Spymaster of Trest
     - card: Manaplasm
     - card: Ragavan, Nimble Pilferer
+    - card: Phyrexian Metamorph
+    - card: True-Name Nemesis
+    - card: "Ludevic's Test Subject // Ludevic's Abomination"
+    - card: Starke of Rath
 
 - short_name: strong-creature
   full_name: Strong Creature
-  desc: "Roll d100. Conjure the result onto the battlefield"
+  desc: "Roll d80. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
     - name: Chaos Musician
-      mana_cost: RR
-      type: Human
+      mana_cost: "{R}{R}"
+      type: Creature - Human
       power: 1
       toughness: 2
       text: "{R/U}, {T}: Roll on [musical]."
@@ -1398,8 +1398,8 @@
     - card: Colossus of Sardia
     - card: Skyshroud Behemoth
     - name: Primal Being
-      mana_cost: 3R
-      type: Beast
+      mana_cost: "{3}{R}"
+      type: Creature - Beast
       power: 8
       toughness: 7
       text: |
@@ -1407,8 +1407,8 @@
         At the beginning of your upkeep sacrifice a land and a creature other than Primal Being. If you don't, Primal Being deals 8 damage to you and the opponent to your left gains control of Primal Being.
     - card: Lord of Extinction
     - name: Neo-Omnath, Locus of Mana
-      mana_cost: 2G
-      type: Legendary Elemental
+      mana_cost: "{2}{G}"
+      type: Legendary Creature - Elemental
       power: 1
       toughness: 1
       text: |
@@ -1420,23 +1420,23 @@
     - card: Heartless Hidetsugu
     - card: Protean Hulk
     - name: Gaian Egg 
-      mana_cost: 2G
-      type: Egg
+      mana_cost: "{2}{G}"
+      type: Creature - Egg
       power: 0
       toughness: 3
       text: |
         When Gaian Egg dies, roll on a random Creature Summoning chart.
     - name: Succubus
-      mana_cost: 5BB
-      type: Demon
+      mana_cost: "{5}{B}{B}"
+      type: Creature - Demon
       power: 3
       toughness: 4
       text: |
         {T}: Target opponent reveals their hand. You choose a card from it. Until end of turn, you may play that card as though it were in your own hand.
         {B}, {T}, discard a card: Gain control of target nonwhite creature.
     - name: Virus
-      mana_cost: B
-      type: Virus
+      mana_cost: "{B}"
+      type: Creature - Virus
       power: 0
       toughness: 1
       text: |
@@ -1461,8 +1461,8 @@
     - card: Anowon, the Ruin Sage
     - card: Archdemon of Unx
     - name: Reluctant Dragon
-      mana_cost: 2RR
-      type: Dragon
+      mana_cost: "{2}{R}{R}"
+      type: Creature - Dragon
       power: 8
       toughness: 8
       text: |
@@ -1471,8 +1471,8 @@
     - card: Rampaging Baloths
     - card: Rakdos the Defiler
     - name: Bringer of the Wooberg Dawn
-      mana_cost: 4WUBRG
-      type: Bringer
+      mana_cost: "{4}{W}{U}{B}{R}{G}"
+      type: Creature - Bringer
       power: 5
       toughness: 5
       text: |
@@ -1493,8 +1493,8 @@
     - card: Borborygmos
     - card: Wurmcoil Engine
     - name: Melding Spore
-      mana_cost: 4G
-      type: Fungus
+      mana_cost: "{4}{G}"
+      type: Creature - Fungus
       power: 1
       toughness: 1
       text: |
@@ -1524,28 +1524,34 @@
     - card: Ghave, Guru of Spores
     - card: Lord of the Void
     - card: Akron Legionnaire
+    - card: Atraxa, Praetors' Voice
+    - card: Arixmethes, Slumbering Isle
+    - card: Colossus of Akros
+    - card: Yidris, Maelstrom Wielder
+    - card: Etali, Primal Storm
+    - card: Phantom Nishoba
 
 - short_name: exceptional-creature
   full_name: Exceptional Creature
-  desc: "Roll d40. Conjure the result onto the battlefield"
+  desc: "Roll d40. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
     - card: "Multani, Maro-Sorcerer"
     - card: Polar Kraken
     - card: It That Betrays
-    - name: Mime
-      mana_cost: 11
-      type: Eldrazi
+    - name: Eldrazi Mime
+      mana_cost: "{11}"
+      type: Creature - Eldrazi
       power: 9
       toughness: 9
       text: |
         Annihilator 1
         Eldrazi Mime is indestructible.
         When you speak, sacrifice Eldrazi Mime.
-    - name:  the Aeons Rent
-      mana_cost: 15
-      type: Legendary Eldrazi
+    - name:  Emrakul, the Aeons Rent
+      mana_cost: "{15}"
+      type: Legendary Creature - Eldrazi
       power: 15
       toughness: 15
       text: |
@@ -1559,17 +1565,17 @@
     - card: Serra Avatar
     - card: Godsire
     - name: Mutinous Titan
-      mana_cost: 5RR
-      type: Giant
+      mana_cost: "{5}{R}{R}"
+      type: Creature - Giant
       power: 9
       toughness: 10
       text: |
-        {T}: Mutinous Titan deals damage equal to its power to target creature or player.
-        If Mutinous Titan is the target of a spell or ability, That spell or ability's controller gains control of Mutinous Titan.
+        {T}: Mutinous Titan deals damage equal to its power to any target.
+        If Mutinous Titan is the target of a spell or ability, the controller of that spell or ability gains control of Mutinous Titan.
     - card: Denizen of the Deep
     - name: Planegorger Goblin
-      mana_cost: RRR
-      type: Nightmare Goblin
+      mana_cost: "{R}{R}{R}"
+      type: Creature - Nightmare Goblin
       power: 1
       toughness: 1
       text: |
@@ -1580,8 +1586,8 @@
     - card: Magister Sphinx
     - card: Inkwell Leviathan
     - name: Self-Building Golem
-      mana_cost: 6
-      type: Artifact Construct
+      mana_cost: "{6}"
+      type: Artifact - Construct
       power: 1
       toughness: 1
       text: |
@@ -1601,10 +1607,14 @@
     - card: Gisela, Blade of Goldnight
     - card: Empyrial Archangel
     - card: Platinum Emperion
+    - card: Avacyn, Angel of Hope
+    - card: Atraxa, Grand Unifier
+    - card: Void Winnower
+    - card: Impervious Greatwurm
 
 - short_name: treacherous-creature
   full_name: Treacherous Creature
-  desc: "Roll d20. Conjure the result onto the battlefield"
+  desc: "Roll d20. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
@@ -1672,7 +1682,7 @@
 
 - short_name: acquisition
   full_name: Acquisition
-  desc: "Roll d40. Conjure the result onto the battlefield"
+  desc: "Roll d40. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
@@ -1690,7 +1700,7 @@
     - card: Bazaar of Baghdad
     - card: Despotic Scepter
     - name: Crown of the Eons
-      mana_cost: 4
+      mana_cost: "{4}"
       type: Artifact
       text: |
         {T}: Attach target Aura attached to a permanent to another permanent.
@@ -1698,51 +1708,51 @@
     - card: Monkey Cage
     - card: Chimeric Staff
     - name: Devious Trap
-      mana_cost: 6
+      mana_cost: "{6}"
       type: Artifact
       text: |
         As Devious Trap enters the battlefield, name a card other than a basic land card.
         Each opponent reveals each card they draws.
         When an opponent draws the named card, sacrifice Devious Trap. If you do, Devious Trap deals 10 damage to that opponent.
     - name: Life Grail
-      mana_cost: 2
+      mana_cost: "{2}"
       type: Artifact
       text: |
         {1}: This next time a source would deal damage to you, instead put that many wine counters on Life Grail.
         When Life Grail leaves the battlefield, lose life equal to the number of wine counters on Life Grail.
     - name: Chaos Flute
-      mana_cost: 3
+      mana_cost: "{3}"
       type: Artifact
       text: |
         {T}: Roll on Chaos List A. This ability does doesn't change the last Chaos List that was rolled on.
     - name: Soulbox
-      mana_cost: 5
+      mana_cost: "{5}"
       type: Artifact
       text: |
         Whenever another player loses the game, put an |Extra Life| token onto the battlefield.
     - name: "Circle of Protection: Chaos"
-      mana_cost: 1W
+      mana_cost: "{1}{W}"
       type: Enchantment
       text: |
         {2}: The next time that a chaos ability source of your choice would deal damage to you this turn, prevent that damage.
     - name: Spite Disk
-      mana_cost: 1
+      mana_cost: "{1}"
       type: Artifact
       text: |
         At the beginning of your upkeep put a charge counter on Spite Disk, and Spite Disk deals 1 damage to you. As you lose the game, make an additional roll on Spite for every ten charge counters on Spite Disk.
     - name: Vesuvan Sphere
-      mana_cost: 4
+      mana_cost: "{4}"
       type: Artifact
       text: |
         You may have Vesuvan Sphere enter the battlefield as a copy of any artifact on the battlefield and it gains "At the beginning of your upkeep, you may have this artfiact become a copy of target artifact. If you do, this artifact gains this ability."
     - name: Font of Evil
-      mana_cost: 0
+      mana_cost: "{0}"
       type: Artifact
       text: |
         At the beginning of your end step, a random opponent gains control of Font of Evil and puts a charge counter on it.
         At the beginning of your upkeep, Font of Evil deals damage to you equal to the number of charge counters on it.
     - name: Chest of vortices
-      mana_cost: 3
+      mana_cost: "{3}"
       type: Artifact
       text: |
         {T}: A random opponent gains control of a random creature you control. Roll on [vortex]. Play this ability only if you control a creature.
@@ -1755,29 +1765,29 @@
     - card: Reito Lantern
     - card: Mask of Riddles
     - name: Sphere of Wonders
-      mana_cost: 6
+      mana_cost: "{6}"
       type: Artifact
       text: |
         When Sphere of Wonders enters the battlefield, roll on Mild Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Sphere of Wonders, roll on Mild Creature.
     - name: Proteus Rod
-      mana_cost: 3
+      mana_cost: "{3}"
       type: Artifact
       text: |
         {3}, {T}: Put target creature on the bottom of its owner's library. If that creature's converted mana cost was 4 or less, its controller rolls on Mild Creature. Otherwise if it was 8 or less they roll on Strong Creature. Otherwise they rolls on Exceptional Creature. Activate this ability only any time you could cast a sorcery.
     - card: Gaea's Anthem
     - card: Avarice Totem
     - name: Factory of Life
-      mana_cost: 5
+      mana_cost: "{5}"
       type: Artifact
       text: |
         When Factory of Life enters the battlefield, roll on Synthetic Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Factory of Life, roll on Synthetic Creature.
     - name: Object from Hell
-      mana_cost: 4
+      mana_cost: "{4}"
       type: Artifact
       text: |
         When Object from Hell enters the battlefield, roll on Treacherous Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Object from Hell, roll on Treacherous Creature.
     - name: Token of Friendship
-      mana_cost: WW
+      mana_cost: "{W}{W}"
       type: Enchantment
       text: |
         Sacrifice Token of Friendship: If target opponent's life total is lower than his starting life total, his life total becomes his starting life total.
@@ -1785,7 +1795,7 @@
     - card: Darksteel Garrison
     - card: Jinxed Ring
     - name: Chaos Vault
-      mana_cost: 3R
+      mana_cost: "{3}{R}"
       type: Artifact
       text: |
         Whenever you would roll chaos, you may instead put a charge counter on Chaos Vault.
@@ -1797,13 +1807,13 @@
 
 - short_name: powerful-acquisition
   full_name: Powerful Acquisition
-  desc: "Roll d40. Conjure the result onto the battlefield"
+  desc: "Roll d40. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
     - card: Mindslaver
     - name: Life Conduit
-      mana_cost: 4
+      mana_cost: "{4}"
       type: Artifact
       text: |
         Life Conduit doesn't untap during your untap step.
@@ -1812,28 +1822,28 @@
     - card: Time Vault
     - card: Helm of Obedience
     - name: Magnet
-      mana_cost: 8
+      mana_cost: "{8}"
       type: Artifact
       text: |
         You control all artifacts.
     - name: Elven Mandolin
-      mana_cost: 4
+      mana_cost: "{4}"
       type: Artifact
       text: |
         {4}, {T}: Roll on [musical]. Use this ability only any time you could cast a sorcery.
     - name: Fixed Die
-      mana_cost: 7
+      mana_cost: "{7}"
       type: Artifact
       text: |
         {3}, {T}: Reroll a die.
     - name: Wand of Dominaria
-      mana_cost: 7
+      mana_cost: "{7}"
       type: Artifact
       text: |
         {T}, discard a card: Counter target chaos ability.
         {T}, discard a card: Counter target spell that targets Wand of Dominia.
     - name: Weather Machine
-      mana_cost: 3
+      mana_cost: "{3}"
       type: Artifact
       text: |
         {T}: Choose one - Target creature loses flying until end of turn; or target land becomes snow.
@@ -1845,7 +1855,7 @@
     - card: Staff of Domination
     - card: Spellweaver Volute
     - name: Staff of Disruption
-      mana_cost: 8
+      mana_cost: "{8}"
       type: Artifact
       text: |
         {T}, Roll on [response].
@@ -1859,34 +1869,34 @@
         {T}: Add {1} to your mana pool.
         {T}, Sacrifice Secluded Dojo: Destroy all attacking creatures.
     - name: Cursed Shield of Immobity
-      mana_cost: 5
+      mana_cost: "{5}"
       type: Artifact
       text: |
         You skip your combat phase.
         Creatures can't attack you.
     - card: Akroma's Memorial
     - name: Mystical Torus
-      mana_cost: 7
+      mana_cost: "{7}"
       type: Artifact
       text: |
         When Mystical Torus enters the battlefield, roll on [strong-creature]. At the beginning of your upkeep, if there is no creature on the battlefield created by Mystical Torus, roll on [strong-creature].
     - name: Klein Bottle of Chaos
-      mana_cost: 10
+      mana_cost: "{10}"
       type: Artifact
       text: |
         When Klein Bottle of Chaos enters the battlefield, roll on [exceptional-creature]. At the beginning of your upkeep, if there is no creature on the battlefield created by Klein Bottle of Chaos, roll on [exceptional-creature].
     - card: Sphinx-Bone Wand
     - card: Future Sight
     - card: Psychic Possession
-    - name: Forbidden Closet of Mystery
-      mana_cost: 5
+    - name: Necronomicon
+      mana_cost: "{B}{B}{2}"
       type: Artifact
       text: |
-        {3}, {T}: Unless any player pays {2}, roll on [extreme], [exceptional-creature], [planeswalker], or [deadly-acquisition], chosen at random.
+        {B}, {T}: Roll on [extreme], [exceptional-creature], [musical], or [deadly-acquisition], chosen at random.
 
 - short_name: deadly-acquisition
   full_name: Deadly Acquisition
-  desc: "Roll d8. Conjure the result onto the battlefield"
+  desc: "Roll d10. Conjure the result onto the battlefield."
   first_index: 1
   format: Table
   rolls:
@@ -1944,8 +1954,7 @@
     - name: Mana Sink
       text: Counter target spell. At the beginning of your next main phase, pay X, where X is that spell's converted mana cost. If you don't, that spell's controller may put a copy of that spell onto the stack.
     - card: Parallectric Feedback
-    - name: Cause Paranoia
-      text: Counter target spell. That spell's controller puts the top X cards of their library into their graveyard, then put the top X cards of your library into your graveyard, where X is the spell's converted mana cost.
+    - card: Tibalt's Trickery
     - card: Spellshift
     - name: Duplicate
       text: Target spell's controller puts a copy of that spell onto the stack.

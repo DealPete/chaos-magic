@@ -103,7 +103,17 @@ def parse_as_table(body):
             rolls += cell + emptyRollTextCell
         elif 'name' in roll:
             rolls += effectCell.render(name = roll['name'])
-            text = roll['text'].split('\n')
+
+            text = []
+            if 'mana_cost' in roll:
+                top_line = roll["mana_cost"]
+                if 'type' in roll:
+                    top_line += f', {roll["type"]}'
+                text.append(top_line)
+            if 'power' in roll:
+                text.append(f'{roll["power"]}/{roll["toughness"]}')
+
+            text = text + roll['text'].split('\n')
             markup = '<br>'.join([ f'<span>{t}</span>' for t in text ])
             rolls += f"<td class='roll-text'>{markup}</td>"
         elif 'text' in roll:
@@ -134,21 +144,29 @@ def replace_embedded_links(parsed):
 
 def parse_mana_symbols(markup):
     mana_symbols = [
+        ( '{X}', 'ms-x' ),
         ( '{0}', 'ms-0' ),
         ( '{1}', 'ms-1' ),
         ( '{2}', 'ms-2' ),
         ( '{3}', 'ms-3' ),
         ( '{4}', 'ms-4' ),
+        ( '{5}', 'ms-5' ),
+        ( '{6}', 'ms-6' ),
+        ( '{7}', 'ms-7' ),
         ( '{8}', 'ms-8' ),
+        ( '{9}', 'ms-9' ),
+        ( '{10}', 'ms-10' ),
+        ( '{11}', 'ms-11' ),
+        ( '{15}', 'ms-15' ),
         ( '{T}', 'ms-tap' ),
         ( '{Q}', 'ms-untap' ),
         ( '{B}', 'ms-b' ),
         ( '{U}', 'ms-u' ),
         ( '{G}', 'ms-g' ),
-        ( '{R}', 'ms-u' ),
+        ( '{R}', 'ms-r' ),
         ( '{W}', 'ms-w' ),
         ( '{R/U}', 'ms-ur' ),
-        ( '{W/G}', 'ms-wg' )
+        ( '{G/W}', 'ms-gw' )
     ]
 
     for ( m, r ) in mana_symbols:

@@ -1107,7 +1107,7 @@ Until the beginning of your next turn, players can't play spells.
 E55 Possession
 If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
 
-E56
+E56 [Chaotic Transformation]
 
 E57 Vengeful Rage
 Roll on Spite. (You can still roll on Spite the first time you lose.) 
@@ -1277,7 +1277,7 @@ F34 {Exceptional Creature}
 
 F35 [Vitalizing Wind]
 
-F36
+F36 [Eldritch Pact]
 
 F37 {Extreme Chaos}
 
@@ -1293,7 +1293,7 @@ F40 [Armageddon]
 F41 [Jokulhaups]
 (Destroy all artifacts, creatures, and lands. They can't be regenerated. (16/4/10))
 
-F42
+F42 [Rise of the Dark Realms]
 
 F43
 
@@ -1370,7 +1370,7 @@ F68 [Worldpurge]
 
 F69 {Chaos List A}
 
-F70
+F70 [Peer Into the Abyss]
 
 F71 Endless Domains
 Any player may search his library for any number of basic land cards and put them onto the battlefield. Then all players who searched their libraries shuffle them.
@@ -1969,8 +1969,7 @@ Each player skips his draw step.
 Whenever a player plays a card, that player draws a card.
 Each player's maximum hand size is two.
 
-GL117. [Super Secret Tech]
-(All premium creatures get +1/+1. All premium spells cost one less to play).
+GL117. [Grip of Chaos]
 
 GL118. Extraplanar Prison
 7, Artifact
@@ -2550,6 +2549,14 @@ As long as the top card of your graveyard is a creature card, Volrath's Shapeshi
 
 96 [Ragavan, Nimble Pilferer]
 
+97 [Phyrexian Metamorph]
+
+98 [True-Name Nemesis]
+
+99 [Ludevic's Test Subject]
+
+100 [Starke of Rath]
+
 [=============================================================================]
 
 (2) __Strong Creature__
@@ -2889,6 +2896,12 @@ At the beginning of your upkeep, you may gain control of target permanent until 
 
 75 [Akron Legionnaire]
 
+76 [Atraxa, Praetors' Voice]
+
+77 [Arixmethes, Slumbering Isle]
+
+78 [Colossus of Akros]
+
 [==============================================================================]
 
 (3) __Exceptional Creature__
@@ -2953,7 +2966,7 @@ Vigilance
 
 12 Mutinous Titan
 5RR, Giant, 9/10
-T: Mutinous Titan deals damage equal to its power to target creature or player.
+{T}: Mutinous Titan deals damage equal to its power to any target.
 If Mutinous Titan is the target of a spell or ability, That spell or ability's controller gains control of Mutinous Titan.
 
 13 [Denizen of the Deep]
@@ -3029,6 +3042,16 @@ Whenever a player loses the game, put five +1/+1 counters on Blood Tyrant. (16/4
 34 [Empyrial Archangel]
 
 35 [Platinum Emperion]
+
+36 [Avacyn, Angel of Hope]
+
+37 [Atraxa, Grand Unifier]
+
+38 [Void Winnower]
+
+39 [Impervious Greatwurm]
+
+40 [Yidris, Maelstrom Wielder]
 
 [=============================================================================]
 
@@ -3115,6 +3138,7 @@ At the beginning of your upkeep, sacrifice an artifact other than Rust Elemental
 16 [Soulgorger Orgg]
 17 [Abyssal Persecutor]
 18 [Archfiend of the Dross]
+19 [Goldnight Castigator]
 
 [=============================================================================]
 
