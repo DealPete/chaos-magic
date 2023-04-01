@@ -1,33 +1,235 @@
-<!DOCTYPE html>
 <html>
 	<head>
-		<title>Chaos Magic Rules</title>
+		<title>Chaos Magic</title>
+		<link rel="stylesheet" href="https://mtgify.org/dist/autocard.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="chaos.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-	<body>
-		<p>At the beginning of the game, once all players have kept their opening hands and used the abilities of cards that allow them to take an action with those cards from their opening hands, the active player rolls on Global and puts a copy of the card rolled into the command zone. The abilities of the global function from the command zone and affect the game. The active player may play the global's activated abilities. If the global is an Equipment, it can be attached to a creature, but remains in the command zone. If a player would roll on Global during the game, first remove the current global from the command zone.</p>
+	<body><nav id="sidebar">
+	<p class="sidebar-button">
+		<a class="sidebar-link" href="index.html">Home</a>
+	</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="listA.html">Chaos List A</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="listB.html">Chaos List B</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="listC.html">Chaos List C</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="listD.html">Chaos List D</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="listE.html">Chaos List E</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="listF.html">Chaos List F</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="global.html">Global</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="vortex.html">The Vortex</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="musical.html">Musical</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="extreme.html">Extreme Chaos</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="mild-creature.html">Mild Creature</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="strong-creature.html">Strong Creature</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="exceptional-creature.html">Exceptional Creature</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="treacherous-creature.html">Treacherous Creature</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="synthetic-creature.html">Synthetic Creature</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="acquisition.html">Acquisition</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="powerful-acquisition.html">Powerful Acquisition</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="deadly-acquisition.html">Deadly Acquisition</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="planeswalker.html">Planeswalker</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="response.html">Response</a>
+		</p>
+	
+		<p class="sidebar-button">
+			<a class="sidebar-link" href="spite.html">Spite</a>
+		</p>
+	
+	<p class="sidebar-button">
+		<a class="sidebar-link" href="rules.html">Rules</a>
+	</p>
+</nav>
+<nav id="header">
+	<select name="chaos-list" id="list-select">
+		<option value="/chaos/index.html">Home</option>
+	
+		<option value="/chaos/listA.html"  >
+			Chaos List A
+		</option>
+	
+		<option value="/chaos/listB.html"  >
+			Chaos List B
+		</option>
+	
+		<option value="/chaos/listC.html"  >
+			Chaos List C
+		</option>
+	
+		<option value="/chaos/listD.html"  >
+			Chaos List D
+		</option>
+	
+		<option value="/chaos/listE.html"  >
+			Chaos List E
+		</option>
+	
+		<option value="/chaos/listF.html"  >
+			Chaos List F
+		</option>
+	
+		<option value="/chaos/global.html"  >
+			Global
+		</option>
+	
+		<option value="/chaos/vortex.html"  >
+			The Vortex
+		</option>
+	
+		<option value="/chaos/musical.html"  >
+			Musical
+		</option>
+	
+		<option value="/chaos/extreme.html"  >
+			Extreme Chaos
+		</option>
+	
+		<option value="/chaos/mild-creature.html"  >
+			Mild Creature
+		</option>
+	
+		<option value="/chaos/strong-creature.html"  >
+			Strong Creature
+		</option>
+	
+		<option value="/chaos/exceptional-creature.html"  >
+			Exceptional Creature
+		</option>
+	
+		<option value="/chaos/treacherous-creature.html"  >
+			Treacherous Creature
+		</option>
+	
+		<option value="/chaos/synthetic-creature.html"  >
+			Synthetic Creature
+		</option>
+	
+		<option value="/chaos/acquisition.html"  >
+			Acquisition
+		</option>
+	
+		<option value="/chaos/powerful-acquisition.html"  >
+			Powerful Acquisition
+		</option>
+	
+		<option value="/chaos/deadly-acquisition.html"  >
+			Deadly Acquisition
+		</option>
+	
+		<option value="/chaos/planeswalker.html"  >
+			Planeswalker
+		</option>
+	
+		<option value="/chaos/response.html"  >
+			Response
+		</option>
+	
+		<option value="/chaos/spite.html"  >
+			Spite
+		</option>
+	
+		<option value="/chaos/rules.html">Rules</option>
+	</select>
+</nav>
 
-		<p>There is a new step that takes place between your upkeep and draw steps called the chaos step. Immediately after a player's chaos step begins, as a turn-based action, that player rolls on one of the Chaos Lists. There are 6 Chaos Lists lettered A through F. The first chaos roll of the game is made on Chaos List A. Subsequent chaos rolls are made on the last Chaos List that was rolled on. The result of a roll is called a chaos ability, and the player who rolled it puts it onto the stack. It can then be responded to like any other object that could go on the stack. If the roll asks you to roll dice, do so before choosing targets. The process of rolling on of Chaos Lists A through F is called "rolling chaos".</p>
+<script>
+	const select = document.getElementById('list-select');
+	select.addEventListener("change", (event) =>
+	{
+		window.location.href = event.target.value;
+	});
+</script>		<div id="main-text">
+			<h1>Comprehensive Rules</h1>
+			<p>At the beginning of the game, once all players have kept their opening hands and used the abilities of cards that allow them to take an action with those cards from their opening hands, the active player rolls on Global and puts a copy of the card rolled into the command zone. The abilities of the global function from the command zone and affect the game. The active player may play the global's activated abilities. If a player would roll on Global during the game, first remove the current global from the command zone.</p>
 
-		<p>The six Chaos Lists are followed by other lists. When an ability directs you to "roll on {name of list}", then as part of the resolution of that ability, find the list below called "name of list", and follow the directions appearing at the beginning of that list. If an ability directs you to roll multiple times on a list, then put a chaos ability onto the stack for each roll that reads: "Roll on {that list}". If the ability directs you to roll multiple times on different lists, put the chaos abilities onto the stack in such an order as will result in the chaos abilities resolving in the order specified by the ability that put them onto the stack. If an ability directs you to "roll Chaos n times", place n chaos abilities on the stack that read: "Make a chaos roll on the last Chaos List that was rolled on." Note that some lists are called "charts".</p>
+			<p>There is a new step that takes place between your upkeep and draw steps called the chaos step. Immediately after a player's chaos step begins, as a turn-based action, that player rolls on one of the Chaos Lists. There are 6 Chaos Lists lettered A through F. The first chaos roll of the game is made on Chaos List A. Subsequent chaos rolls are made on the last Chaos List that was rolled on. The result of a roll is called a chaos ability, and the player who rolled it puts it onto the stack. It can then be responded to like any other object that could go on the stack. The process of rolling on of Chaos Lists A through F is called "rolling chaos".</p>
 
-		<p>There is a new zone, called the middle world. Cards in the middle world are placed face up in the centre of the play area. Each player can play a card from the middle world once per turn.</p>
+			<p>The six Chaos Lists are followed by other supplementary lists. When an ability directs you to roll on a supplementary list, then as part of the resolution of that ability, follow the directions appearing at the beginning of that supplementary list. If an ability directs you to roll multiple times on one or more lists, then make those rolls one at a time, completely resolving each roll before starting the next one.</p>
 
-		<p>When the title of a roll is in brackets, the chaos ability has the text and characteristics of the Magic card of that name. Choose targets and modes normally, but ignore any costs. [Title] x n means that you put n such abilities on the stack. When the title appears in braces (e.g. {Global}), find the appropriate list below and roll the dice indicated.</p>
+			<p>There is a new zone, called the middle world. Cards in the middle world are placed face up in the centre of the play area. Each player can play a card from the middle world once per turn.</p>
 
-		<p>If the game breaks up or becomes tedious, roll on {Resolution}.</p>
+			<p>Some rolls cause a player to temporarily leave the game. A player leaving the game temporarily does not have the same effect as does a player leaving the game completely. Instead that player takes no actions while they are gone, and is considered to be outside of each other player's range of influence. (Spells and abilities can't affect or target objects or players outside their controller's range of influence. Creatures can attack only opponents within their controller's range of influence.) The two players next to that player are considered to be next to each other while that player is gone. If a player leaves the game on his turn, the turn continues to completion without an active player.</p>
 
-		<p>Some rolls are preceded by terms in angle brackets. These refer to optional gameplay mechanics:</p>
+			<p>When a player loses the game, if more than one of that player's opponents are left in the game, that player rolls on <a href="spite.html">Spite</a>.</p>
+		</div>
+	</body>	<script>
+		MTGIFY_CONFIG = {
+			enableAutoTag: false,
+			linkSource: 'scryfall',
+			imgSource: 'scryfall'
+		}
+	</script>
+	<script src="https://mtgify.org/dist/autocard.js"></script>
+	<style>
+		@media (hover: hover) {
+			.no-hover {
+				display: none
+			}
+		}
 
-		<p><vanguard>		The Vanguard casual variant.</p>
-
-		<p>If the result of a roll uses an optional mechanic that you're not playing with, roll again.</p>
-
-		<p>Occasionally a card will become banned due to a Chaos roll. If a banned card is face up in a public zone, remove it from the game as a state-based action. If a banned card would enter a public zone, remove it from the game instead. Note that banned cards are not exiled - they are truly removed from the game.</p>
-
-		<p>Some rolls cause a player to temporarily leave the game. A player leaving the game temporarily does not have the same effect as does a player leaving the game completely. Instead that player takes no actions while he is gone, and is considered to be outside of each other player's range of influence. (Spells and abilities can't affect or target objects or players outside their controller's range of influence. Creatures can attack only opponents within their controller's range of influence.) If a player leaves the game on his turn, the turn continues to completion without an active player.</p>
-
-		<p>(Optional Rule) If a player tries to leave his chaos step without rolling chaos, he must roll on {NegativeFeedback} and suffer the consequences.</p>
-
-		<p>When a player loses the game, if more than one of that player's opponents are left in the game, that player rolls on Spite.</p>
-	</body>
+		@media (hover: none) {
+			.hover {
+				display: none
+			}
+		}
+	</style>
 </html>

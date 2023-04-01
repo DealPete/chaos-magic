@@ -1132,7 +1132,7 @@ You may flip a coin. If you do and win, put an |Extra Life| token onto the battl
 E64 [Death by Dragons]
 (Each player other than target player puts a 5/5 red Dragon creature token with flying onto the battlefield. (19/06/11))
 
-E65
+E65 [Primal Surge]
 
 E66 {Global} x 2
 (Don't exile the first global as you roll on Global the second time.)
@@ -1295,12 +1295,12 @@ F41 [Jokulhaups]
 
 F42 [Rise of the Dark Realms]
 
-F43
+F43 [Storm Herd]
 
 F44 The Gods are Toying with You
 Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
 
-F45
+F45 [Breach the Multiverse]
 
 F46 [Goblin Game]
 (Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items he or she revealed. The player who revealed the fewest items then loses half his or her life, rounded up. If two or more players are tied for fewest, each loses half his or her life, rounded up. (16/4/10))
@@ -1308,7 +1308,7 @@ F46 [Goblin Game]
 F47 Plasma Storm
 Plasma Storm deals 16 damage to each player and each creature.
 
-F48
+F48 [Expropriate]
 
 F49 Impending Insanity
 Roll five times on Chaos List A, four times on Chaos List B, three times on Chaos List C, twice on Chaos List D, and once on Chaos List E. Then the next time a player would roll chaos, he rolls on Chaos List F instead of rolling on the last Chaos List that was rolled on.
@@ -1585,7 +1585,7 @@ Roll d120 + 9 (d12 for the tens digit, d10 for the units digit). Put a token cop
 
 GL10. Mana Surge
 RR, Enchantment
-If mana would be emptied from a player's mana pool, instead it is emptied and that player loses 1 life for each mana emptied this way.
+A player losing unspent mana causes that player to lose that much life.
 At the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands he controlled at the beginning of this turn.
 
 GL11. Ostracization
@@ -2557,6 +2557,12 @@ As long as the top card of your graveyard is a creature card, Volrath's Shapeshi
 
 100 [Starke of Rath]
 
+101 [Leovold, Emissary of Trest]
+
+102 [Hans Eriksson]
+
+103 [Obeka, Brute Chronologist]
+
 [=============================================================================]
 
 (2) __Strong Creature__
@@ -3053,6 +3059,8 @@ Whenever a player loses the game, put five +1/+1 counters on Blood Tyrant. (16/4
 
 40 [Yidris, Maelstrom Wielder]
 
+41 [Brisela, Voice of Nightmares]
+
 [=============================================================================]
 
 (4) __Treacherous Creature__
@@ -3139,6 +3147,7 @@ At the beginning of your upkeep, sacrifice an artifact other than Rust Elemental
 17 [Abyssal Persecutor]
 18 [Archfiend of the Dross]
 19 [Goldnight Castigator]
+20 [Avaricious Dragon]
 
 [=============================================================================]
 
@@ -3364,10 +3373,7 @@ Sacrifice Token of Friendship: If target opponent's life total is lower than his
 (2, Artifact
 {3}, {T}: Double the amount of each type of mana in your mana pool. (16/4/10))
 
-42 [Darksteel Garrison]
-(2, Artifact -- Fortification
-Fortified land is indestructible.
-Whenever fortified land becomes tapped, target creature gets +1/+1 until end of turn. (16/4/10))
+42 [Black Lotus]
 
 43 [Jinxed Ring]
 (2, Artifact
@@ -3397,8 +3403,6 @@ CON-R (16/4/10))
 47 [Time Sieve]
 (UB, Artifact
 {T}, Sacrifice five artifacts: Take an extra turn after this one. (16/4/10))
-
-48 [Black Lotus]
 
 [=============================================================================]
 
@@ -3550,6 +3554,16 @@ Whenever enchanted opponent draws a card, you may draw a card. (16/4/10))
 5, Artifact
 3, T: Unless any player pays 2, sacrifice Forbidden Closet of Mystery and roll on Extreme Chaos, Exceptional Creature, Planeswalker, or Dire Misfortune, chosen at random.
 
+31 [Gleemax]
+
+32 [Omniscience]
+
+33 [Bolas's Citadel]
+
+34 [Lithoform Engine]
+
+35 [Mystic Forge]
+
 [=============================================================================]
 
 (8) __Planeswalker__
@@ -3561,11 +3575,7 @@ Roll d15. Put the result onto the stack as a planeswalker token.
 {-1}: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
 {-6}: Put a white Avatar creature token onto the battlefield. It has "This creature's power and toughness are each equal to your life total." (16/4/10))
 
-2 [Ajani Vengeant]
-(2RW, Ajani, 3
-{+1}: Target permanent doesn't untap during its controller's next untap step.
-{-2}: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
-{-7}: Destroy all lands target player controls. (16/4/10))
+2 [Tevesh Szat, Doom of Fools]
 
 3 [Chandra Ablaze]
 (4RR, Chandra, 5
@@ -3647,6 +3657,8 @@ Roll d15. Put the result onto the stack as a planeswalker token.
 19 [Ugin, The Spirit Dragon]
 
 20 [Teferi, Time Raveler]
+
+21 [Karn, Scion of Urza]
 
 [=============================================================================]
 
@@ -3797,7 +3809,7 @@ Your killer exiles the top twenty cards of his library.
 Each opponent other than your killer rolls on Strong Creature.
 
 91 - 95
-Your killer sacrifies all of his non-land permanents and discards his hand. Triggered abilities that would trigger as a result of this effect don't trigger.
+Your killer sacrifices all of his nonland permanents and discards his hand. Triggered abilities that would trigger as a result of this effect don't trigger.
 
 96 - 97
 Each player gains 5 life. Your killer loses life equal to the life gained this way.

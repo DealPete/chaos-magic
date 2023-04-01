@@ -7,15 +7,19 @@
 			<a class="sidebar-link" href="{{ list.url }}">{{ list.full_name }}</a>
 		</p>
 	{% endfor %}
+	<p class="sidebar-button">
+		<a class="sidebar-link" href="rules.html">Rules</a>
+	</p>
 </nav>
 <nav id="header">
 	<select name="chaos-list" id="list-select">
-	<option value="/chaos/index.html">Home</option>
+		<option value="/chaos/index.html">Home</option>
 	{% for list in lists %}
 		<option value="/chaos/{{list.short_name}}.html" {% if list.short_name == cur_list %} selected {% endif %} >
 			{{list.full_name}}
 		</option>
 	{% endfor %}
+		<option value="/chaos/rules.html">Rules</option>
 	</select>
 </nav>
 

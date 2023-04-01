@@ -495,7 +495,7 @@
     - name: Blink
       text: Exile all permanents, then return all permanents exiled in this way to the battlefield.
     - name: Thickening Tension
-      text: "Choose a Creature Summoning chart: [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], [synthetic-creature]. Each player rolls on that chart."
+      text: "Choose a Creature list: [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], or [synthetic-creature]. Each player rolls on that list."
     - card: Miraculous Recovery
     - name: Sorrowful End
       text: Destroy up to three target nonblack creatures. Draw a card for each creature destroyed this way.
@@ -503,8 +503,6 @@
       text: Each player may search their library for an aura card and put it onto the battlefield. Then each player who searched their library this way shuffles it.
     - name: Mind's Devotion
       text: "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nWhen you roll this ability, copy it for each time chaos was rolled before it this turn."
-      card: Flowstone Surge
-      Xdice: [1, 6, 0]
     - card: Flowstone Surge
       Xdice: [1, 6, 0]
     - list: musical
@@ -551,7 +549,7 @@
       text: Choose Chaos List A through D. For the rest of the game, if you would roll on that list, instead roll on Chaos List E.
     - list: vortex
     - name: Chaos Market
-      text: Each player may sacrifice up to two permanents. If they do, they roll on a random chart for each permanent they sacrificed this way.
+      text: Each player may sacrifice up to two nontoken permanents. If they do, they roll on [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], [synthetic-creature], [acquisition], [powerful-acquisition], or [deadly-acquisition].
     - name: Meteor Storm
       text: All players roll d6. Meteor Storm deals 3d6 damage to each player who rolls greater than 4. Each player who rolls 1 may roll on [powerful-acquisition].
     - card: Soulquake
@@ -594,10 +592,9 @@
       text: Until the beginning of your next turn, players can't play spells.
     - name: Possession
       text: If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
-#E56
     - card: Chaotic Transformation
     - name: Vengeful Rage
-      text: Roll on Spite. (You can still roll on Spite if you lose.) 
+      text: Roll on [spite]. (You can still roll on Spite if you lose.) 
     - name: Passive Turn Taking
       text: The active player skips their next turn. End the turn.
     - list: listF
@@ -608,9 +605,9 @@
     - name: Planar Shift
       text: You leave the game for 6 turns.
     - name: Desperate Gamble
-      text: You may flip a coin. If you do and win, put an |Extra Life| token onto the battlefield. If you do and lose, roll on Dire Misfortune.
+      text: You may flip a coin. If you do and win, put a white enchantment oken onto the battlefield with "You can't lose the game and your opponents can't win the game". If you do and lose, roll on [deadly-acquisition].
     - card: Death by Dragons
-#E65
+    - card: Primal Surge
     - name: Twin Worlds
       text: Roll twice on [global] and put both into the command zone. (Remove both globals the next time a player rolls on Global).
     - name: Philanthropy
@@ -668,7 +665,9 @@
     - card: Decree of Annihilation
     - list: vortex
     - name: Ace of Trump
-      text: Put a |Counter Roll| token and a |Fork Roll| token onto the battlefield.
+      text: |
+        Put a colorless artifact token onto the battlefield with "Sacrifice this: Counter target chaos ability."
+        Put a colorless artifact token onto the battlefield with "Sacrifice this: Copy target chaos ability. You may choose new targets for the copy."
     - name: Crucify
       text: Crucify deals 25 damage to target creature or player.
       color: W
@@ -708,10 +707,12 @@
     - card: Armageddon
     - card: Jokulhaups
     - card: Rise of the Dark Realms
+    - card: Storm Herd
     - name: The Gods are Toying with You
-      text: Put an |Extra Life| token onto the battlefield, then roll on {Dire Misfortune}.
+      text: Put a white enchantment token onto the battlefield with "You can't lose the game and your opponnents can't win the game." Then roll on [deadly-acquisition].
     - card: Breach the Multiverse
     - card: Goblin Game
+    - card: Expropriate
     - name: Plasma Storm
       text: Plasma Storm deals 16 damage to each player and each creature.
     - name: Impending Insanity
@@ -786,10 +787,16 @@
 
 - short_name: global
   full_name: Global
-  desc: "Remove all existing globals, then roll d120 + 9 (d12 for the tens digit, d10 for the units digit). Put a copy of the result into the command zone."
+  desc: "Remove all existing globals, then roll d120 + 9 (d12 for the tens digit, d10 for the units digit). Put the result into the command zone."
   first_index: 10
   format: Table
   rolls:
+    - name: Mana Surge
+      mana_cost: "{R}{R}"
+      type: Enchantment
+      text: |
+        A player losing unspent mana causes that player to lose that much life.
+        At the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
     - name: Ostracization
       mana_cost: "{3}{B}{B}"
       type: Enchantment
@@ -831,7 +838,7 @@
       mana_cost: "{2}{W}{W}"
       type: Enchantment
       text: |
-        All non-token creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
+        All nontoken creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
     - name: Zero Chamber
       mana_cost: "{3}{W}"
       type: Enchantment
@@ -918,7 +925,7 @@
       mana_cost: "{2}{W}{W}"
       type: Artifact
       text: |
-        As Matt's Obstinacy enters the command zone, exile all non-land non-token permanents that are legal in Standard.
+        As Matt's Obstinacy enters the command zone, exile all nonland nontoken permanents that are legal in Standard.
         Spells legal in Standard cannot be cast.
         When Matt's Obstinacy leaves the command zone, return all cards exiled with it to the battlefield.
       card: Earnest Fellowship
@@ -927,7 +934,7 @@
         At the beginning of each player's upkeep, Torture World deals X damage to that player, where X is the number of cards in their hand minus 4.
         At the beginning of each player's upkeep, Tortune World deals X damage to that player, where X is 3 minus the number of cards in their hand.
     - card: Damping Matrix
-    - card: AEther Rift
+    - card: Aether Rift
     - card: Zur's Weirding
     - card: Grand Melee
     - card: Eon Hub
@@ -974,7 +981,7 @@
     - card: Concordant Crossroads
     - name: Xenophobic Dimension
       text: |
-        If a nontoken creature would enter the battlefield, exile it instead. That creature's controller rolls on Mild Creature, Strong Creature, Exceptional Creature, or Treacherous Creature at random.
+        If a nontoken creature would enter the battlefield, exile it instead. That creature's controller rolls on [mild-creature], [strong-creature], [exceptional-creature], or [treacherous-creature] at random.
     - card: Chains of Mephistopheles
     - card: Sylvan Library
     - card: Spiteful Visions
@@ -1017,9 +1024,6 @@
         Mana costs of spells and activated abilities may be paid with any type of mana.
         Cards, tokens, and abilities are colorless.
     - card: Abundance
-    - name: Cyclotron
-      text: |
-        All cards have "Cycling: {3}".
     - card: Lifeline
     - card: Everlasting Torment
     - card: Timesifter
@@ -1095,7 +1099,6 @@
       text: |
         When Week of the Dragons enters the command zone, all creatures phase out. These creatures don't phase in during their controller's untap step. Then each player puts a 5/5 red Dragon creature token with flying onto the battlefield for each creature they controlled that phased out this way. 
         When Week of the Dragons leaves the command zone, all players sacrifice all Dragons. Then all creatures that phased out this way phase in.
-    - card: Dosan the Falling Leaf
     - name: Tripling Season
       mana_cost: "{6}{G}"
       type: Enchantment
@@ -1128,8 +1131,8 @@
       mana_cost: "{2}{U}{R}"
       type: Enchantment
       text: |
-        As nruT enters the command zone, end the turn.
-        Players skip their beginning phases. At the beginning of a player's end step, that player gets an additional beginning phase after this step.
+        The Beginning Phase occurs between the Post-combat Main Phase and the Ending Phase. The steps of the Beginning Phase occur in the following order: Draw Step, Chaos Step, Upkeep Step, Untap Step.
+        nruT does not have any effect if it entered the command zone this turn.
     - card: Zzzyxas's Abyss
 
 - short_name: vortex
@@ -1204,8 +1207,10 @@
     - name: Fall of the Mighty
       text: Each player's life total becomes 1.
     - card: One with Death
+    - card: Eternal Dominion
     - name: Gift of the Gods
       text: Each player rolls 3d20 and gains that much life, draws X cards, where X is 7 minus the number of cards in their hand, and conjures five basic lands cards of their choice onto the battlefield.
+    - card: Enter the Infinite
     - name: Warp Universe
       text: Each player shuffles all permanents they own, exiled cards they own, cards they own in the middle world and the command zone, cards in their graveyard, and cards in their hand into their library, then reveals that many cards from the top of their library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then put all other cards revealed this way onto the stack. Commanders moved as part of this effect cannot be put into the command zone instead.
     - name: Aridity
@@ -1226,7 +1231,7 @@
 
 - short_name: mild-creature
   full_name: Mild Creature
-  desc: "Roll d100. Conjure the result onto the battlefield."
+  desc: "Roll d100. Put a token copy onto the battlefield."
   first_index: 1
   format: Table
   rolls:
@@ -1257,7 +1262,7 @@
       toughness: 4
       text: |
         Defender
-        When Wall of Chaos blocks a creature, exile that creature. Then the player who controlled that creature reveals cards from the top of his library until a permanent spell is revealed. That player puts that permanent spell onto the battlefield attacking you and blocked by Wall of Chaos. (If that permanent isn't a creature, it is removed from combat.) Attach all auras and equipment that were attached to that creature to that permanent. Then that player shuffles all other cards revealed this way into his library.
+        When Wall of Chaos blocks a creature, exile that creature. Then the player who controlled that creature reveals cards from the top of their library until a permanent spell is revealed. That player puts that permanent spell onto the battlefield attacking you and blocked by Wall of Chaos. (If that permanent isn't a creature, it is removed from combat.) Attach all auras and equipment that were attached to that creature to that permanent. Then that player shuffles all other cards revealed this way into their library.
     - card: Sokenzan Renegade
     - name: Calming Elk
       mana_cost: "{2}{G/W}"
@@ -1299,13 +1304,13 @@
     - card: Sapling of Colfenor
     - card: Mirror Entity
     - card: Ageless Entity
-    - name: AEthermuck
+    - name: Æthermuck
       mana_cost: "{2}{U}{B}"
       type: Creature - Illusion
       power: 1
       toughness: 1
       text: |
-        Whenever AEthermuck blocks a creature, you may put a creature card from your hand onto the battlefield blocking that creature. If you do, AEthermuck phases out.
+        Whenever Æthermuck blocks a creature, you may put a creature card from your hand onto the battlefield blocking that creature. If you do, Æthermuck phases out.
     - card: Galepowder Mage
     - card: Archon of Redemption
     - card: Augury Adept
@@ -1328,7 +1333,6 @@
     - card: Body Double
     - card: Bomb Squad
     - card: Bone Dancer
-    - card: Brooding Saurian
     - card: Slith Firewalker
     - card: Nacatl War-Pride
     - card: Meloku the Clouded Mirror
@@ -1380,11 +1384,15 @@
     - card: True-Name Nemesis
     - card: "Ludevic's Test Subject // Ludevic's Abomination"
     - card: Starke of Rath
+    - card: Leovold, Emissary of Trest
+    - card: Yurlok of Scorch Thrash
+    - card: Hans Eriksson
+    - card: Obeka, Brute Chronologist
 
 - short_name: strong-creature
   full_name: Strong Creature
-  desc: "Roll d80. Conjure the result onto the battlefield."
-  first_index: 1
+  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  first_index: 10
   format: Table
   rolls:
     - name: Chaos Musician
@@ -1425,7 +1433,7 @@
       power: 0
       toughness: 3
       text: |
-        When Gaian Egg dies, roll on a random Creature Summoning chart.
+        When Gaian Egg dies, roll on one of the Creature lists ([mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], or [synthetic-creature]), chosen at random.
     - name: Succubus
       mana_cost: "{5}{B}{B}"
       type: Creature - Demon
@@ -1530,11 +1538,13 @@
     - card: Yidris, Maelstrom Wielder
     - card: Etali, Primal Storm
     - card: Phantom Nishoba
+    - card: Primeval Titan
+    - card: Nessian Boar
 
 - short_name: exceptional-creature
   full_name: Exceptional Creature
-  desc: "Roll d40. Conjure the result onto the battlefield."
-  first_index: 1
+  desc: "Roll d40 + 9 (d4 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  first_index: 10
   format: Table
   rolls:
     - card: "Multani, Maro-Sorcerer"
@@ -1611,17 +1621,18 @@
     - card: Atraxa, Grand Unifier
     - card: Void Winnower
     - card: Impervious Greatwurm
+    - card: Brisela, Voice of Nightmares
+    - card: Bearer of the Heavens
 
 - short_name: treacherous-creature
   full_name: Treacherous Creature
-  desc: "Roll d20. Conjure the result onto the battlefield."
+  desc: "Roll d20. Put a token copy onto the battlefield."
   first_index: 1
   format: Table
   rolls:
     - card: Force of Nature
     - card: Lord of the Pit
     - card: Aku Djinn
-    - card: Yawgmoth Demon
     - card: Boldwyr Heavyweights
     - card: Phyrexian Negator
     - card: Gargantuan Gorilla
@@ -1636,6 +1647,9 @@
     - card: Soulgorger Orgg
     - card: Abyssal Persecutor
     - card: Archfiend of the Dross
+    - card: Avaricious Dragon
+    - card: Goldnight Castigator
+    - card: Demonic Hordes
 
 - short_name: synthetic-creature
   full_name: Synthetic Creature
@@ -1682,20 +1696,17 @@
 
 - short_name: acquisition
   full_name: Acquisition
-  desc: "Roll d40. Conjure the result onto the battlefield."
-  first_index: 1
+  desc: "Roll d40 + 9 (d4 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  first_index: 10
   format: Table
   rolls:
     - card: Rainbow Vale
-    - card: Gaea's Cradle
-    - card: Tolarian Academy
     - card: Dark Depths
     - card: Voltaic Key
     - card: Helix Pinnacle
     - card: Serpent Generator
     - card: Phyrexian Unlife
     - card: Time Bomb
-    - card: Panoptic Mirror
     - card: "Circle of Protection: Art"
     - card: Bazaar of Baghdad
     - card: Despotic Scepter
@@ -1729,7 +1740,7 @@
       mana_cost: "{5}"
       type: Artifact
       text: |
-        Whenever another player loses the game, put an |Extra Life| token onto the battlefield.
+        Whenever another player loses the game, put a white enchantment token onto the battlefield with "Sacrifice this: Set your life total to your starting total".
     - name: "Circle of Protection: Chaos"
       mana_cost: "{1}{W}"
       type: Enchantment
@@ -1739,7 +1750,7 @@
       mana_cost: "{1}"
       type: Artifact
       text: |
-        At the beginning of your upkeep put a charge counter on Spite Disk, and Spite Disk deals 1 damage to you. As you lose the game, make an additional roll on Spite for every ten charge counters on Spite Disk.
+        At the beginning of your upkeep put a charge counter on Spite Disk, and Spite Disk deals 1 damage to you. As you lose the game, make an additional roll on [spite] for every ten charge counters on Spite Disk.
     - name: Vesuvan Sphere
       mana_cost: "{4}"
       type: Artifact
@@ -1759,7 +1770,6 @@
     - card: Followed Footsteps
     - card: Rings of Brighthearth
     - card: Credit Voucher
-    - card: Lich's Mirror
     - card: Temporal Aperture
     - card: Darksteel Reactor
     - card: Reito Lantern
@@ -1768,31 +1778,20 @@
       mana_cost: "{6}"
       type: Artifact
       text: |
-        When Sphere of Wonders enters the battlefield, roll on Mild Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Sphere of Wonders, roll on Mild Creature.
+        When Sphere of Wonders enters the battlefield, roll on [mild-creature]. At the beginning of your upkeep, if there is no creature on the battlefield created by Sphere of Wonders, roll on [mild-creature].
     - name: Proteus Rod
       mana_cost: "{3}"
       type: Artifact
       text: |
-        {3}, {T}: Put target creature on the bottom of its owner's library. If that creature's converted mana cost was 4 or less, its controller rolls on Mild Creature. Otherwise if it was 8 or less they roll on Strong Creature. Otherwise they rolls on Exceptional Creature. Activate this ability only any time you could cast a sorcery.
+        {3}, {T}: Put target creature on the bottom of its owner's library. If that creature's converted mana cost was 4 or less, its controller rolls on [mild-creature]. Otherwise if it was 8 or less they roll on [strong-creature]. Otherwise they roll on [exceptional-creature]. Activate this ability only any time you could cast a sorcery.
     - card: Gaea's Anthem
     - card: Avarice Totem
-    - name: Factory of Life
-      mana_cost: "{5}"
-      type: Artifact
-      text: |
-        When Factory of Life enters the battlefield, roll on Synthetic Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Factory of Life, roll on Synthetic Creature.
-    - name: Object from Hell
-      mana_cost: "{4}"
-      type: Artifact
-      text: |
-        When Object from Hell enters the battlefield, roll on Treacherous Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Object from Hell, roll on Treacherous Creature.
     - name: Token of Friendship
       mana_cost: "{W}{W}"
       type: Enchantment
       text: |
         Sacrifice Token of Friendship: If target opponent's life total is lower than his starting life total, his life total becomes his starting life total.
     - card: Doubling Cube
-    - card: Darksteel Garrison
     - card: Jinxed Ring
     - name: Chaos Vault
       mana_cost: "{3}{R}"
@@ -1800,15 +1799,13 @@
       text: |
         Whenever you would roll chaos, you may instead put a charge counter on Chaos Vault.
         Remove a charge counter from Chaos Vault: Roll chaos.
-    - card: Eternity Vessel
-    - card: Obelisk of Alara
     - card: Time Sieve
     - card: Black Lotus
 
 - short_name: powerful-acquisition
   full_name: Powerful Acquisition
-  desc: "Roll d40. Conjure the result onto the battlefield."
-  first_index: 1
+  desc: "Roll d40 + 9 (d4 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  first_index: 10
   format: Table
   rolls:
     - card: Mindslaver
@@ -1889,14 +1886,34 @@
     - card: Future Sight
     - card: Psychic Possession
     - name: Necronomicon
-      mana_cost: "{B}{B}{2}"
+      mana_cost: "{2}{B}{B}"
       type: Artifact
       text: |
         {B}, {T}: Roll on [extreme], [exceptional-creature], [musical], or [deadly-acquisition], chosen at random.
+    - card: Gleemax
+    - card: Omniscience
+    - name: Factory of Life
+      mana_cost: "{5}"
+      type: Artifact
+      text: |
+        When Factory of Life enters the battlefield, roll on Synthetic Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Factory of Life, roll on Synthetic Creature.
+    - name: Object from Hell
+      mana_cost: "{4}"
+      type: Artifact
+      text: |
+        When Object from Hell enters the battlefield, roll on Treacherous Creature. At the beginning of your upkeep, if there is no creature on the battlefield created by Object from Hell, roll on Treacherous Creature.
+    - card: Panoptic Mirror
+    - card: Eternity Vessel
+    - card: Lich's Mirror
+    - card: Gaea's Cradle
+    - card: Tolarian Academy
+    - card: Bolas's Citadel
+    - card: Lithoform Engine
+    - card: Mystic Forge
 
 - short_name: deadly-acquisition
   full_name: Deadly Acquisition
-  desc: "Roll d10. Conjure the result onto the battlefield."
+  desc: "Roll d10. Put a token copy onto the battlefield."
   first_index: 1
   format: Table
   rolls:
@@ -1913,12 +1930,12 @@
 
 - short_name: planeswalker
   full_name: Planeswalker
-  desc: "Roll d20. Conjure the result onto the battlefield."
+  desc: "Roll d20. Put a token copy onto the battlefield."
   first_index: 1
   format: Table
   rolls:
     - card: Ajani Goldmane
-    - card: Ajani Vengeant
+    - card: Tevesh Szat, Doom of Fools
     - card: Chandra Ablaze
     - card: Chandra Nalaar
     - card: Elspeth, Knight-Errant
@@ -1958,8 +1975,7 @@
     - card: Spellshift
     - name: Duplicate
       text: Target spell's controller puts a copy of that spell onto the stack.
-    - name: Paint
-      text: Target spell becomes the color or colors of your choice. Change that spell's text by replacing all instances of one color word with another.
+    - card: Sudden Substitution
     - card: Delay
 
 - short_name: spite
@@ -1971,7 +1987,7 @@
   format: Table
   rolls:
     - index: 1
-      text: Your spite backfires. Your killer puts an |Extra Life| token onto the battlefield.
+      text: Your spite backfires. Your killer puts a white enchantment token onto the battlefield with "You can't lose the game and your opponents can't win the game."
     - index: "2 - 3"
       text: The Gods take notice of your need for vengeance. Your killer rolls on [deadly-acquisition]
     - index: "4 - 5"
@@ -1993,7 +2009,7 @@
     - index: "86 - 90"
       text: Each opponent other than your killer rolls on [strong-creature].
     - index: "91 - 95"
-      text: Your killer sacrifies all of their non-land permanents and discards their hand. Triggered abilities that would trigger as a result of this effect don't trigger.
+      text: Your killer sacrifices all of their nonland permanents and discards their hand. Triggered abilities that would trigger as a result of this effect don't trigger.
     - index: "96 - 97"
       text: Each player gains 5 life. Your killer loses life equal to the life gained this way.
     - index: "98 - 99"
