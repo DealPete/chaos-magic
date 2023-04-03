@@ -101,8 +101,7 @@ Choose a basic land type. Each player puts a 1/1 token onto the battlefield for 
 A23 Mana Alteration
 Choose target nonland nontoken permanent. For each of the colored mana symbols on that card, you may change it to a mana symbol of any other color. (Reminder text has no effect.)
 
-A24 Depermafication
-Target nonland permanent gains "Cumulative Upkeep: 1".
+A24 [Chill of Foreboding]
 
 A25 [Drafna's Restoration]
 (Return any number of target artifact cards from target player's graveyard to the top of his or her library in any order. (16/4/10))
@@ -126,14 +125,12 @@ A31 [Ideas Unbound]
 A32 Pity
 Each player with the lowest life total or tied for the lowest life total gains 5 life.
 
-A33 Crystal Ball
+A33 Mindscry
 Look at all players' hands.
 
 A34 {The Vortex}
 
-A35 Xenic Influence
-Target noncreature artifact becomes an artifact creature with power and toughness equal to its converted mana cost. It loses all abilities.
-(Black)
+A35 [Memory Sluice]
 
 A36 {Acquisition}
 
@@ -340,13 +337,11 @@ Choose a basic land type. All creatures you control gain the corresponding landw
 B25 [Fiery Justice]
 (Fiery Justice deals 5 damage divided as you choose among any number of target creatures and/or players. Target opponent gains 5 life. (16/4/10))
 
-B26 Taint
-Choose one -- Lose 2d6 life; or target opponent gains that much life.
+B26 [Glimpse the Unthinkable]
 
 B27 [Regrowth]
 
-B28 Gaea's Benison
-Target player shuffles up to three target cards from his graveyard into his library.
+B28 [Stream of Thought]
 
 B29 {Chaos List C}
 
@@ -539,9 +534,7 @@ Choose an opponent. Until your next turn, you can't target each other's library,
 C13 Olympics
 Each player puts each creature in his hand onto the battlefield.
 
-C14 Channel the Pain
-Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
-(Black)
+C14 Shared Trauma
 
 C15 [Stone Rain]
 (Destroy target land. (16/4/10))
@@ -684,8 +677,7 @@ C65 [Spelltwine]
 
 C66 [Time Stop]
 
-C67 Impossible Quest
-Exile target nontoken creature. If there are any other creatures exiled this way, return those creatures to the battlefield with nine +1/+1 counters on them, shroud, and "This creature is indestructible."
+C67 [Pilfered Plans]
 
 C68 {Synthetic Creature}
 
@@ -764,8 +756,7 @@ D12 {Global}
 D13 Unravel Soul
 Each player exiles the top X cards of his library, where X is the number of creatures on the battlefield.
 
-D14 Energize
-All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
+D14 [Weight of Memory]
 
 D15 Important Decision
 Choose one -- Roll on The Vortex; or roll on Global; or pay 10 life. If you do, roll on Extreme Chaos.
@@ -864,8 +855,7 @@ Gain 7 life and put all creatures from your hand onto the battlefield.
 
 D49 {Chaos List E}
 
-D50 Power Vacuum
-Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries. Commanders moved as part of this effect cannot be put into the command zone instead.
+D50 [Traumatize]
 
 D51 Doom Approacheth
 Roll 2d6. If you roll 5 or less, go to {Extreme Chaos}.
@@ -1104,13 +1094,13 @@ Shuffle all creatures on the battlefield together and deal them out starting wit
 E54 Blackout
 Until the beginning of your next turn, players can't play spells.
 
-E55 Possession
-If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
+E55 Enslave
+You control target player during their next turn.
 
 E56 [Chaotic Transformation]
 
-E57 Vengeful Rage
-Roll on Spite. (You can still roll on Spite the first time you lose.) 
+E57 Blow to the Head
+You mill fifty cards.
 
 E58 Passive Turn Taking
 The active player skips his next turn. End the turn.
@@ -1167,8 +1157,8 @@ E76 [Wake of Destruction]
 E77 Kleptomania
 Move all counters from all permanents onto target permanent. If that permanent's rules text refers to any type of counters, the moved counters becomes counters of that type. Otherwise, they become +1/+1 counters.
 
-E78 Rare, Rare, Go Away
-Each player sacrifices all rare and mythic permanents, then reveals his hand and discards all rare and mythic cards.
+E78 Eternal Memorial
+Put all face-up exiled cards into their owner's graveyards.
 
 E79 {Chaos List F}
 
@@ -1259,7 +1249,7 @@ F28 Frenzied Casting
 Each player reveals cards from the top of his library until he reveals an instant or sorcery card, puts the revealed card onto the stack and shuffles the other revealed cards into his library. Then each player rolls on {Response}.
 
 F29 [Scrambleverse]
-For each nonland permanent, choose a player at random. Then each player gains control of each permanent for which he or she was chosen. Untap those permanents.
+(For each nonland permanent, choose a player at random. Then each player gains control of each permanent for which he or she was chosen. Untap those permanents.)
 
 F30 Relive the Past
 Each player shuffles his hand and graveyard and all exiled cards he owns into his library, then draws seven cards.
@@ -1451,7 +1441,7 @@ Roll 3d8. Put the result onto the stack as a chaos ability.
 
 11 {Global}
 
-12 Each player discards any number of cards, then shuffles his graveyard into his library and draws X cards, where X is the number of cards that player discarded. Roll again on {The Vortex}.
+12 Each player discards any number of cards, then draws X cards, where X is the number of cards that player discarded. Roll again on {The Vortex}.
 
 13 Each player chooses an exiled card he owns and puts it on the bottom of his library. Roll again on {The Vortex}.
 
@@ -1534,7 +1524,7 @@ At the beginning of a player's upkeep that player sacrifices 2 permanents and di
 When no player controls any permanents other than permanents named Fallout, exile Fallout."
 
 15 Warp Universe
-Each player shuffles all permanents he owns, exiled cards he owns, cards he owns in the middle world and the command zone, cards in his graveyard, and cards in his hand into his library, then reveals that many cards from the top of his library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then put all other cards revealed this way onto the stack.
+Each player shuffles all permanents they own, cards they own in the middle world, and cards in their hand into their library, then reveals that many cards from the top of their library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then each player casts all other cards they revealed this way without paying their mana costs.
 
 16 Aridity
 Each player searches his library for all cards with mana abilities and exiles those cards.
@@ -1686,7 +1676,7 @@ At the beginning of each player's end step, roll on Global. Instead of putting a
 
 GL37. Shifting Kingdom
 Creatures with defender can attack as though they didn't have defender.
-A Creature with defender deals combat damage equal to the total of its power and toughness.
+Each creature assigns combat damage equal to its toughness rather than its power.
 
 GL38. Stasis Field
 1U, Enchantment
@@ -1774,7 +1764,7 @@ Activated abilities of artifacts and creatures can't be activated unless they're
 
 GL61. [Forsaken Wastes]
 
-GL62.	[AEther Rift]
+GL62. [AEther Rift]
 (1RG, Enchantment
 At the beginning of your upkeep, discard a card at random. If you discard a creature card this way, return it from your graveyard to the battlefield unless any player pays 5 life. (16/4/10))
 
@@ -1873,10 +1863,7 @@ At the beginning of each player's draw step, that player draws an additional car
 Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.
 SHM-R (16/4/10))
 
-GL89. [Doran, the Siege Tower]
-(BGW, Legendary Treefolk Shaman, 0/5
-Each creature assigns combat damage equal to its toughness rather than its power.
-LRW-R (16/4/10))
+GL89. [Wild Evocation]
 
 GL90. Responsiveness
 3UU, Enchantment

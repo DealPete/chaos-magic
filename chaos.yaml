@@ -12,11 +12,9 @@
     - name: Roulette
       text: Destroy a nonland permanent at random. it can't be regenerated.
     - list: mild-creature
-    - name: Time to Strike
-      text: Tap all artifacts, creatures, and lands you don't control.
+    - card: Corpse Churn
     - list: global
-    - name: Soldevi Company
-      text: Put your graveyard on the bottom of your library.
+    - card: Druidic Ritual
     - list: listB
     - name: Wandering Card
       text: Put the top card of your library into the middle world.
@@ -24,8 +22,7 @@
     - name: Gather the Footsoldiers
       text: Choose a basic land type. Each player puts a 1/1 token onto the battlefield for each land of that type they control. Depending on which land type you chose, the tokens are white Soldiers, green Saprolings, red Goblins, blue Merfolk, or black Zombies.
     - card: Chaos Warp 
-    - name: Evanescence
-      text: 'Target nonland permanent gains “Cumulative Upkeep: {1}”.'
+    - card: Chill of Foreboding
     - card: Drafna’s Restoration
     - name: Mute
       text: Target player can't cast spells until the end of their next turn.
@@ -41,8 +38,7 @@
     - name: Mindscry
       text: Look at all players' hands.
     - list: vortex
-    - name: Xenic Influence
-      text: Target noncreature artifact becomes an artifact creature with power and toughness equal to its converted mana cost. It loses all abilities.
+    - card: Memory Sluice
       color: U
     - list: acquisition
     - name: Hamstring
@@ -148,7 +144,7 @@
     - name: Creature Dividends
       text: Each player draws a card for each creature they control.
     - name: Chaos Spurt
-      text: Roll Chaos three times.
+      text: Roll chaos three times, starting on [listA].
     - card: Word of Command
     - name: Prepared Response
       text: The next time that any player casts an instant or sorcery spell, the player to their right rolls on [response].
@@ -159,11 +155,9 @@
     - name: Secret Route
       text: Choose a basic land type. All creatures you control gain the corresponding landwalking ability.
     - card: Fiery Justice
-    - name: Taint
-      text: Choose one -- Lose 2d6 life; or target player gains that much life.
+    - card: Glimpse the Unthinkable
     - card: Regrowth
-    - name: Gaea's Benison
-      text: Target players shuffles up to three target cards from their graveyard into their library.
+    - card: Stream of Thought
     - list: listC
     - name: Chance Explosion
       text: Destroy all artifacts and creatures that have converted mana cost d6.
@@ -271,16 +265,14 @@
       text: Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attack each other.
     - name: Olympics
       text: Each player puts each creature in their hand onto the battlefield.
-    - name: Channel the Pain
-      text: Exile any number of cards from your graveyard. Channel the Pain deals that much damage to target player.
-      color: B
+    - card: Shared Trauma
     - card: Stone Rain
     - card: Channel
     - name: Prejudice
       text: Choose an expansion symbol. Destroy all nonland cards with that symbol. They can't be regenerated.
     - card: Collective Unconscious
     - name: Chaos Dance
-      text: Roll on [listB], then on [listD], then on [listC].
+      text: Roll on [listB], then on [listA], then on [listC].
     - name: Hypnotize
       text: Target opponent reveals their hand. Choose any number of cards from it. That player discards those cards, then draws that many cards.
     - list: vortex
@@ -349,8 +341,7 @@
       text: Create X Treasure tokens, where X is the number of artifacts and enchantments your opponents control.
     - card: Spelltwine
     - card: Time Stop
-    - name: Impossible Quest
-      text: 'Exile target nontoken creature. If there are any other creatures exiled this way, return those creatures to the battlefield with nine +1/+1 counters on them, shroud, and "This creature is indestructible."'
+    - card: Pilfered Plans
     - list: synthetic-creature
     - list: listD
     - name: Aura Theft
@@ -395,15 +386,14 @@
     - list: global
     - name: Unravel Soul
       text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
-    - name: Energize
-      text: All numbers on your nonland nontoken permanents are increased by one (whether written as a numeral or not).
+    - card: Weight of Memories
     - name: Important Decision
       text: Choose one - Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
     - card: Wheel of Fortune
     - card: Time Stop
     - card: Open the Vaults
     - name: The Chaos Thickens
-      text: Roll Chaos d6 times.
+      text: Roll Chaos three times, starting on [listB].
     - card: Mind Twist
       Xdice: [1, 6, 0]
     - card: Flame Wave
@@ -447,8 +437,7 @@
     - name: Joyous Occasion
       text: Gain 7 life and put all creatures from your hand onto the battlefield.
     - list: listE
-    - name: Power Vacuum
-      text: Shuffle all legendary creature cards on the battlefield and in the command zone into their owners' libraries. Commanders moved as part of this effect cannot be put into the command zone instead.
+    - card: Traumatize
     - name: Doom Approacheth
       text: Roll 2d6. If you roll 5 or less, roll on [extreme].
     - card: Extinction
@@ -469,11 +458,11 @@
     - name: Planeswalkers for Hire
       text: Any player may discard four cards. Each player who does rolls on [planeswalker].
     - name: Alliances Abroad
-      text: Sacrifice a basic land. Put a token onto the battlefield that's a copy of a land card of your choice.
+      text: You may sacrifice a basic land. If you do, name a land card. Put a token onto the battlefield that's a copy of that card.
     - list: vortex
     - list: synthetic-creature
     - name: Wake of Distortion
-      text: Return up to d6 target nonland permanets to their owners' hands.
+      text: Return up to d6 target nonland permanents to their owners' hands.
     - name: Mercy
       text: The player or players with the lowest life total gain 20 life.
     - list: listE
@@ -529,7 +518,7 @@
     - list: strong-creature
     - card: Eureka
     - name: Chaos Surge
-      text: Roll twice each on Chaos Lists A through D. Then the next time a player would roll chaos, they roll on Chaos List E instead of rolling on the last Chaos List that was rolled on.
+      text: Roll once each on Chaos Lists A through D. Then the next time a player would roll chaos, they roll on Chaos List E instead of rolling on the last Chaos List that was rolled on.
     - card: Pox
     - card: Balance
     - name: Uprising
@@ -564,7 +553,7 @@
     - name: Paperwork
       text: All players vote on a supplementary list. Roll on the list that gets the most votes. If there's a tie choose one of the winners to roll on. (The supplementary lists are Global through Planeswalker on the left sidebar).
     - name: Chaos Spurt
-      text: Roll chaos three times.
+      text: Roll chaos three times, starting on [listC].
     - name: Aid from afar
       text: You may discard two cards. If you do, roll on [exceptional-creature].
     - list: global
@@ -590,11 +579,11 @@
       text: Shuffle all creatures on the battlefield together and deal them out starting with you and going left. Each creature comes under the control of the player to whom it is dealt.
     - name: Blackout
       text: Until the beginning of your next turn, players can't play spells.
-    - name: Possession
-      text: If it is your turn, target opponent controls the rest of your turn. Otherwise, they controls your next turn.
+    - name: Enslave
+      text: You control target player during their next turn.
     - card: Chaotic Transformation
-    - name: Vengeful Rage
-      text: Roll on [spite]. (You can still roll on Spite if you lose.) 
+    - name: Smack in the Head
+      text: Target player mills fifty cards.
     - name: Passive Turn Taking
       text: The active player skips their next turn. End the turn.
     - list: listF
@@ -628,8 +617,8 @@
     - card: Wake of Destruction
     - name: Kleptomania
       text: Move all counters from all permanents onto target permanent. If that permanent's rules text refers to any type of counters, the moved counters becomes counters of that type. Otherwise, they become +1/+1 counters.
-    - name: Rare, Rare, Go Away
-      text: Each player sacrifices all rare and mythic permanents, then reveals their hand and discards all rare and mythic cards.
+    - name: Eternal Memorial
+      text: Put all face-up exiled cards into their owners' graveyards.
     - list: listF
     - card: All is Dust
     - name: Appreciation of Beauty
@@ -716,7 +705,7 @@
     - name: Plasma Storm
       text: Plasma Storm deals 16 damage to each player and each creature.
     - name: Impending Insanity
-      text: Roll five times on [listA], four times on [listB], three times on [listC], twice on [listD], and once on [listE]. Then the next time a player would roll chaos, they roll on [listF] instead of rolling on the last Chaos List that was rolled on.
+      text: Roll twice on [listA], twice on [listB], twice on [listC], once on [listD], and once on [listE]. Then the next time a player would roll chaos, they roll on [listF] instead of rolling on the last Chaos List that was rolled on.
     - name: Brain Torch
       text: Each player discards their hand.
     - list: global
@@ -868,7 +857,7 @@
     - name: Shifting Kingdom
       text: |
         Creatures with defender can attack as though they didn't have defender.
-        A Creature with defender deals combat damage equal to the total of its power and toughness.
+        Each creature assigns combat damage equal to its toughness rather than its power.
     - name: Stasis Field
       mana_cost: "{1}{U}"
       type: Enchantment
@@ -985,7 +974,7 @@
     - card: Chains of Mephistopheles
     - card: Sylvan Library
     - card: Spiteful Visions
-    - card: Doran, the Siege Tower
+    - card: Wild Evocation
     - name: Responsiveness
       mana_cost: "{3}{U}{U}"
       type: Enchantment
@@ -1052,7 +1041,7 @@
     - card: Aluren
     - name: Mishra's Bargain
       text: |
-        Whenever a player casts an artifact spell, they lose 1 life and draws a card.
+        Whenever a player casts an artifact spell, they lose 1 life and draw a card.
     - name: Turnstile
       mana_cost: "{4}"
       type: Artifact
@@ -1150,7 +1139,7 @@
     - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
     - text: Roll Chaos twice, making the first roll on [listA].
     - list: global
-    - text: Each player discards any number of cards, then shuffles their graeyard into their library and draws X cards, where X is the number of cards that player discarded. Roll again on The Vortex.
+    - text: Each player discards any number of cards, then draws X cards, where X is the number of cards that player discarded. Roll again on The Vortex.
     - text: Each player chooses an exiled card they own and puts it on the bottom of their library. Roll again on The Vortex.
     - text: Each player puts the top card of their library into the middle world. Roll again on The Vortex.
     - text: Each player searches their library for a card, puts that card into their hand, discards a card at random, and shuffles. Roll again on the The Vortex.
@@ -1158,7 +1147,7 @@
     - text: Roll Chaos twice, making the first roll on [listB].
     - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
     - text: Roll Chaos twice, making the first roll on [listD].
-    - text: Flip a coin. If you win the flip, roll on [planeswalker]. If you lose the flip, roll on [strong-acquisition].
+    - text: Flip a coin. If you win the flip, roll on [planeswalker]. If you lose the flip, roll on [powerful-acquisition].
     - text: Roll Chaos twice, making the first roll on [listF].
     - text: Roll twice more on The Vortex.
     - list: extreme
@@ -1211,12 +1200,12 @@
     - name: Gift of the Gods
       text: Each player rolls 3d20 and gains that much life, draws X cards, where X is 7 minus the number of cards in their hand, and conjures five basic lands cards of their choice onto the battlefield.
     - card: Enter the Infinite
-    - name: Warp Universe
-      text: Each player shuffles all permanents they own, exiled cards they own, cards they own in the middle world and the command zone, cards in their graveyard, and cards in their hand into their library, then reveals that many cards from the top of their library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then put all other cards revealed this way onto the stack. Commanders moved as part of this effect cannot be put into the command zone instead.
     - name: Aridity
       text: Each player searches their library for all cards with mana abilities and exiles those cards.
     - name: Limitless Vigor
       text: Roll d20, then gain fifty times that much life.
+    - name: Warp Universe
+      text: Each player shuffles all permanents they own, cards they own in the middle world, and cards in their hand into their library, then reveals that many cards from the top of their library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then each player casts all other cards they revealed this way without paying their mana costs.
     - list: deadly-acquisition
     - name: Mana Flood
       text: At the beginning of your next main phase, add one million mana in any combination of colors to your mana pool.
@@ -1238,7 +1227,7 @@
     - card: Karn, Silver Golem
     - card: Dakkon Blackblade
     - card: Nebuchadnezzar
-    - card: Sleeper Agent
+    - card: Xantcha, Sleeper Agent
     - name: Slaver
       mana_cost: "{6}{B}"
       type: Creature - Human
@@ -1270,7 +1259,7 @@
       power: 1
       toughness: 1
       text: |
-        At the beginning of your upkeep, sacrifice Calming Elk unless you pay 1{W/G}.
+        At the beginning of your upkeep, sacrifice Calming Elk unless you pay 1{G/W}.
         Creatures can't attack.
     - card: Bazaar Trader
     - card: Academy Rector
