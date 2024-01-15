@@ -261,8 +261,7 @@
     - name: Mathematical Insight
       text: Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.
     - list: vortex
-    - name: Uneasy Truce
-      text: Choose an opponent. Until your next turn, you can't target each other's library, hand, or permanents with spells or abilities, and you can't attack each other.
+    - card: Teferi's Protection
     - name: Olympics
       text: Each player puts each creature in their hand onto the battlefield.
     - card: Shared Trauma
@@ -298,8 +297,7 @@
     - card: Demonic Tutor
     - name: Virtues of the Past
       text: Until end of turn, you may cast target exiled instant or sorcery card you own without paying its mana cost.
-    - name: Bad Karma
-      text: Each player loses 1 life for each land they controls.
+    - card: Guff Rewrites History
     - list: listD
     - card: Tranquility
     - name: Smiling Totem
@@ -1201,7 +1199,7 @@
       text: Each player rolls 3d20 and gains that much life, draws X cards, where X is 7 minus the number of cards in their hand, and conjures five basic lands cards of their choice onto the battlefield.
     - card: Enter the Infinite
     - name: Aridity
-      text: Each player searches their library for all cards with mana abilities and exiles those cards.
+      text: Each player reveals the cards in their library, then exiles all cards with mana abilities revealed this way.
     - name: Limitless Vigor
       text: Roll d20, then gain fifty times that much life.
     - name: Warp Universe
@@ -1212,7 +1210,7 @@
     - name: Annihilation
       text: Remove target player from the game. (They don't roll on Spite.) Gain life equal to their life total.
     - name: Final Armageddon
-      text: Each player draws all cards from their library. For the rest of the game players can't draw cards.
+      text: Each player draws all cards from their library. For the rest of the game players can't draw cards and have no maximum hand sizes.
     - name: Order
       text: For the rest of the game, players skip their chaos steps.
     - name: Ascendancy
@@ -1739,7 +1737,7 @@
       mana_cost: "{1}"
       type: Artifact
       text: |
-        At the beginning of your upkeep put a charge counter on Spite Disk, and Spite Disk deals 1 damage to you. As you lose the game, make an additional roll on [spite] for every ten charge counters on Spite Disk.
+        At the beginning of your upkeep put a charge counter on Spite Disk, and Spite Disk deals 1 damage to you. As you lose the game, make an additional roll on [spite] for every five charge counters on Spite Disk.
     - name: Vesuvan Sphere
       mana_cost: "{4}"
       type: Artifact
@@ -1828,13 +1826,7 @@
       text: |
         {T}, discard a card: Counter target chaos ability.
         {T}, discard a card: Counter target spell that targets Wand of Dominia.
-    - name: Weather Machine
-      mana_cost: "{3}"
-      type: Artifact
-      text: |
-        {T}: Choose one - Target creature loses flying until end of turn; or target land becomes snow.
-        Tap two snow lands: Prevent all combat damage that would be dealt to and dealt by target creature this turn.
-        {T}, Sacrifice Weather Machine: Destroy all snow lands.
+    - name: Door to Nothingness
     - card: Form of the Dragon
     - card: Eldrazi Monument
     - card: Eldrazi Conscription
