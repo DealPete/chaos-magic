@@ -1160,7 +1160,7 @@
     - name: Waltz
       text: Each player passes their hand to the player on their left.
     - name: Rondo
-      text: All players pass their life totals and poison counters to the player on their left.
+      text: All players pass their life totals, poison counters, and emblems to the player on their left.
     - name: Nocturne
       text: Each player passes their graveyard to the player on their left.
     - name: March
@@ -1176,8 +1176,8 @@
   first_index: 2
   format: Table
   rolls:
-    - name: Cosmic Restructuring
-      text: The Creator re-evaluates His grand design. Begin a new game.
+    - name: Final Showdown
+      text: Restart the game, with each player at 1 life. In this new game, if a player would roll on Chaos List A through E, instead they roll on [listF].
     - name: Infinity
       text: Take an extra turn after this one, and then keep taking extra turns until you lose or the game ends.
     - card: Shahrazad
@@ -1214,7 +1214,7 @@
     - name: Order
       text: For the rest of the game, players skip their chaos steps.
     - name: Ascendancy
-      text: For the rest of the game, at the beginning of your upkeep, you win the game.
+      text: You get an emblem with "At the beginning of your upkeep, you win the game".
 
 - short_name: mild-creature
   full_name: Mild Creature
@@ -1642,7 +1642,7 @@
   full_name: Synthetic Creature
   desc: |
     Mana cost is {0}.
-    It is a d8/d8 creature.
+    It is a 2d6/2d6 creature.
     Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Artifact.
     Choose a creature type and name.
 
@@ -1673,13 +1673,13 @@
     - text: "Defender"
     - text: "This creature attacks each turn if able."
     - text: "Cumulative upkeep: {1}"
-    - text: "Threshold: (Roll d30 again to see which threshold ability it gets)"
     - text: "This creature can't block."
     - text: "You may assign this creature's combat damage as though it weren't blocked."
     - text: "Can block an additional ninety-nine creatures each combat."
     - text: "Menace"
     - text: "Lifelink"
     - text: "Prowess"
+    - text: "{T}: This creature fights target creature."
 
 - short_name: acquisition
   full_name: Acquisition
@@ -1962,38 +1962,42 @@
 - short_name: spite
   full_name: Spite
   desc: |
-    Name another player as your killer.
+    Name another player still in the game as your killer. It doesn't have to be the player who actually killed you. If you are not feeling spiteful, you can skip this effect.
     Roll d100. The result is a chaos ability that resolves immediately without using the stack.
   first_index: 0
   format: Table
   rolls:
     - index: 1
-      text: Your spite backfires. Your killer puts a white enchantment token onto the battlefield with "You can't lose the game and your opponents can't win the game."
+      text: Your spite backfires horribly. Choose a player other than your killer at random. That player loses the game.
     - index: "2 - 3"
       text: The Gods take notice of your need for vengeance. Your killer rolls on [deadly-acquisition]
     - index: "4 - 5"
       text: Your rage is too furious to be directed at a single player. All players roll 3d6 and take that much damage.
     - index: "6 - 10"
-      text: You control your killer's next turn.
+      text: If it is your killer's turn, you control the rest of their turn. Otherwise, you control their next turn.
     - index: "11 - 15"
       text: Your killer loses half their life, rounded up.
     - index: "16 - 25"
       text: If you lost as a result of being at negative life, your killer loses an amount of life equal to the magnitude of your life below zero.
-    - index: "26 - 35"
+    - index: "26 - 30"
       text: Your killer rolls on [treacherous-creature].
-    - index: "36 - 65"
-      text: Greater powers ignore you.
-    - index: "66 - 75"
+    - index: "31 - 40"
+      text: Exile a permanent of your choice.
+    - index: "41 - 60"
+      text: Your killer loses 5 life.
+    - index: "61 - 70"
+      text: If it is your killer's turn, end the turn. Otherwise, they skip their next turn.
+    - index: "71 - 76"
       text: Your killer sacrifices 2d6 permanents. If they don't they lose the game.
     - index: "76 - 85"
       text: Your killer exiles the top twenty cards of their library.
     - index: "86 - 90"
       text: Each opponent other than your killer rolls on [strong-creature].
     - index: "91 - 95"
-      text: Your killer sacrifices all of their nonland permanents and discards their hand. Triggered abilities that would trigger as a result of this effect don't trigger.
+      text: Your killer sacrifices all of their nonland permanents and discards their hand.
     - index: "96 - 97"
       text: Each player gains 5 life. Your killer loses life equal to the life gained this way.
     - index: "98 - 99"
-      text: The Gods take notice of your need for vengeance. Your killer rolls on [extreme]
+      text: The Gods take notice of your need for vengeance. Your killer rolls on [extreme].
     - index: "100"
       text: Revenge is yours. The player who killed you loses the game.
