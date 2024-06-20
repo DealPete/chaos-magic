@@ -863,12 +863,10 @@
         Players skip their untap steps.
         At the beginning of each player's upkeep, that player rolls on [global] unless any player pays 1.
     - card: Seismic Assault
-    - name: World of Knowledge
-      text: |
-        All players play with their hands and the top cards of their libraries revealed.
+    - card: Over My Dead Bodies
     - name: Vortex World
       text: |
-        The first chaos roll each player would make in their chaos step is made on The Vortex instead of a Chaos List.
+        The first chaos roll each player makes in their chaos step is made on The Vortex instead of a Chaos List.
     - card: Night of Souls' Betrayal
     - name: Quicksilver Geyser
       mana_cost: "{3}"
@@ -891,11 +889,7 @@
         Whenever a spell or ability is put onto the stack, reselect its targets at random. (This includes chaos abilities.)
     - card: Mindlock Orb
     - card: Teferi's Puzzle Box
-    - name: Jungle Depths
-      mana_cost: "{4}{G}{G}"
-      type: Enchantment
-      text: |
-        At the beginning of the declare attackers step, assign each attacking creature to be attacking a random player or planeswalker.
+    - card: Yet Another Aether Vortex
     - name: Extreme World
       mana_cost: "{R}{R}{R}{R}{R}"
       type: Enchantment
@@ -1191,20 +1185,17 @@
       text: Gain control of all creatures. Then each player reveals their hand and puts all creatures cards from their hand, all creatures cards in their graveyard, and all exiled creature cards they owns onto the battlefield under your control. Then put all creatures from the middle world and the command zone onto the battlefield under your control.
     - name: Pressed the Wrong Button
       text: Each player exchanges their library and their exiled cards, then shuffles.
-    - name: Fall of the Mighty
-      text: Each player's life total becomes 1.
-    - card: One with Death
+    - card: Worldfire
+    - list: deadly-acquisition
     - card: Eternal Dominion
     - name: Gift of the Gods
       text: Each player rolls 3d20 and gains that much life, draws X cards, where X is 7 minus the number of cards in their hand, and conjures five basic lands cards of their choice onto the battlefield.
     - card: Enter the Infinite
-    - name: Aridity
-      text: Each player reveals the cards in their library, then exiles all cards with mana abilities revealed this way.
+    - card: One with Death
     - name: Limitless Vigor
       text: Roll d20, then gain fifty times that much life.
     - name: Warp Universe
       text: Each player shuffles all permanents they own, cards they own in the middle world, and cards in their hand into their library, then reveals that many cards from the top of their library. Each player puts all non-aura permanent cards revealed this way onto the battlefield, then puts all auras revealed this way onto the battlefield. Then each player casts all other cards they revealed this way without paying their mana costs.
-    - list: deadly-acquisition
     - name: Mana Flood
       text: At the beginning of your next main phase, add one million mana in any combination of colors to your mana pool.
     - name: Annihilation
@@ -1234,14 +1225,7 @@
       text: |
         As Slaver enters the battlefield, choose a creature type.
         You control all creatures of the chosen type.
-    - name: Spore Fiend
-      mana_cost: "{2}{G}{G}"
-      type: Creature - Fungus
-      power: 3
-      toughness: 2
-      text: |
-        Deathtouch
-        All creatures able to block Spore Fiend do so.
+    - card: Drooling Ogre
     - name: Wall of Chaos
       mana_cost: "{W}{U}{B}{R}{G}"
       type: Creature - Wall
@@ -1958,12 +1942,20 @@
       text: Target spell's controller puts a copy of that spell onto the stack.
     - card: Sudden Substitution
     - card: Delay
+    - card: Mages' Contest
+    - card: Invert Polarity
+    - card: Access Denied
+    - card: Aethersnatch
+    - card: Arcane Denial
+    - card: Busted!
+    - card: Counterlash
+    - card: Dash Hopes
 
 - short_name: spite
   full_name: Spite
   desc: |
-    Name another player still in the game as your killer. It doesn't have to be the player who actually killed you. If you are not feeling spiteful, you can skip this effect.
-    Roll d100. The result is a chaos ability that resolves immediately without using the stack.
+    Name another player still in the game as your killer. It doesn't have to be the player who actually killed you - you can choose the opponent who you hate the most. If you are not feeling spiteful, you can skip this effect.
+    Roll d100. The result is not an ability and happens immediately without using the stack.
   first_index: 0
   format: Table
   rolls:
