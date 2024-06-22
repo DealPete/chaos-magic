@@ -4,7 +4,7 @@ This is a multi-player variant of Magic the Gathering for long-time players look
 
 There have been many versions of Chaos Magic over the years; it was the inspiration for Wizards of the Coast's <a href="https://en.wikipedia.org/wiki/Planechase">Planechase product</a>. This version is rather complex and is not for the faint of heart.
 
-To play the game, run
+To compile the website youself, run
 
 `$ python3 build-website.py`
 
@@ -14,7 +14,7 @@ then open the file `website/index.html`.
 
 The file `Chaos List X.txt` contains the complete game as a text file that can be printed out and enjoyed in the old fashioned way. It was created back before mobile devices and other conveniences, when the only way to play was to have a paper copy in front of you.
 
-I am in the process of adapting the list to use this new thing call the World Wide Web. The index file is `index.html`, and the lists will all be in `website/`.
+The web list is contained in the file `chaos.yaml`. The html and css files to create the website are in `/templates`.
 
 There is also an android version. The source files are found in `MobileChaos`. It uses `Chaos Magic.xml` as a source file. The file `Chaos Magic.xml` is generated from the text file `Mobile Chaos List X.txt` by the python script `mobilechaos2xml.py`.
 

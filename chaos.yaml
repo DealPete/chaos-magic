@@ -132,8 +132,7 @@
       text: Reveal the top card of each opponent's library. Put each creature card revealed this way onto the battlefield under your control.
     - name: Ma'rûf's Cane
       text: Each player shuffles their exiled cards into their library.
-    - name: Jester's Headgear
-      text: Target opponent reveals the top ten cards of their library. Choose two of those cards and exile them. Then that opponent shuffles their library.
+    - card: Barroom Brawl
     - name: Share the Wealth
       text: Each player chooses one of their permanents. The player on their left gains control of that permanent.
     - list: global
@@ -1609,7 +1608,7 @@
     - card: Gargantuan Gorilla
     - card: Emberwilde Caliph
     - card: Primordial Ooze
-    - card: Elder Spawn
+    - card: Tempting Wurm
     - card: Xathrid Demon
     - card: Eater of Days
     - card: Ebon Drake
@@ -1810,7 +1809,7 @@
       text: |
         {T}, discard a card: Counter target chaos ability.
         {T}, discard a card: Counter target spell that targets Wand of Dominia.
-    - name: Door to Nothingness
+    - card: Door to Nothingness
     - card: Form of the Dragon
     - card: Eldrazi Monument
     - card: Eldrazi Conscription

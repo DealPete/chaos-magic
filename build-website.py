@@ -44,6 +44,7 @@ if not os.access("website", os.F_OK):
     os.makedirs("website")
 
 copyfile("templates/chaos.css", "website/chaos.css")
+copyfile("templates/github-mark.svg", "website/github-mark.svg")
 
 def get_lists():
     lists = []
