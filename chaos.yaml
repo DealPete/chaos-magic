@@ -279,8 +279,6 @@
     - name: Spellmonger
       text: Each player may put any number of cards from their hand into the middle world, then draw that many cards.
     - card: Fugue
-    - name: Bath in the Styx
-      text: You may pay any amount of life. If you do, put that many cards from the top of your library into your hand.
     - name: Mutiny
       text: All of your creatures attack you this turn if able. Tapped creatures can attack this turn. Attacking creatures can't block.
     - card: Tempt with Reflections
@@ -351,6 +349,8 @@
     - card: Volcanic Wind
     - name: Entrance
       text: Each player returns all enchantments in their graveyard to the battlefield.
+    - name: Trouble at Home
+      text: Exile all planeswalkers.
     - name: Fireballs
       text: Fireballs deals 5 damage to each of up to 4 target creatures and/or players.
       color: R
@@ -452,8 +452,8 @@
     - name: Devil's Bargain
       text: You may pay 10 life. If you do, roll on [exceptional-creature].
     - card: Time Walk
-    - name: Planeswalkers for Hire
-      text: Any player may discard four cards. Each player who does rolls on [planeswalker].
+    - name: I Dare You
+      text: Any player may choose to roll on [deadly-acquisition].
     - name: Alliances Abroad
       text: You may sacrifice a basic land. If you do, name a land card. Put a token onto the battlefield that's a copy of that card.
     - list: vortex
@@ -511,7 +511,7 @@
       text: All permanents phase out.
     - list: vortex
     - name: Control Sorcery
-      text: For each permanent type, choose up to one target permanent of that type. Gain control of those permanents. (The permanent types are artifact, land, creature, enchantment, and planeswalker.)
+      text: For each permanent type, choose up to one target permanent of that type. Gain control of those permanents. (The permanent types are artifact, land, creature, enchantment, planeswalker, and battle.)
     - list: strong-creature
     - card: Eureka
     - name: Chaos Surge
@@ -521,8 +521,8 @@
     - name: Uprising
       text: Your creatures rebel against your control. Put all nontoken creature you control into the middle world.
     - card: Whims of the Fates
-    - name: Trouble at Home
-      text: Exile all planeswalkers.
+    - name: Bath in the Styx
+      text: You may pay any amount of life. If you do, put that many cards from the top of your library into your hand.
     - name: Promote
       text: Target creature becomes a commander (e.g. it can be put in the command zone when it leaves the battlefield; it can cause a player to lose by dealing 21 combat damage to them).
     - card: Wrath of God
@@ -543,12 +543,11 @@
       Xdice: [2, 6, 0]
     - name: Lab Catastrophe
       text: Go to [treacherous-creature]. The creature enters the battlefield with "You can't target this creatures with spells and abilities, and you can't sacrifice it."
-    - name: Call a Friend
-      text: You may discard two cards. If you do, roll on [planeswalker].
+    - name: Rise of the Eldrazi
     - name: Ancient Prophecy
       text: Flip a coin. If you lose the flip, roll on [extreme].
     - name: Paperwork
-      text: All players vote on a supplementary list. Roll on the list that gets the most votes. If there's a tie choose one of the winners to roll on. (The supplementary lists are Global through Planeswalker on the left sidebar).
+      text: All players vote on a supplementary list. Roll on the list that gets the most votes. If there's a tie, you choose. (The supplementary lists are Global through Deadly Acquisition).
     - name: Chaos Spurt
       text: Roll chaos three times, starting on [listC].
     - name: Aid from afar
@@ -591,7 +590,7 @@
     - name: Planar Shift
       text: You leave the game for 6 turns.
     - name: Desperate Gamble
-      text: You may flip a coin. If you do and win, put a white enchantment oken onto the battlefield with "You can't lose the game and your opponents can't win the game". If you do and lose, roll on [deadly-acquisition].
+      text: You may flip a coin. If you do and win, put a white enchantment token onto the battlefield with "You can't lose the game and your opponents can't win the game". If you do and lose, roll on [deadly-acquisition].
     - card: Death by Dragons
     - card: Primal Surge
     - name: Twin Worlds
@@ -677,7 +676,7 @@
     - card: Scrambleverse
     - name: Relive the Past
       text: Each player shuffles their hand and graveyard and all exiled cards they own into their library, then draws seven cards.
-    - list: planeswalker
+    - card: Doomsday
     - card: Warp World
     - name: Personal Angst
       text: Personal Angst deals damage to you equal to the number of permanents in play.
@@ -1138,7 +1137,7 @@
     - text: Roll Chaos twice, making the first roll on [listB].
     - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
     - text: Roll Chaos twice, making the first roll on [listD].
-    - text: Flip a coin. If you win the flip, roll on [planeswalker]. If you lose the flip, roll on [powerful-acquisition].
+    - text: Flip a coin. If you win the flip, roll on [powerful-acquisition]. If you lose the flip, roll on [treacherous-creature].
     - text: Roll Chaos twice, making the first roll on [listF].
     - text: Roll twice more on The Vortex.
     - list: extreme
@@ -1153,7 +1152,7 @@
     - name: Waltz
       text: Each player passes their hand to the player on their left.
     - name: Rondo
-      text: All players pass their life totals, poison counters, and emblems to the player on their left.
+      text: All players pass their life totals, poison counters, energy, and emblems to the player on their left.
     - name: Nocturne
       text: Each player passes their graveyard to the player on their left.
     - name: March
@@ -1185,6 +1184,8 @@
     - name: Pressed the Wrong Button
       text: Each player exchanges their library and their exiled cards, then shuffles.
     - card: Worldfire
+    - name: Bad Deal
+    - text: All players roll on [deadly-acquisition].
     - list: deadly-acquisition
     - card: Eternal Dominion
     - name: Gift of the Gods
@@ -1891,33 +1892,6 @@
     - card: Forbidden Crypt
     - card: Immortal Coil
     - card: Transcendence
-
-- short_name: planeswalker
-  full_name: Planeswalker
-  desc: "Roll d20. Put a token copy onto the battlefield."
-  first_index: 1
-  format: Table
-  rolls:
-    - card: Ajani Goldmane
-    - card: Tevesh Szat, Doom of Fools
-    - card: Chandra Ablaze
-    - card: Chandra Nalaar
-    - card: Elspeth, Knight-Errant
-    - card: Garruk Wildspeaker
-    - card: Gideon, Ally of Zendikar
-    - card: Ashiok, Nightmare Weaver
-    - card: Jace, the Mind Sculptor
-    - card: Liliana Vess
-    - card: Nicol Bolas, Planeswalker
-    - card: Sarkhan Vol
-    - card: Sarkhan the Mad
-    - card: Sorin Markov
-    - card: Tezzeret the Seeker
-    - card: Oko, Thief of Crowns
-    - card: Narset, Parter of Veils
-    - card: Karn Liberated
-    - card: Ugin, The Spirit Dragon
-    - card: Teferi, Time Raveler
 
 - short_name: response
   full_name: Response
