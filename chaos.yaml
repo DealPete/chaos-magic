@@ -47,6 +47,8 @@
     - card: Telling Time
     - list: listB
     - card: Pull from Eternity
+    - name: Explore the New World
+      text: Each player may put a land card from their hand onto the battlefield.
     - list: vortex
     - card: Drain Life
       Xdice: [1, 6, 0]
@@ -79,6 +81,7 @@
     - name: Petty Jab
       text: Petty Jab deals 5 damage to target player.
       color: R
+    - card: Unearth
     - name: Mana Aid
       text: Reveal cards from the top of your library until a card with a mana ability is revealed, and put that card into your hand. Shuffle the other cards back into your library.
     - list: global
@@ -118,9 +121,6 @@
     - card: Truce
     - list: musical
     - list: listB
-    - name: Explore the New World
-      text: Each player may put a land card from their hand onto the battlefield.
-    - card: Unearth
 
 - short_name: listB
   full_name: Chaos List B
@@ -271,6 +271,8 @@
     - card: Collective Unconscious
     - name: Chaos Dance
       text: Roll on [listB], then on [listA], then on [listC].
+    - name: Entrance
+      text: Each player returns all enchantments in their graveyard to the battlefield.
     - name: Hypnotize
       text: Target opponent reveals their hand. Choose any number of cards from it. That player discards those cards, then draws that many cards.
     - list: vortex
@@ -347,8 +349,6 @@
     - card: Game of Chaos
     - card: Puppet's Verdict
     - card: Volcanic Wind
-    - name: Entrance
-      text: Each player returns all enchantments in their graveyard to the battlefield.
     - name: Trouble at Home
       text: Exile all planeswalkers.
     - name: Fireballs
@@ -543,7 +543,7 @@
       Xdice: [2, 6, 0]
     - name: Lab Catastrophe
       text: Go to [treacherous-creature]. The creature enters the battlefield with "You can't target this creatures with spells and abilities, and you can't sacrifice it."
-    - name: Rise of the Eldrazi
+    - card: Rise of the Eldrazi
     - name: Ancient Prophecy
       text: Flip a coin. If you lose the flip, roll on [extreme].
     - name: Paperwork
@@ -948,7 +948,7 @@
         If a player would play a nonbasic card, they first choose another card with the same mana cost as that card that has not been played this game. That player puts that card onto the stack, if it is a spell, or onto the battlefield, if it is a land, as a copy of the named card.
     - name: Dimension X
       text: |
-        Whenever a nontoken permanent enters the battlefield, calculate the total of all the numbers on that card that are not mana symbols. That permanent's controller may assign new non-negative values to those numbers, as long as the new values have the same total.
+        Whenever a nontoken permanent enters the battlefield, calculate the total of all the numerals on that card that are not mana symbols. That permanent's controller may assign new non-negative values to each of those numerals, as long as the new values have the same total. Negative numerals cannot be changed.
     - card: Sands of Time
     - name: World of Battle
       text: |
@@ -1001,14 +1001,14 @@
     - name: Ink Drain
       text: |
         Mana costs of spells and activated abilities may be paid with any type of mana.
-        Cards, tokens, and abilities are colorless.
+        Permanents, cards that aren't on the battlefield, spells, and abilities are colorless.
     - card: Abundance
     - card: Lifeline
     - card: Everlasting Torment
     - card: Timesifter
     - name: Pawnshop
       text: |
-        All sorcery and instant spells have "Buyback: {3}".
+        All sorcery and instant spells have "Buyback: {2}".
     - name: Null Cycle
       mana_cost: "{4}{B}{G}"
       type: Enchantment
@@ -1036,8 +1036,8 @@
       mana_cost: "{4}"
       type: Artifact
       text: |
-        Whenever a creature enters the battlefield, if there are two or more other creatures on the battlefield, exile that creature. Return that card to the battlefield under its owner's control when Turnstile leaves the battlefield.
-        Whenever there are one or fewer creatures on the battlefield, return to the battlefield under its owner's control a random creature from among those creatures exiled by Turnstile which have been in the exiled zone the longest.
+        If a creature would enter the battlefield, if there are two or more other creatures on the battlefield, exile that creature instead. Put that card onto the battlefield under its owner's control when Turnstile leaves the command zone.
+        Whenever there are one or fewer creatures on the battlefield, put a random creature card exiled by Turnstile onto the battlefield under its owner's control from among those creatures exiled by Turnstile which have been in the exiled zone the longest.
     - card: Pandemonium
     - card: Psychic Battle
     - card: Hive Mind
@@ -1185,7 +1185,7 @@
       text: Each player exchanges their library and their exiled cards, then shuffles.
     - card: Worldfire
     - name: Bad Deal
-    - text: All players roll on [deadly-acquisition].
+      text: All players roll on [deadly-acquisition].
     - list: deadly-acquisition
     - card: Eternal Dominion
     - name: Gift of the Gods
