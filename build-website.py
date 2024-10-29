@@ -11,6 +11,7 @@ s = open('templates/sidebar.html')
 l = open('templates/list.html')
 i = open('templates/index.html')
 r = open('templates/rules.html')
+m = open('templates/music.html')
 
 chaos = yaml.safe_load(y)
 header = h.read()
@@ -19,6 +20,7 @@ sidebar = s.read()
 page = l.read()
 index = i.read()
 rules = r.read()
+musical = m.read()
 
 y.close()
 h.close()
@@ -27,6 +29,7 @@ s.close()
 l.close()
 i.close()
 r.close()
+m.close()
 
 headerTemplate = Template(header)
 footerTemplate = Template(footer)
@@ -34,6 +37,7 @@ sidebarTemplate = Template(sidebar)
 indexTemplate = Template(index)
 pageTemplate = Template(page)
 rulesTemplate = Template(rules)
+musicTemplate = Template(musical)
 cardCell = Template('<td class="roll-title hover"><auto-card>{{ card }}</auto-card></td>')
 cardCellNoHover = Template('<td class="roll-title no-hover"><a href="https://scryfall.com/search?q=name:{{ card }}">{{ card }}</a></td>')
 listCell = Template('<td class="roll-title"><a class="chaos-list" href="{{ uri }}">{{ name }}</a></td>')
@@ -45,6 +49,7 @@ if not os.access("website", os.F_OK):
 
 copyfile("templates/chaos.css", "website/chaos.css")
 copyfile("templates/github-mark.svg", "website/github-mark.svg")
+copyfile("templates/mozart.mp3", "website/mozart.mp3")
 
 def get_lists():
     lists = []
@@ -69,7 +74,9 @@ def write_lists():
             parsed = parse_as_table(body)
 
         parsed = replace_embedded_links(parsed)
-        output = preface + pageTemplate.render(full_name = chaos_list['full_name'], heading = heading, rolls = parsed) + footerTemplate.render()
+        output = preface + pageTemplate.render(full_name = chaos_list['full_name'], heading = heading, rolls = parsed)
+        if chaos_list['short_name'] == 'musical': output += musicTemplate.render()
+        output += footerTemplate.render()
         list_file.write(parse_mana_symbols(output))
         list_file.close()
 

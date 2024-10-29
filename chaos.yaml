@@ -146,7 +146,7 @@
       text: Roll chaos three times, starting on [listA].
     - card: Word of Command
     - name: Prepared Response
-      text: The next time that any player casts an instant or sorcery spell, the player to their right rolls on [response].
+      text: The next time an opponent casts an instant or sorcery spell, roll on [response].
     - name: Pact with the Dead
       text: Discard three cards. Then return two cards from your graveyard to your hand.
     - name: Black Mass
@@ -1046,7 +1046,7 @@
       mana_cost: "{2}{P}{P}"
       type: Enchantment
       text: |
-        When Ron's Realm enters the battlefield, shuffle all exiled cards into their owner's libraries.
+        When Ron's Realm enters the command zone, shuffle all exiled cards into their owner's libraries.
         At the beginning of each player's upkeep, that player may shuffle any number of exiled cards they own into their library.
     - card: Killer Instinct
     - name: Tombstone Stairs
@@ -1203,7 +1203,7 @@
     - name: Final Armageddon
       text: Each player draws all cards from their library. For the rest of the game players can't draw cards and have no maximum hand sizes.
     - name: Order
-      text: For the rest of the game, players skip their chaos steps.
+      text: Remove all globals from the command zone. For the rest of the game, players skip their chaos steps.
     - name: Ascendancy
       text: You get an emblem with "At the beginning of your upkeep, you win the game".
 
@@ -1217,14 +1217,6 @@
     - card: Dakkon Blackblade
     - card: Nebuchadnezzar
     - card: Xantcha, Sleeper Agent
-    - name: Slaver
-      mana_cost: "{6}{B}"
-      type: Creature - Human
-      power: 2
-      toughness: 2
-      text: |
-        As Slaver enters the battlefield, choose a creature type.
-        You control all creatures of the chosen type.
     - card: Drooling Ogre
     - name: Wall of Chaos
       mana_cost: "{W}{U}{B}{R}{G}"
@@ -1235,14 +1227,6 @@
         Defender
         When Wall of Chaos blocks a creature, exile that creature. Then the player who controlled that creature reveals cards from the top of their library until a permanent spell is revealed. That player puts that permanent spell onto the battlefield attacking you and blocked by Wall of Chaos. (If that permanent isn't a creature, it is removed from combat.) Attach all auras and equipment that were attached to that creature to that permanent. Then that player shuffles all other cards revealed this way into their library.
     - card: Sokenzan Renegade
-    - name: Calming Elk
-      mana_cost: "{2}{G/W}"
-      type: Creature - Elk
-      power: 1
-      toughness: 1
-      text: |
-        At the beginning of your upkeep, sacrifice Calming Elk unless you pay 1{G/W}.
-        Creatures can't attack.
     - card: Bazaar Trader
     - card: Academy Rector
     - card: Chaotic Goo
@@ -1275,24 +1259,10 @@
     - card: Sapling of Colfenor
     - card: Mirror Entity
     - card: Ageless Entity
-    - name: Æthermuck
-      mana_cost: "{2}{U}{B}"
-      type: Creature - Illusion
-      power: 1
-      toughness: 1
-      text: |
-        Whenever Æthermuck blocks a creature, you may put a creature card from your hand onto the battlefield blocking that creature. If you do, Æthermuck phases out.
     - card: Galepowder Mage
     - card: Archon of Redemption
     - card: Augury Adept
     - card: Azusa, Lost but Seeking
-    - name: Dr. Frankenstein
-      mana_cost: "{1}{B}"
-      type: Creature - Legendary Human Artificer
-      power: 0
-      toughness: 1
-      text: |
-        {X}, {T}: Exile X creature cards from any number of graveyards. Then put a 0/1 black Zombie creature token onto the battlefield with a +2/+0, +1/+1, or +0/+2 counter on it for each creature card exiled this way.
     - card: False Prophet
     - card: Teferi, Mage of Zhalfir
     - card: Stoic Angel
@@ -1359,6 +1329,9 @@
     - card: Yurlok of Scorch Thrash
     - card: Hans Eriksson
     - card: Obeka, Brute Chronologist
+    - card: Swans of Bryn Argoll
+    - card: Standard Bearer
+    - card: Force of Savagery
 
 - short_name: strong-creature
   full_name: Strong Creature
@@ -1530,15 +1503,6 @@
         Annihilator 1
         Eldrazi Mime is indestructible.
         When you speak, sacrifice Eldrazi Mime.
-    - name:  Emrakul, the Aeons Rent
-      mana_cost: "{15}"
-      type: Legendary Creature - Eldrazi
-      power: 15
-      toughness: 15
-      text: |
-        When Emrakul, the Aeons Rent enters the battlefield, take an extra turn after this one.
-        Flying, protection from colored spells, annihilator 6
-        When Emrakul leaves the battlefield, shuffle your graveyard into your library.
     - card: Darksteel Colossus
     - card: Progenitus
     - card: Doomgape
@@ -1594,6 +1558,7 @@
     - card: Impervious Greatwurm
     - card: Brisela, Voice of Nightmares
     - card: Bearer of the Heavens
+    - card: Ghalta, Stampede Tyrant
 
 - short_name: treacherous-creature
   full_name: Treacherous Creature
@@ -1721,7 +1686,7 @@
       mana_cost: "{1}"
       type: Artifact
       text: |
-        At the beginning of your upkeep put a charge counter on Spite Disk, and Spite Disk deals 1 damage to you. As you lose the game, make an additional roll on [spite] for every five charge counters on Spite Disk.
+        As you lose the game, make an additional roll on [spite].
     - name: Vesuvan Sphere
       mana_cost: "{4}"
       type: Artifact
@@ -1927,7 +1892,7 @@
 - short_name: spite
   full_name: Spite
   desc: |
-    Name another player still in the game as your killer. It doesn't have to be the player who actually killed you - you can choose the opponent who you hate the most. If you are not feeling spiteful, you can skip this effect.
+    Name another player still in the game as your killer. It doesn't have to be the player who dealt the final damage. If you are not feeling spiteful, you can skip this effect.
     Roll d100. The result is not an ability and happens immediately without using the stack.
   first_index: 0
   format: Table
