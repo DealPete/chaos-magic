@@ -1590,12 +1590,11 @@
 - short_name: synthetic-creature
   full_name: Synthetic Creature
   desc: |
-    Mana cost is {0}.
-    It is a 2d6/2d6 creature.
+    Use the rules below to create a custom token creature.
     Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Artifact.
-    Choose a creature type and name.
+    Roll d4 to see how many abilities the creature has, then roll that many times on the table below, rerolling duplicates.
+    Finally, choose a creature type and name.
 
-    Roll d30 d4 times for the creature's abilities (reroll duplicates):
   first_index: 1
   format: List
   rolls:
