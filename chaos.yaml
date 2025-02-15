@@ -97,7 +97,7 @@
     - card: Disperse
     - card: Stronghold Gambit
     - name: Exhibition
-      text: Each player may put a land, or an artifact, creature, or enchantment card with converted mana cost 5 or less from their hand onto the battlefield.
+      text: Each player may put a land, or an artifact, creature, or enchantment card with mana value 5 or less from their hand onto the battlefield.
     - name: Spring Rituals
       text: Any player may discard any number of cards. Each player who does searches their library for that many basic land cards, reveals those cards, and puts them into their hand. That player then shuffles their library.
     - card: Truce
@@ -158,8 +158,7 @@
     - card: Regrowth
     - card: Stream of Thought
     - list: listC
-    - name: Chance Explosion
-      text: Destroy all artifacts and creatures that have converted mana cost d6.
+    - card: Wrong Turn
     - card: Mnemonic Nexus
     - list: vortex
     - name: Explosion
@@ -359,7 +358,7 @@
     - card: Windfall
     - card: Reprocess
     - name: Destructive Appetite
-      text: Sacrifice any number of permanents. Gain life equal to the total converted mana cost of the permanents sacrificed this way.
+      text: Sacrifice any number of permanents. Gain life equal to the total mana value of the permanents sacrificed this way.
     - name: Hallowe'en
       text: Return all creatures in all graveyards to the battlefield.
     - card: Living Death
@@ -431,8 +430,7 @@
       text: Return an exiled card you own to your hand.
     - name: Biobeast
       text: All players may sacrifice a creature and another artifact they own. Each player who does rolls on [synthetic-creature].
-    - name: Joyous Occasion
-      text: Gain 7 life and put all creatures from your hand onto the battlefield.
+    - card: Dance with Calamity
     - list: listE
     - card: Traumatize
     - name: Doom Approacheth
@@ -824,12 +822,7 @@
       type: Enchantment
       text: |
         All nontoken creatures are commanders (e.g. they may be put into the command zone when they leave the battlefield and cast from there. Dealing 21 damage to a player with a commander causes that player to lose the game).
-    - name: Zero Chamber
-      mana_cost: "{3}{W}"
-      type: Enchantment
-      text: |
-        As Zero Chamber enters the command zone, all players name a nonbasic card.
-        The named cards can't be played.
+    - card: Share the Spoils
     - name: Eureka World
       text: |
         Permanent spells have mana cost {0}.
@@ -874,13 +867,7 @@
         Lands with flood counters on them are Islands.
         At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
     - card: Heartbeat of Spring
-    - name: Keg of Chaos
-      mana_cost: "{2}"
-      type: Artifact
-      text: |
-        If a player would roll Chaos, instead put a fuse counter on Keg of Chaos.
-        Whenever Keg of Chaos has ten or more fuse counters on it, remove it.
-        When Keg of Chaos leaves the command zone, roll chaos X times, where X is the number of fuse counters on Keg of Chaos.
+    - card: Staying Power
     - card: Nether Void
     - name: Grips of Chaos
       text: |
@@ -1580,12 +1567,12 @@
     - card: Ebon Drake
     - card: Personal Incarnation
     - card: Rust Elemental
-    - card: Soulgorger Orgg
     - card: Abyssal Persecutor
     - card: Archfiend of the Dross
     - card: Avaricious Dragon
     - card: Goldnight Castigator
     - card: Demonic Hordes
+    - card: Mungha Wurm
 
 - short_name: synthetic-creature
   full_name: Synthetic Creature
@@ -1718,9 +1705,9 @@
       mana_cost: "{3}"
       type: Artifact
       text: |
-        {3}, {T}: Put target creature on the bottom of its owner's library. If that creature's converted mana cost was 4 or less, its controller rolls on [mild-creature]. Otherwise if it was 8 or less they roll on [strong-creature]. Otherwise they roll on [exceptional-creature]. Activate this ability only any time you could cast a sorcery.
+        {3}, {T}: Put target creature on the bottom of its owner's library. If that creature's mana value was 4 or less, its controller rolls on [mild-creature]. Otherwise if it was 8 or less they roll on [strong-creature]. Otherwise they roll on [exceptional-creature]. Activate this ability only any time you could cast a sorcery.
     - card: Gaea's Anthem
-    - card: Avarice Totem
+    - card: Helm of Obedience
     - name: Token of Friendship
       mana_cost: "{W}{W}"
       type: Enchantment
@@ -1752,7 +1739,7 @@
         {1}, {T}: Target opponent loses 1 life.
         {1}, {Q}: Target opponent gains 1 life.
     - card: Time Vault
-    - card: Helm of Obedience
+    - card: Demonic Pact
     - name: Magnet
       mana_cost: "{8}"
       type: Artifact
@@ -1852,26 +1839,25 @@
     - card: Lich
     - card: Phage the Untouchable
     - card: Inverter of Truth
-    - card: Demonic Pact
+    - card: Soulgorger Orgg
     - card: Forbidden Crypt
     - card: Immortal Coil
     - card: Transcendence
 
 - short_name: response
   full_name: Response
-  desc: "Choose target instant or sorcery spell, then roll d12. Put the result onto the stack targeting that spell."
+  desc: "Choose target instant or sorcery spell, then roll d20. Put the result onto the stack targeting that spell."
   first_index: 1
   format: Table
   rolls:
     - card: Spelljack
-    - name: Mana Shock
-      text: Mana Shock deals X damage to you, where X is the converted mana cost of target spell. Add X colorless mana to your mana pool.
+    - card: Mana Drain
     - card: Fork
     - name: Scatter
       text: Choose new targets at random for target spell.
     - card: Wild Ricochet
     - name: Mana Sink
-      text: Counter target spell. At the beginning of your next main phase, pay X, where X is that spell's converted mana cost. If you don't, that spell's controller may put a copy of that spell onto the stack.
+      text: Counter target spell. At the beginning of your next main phase, pay X, where X is that spell's mana value. If you don't, that spell's controller may put a copy of that spell onto the stack.
     - card: Parallectric Feedback
     - card: Tibalt's Trickery
     - card: Spellshift
@@ -1883,7 +1869,7 @@
     - card: Invert Polarity
     - card: Access Denied
     - card: Aethersnatch
-    - card: Arcane Denial
+    - card: Time Stop
     - card: Busted!
     - card: Counterlash
     - card: Dash Hopes

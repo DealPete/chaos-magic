@@ -50,6 +50,8 @@ if not os.access("website", os.F_OK):
 copyfile("templates/chaos.css", "website/chaos.css")
 copyfile("templates/github-mark.svg", "website/github-mark.svg")
 copyfile("templates/mozart.mp3", "website/mozart.mp3")
+copyfile("templates/magmed.woff2", "website/magmed.woff2")
+copyfile("templates/mplantin.woff2", "website/mplantin.woff2")
 
 def get_lists():
     lists = []
