@@ -806,7 +806,7 @@
         At the beginning of a player's declare attackers step, that player rolls on [mild-creature] or [strong-creature] at random and puts a token copy onto the battlefield tapped and attacking. Exile that creature at the beginning of the next end step.
     - name: Extreme Deprivation
       text: |
-        As Extreme Deprivation enters the command zone, each player exiles the cards from their hand.
+        As Extreme Deprivation enters the command zone, each player exiles the cards from their hand face down.
         When Extreme Deprivation leaves the command zone, return all cards exiled with Extreme Deprivation to their owner's hands.
     - name: Hot Potato
       text: |
@@ -1579,8 +1579,9 @@
   desc: |
     Use the rules below to create a custom token creature.
     Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Artifact.
-    Roll d4 to see how many abilities the creature has, then roll that many times on the table below, rerolling duplicates.
-    Finally, choose a creature type and name.
+    Roll d4 to see how many abilities the creature has, then roll d30 that many times on the table below, rerolling duplicates.
+    Roll 2d6 twice, choosing one result as the creature's power, and the other as its toughness.
+    Choose a creature type and name. Finally, draw a good picture of the creature on its token.
 
   first_index: 1
   format: List
