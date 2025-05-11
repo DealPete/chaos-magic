@@ -933,9 +933,9 @@
       type: Enchantment
       text: |
         If a player would play a nonbasic card, they first choose another card with the same mana cost as that card that has not been played this game. That player puts that card onto the stack, if it is a spell, or onto the battlefield, if it is a land, as a copy of the named card.
-    - name: Dimension X
+    - name: Magic is Fading From the World
       text: |
-        Whenever a nontoken permanent enters the battlefield, calculate the total of all the numerals on that card that are not mana symbols. That permanent's controller may assign new non-negative values to each of those numerals, as long as the new values have the same total. Negative numerals cannot be changed.
+        Mana abilities produce half as much mana. (e.g. Forests produces {hG}. Black Lotus produces one and a half mana of any color.)
     - card: Sands of Time
     - name: World of Battle
       text: |
@@ -1365,14 +1365,6 @@
       toughness: 3
       text: |
         When Gaian Egg dies, roll on one of the Creature lists ([mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], or [synthetic-creature]), chosen at random.
-    - name: Succubus
-      mana_cost: "{5}{B}{B}"
-      type: Creature - Demon
-      power: 3
-      toughness: 4
-      text: |
-        {T}: Target opponent reveals their hand. You choose a card from it. Until end of turn, you may play that card as though it were in your own hand.
-        {B}, {T}, discard a card: Gain control of target nonwhite creature.
     - name: Virus
       mana_cost: "{B}"
       type: Creature - Virus
@@ -1394,7 +1386,6 @@
     - card: Thraximundar
     - card: Nemesis of Reason
     - card: Avenger of Zendikar
-    - card: Oona, Queen of the Fae
     - card: Adarkar Valkyrie
     - card: Ancient Ooze
     - card: Anowon, the Ruin Sage
@@ -1409,24 +1400,10 @@
         When Reluctant Dragon attacks, any player may sacrifice a land. If a player does, untap Reluctant Dragon and remove it from combat.
     - card: Rampaging Baloths
     - card: Rakdos the Defiler
-    - name: Bringer of the Wooberg Dawn
-      mana_cost: "{4}{W}{U}{B}{R}{G}"
-      type: Creature - Bringer
-      power: 5
-      toughness: 5
-      text: |
-        Trample
-        At the beginning of your upkeep, you may choose one --
-        Return target artifact card from your graveyard to the battlefield;
-        or draw two cards;
-        or pay 2 life. If you do, search your library for a card, then shuffle your library and put that card on top of it;
-        or untap target creature and gain control of it until end of turn. That creature gains haste until end of turn;
-        or put a 3/3 green Beast creature token onto the battlefield.
     - card: Simic Sky Swallower
     - card: Rafiq of the Many
     - card: Beast of Burden
     - card: Szadek, Lord of Secrets
-    - card: Benthicore
     - card: Kokusho, the Evening Star
     - card: Witch-Maw Nephilim
     - card: Borborygmos
@@ -1438,7 +1415,7 @@
       toughness: 1
       text: |
         Sacrifice Melding Spore: Target creature becomes a fungus and gains Melding Spore's abilities (including this ability.)
-    - card: Isleback Spawn
+    - card: Drakuseth, Maw of Flames
     - card: Verdant Force
     - card: Experiment Kraj
     - card: Sigarda, Host of Herons
@@ -1471,6 +1448,10 @@
     - card: Phantom Nishoba
     - card: Primeval Titan
     - card: Nessian Boar
+    - card: Consuming Aberration
+    - card: Malignus
+    - card: Polar Kraken
+    - card: Denizen of the Deep
 
 - short_name: exceptional-creature
   full_name: Exceptional Creature
@@ -1479,7 +1460,7 @@
   format: Table
   rolls:
     - card: "Multani, Maro-Sorcerer"
-    - card: Polar Kraken
+    - card: Elesh Norn, Grand Cenobite
     - card: It That Betrays
     - name: Eldrazi Mime
       mana_cost: "{11}"
@@ -1496,6 +1477,7 @@
     - card: Sundering Titan
     - card: Serra Avatar
     - card: Godsire
+    - card: Apex Altisaur
     - name: Mutinous Titan
       mana_cost: "{5}{R}{R}"
       type: Creature - Giant
@@ -1504,7 +1486,6 @@
       text: |
         {T}: Mutinous Titan deals damage equal to its power to any target.
         If Mutinous Titan is the target of a spell or ability, the controller of that spell or ability gains control of Mutinous Titan.
-    - card: Denizen of the Deep
     - name: Planegorger Goblin
       mana_cost: "{R}{R}{R}"
       type: Creature - Nightmare Goblin

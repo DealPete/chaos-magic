@@ -173,6 +173,7 @@ def parse_mana_symbols(markup):
         ( '{B}', 'ms-b' ),
         ( '{U}', 'ms-u' ),
         ( '{G}', 'ms-g' ),
+        ( '{hG}', 'ms-g ms-half' ),
         ( '{R}', 'ms-r' ),
         ( '{W}', 'ms-w' ),
         ( '{R/U}', 'ms-ur' ),
