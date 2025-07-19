@@ -284,7 +284,7 @@
       text: All of your creatures attack you this turn if able. Tapped creatures can attack this turn. Attacking creatures can't block.
     - card: Tempt with Reflections
     - name: Rip in the Chaos
-      text: A disinterested third party (someone who isn't playing) chooses the result of this roll from Chaos List C. If no disinterested person is present, roll again.
+      text: A disinterested third party (someone who isn't playing) chooses the result of this roll from Chaos List C, then you resolve it. If no disinterested person is present, roll again.
     - list: powerful-acquisition
     - card: Winds of Change
     - card: Regrowth
@@ -382,7 +382,7 @@
     - list: global
     - name: Unravel Soul
       text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
-    - card: Weight of Memories
+    - card: Weight of Memory
     - name: Important Decision
       text: Choose one - Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
     - card: Wheel of Fortune
@@ -443,7 +443,7 @@
     - card: Bribery
     - card: Illicit Auction
     - name: Replenishment
-      text: Each players rolls 4d6 and gains that much plus life.
+      text: Each players rolls 4d6 and gains that much life.
     - list: listE
     - name: Prize Package
       text: Each player rolls on [acquisition]
@@ -479,7 +479,7 @@
     - name: Blink
       text: Exile all permanents, then return all permanents exiled in this way to the battlefield.
     - name: Thickening Tension
-      text: "Choose a Creature list: [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], or [synthetic-creature]. Each player rolls on that list."
+      text: "Choose a Creature list: [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], or [synthetic-creature]. Each player rolls on that list, then put the creatures into play simultaneously."
     - card: Miraculous Recovery
     - name: Sorrowful End
       text: Destroy up to three target nonblack creatures. Draw a card for each creature destroyed this way.
@@ -1559,9 +1559,9 @@
   full_name: Synthetic Creature
   desc: |
     Use the rules below to create a custom token creature.
-    Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Artifact.
+    Roll d6 for color: 1: Blue, 2: Green, 3: White, 4: Red, 5: Black, 6: Colorless.
     Roll d4 to see how many abilities the creature has, then roll d30 that many times on the table below, rerolling duplicates.
-    Roll 2d6 twice, choosing one result as the creature's power, and the other as its toughness.
+    Roll 2d6 twice, then assign the result of your choice to the creature's power, and the other result to the creature's toughness.
     Choose a creature type and name. Finally, draw a good picture of the creature on its token.
 
   first_index: 1
