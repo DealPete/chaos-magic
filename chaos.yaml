@@ -365,7 +365,7 @@
     - card: Overrun
     - card: Rebuild
     - name: Die of Fate
-      text: Choose a player at random. That player takes the next turn. (After their turn, play proceeds in the normal order from that player.)
+      text: Choose a player at random. That player takes the next turn. (After their turn, play proceeds in turn order from that player.)
     - list: musical
     - list: listD
 
@@ -1059,12 +1059,11 @@
     - card: Knowledge Pool
     - card: Shared Fate
     - card: Bottled Cloister
-    - name: Week of the Dragons
+    - name: Time of the Dragons
       mana_cost: "{4}{U}{U}{U}"
       type: Enchantment
       text: |
-        When Week of the Dragons enters the command zone, all creatures phase out. These creatures don't phase in during their controller's untap step. Then each player puts a 5/5 red Dragon creature token with flying onto the battlefield for each creature they controlled that phased out this way. 
-        When Week of the Dragons leaves the command zone, all players sacrifice all Dragons. Then all creatures that phased out this way phase in.
+        Each creature is a dragon with flying, loses all other abilities and creature types, and has base power and toughness equal to its mana value.
     - name: Tripling Season
       mana_cost: "{6}{G}"
       type: Enchantment
@@ -1099,7 +1098,9 @@
       text: |
         The Beginning Phase occurs between the Post-combat Main Phase and the Ending Phase. The steps of the Beginning Phase occur in the following order: Draw Step, Chaos Step, Upkeep Step, Untap Step.
         nruT does not have any effect if it entered the command zone this turn.
-    - card: Zzzyxas's Abyss
+    - card: The Abyss of Zzzyxas
+      text: |
+        At the beginning of your upkeep, destroy all nonland permanents with the first name alphabetically among nonland permanents. Then, if there are no nonland permanents on the battlefield, roll Global.
 
 - short_name: vortex
   full_name: The Vortex
