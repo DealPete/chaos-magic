@@ -218,7 +218,7 @@
       text: Target player rolls a six-sided die and loses that much life. That player may copy this ability and may choose a new target for that copy.
       color: W
     - name: Call from Within
-      text: All players search their libraries for a card, then reveal those cards simultaneously. Exile those cards with five time counters on them and suspend.
+      text: All players search their libraries for a card, then reveal those cards simultaneously. Exile those cards with three time counters on them and suspend.
     - list: listC
     - name: Contract
       text: You may exile an artifact you control. If you do, roll on [strong-creature].
@@ -928,11 +928,6 @@
         As Socialism enters the command zone, each player puts the cards from their hand into the middle world.
         If a card would go to a player's hand, they put that card into the middle world instead.
         When Socialism leaves the command zone, return all cards in the middle world to their owners' hands.
-    - name: Mental Magic
-      mana_cost: "{3}{U}{U}"
-      type: Enchantment
-      text: |
-        If a player would play a nonbasic card, they first choose another card with the same mana cost as that card that has not been played this game. That player puts that card onto the stack, if it is a spell, or onto the battlefield, if it is a land, as a copy of the named card.
     - name: Magic is Fading From the World
       text: |
         Mana abilities produce half as much mana. (e.g. Forests produces {hG}. Black Lotus produces one and a half mana of any color.)
@@ -1002,14 +997,13 @@
       text: |
         Each player skips their draw step.
         Whenever a player plays a card, that player draws a card.
-        Each player's maximum hand size is two.
     - card: Grip of Chaos
     - name: Extraplanar Prison
       mana_cost: "{7}"
       type: Artifact
       text: |
-        As Extraplanar Prison enters the command zone, choose a player at random. That player leaves the game.
-        When Extraplanar Prison leaves the command zone, that player returns to the game as the turn ends.
+        As Extraplanar Prison enters the command zone, choose a player at random. That player is outside the range of influence of all other players until Extraplanar Prison leaves the command zone.
+        When there are three or fewer players, roll on [global].
     - card: Furnace of Rath
     - card: Crucible of Worlds
     - card: Dream Halls
@@ -1098,9 +1092,10 @@
       text: |
         The Beginning Phase occurs between the Post-combat Main Phase and the Ending Phase. The steps of the Beginning Phase occur in the following order: Draw Step, Chaos Step, Upkeep Step, Untap Step.
         nruT does not have any effect if it entered the command zone this turn.
-    - card: The Abyss of Zzzyxas
+    - name: The Abyss of Zzzyxas
       text: |
         At the beginning of your upkeep, destroy all nonland permanents with the first name alphabetically among nonland permanents. Then, if there are no nonland permanents on the battlefield, roll Global.
+    - card: Hall of Gemstone
 
 - short_name: vortex
   full_name: The Vortex
