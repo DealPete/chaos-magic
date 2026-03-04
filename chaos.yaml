@@ -20,7 +20,7 @@
       text: Put the top card of your library into the middle world.
     - card: Mana Clash
     - name: Gather the Footsoldiers
-      text: Choose a basic land type. Each player puts a 1/1 token onto the battlefield for each land of that type they control. Depending on which land type you chose, the tokens are white Soldiers, green Saprolings, red Goblins, blue Merfolk, or black Zombies.
+      text: Choose a basic land type and a creature type. Each player puts a 1/1 token of that creature type onto the battlefield for each land of that land type they control.
     - card: Chaos Warp 
     - card: Chill of Foreboding
     - card: Drafna’s Restoration
@@ -85,7 +85,7 @@
     - name: Mana Aid
       text: Reveal cards from the top of your library until a card with a mana ability is revealed, and put that card into your hand. Shuffle the other cards back into your library.
     - list: global
-    - card: Animate Land
+    - card: Vengeant Earth
     - name: Magical Aura
       text: You may change the text of any number of nonland cards by replacing any color words with other color words and any basic land types with other basic land types.
     - name: Sekai no Owari
@@ -1709,13 +1709,7 @@
   format: Table
   rolls:
     - card: Mindslaver
-    - name: Life Conduit
-      mana_cost: "{4}"
-      type: Artifact
-      text: |
-        Life Conduit doesn't untap during your untap step.
-        {1}, {T}: Target opponent loses 1 life.
-        {1}, {Q}: Target opponent gains 1 life.
+    - card: Captive Audience
     - card: Time Vault
     - card: Demonic Pact
     - name: Magnet
