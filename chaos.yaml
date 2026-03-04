@@ -1052,7 +1052,11 @@
     - card: Arboria
     - card: Knowledge Pool
     - card: Shared Fate
-    - card: Bottled Cloister
+    - name: Cloister in a Bottle
+      mana_cost: "{4}"
+      type: Artifact
+      text: |
+        At the beginning of each opponent's upkeep, exile all cards from your hand face down. Return these cards to your hand at the beginning of your next upkeep.
     - name: Time of the Dragons
       mana_cost: "{4}{U}{U}{U}"
       type: Enchantment
