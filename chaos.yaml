@@ -134,7 +134,7 @@
       text: Each player shuffles their exiled cards into their library.
     - card: Barroom Brawl
     - name: Share the Wealth
-      text: Each player chooses one of their permanents. The player on their left gains control of that permanent.
+      text: Each player chooses one of their nonland permanents. The player on their left gains control of that permanent.
     - list: global
     - list: global
     - card: Stream of Life
@@ -827,14 +827,11 @@
       text: |
         Permanent spells have mana cost {0}.
         Players can play any number of additional lands on each of their turns.
-    - name: Dual Reality
-      mana_cost: "{3}{U}{U}"
+    - name: Meet in the Middle
+      mana_cost: "{2}{W}"
       type: Enchantment
       text: |
-        As Dual Reality enters the command zone, a new zone forms called the Delta Zone. Cards in the Delta Zone are face down in a pile near Dual Reality.
-        At the beginning of each player's upkeep, each player puts the top card of their library into the Delta Zone.
-        4: Reveal a card at random from the Delta Zone. If that card is a land, put it onto the battlefield. Otherwise, cast it without paying its mana cost.
-        As Dual Reality leaves the command zone, the Delta Zone collapses. All cards in the Delta Zone leave the game.
+        At the beginning of your upkeep, each opponent puts the top card of their library into the middle world.
     - card: Living Plane
     - card: Fastbond
     - name: Chronomancer's Prank
@@ -843,10 +840,7 @@
     - name: Random World
       text: |
         At the beginning of each player's end step, roll on Global. Instead of putting a new global into the command zone, Random World becomes a copy of the global rolled this way, but retains this ability.
-    - name: Shifting Kingdom
-      text: |
-        Creatures with defender can attack as though they didn't have defender.
-        Each creature assigns combat damage equal to its toughness rather than its power.
+    - card: Omen Machine
     - name: Stasis Field
       mana_cost: "{1}{U}"
       type: Enchantment
@@ -863,7 +857,7 @@
       mana_cost: "{3}"
       type: Artifact
       text: |
-        At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land they controls of their choice.
+        At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land they control of their choice.
         Lands with flood counters on them are Islands.
         At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
     - card: Heartbeat of Spring
@@ -938,7 +932,7 @@
         At the end of the first combat phase of each turn, untap all creatures that attacked that turn.
     - card: Teferi's Realm
     - card: Enduring Renewal
-    - card: The Cheese Stands Alone
+    - card: Possibility Storm
     - card: Concordant Crossroads
     - name: Xenophobic Dimension
       text: |
@@ -1083,13 +1077,13 @@
       mana_cost: "{4}{R}"
       type: Enchantment
       text: |
-        Whenever a player casts a spell, that player puts the cards in their hand on the bottom of their library in any order, then draw that many cards.
+        Whenever a player casts a spell, that player puts the cards in their hand on the bottom of their library in a random order, then draw that many cards.
     - card: Confusion in the Ranks
     - name: Elfhame Sanctum
       mana_cost: "{1}{G}"
       type: Enchantment
       text: |
-        At the beginning of each player's upkeep, that player may reveal cards from the top of their library until they reveal a basic land card. That player puts that card into their hand, and shuffles the other revealed cards and puts them on the bottom of their library.
+        At the beginning of each player's upkeep, that player may reveal cards from the top of their library until they reveal a basic land card. That player puts that card into their hand, then puts the rest on the bottom of their library in a random order.
     - name: nruT
       mana_cost: "{2}{U}{R}"
       type: Enchantment
@@ -1869,7 +1863,7 @@
     - index: "11 - 15"
       text: Your killer loses half their life, rounded up.
     - index: "16 - 25"
-      text: If you lost as a result of being at negative life, your killer loses an amount of life equal to the magnitude of your life below zero.
+      text: Your killer takes damage equal to the total power of the creatures you controlled when you lost.
     - index: "26 - 30"
       text: Your killer rolls on [treacherous-creature].
     - index: "31 - 40"
