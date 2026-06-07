@@ -79,17 +79,17 @@
       text: Target opponent gains control of target nonland permanent that they don't control.
     - list: listB
     - name: Petty Jab
-      text: Petty Jab deals 5 damage to target player.
+      text: Petty Jab deals 5 damage to target opponent.
       color: R
     - card: Unearth
     - name: Mana Aid
-      text: Reveal cards from the top of your library until a card with a mana ability is revealed, and put that card into your hand. Shuffle the other cards back into your library.
+      text: Reveal cards from the top of your library until a card with a mana ability is revealed, and put that card into your hand. Put the other cards on the bottom of your library in a random order.
     - list: global
     - card: Vengeant Earth
     - name: Magical Aura
       text: You may change the text of any number of nonland cards by replacing any color words with other color words and any basic land types with other basic land types.
-    - name: Sekai no Owari
-      text: Destroy all legendary nonland permanents.
+    - name: Wrath of Alan
+      text: Destroy all nonland Universes Beyond cards.
     - list: vortex
     - name: Autumn's Onset
       text: Each player who controls four or fewer lands may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
@@ -413,7 +413,7 @@
     - name: Veni, Vidi, Vici
       text: For each opponent, choose target land they control. Gain control of those land.
     - name: Push into Lava
-      text: Push into Lava deals 10 damage to target player.
+      text: Push into Lava deals 10 damage to target opponent.
     - card: Ancestral Recall
     - name: Chaos Delay
       text: At the beginning of your next end step, roll chaos.
@@ -429,7 +429,7 @@
     - name: Eternal Tutor
       text: Return an exiled card you own to your hand.
     - name: Biobeast
-      text: All players may sacrifice a creature and another artifact they own. Each player who does rolls on [synthetic-creature].
+      text: Any player may sacrifice a creature and a non-creature artifact they control. Each player who does rolls on [synthetic-creature]. The generated creatures are artifacts in addition to their other types.
     - card: Dance with Calamity
     - list: listE
     - card: Traumatize
@@ -487,7 +487,7 @@
       text: Each player may search their library for an aura card and put it onto the battlefield. Then each player who searched their library this way shuffles it.
     - name: Mind's Devotion
       text: "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nWhen you roll this ability, copy it for each time chaos was rolled before it this turn."
-    - card: Flowstone Surge
+    - card: Flowstone Slide
       Xdice: [1, 6, 0]
     - list: musical
     - list: listE
@@ -639,8 +639,7 @@
   rolls:
     - name: Relive the Past
       text: Each player shuffles their hand and graveyard and all exiled cards they own into their library, then draws seven cards.
-    - name: Cosmic Harmony
-      text: Each player may search their library and put creatures from their library onto the battlefield until they control as many creatures as the player who controls the most. If they do, they shuffle. Then each player draws cards until they have as many cards in their hand as the player with the most.
+    - card: Soulfire Eruption
     - list: extreme
     - name: Day of Doom
       text: Each player searches their library and graveyard for five cards and exiles the rest. That player puts the chosen cards on top of their library in any order. Then each player loses half their life, rounded up.
@@ -905,7 +904,7 @@
       mana_cost: "{3}{U}"
       type: Enchantment
       text: |
-        When a player draws a card, instead of putting the top card of their library into their hand, they puts the bottom card of their library into their hand.
+        When a player draws a card, instead of putting the top card of their library into their hand, they put the bottom card of their library into their hand.
         If a player would gain or lose life, they lose or gains that much life instead.
         Players don't lose the game for having 0 or less life.
         Players lose the game for having 2 times X or more life, where X is their starting life.
@@ -1196,7 +1195,7 @@
   rolls:
     - card: Karn, Silver Golem
     - card: Dakkon Blackblade
-    - card: Nebuchadnezzar
+    - card: Myrkul, Lord of Bones
     - card: Xantcha, Sleeper Agent
     - card: Drooling Ogre
     - name: Wall of Chaos
@@ -1472,14 +1471,7 @@
     - card: Serra Avatar
     - card: Godsire
     - card: Apex Altisaur
-    - name: Mutinous Titan
-      mana_cost: "{5}{R}{R}"
-      type: Creature - Giant
-      power: 9
-      toughness: 10
-      text: |
-        {T}: Mutinous Titan deals damage equal to its power to any target.
-        If Mutinous Titan is the target of a spell or ability, the controller of that spell or ability gains control of Mutinous Titan.
+    - card: Jumbo Cactuar
     - name: Planegorger Goblin
       mana_cost: "{R}{R}{R}"
       type: Creature - Nightmare Goblin
@@ -1492,13 +1484,7 @@
     - card: Kederekt Leviathan
     - card: Magister Sphinx
     - card: Inkwell Leviathan
-    - name: Self-Building Golem
-      mana_cost: "{6}"
-      type: Artifact - Construct
-      power: 1
-      toughness: 1
-      text: |
-        Sacrifice a creature: Self-Building Golem gets +X/+Y, where X is the sacrificed creature's power and Y is the sacrificed creature's toughness. Self-Building Golem gains the sacrificed creature's abilities, colors, and creature types.
+    - card: Master of Cruelties
     - card: Blazing Archon
     - card: Blood Tyrant
     - card: Trench Gorger
@@ -1668,7 +1654,7 @@
     - card: Followed Footsteps
     - card: Rings of Brighthearth
     - card: Credit Voucher
-    - card: Temporal Aperture
+    - card: Null Brooch
     - card: Darksteel Reactor
     - card: Reito Lantern
     - card: Mask of Riddles
