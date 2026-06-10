@@ -108,9 +108,7 @@
     - card: Summer Bloom
     - list: listB
     - card: Disenchant
-    - name: Fireballs
-      text: Fireballs deals 3 damage to each of up to 2 target creatures and/or players.
-      color: R
+    - card: Transmogify
     - card: Inner Calm, Outer Strength
     - name: Tormod's Cycle
       text: Exile all cards in all graveyards.
@@ -582,7 +580,7 @@
       text: The active player skips their next turn. End the turn.
     - list: listF
     - name: Shadow of Anarchy
-      text: Each player may leave the game until end of turn. Then if there are any players in the game, a random player rolls on [extreme].
+      text: Each player may leave the game until end of turn. Then, if there are any players in the game, a random player rolls on [extreme].
     - name: Revenge of the Fool
       text: Each player puts the cards from their hand on top of their library. Then the player to that player's right searches that player's library for that many cards. That player puts those cards into their hand, then shuffles their library.
     - name: Planar Shift
@@ -602,9 +600,7 @@
     - name: Rogue's Auction
       text: Exile all nontoken, nonland permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under their control. Repeat this process until all cards exiled this way have been chosen.
     - card: Fracturing Gust
-    - name: Fireballs
-      text: Fireballs deals 9 damage to each of up to 4 target creatures and/or players.
-      color: R
+    - card: Wave of Vitriol
     - card: Yawgmoth's Will
     - name: Summon the Brethren
       text: Each player reveals the top eight cards of their library, then puts all creatures cards revealed this way onto the battlefield. Then each player shuffles their library.
@@ -646,10 +642,7 @@
     - list: synthetic-creature
     - card: Decree of Annihilation
     - list: vortex
-    - name: Ace of Trump
-      text: |
-        Put a colorless artifact token onto the battlefield with "Sacrifice this: Counter target chaos ability."
-        Put a colorless artifact token onto the battlefield with "Sacrifice this: Copy target chaos ability. You may choose new targets for the copy."
+    - card: Cruel Entertainment
     - name: Crucify
       text: Crucify deals 25 damage to target creature or player.
       color: W
@@ -779,19 +772,15 @@
       text: |
         A player losing unspent mana causes that player to lose that much life.
         At the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
-    - name: Ostracization
-      mana_cost: "{3}{B}{B}"
-      type: Enchantment
-      text: |
-        As Ostracization enters the command zone, each player chooses an expansion symbol. Nonbasic permanent cards bearing that expansion symbol don't untap during their controllers' untap steps. (You can't choose a set that didn't use an expansion symbol.)
+    - card: Gate to the Aether
     - name: Feudal System
       text: |
         All players have a range of influence of 1 seat.
         When there are three or fewer players, roll on [global].
     - card: Howling Mine
-    - name: Natural Law
-      text: |
-        Uncommon spells cost an additional 1 mana to cast, Rare spells cost an additional 2 mana to cast, and Mythic Rare spells cost an additional 4 mana to cast.
+    - name: Clemency
+    - text: |
+        Players may play cards from exile.
     - name: Earth Worms
       text: |
         Players can't play lands.
@@ -1602,19 +1591,8 @@
     - card: Giant Fan
     - card: Monkey Cage
     - card: Chimeric Staff
-    - name: Devious Trap
-      mana_cost: "{6}"
-      type: Artifact
-      text: |
-        As Devious Trap enters the battlefield, name a card other than a basic land card.
-        Each opponent reveals each card they draws.
-        When an opponent draws the named card, sacrifice Devious Trap. If you do, Devious Trap deals 10 damage to that opponent.
-    - name: Life Grail
-      mana_cost: "{2}"
-      type: Artifact
-      text: |
-        {1}: This next time a source would deal damage to you, instead put that many wine counters on Life Grail.
-        When Life Grail leaves the battlefield, lose life equal to the number of wine counters on Life Grail.
+    - card: Planar Bridge
+    - card: Goblin Charbelcher
     - name: Chaos Flute
       mana_cost: "{3}"
       type: Artifact
@@ -1706,11 +1684,7 @@
       type: Artifact
       text: |
         {4}, {T}: Roll on [musical]. Use this ability only any time you could cast a sorcery.
-    - name: Fixed Die
-      mana_cost: "{7}"
-      type: Artifact
-      text: |
-        {3}, {T}: Reroll a die.
+    - card: Possessed Portal
     - name: Wand of Dominaria
       mana_cost: "{7}"
       type: Artifact
