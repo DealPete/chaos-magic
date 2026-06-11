@@ -168,7 +168,7 @@
     - name: Surprise Attack
       text: Until end of turn all lands you control are 1/1 creatures with haste that are still lands.
     - name: Summon Magic
-      text: Choose one -- Roll on [mild-creature]; or roll on [treacherous-creature].
+      text: Choose one — Roll on [mild-creature]; or roll on [treacherous-creature].
     - card: Tranquility
     - list: listC
     - card: Metamorphose
@@ -236,7 +236,7 @@
       text: Return all creatures to their owner's hands that have power greater than the number of cards in their controller's hand.
     - card: Meditate
     - name: Lat-Nam's Athenaeum
-      text: An opponent chooses one -- You draw three cards; or you search your library for a card, put that card into your hand, then shuffle.
+      text: An opponent chooses one — You draw three cards; or you search your library for a card, put that card into your hand, then shuffle.
     - name: Banish
       text: Put target nonland permanent on top of its owner's library.
     - card: Might of Oaks
@@ -306,7 +306,7 @@
       Xdice: [1, 6, 0]
     - card: Honor the Fallen
     - name: Important Decision
-      text: Choose one -- Roll on [vortex]; or roll on [global]; or discard four cards. If you do, roll on [extreme].
+      text: Choose one — Roll on [vortex]; or roll on [global]; or discard four cards. If you do, roll on [extreme].
     - list: strong-creature
     - name: Relentless Battle
       text: There are two additional combat phases this turn, each followed by an additional main phase. A tapped creature can attack this turn if it attacked during a previous attack phase this turn.
@@ -382,7 +382,7 @@
       text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
     - card: Weight of Memory
     - name: Important Decision
-      text: Choose one - Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
+      text: Choose one — Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
     - card: Wheel of Fortune
     - card: Time Stop
     - card: Open the Vaults
@@ -618,8 +618,7 @@
       text: Destroy up to five target nonblack creatures. Draw a card for each creature destroyed this way.
     - name: Despair
       text: Discard any number of cards. Then for each opponent, that player reveals their hand. Choose as many cards from that player's hand as you discarded this way. That opponent discards those cards.
-    - card: Mind Twist
-      Xdice: [0, 0, 7]
+    - card: One with Nothing
     - name: Historical Repetition
       text: Set aside all nonland permanents. Then put all nonland permanent cards in all graveyards onto the battlefield. Then put all set aside cards into their owners' graveyards.
     - card: Boneyard Parley
@@ -779,7 +778,7 @@
         When there are three or fewer players, roll on [global].
     - card: Howling Mine
     - name: Clemency
-    - text: |
+      text: |
         Players may play cards from exile.
     - name: Earth Worms
       text: |
@@ -839,7 +838,7 @@
     - card: Over My Dead Bodies
     - name: Vortex World
       text: |
-        The first chaos roll each player makes in their chaos step is made on The Vortex instead of a Chaos List.
+        The first chaos roll each player makes in their chaos step is made on the Vortex instead of a Chaos List.
     - card: Night of Souls' Betrayal
     - name: Quicksilver Geyser
       mana_cost: "{3}"
@@ -1085,32 +1084,34 @@
 
 - short_name: vortex
   full_name: The Vortex
-  desc: "Roll 3d8. Put the result onto the stack as a chaos ability."
+  desc: You are engulfed in a swirling vortex of primal chaos! Roll 3d8 to see if you can escape.
   first_index: 3
   format: List
   rolls:
-    - list: musical
+    - text: |
+        You emerge into the eye of the vortex. From here you can see the magic crystals that are generating Chaos, and you take control of them. You get an emblem with "If a player would roll chaos or roll on the Vortex, instead you choose whether that player rolls on Chaos List A through F, Extreme Chaos, Global, or doesn't roll chaos at all."
+        Roll chaos.
+    - text: You escape into the night sky and hear the music of the spheres. Roll [musical] a number of times equal to the number of players.
     - list: extreme
-    - text: Roll twice more on The Vortex.
-    - text: Roll Chaos twice, making the first roll on [listE].
-    - text: Flip a coin. If you win the flip, roll on [exceptional-creature]. If you lose the flip, roll on [treacherous-creature].
-    - text: Roll Chaos twice, making the first roll on [listC].
-    - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
-    - text: Roll Chaos twice, making the first roll on [listA].
-    - list: global
-    - text: Each player discards any number of cards, then draws X cards, where X is the number of cards that player discarded. Roll again on The Vortex.
-    - text: Each player chooses an exiled card they own and puts it on the bottom of their library. Roll again on The Vortex.
-    - text: Each player puts the top card of their library into the middle world. Roll again on The Vortex.
-    - text: Each player searches their library for a card, puts that card into their hand, discards a card at random, and shuffles. Roll again on the The Vortex.
-    - list: global
-    - text: Roll Chaos twice, making the first roll on [listB].
-    - text: Flip a coin. If you win the flip, roll on [synthetic-creature]. If you lose the flip, roll on [acquisition].
-    - text: Roll Chaos twice, making the first roll on [listD].
-    - text: Flip a coin. If you win the flip, roll on [powerful-acquisition]. If you lose the flip, roll on [treacherous-creature].
-    - text: Roll Chaos twice, making the first roll on [listF].
-    - text: Roll twice more on The Vortex.
+    - text: You escape to your choice of [listC] or [listF].
+    - text: Choose one — Roll on [exceptional-creature], [powerful-acquisition], or again on the Vortex.
+    - text: You escape to your choice of [listB] or [listE].
+    - text: Choose one — Roll on [synthetic-creature], [acquisition], or again on the Vortex.
+    - text: You escape to your choice of [listA] or [listD].
+    - text: Change the [global], then you may choose to roll again on the Vortex.
+    - text: Each player discards any number of cards, then draws X cards, where X is the number of cards that player discarded. Roll again on the Vortex.
+    - text: Each player may choose an exiled card they own and put it on the bottom of their library. Roll again on the Vortex.
+    - text: Each player puts the top card of their library into the middle world. Roll again on the Vortex.
+    - text: Each player searches their library for a card, puts that card into their hand, then shuffles. Roll again on the the Vortex.
+    - text: Change the [global], then you may choose to roll again on the Vortex.
+    - text: You escape to your choice of [listA] or [listD].
+    - text: Choose one — Roll on [synthetic-creature], [acquisition], or again on the Vortex.
+    - text: You escape to your choice of [listB] or [listE].
+    - text: Choose one — Roll on [strong-creature], [powerful-acquisition], or again on the Vortex.
+    - text: You escape to your choice of [listC] or [listF].
     - list: extreme
     - list: deadly-acquisition
+    - text: You are ripped apart by the roiling clouds of chaos! You lose the game and don't roll on spite.
 
 - short_name: musical
   full_name: Musical
