@@ -520,7 +520,7 @@
     - name: Bath in the Styx
       text: You may pay any amount of life. If you do, put that many cards from the top of your library into your hand.
     - name: Promote
-      text: Target creature becomes a commander (e.g. it can be put in the command zone when it leaves the battlefield; it can cause a player to lose by dealing 21 combat damage to them).
+      text: Target non-token creature becomes a commander (e.g. it can be put in the command zone when it leaves the battlefield; it can cause a player to lose by dealing 21 combat damage to them).
     - card: Wrath of God
     - name: Immolate
       text: Immolate deals 15 damage to target player.
@@ -639,7 +639,7 @@
     - name: Day of Doom
       text: Each player searches their library and graveyard for five cards and exiles the rest. That player puts the chosen cards on top of their library in any order. Then each player loses half their life, rounded up.
     - list: synthetic-creature
-    - card: Decree of Annihilation
+    - card: Thieves' Auction
     - list: vortex
     - card: Cruel Entertainment
     - name: Crucify
@@ -708,7 +708,7 @@
     - name: Doom Smash
       text: Target player's life total becomes 1.
     - name: Wild Flux in the Chaos
-      text: Roll on [vortex], [global], and Chaos Lists A through F.
+      text: Roll on [global], Chaos Lists A through F, and then [vortex].
     - card: Insurrection
     - list: vortex
     - name: Poison Shower
@@ -1156,7 +1156,7 @@
     - card: Worldfire
     - name: Bad Deal
       text: All players roll on [deadly-acquisition].
-    - list: deadly-acquisition
+    - card: Decree of Annihilation
     - card: Eternal Dominion
     - name: Gift of the Gods
       text: Each player rolls 3d20 and gains that much life, draws X cards, where X is 7 minus the number of cards in their hand, and conjures five basic lands cards of their choice onto the battlefield.
@@ -1319,14 +1319,7 @@
     - card: Butcher Orgg
     - card: Colossus of Sardia
     - card: Skyshroud Behemoth
-    - name: Primal Being
-      mana_cost: "{3}{R}"
-      type: Creature - Beast
-      power: 8
-      toughness: 7
-      text: |
-        Primal Being can't be blocked.
-        At the beginning of your upkeep sacrifice a land and a creature other than Primal Being. If you don't, Primal Being deals 8 damage to you and the opponent to your left gains control of Primal Being.
+    - card: The Walls of Ba Sing Se
     - card: Lord of Extinction
     - name: Neo-Omnath, Locus of Mana
       mana_cost: "{2}{G}"
@@ -1556,7 +1549,7 @@
     - text: "Trample"
     - text: "Phasing"
     - text: "Provoke"
-    - text: "{T}: This deals 1 damage to target creature or player."
+    - text: "{T}: This deals 1 damage to any target."
     - text: "Defender"
     - text: "This creature attacks each turn if able."
     - text: "Cumulative upkeep: {1}"
