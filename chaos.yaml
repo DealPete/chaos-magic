@@ -1013,7 +1013,7 @@
       mana_cost: "{2}{P}{P}"
       type: Enchantment
       text: |
-        Use Ron Keating's Chaos Magic instead of this website to determine the effects of Chaos.
+        Use <a href="http://peterdeal.ca/ron-chaos">Ron Keating's Chaos Magic</a> instead of this website to determine the effects of Chaos.
     - card: Killer Instinct
     - name: Tombstone Stairs
       text: |
