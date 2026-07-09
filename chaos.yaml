@@ -403,7 +403,7 @@
     - name: Chaos Commons
       text: Each player rolls chaos.
     - card: Vindicate
-    - card: Explosive Revelation
+    - card: Triumph of the Hordes
     - list: powerful-acquisition
     - card: Seeds of Innocence
     - card: Ad Nauseam
@@ -505,6 +505,8 @@
     - card: Sunder
     - name: Day of Teferi
       text: All permanents phase out.
+    - name: Visit the Academy Rector
+      text: All Players search their libraries for an enchantment and put it onto the battlefield.
     - list: vortex
     - name: Control Sorcery
       text: For each permanent type, choose up to one target permanent of that type. Gain control of those permanents. (The permanent types are artifact, land, creature, enchantment, planeswalker, and battle.)
@@ -531,7 +533,17 @@
       text: Choose Chaos List A through D. For the rest of the game, if you would roll on that list, instead roll on Chaos List E.
     - list: vortex
     - name: Chaos Market
-      text: Each player may sacrifice up to two nontoken permanents. If they do, they roll on [mild-creature], [strong-creature], [exceptional-creature], [treacherous-creature], [synthetic-creature], [acquisition], [powerful-acquisition], or [deadly-acquisition].
+      text: |
+        Each player may exile a permenant. If they do, they choose a list based on its mana value and roll on that list:
+
+        Mana value 0 or more: [deadly-acquisition]
+        Mana value 1 or more: [treacherous-creature]
+        Mana value 2 or more: [mild-creature]
+        Mana value 3 or more: [acquisition]
+        Mana value 4 or more: [synthetic-creature]
+        Mana value 5 or more: [strong-creature]
+        Mana value 6 or more: [powerful-acquisition]
+        Mana value 7 or more: [exceptional-creature]
     - name: Meteor Storm
       text: All players roll d6. Meteor Storm deals 3d6 damage to each player who rolls greater than 4. Each player who rolls 1 may roll on [powerful-acquisition].
     - card: Soulquake
@@ -550,10 +562,7 @@
       text: You may discard two cards. If you do, roll on [exceptional-creature].
     - list: global
     - card: Time Stretch
-    - name: Atog Revolt
-      text: Destroy all artifacts. Atog Revolt deals 2 damage to each player for each artifact that player controlled that was destroyed this way.
-    - name: Mass Suicide
-      text: Sacrifice all creatures you control.
+    - card: Brass's Bounty
     - list: vortex
     - name: Hidetsugu's Final Rite
       text: Hidetsugu's Final Rite deals 10 damage to each player.
@@ -562,7 +571,7 @@
       text: Choose target creature. If it is a commander, it loses that status. Exile that creature.
     - list: synthetic-creature
     - name: Chaos Auction
-      text: Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items they revealed. If one player revealed more items than any other player, that player rolls on [exceptional-creature]. The player or players who revealed the least number of items roll on [treacherous-creature].
+      text: Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items they revealed. If one player revealed more items than any other player, that player rolls on [exceptional-creature]. The player or players who revealed the least number of items roll on [deadly-acquisition].
     - card: Timetwister
     - name: Witch Hunt
       text: Choose two colors. Each player reveals their hand and discards all cards that share one of the chosen colors.
@@ -614,8 +623,7 @@
     - name: Appreciation of Beauty
       text: Choose an artist. Gain control of all nonland permanents drawn by this artist.
     - card: Blessed Wind
-    - name: Sorrowful End
-      text: Destroy up to five target nonblack creatures. Draw a card for each creature destroyed this way.
+    - card: Overwhelming Stampede
     - name: Despair
       text: Discard any number of cards. Then for each opponent, that player reveals their hand. Choose as many cards from that player's hand as you discarded this way. That opponent discards those cards.
     - card: One with Nothing
@@ -765,12 +773,9 @@
   first_index: 10
   format: Table
   rolls:
-    - name: Mana Surge
-      mana_cost: "{R}{R}"
-      type: Enchantment
+    - name: No Shuffling
       text: |
-        A player losing unspent mana causes that player to lose that much life.
-        At the beginning of each player's upkeep, Mana Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
+        Players can't shuffle their libraries (While a player is searching their library, they don't change the order of the cards).
     - card: Gate to the Aether
     - name: Feudal System
       text: |
@@ -1008,8 +1013,7 @@
       mana_cost: "{2}{P}{P}"
       type: Enchantment
       text: |
-        When Ron's Realm enters the command zone, shuffle all exiled cards into their owner's libraries.
-        At the beginning of each player's upkeep, that player may shuffle any number of exiled cards they own into their library.
+        Use Ron Keating's Chaos Magic instead of this website to determine the effects of Chaos.
     - card: Killer Instinct
     - name: Tombstone Stairs
       text: |
@@ -1098,12 +1102,12 @@
     - text: You escape to your choice of [listB] or [listE].
     - text: Choose one — Roll on [synthetic-creature], [acquisition], or again on the Vortex.
     - text: You escape to your choice of [listA] or [listD].
-    - text: Change the [global], then you may choose to roll again on the Vortex.
+    - text: Roll twice on [global], choosing one to put into play.
     - text: Each player discards any number of cards, then draws X cards, where X is the number of cards that player discarded. Roll again on the Vortex.
     - text: Each player may choose an exiled card they own and put it on the bottom of their library. Roll again on the Vortex.
     - text: Each player puts the top card of their library into the middle world. Roll again on the Vortex.
     - text: Each player searches their library for a card, puts that card into their hand, then shuffles. Roll again on the the Vortex.
-    - text: Change the [global], then you may choose to roll again on the Vortex.
+    - text: Roll twice on [global], choosing one to put into play.
     - text: You escape to your choice of [listA] or [listD].
     - text: Choose one — Roll on [synthetic-creature], [acquisition], or again on the Vortex.
     - text: You escape to your choice of [listB] or [listE].
@@ -1140,8 +1144,7 @@
   rolls:
     - name: Final Showdown
       text: Restart the game, with each player at 1 life. In this new game, if a player would roll on Chaos List A through E, instead they roll on [listF].
-    - name: Infinity
-      text: Take an extra turn after this one, and then keep taking extra turns until you lose or the game ends.
+    - card: Incoming!
     - card: Shahrazad
     - name: Musical Chairs
       text: Each player moves one seat to the left. (The player to the old active player's right becomes the active player.)
@@ -1612,13 +1615,8 @@
       type: Artifact
       text: |
         You may have Vesuvan Sphere enter the battlefield as a copy of any artifact on the battlefield and it gains "At the beginning of your upkeep, you may have this artfiact become a copy of target artifact. If you do, this artifact gains this ability."
-    - name: Font of Evil
-      mana_cost: "{0}"
-      type: Artifact
-      text: |
-        At the beginning of your end step, a random opponent gains control of Font of Evil and puts a charge counter on it.
-        At the beginning of your upkeep, Font of Evil deals damage to you equal to the number of charge counters on it.
-    - name: Chest of vortices
+    - card: Sphinx-Bone Wand
+    - name: Chest of Vortices
       mana_cost: "{3}"
       type: Artifact
       text: |
@@ -1722,7 +1720,7 @@
       type: Artifact
       text: |
         When Klein Bottle of Chaos enters the battlefield, roll on [exceptional-creature]. At the beginning of your upkeep, if there is no creature on the battlefield created by Klein Bottle of Chaos, roll on [exceptional-creature].
-    - card: Sphinx-Bone Wand
+    - card: Mind's Dilation
     - card: Future Sight
     - card: Psychic Possession
     - name: Necronomicon
