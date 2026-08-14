@@ -173,8 +173,8 @@
     - list: listC
     - card: Metamorphose
     - card: Channel
-    - name: Poetic Justice
-      text: Each player loses 3 life for each red instant or sorcery in their graveyard. Then for each blue instant in each player`s graveyard, each of that player's opponents may put a nonland card from their graveyard onto the stack. Then each player discards a card at random for each black instant or sorcery in their graveyard.
+    - name: Change the Game
+      text: Each player reveals their hand then exiles all <a href="https://scryfall.com/search?as=checklist&q=is:gamechanger">Game Changers</a> they own revealed this way, on the battlefield, in the middle world, and in their graveyard.
     - card: Windfall
     - list: global
     - card: Rally the Horde
@@ -785,11 +785,7 @@
     - name: Clemency
       text: |
         Players may play cards from exile.
-    - name: Earth Worms
-      text: |
-        Players can't play lands.
-        Lands can't enter the battlefield.
-        At the beginning of each upkeep, any player may sacrifice two lands or have Earth Worms deal 5 damage to that player. If a player does either, roll on [global].
+    - card: The Grand Calcutron
     - card: Titania's Song
     - name: Nether World Portal
       mana_cost: "{2}{B}{B}"
@@ -838,7 +834,7 @@
       type: Enchantment
       text: |
         Players skip their untap steps.
-        At the beginning of each player's upkeep, that player rolls on [global] unless any player pays 1.
+        At the beginning of each player's upkeep, that player rolls on [global] unless any player pays {1}.
     - card: Seismic Assault
     - card: Over My Dead Bodies
     - name: Vortex World
@@ -897,10 +893,12 @@
       mana_cost: "{3}{U}"
       type: Enchantment
       text: |
-        When a player draws a card, instead of putting the top card of their library into their hand, they put the bottom card of their library into their hand.
+        Players draw a card by putting the bottom card of their library into their hand.
+        The bottom of each player's library is revealed.
+
         If a player would gain or lose life, they lose or gains that much life instead.
         Players don't lose the game for having 0 or less life.
-        Players lose the game for having 2 times X or more life, where X is their starting life.
+        Players lose the game for having twice their starting life or more.
     - card: Arcane Laboratory
     - card: Braids, Conjurer Adept
     - name: Doom Gate
