@@ -102,7 +102,7 @@
       text: Any player may discard any number of cards. Each player who does searches their library for that many basic land cards, reveals those cards, and puts them into their hand. That player then shuffles their library.
     - card: Truce
     - list: global
-    - card: Lobotomy
+    - card: Earthbending Lesson
     - name: Elven Scrying
       text: Each player searches their library for a land card, reveals it, and puts it into their hand. Then all players shuffle.
     - card: Summer Bloom
@@ -163,10 +163,8 @@
       text: Destory target nonland permanent. The owner of that permanent may pay 1 life to copy this ability and may choose a new target for that copy.
     - name: Reflection
       text: Exchange life totals with target opponent.
-    - name: Kickback
-      text: You gain 1 life for each creature on the battlefield.
-    - name: Surprise Attack
-      text: Until end of turn all lands you control are 1/1 creatures with haste that are still lands.
+    - card: Congregate
+    - card: Sylvan Awakening
     - name: Summon Magic
       text: Choose one — Roll on [mild-creature]; or roll on [treacherous-creature].
     - card: Tranquility
@@ -254,8 +252,8 @@
   first_index: 10
   format: Table
   rolls:
-    - name: Mathematical Insight
-      text: Choose a number on target nontoken permanent that's not a mana symbol. Add 2d6 to that number.
+    - name: Unravel Soul
+      text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
     - list: vortex
     - card: Teferi's Protection
     - name: Olympics
@@ -378,8 +376,6 @@
     - name: Encroaching Darkness
       text: Each player sacrifices all their lands. A player may keep a land for each nonland permanent they sacrifice or card they exile from their hand.
     - list: global
-    - name: Unravel Soul
-      text: Each player exiles the top X cards of their library, where X is the number of creatures on the battlefield.
     - card: Weight of Memory
     - name: Important Decision
       text: Choose one — Roll on [vortex]; or roll on [global]; or pay 10 life. If you do, roll on [extreme].
@@ -404,6 +400,7 @@
       text: Each player rolls chaos.
     - card: Vindicate
     - card: Triumph of the Hordes
+    - card: Brilliant Ultimatum
     - list: powerful-acquisition
     - card: Seeds of Innocence
     - card: Ad Nauseam
@@ -589,7 +586,7 @@
       text: The active player skips their next turn. End the turn.
     - list: listF
     - name: Shadow of Anarchy
-      text: Each player may leave the game until end of turn. Then, if there are any players in the game, a random player rolls on [extreme].
+      text: Each player may leave the game until the end of the current step or phase. Then, if there are any players in the game, a random player rolls on [extreme].
     - name: Revenge of the Fool
       text: Each player puts the cards from their hand on top of their library. Then the player to that player's right searches that player's library for that many cards. That player puts those cards into their hand, then shuffles their library.
     - name: Planar Shift
@@ -1227,7 +1224,6 @@
     - card: Thada Adel, Acquisitor
     - card: Deep-Slumber Titan
     - card: Zur the Enchanter
-    - card: Sapling of Colfenor
     - card: Mirror Entity
     - card: Ageless Entity
     - card: Galepowder Mage
@@ -1304,7 +1300,7 @@
     - card: Standard Bearer
     - card: Force of Savagery
     - card: Adarkar Valkyrie
-    - card: Birds of Paradise
+    - card: Opposition Agent
 
 - short_name: strong-creature
   full_name: Strong Creature
@@ -1322,6 +1318,7 @@
     - card: Butcher Orgg
     - card: Colossus of Sardia
     - card: Skyshroud Behemoth
+    - card: Tree of Perdition
     - card: The Walls of Ba Sing Se
     - card: Lord of Extinction
     - name: Neo-Omnath, Locus of Mana
@@ -1356,7 +1353,7 @@
     - card: World Queller
     - card: Niv-Mizzet, the Firemind
     - card: Hellcarver Demon
-    - card: Orgg
+    - card: Butcher Orgg
     - card: Abyssal Persecutor
     - card: Platinum Angel
     - card: Ghastlord of Fugue
@@ -1365,7 +1362,6 @@
     - card: Thraximundar
     - card: Nemesis of Reason
     - card: Avenger of Zendikar
-    - card: Adarkar Valkyrie
     - card: Ancient Ooze
     - card: Anowon, the Ruin Sage
     - card: Archdemon of Unx
