@@ -1,6 +1,6 @@
 - short_name: listA
   full_name: Chaos List A
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  desc: "Roll 10 × d8 + d10. Put the result onto the stack."
   first_index: 10
   format: Table
   rolls:
@@ -122,7 +122,7 @@
 
 - short_name: listB
   full_name: Chaos List B
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  desc: "Roll 10 × d8 + d10. Put the result onto the stack."
   first_index: 10
   format: Table
   rolls:
@@ -250,7 +250,7 @@
 
 - short_name: listC
   full_name: Chaos List C
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  desc: "Roll 10 × d8 + d10. Put the result onto the stack."
   first_index: 10
   format: Table
   rolls:
@@ -369,7 +369,7 @@
 
 - short_name: listD
   full_name: Chaos List D
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  desc: "Roll 10 × d8 + d10. Put the result onto the stack."
   first_index: 10
   format: Table
   rolls:
@@ -492,7 +492,7 @@
 
 - short_name: listE
   full_name: Chaos List E
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  desc: "Roll 10 × d8 + d10. Put the result onto the stack."
   first_index: 10
   format: Table
   rolls:
@@ -636,7 +636,7 @@
 
 - short_name: listF
   full_name: Chaos List F
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put the result onto the stack."
+  desc: "Roll 10 × d8 + d10. Put the result onto the stack."
   first_index: 10
   format: Table
   rolls:
@@ -769,7 +769,7 @@
 
 - short_name: global
   full_name: Global
-  desc: "Remove all existing globals, then roll d120 + 9 (d12 for the tens digit, d10 for the units digit). Put the result into the command zone."
+  desc: "Remove all existing globals, then roll 10 × d12 + d10. Put the result into the command zone."
   first_index: 10
   format: Table
   rolls:
@@ -1303,10 +1303,12 @@
     - card: Swans of Bryn Argoll
     - card: Standard Bearer
     - card: Force of Savagery
+    - card: Adarkar Valkyrie
+    - card: Birds of Paradise
 
 - short_name: strong-creature
   full_name: Strong Creature
-  desc: "Roll d80 + 9 (d8 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  desc: "Roll 10 × d8 + d10. Put a token copy onto the battlefield."
   first_index: 10
   format: Table
   rolls:
@@ -1432,7 +1434,7 @@
 
 - short_name: exceptional-creature
   full_name: Exceptional Creature
-  desc: "Roll d40 + 9 (d4 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  desc: "Roll 10 × d4 + d10. Put a token copy onto the battlefield."
   first_index: 10
   format: Table
   rolls:
@@ -1564,7 +1566,7 @@
 
 - short_name: acquisition
   full_name: Acquisition
-  desc: "Roll d40 + 9 (d4 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  desc: "Roll 10 × d4 + d10. Put a token copy onto the battlefield."
   first_index: 10
   format: Table
   rolls:
@@ -1656,7 +1658,7 @@
 
 - short_name: powerful-acquisition
   full_name: Powerful Acquisition
-  desc: "Roll d40 + 9 (d4 for the tens digit, d10 for the units digit). Put a token copy onto the battlefield."
+  desc: "Roll 10 × d4 + d10. Put a token copy onto the battlefield."
   first_index: 10
   format: Table
   rolls:
